@@ -1,14 +1,17 @@
 package tests;
 
+import listeners.TestAllureListener;
 import operation.BaseLogin;
 import operation.BaseLogout;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import java.net.MalformedURLException;
 
-public class LogoutRunner extends BaseLogout {
+@Listeners({TestAllureListener.class})
+public class LogoutITest extends BaseLogout {
 
     public BaseLogin baseLogin;
 
@@ -24,7 +27,7 @@ public class LogoutRunner extends BaseLogout {
     }
 
     @AfterSuite
-    public void closeApp() {
+    public void closeApp() throws InterruptedException {
         testCloseAppSwitch();
     }
 }
