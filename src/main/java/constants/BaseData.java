@@ -1,10 +1,10 @@
-package Data;
+package constants;
 
 public class BaseData {
 
     public interface Login {
-        String EMAIL_ID = "david@smartfren.com";
-        String PIN = "111111";
+        String EMAIL_ID = "faizal.prakoso@smartfren.com";
+        String PIN = "545454";
         String INVALID_EMAIL_ID = "haris@smart.com";
     }
 
@@ -14,7 +14,13 @@ public class BaseData {
         String WELCOME_DESC_ID = "Kamu bisa log in menggunakan email atau nomor switch yang telah terdaftar.";
         String WELCOME_DESC_SIGN_UP_EN = "Enter your email address or register via social media.";
         String WELCOME_DESC_SIGN_UP_ID = "";
+    }
 
+    public interface Validation {
+        String VALIDATION_USERNAME_TITLE_EN = "Email Not Registered";
+        String VALIDATION_USERNAME_DESC_EN = "You can register and create your account now!";
+        String VALIDATION_LOGIN_PAGE = "Log in";
+        String VALIDATION_REGISTER_PAGE = "Sign up";
     }
 
     public interface HomePage {
