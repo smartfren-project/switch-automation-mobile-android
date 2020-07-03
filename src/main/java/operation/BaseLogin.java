@@ -8,20 +8,27 @@ import org.testng.Assert;
 import java.net.MalformedURLException;
 
 public class BaseLogin extends BaseTest {
-
     public void launchAppSwitch() throws MalformedURLException {
         setupAppium();
     }
 
+    public void clickButtonLogin() {
+        driver.findElement(By.id(ObjectElement.LandingPageObject.btnLogin)).click();
+    }
+
+    public void clickButtonSubmitLogin() {
+        driver.findElement(By.id(ObjectElement.LoginPageObject.btnSubmitLogin)).click();
+    }
+
     @Step("User Do Valid Login")
     public void testValidLogin() throws InterruptedException {
-        driver.findElement(By.id(ObjectElement.LandingPageObject.btnLogin)).click();
+        clickButtonLogin();
         String WelcomeAppSwitch = driver.findElement(By.id(ObjectElement.LoginPageObject.txtWelcomeTitle)).getText();
         String WelcomeDesc = driver.findElement(By.id(ObjectElement.LoginPageObject.txtWelcomeDesc)).getText();
         Assert.assertEquals(BaseData.LaunchPage.WELCOME_EN, WelcomeAppSwitch);
         Assert.assertEquals(BaseData.LaunchPage.WELCOME_DESC_EN, WelcomeDesc);
         driver.findElement(By.id(ObjectElement.LoginPageObject.inputUserName)).sendKeys(BaseData.Login.EMAIL_ID);
-        driver.findElement(By.id(ObjectElement.LoginPageObject.btnSubmitLogin)).click();
+        clickButtonSubmitLogin();
         driver.findElement(By.id(ObjectElement.PINPageObject.inputPIN)).sendKeys(BaseData.Login.PIN);
         Thread.sleep(1500);
         Assert.assertNotNull(driver.findElement(By.id(ObjectElement.MenuPageObject.btnProfile)));
@@ -30,13 +37,13 @@ public class BaseLogin extends BaseTest {
 
     @Step("User Do Invalid Login")
     public void testInvalidEmailLogin() throws InterruptedException {
-        driver.findElement(By.id(ObjectElement.LandingPageObject.btnLogin)).click();
+        clickButtonLogin();
         String WelcomeAppSwitch = driver.findElement(By.id(ObjectElement.LoginPageObject.txtWelcomeTitle)).getText();
         String WelcomeDesc = driver.findElement(By.id(ObjectElement.LoginPageObject.txtWelcomeDesc)).getText();
         Assert.assertEquals(BaseData.LaunchPage.WELCOME_EN, WelcomeAppSwitch);
         Assert.assertEquals(BaseData.LaunchPage.WELCOME_DESC_EN, WelcomeDesc);
         driver.findElement(By.id(ObjectElement.LoginPageObject.inputUserName)).sendKeys(BaseData.Login.INVALID_EMAIL_ID);
-        driver.findElement(By.id(ObjectElement.LoginPageObject.btnSubmitLogin)).click();
+        clickButtonSubmitLogin();
         Thread.sleep(1500);
         String TextInfo = driver.findElement(By.id(ObjectElement.LoginPageObject.txtUserValidationTitle)).getText();
         String DescInfoValidation = driver.findElement(By.id(ObjectElement.LoginPageObject.txtVariousLoginDesc)).getText();
@@ -47,7 +54,7 @@ public class BaseLogin extends BaseTest {
         driver.resetApp();
     }
 
-    public void testCloseAppSwitch() {
+    public void testCloseAppSwitch() throws InterruptedException {
         driver.closeApp();
     }
 }

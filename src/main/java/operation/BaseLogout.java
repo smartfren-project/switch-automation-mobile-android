@@ -17,7 +17,7 @@ public class BaseLogout extends BaseTest {
         driver.findElement(By.id(ObjectElement.ProfilePageObject.btnConfirmLogout)).click();
     }
 
-    public void testCloseAppSwitch() {
+    public void testCloseAppSwitch() throws InterruptedException {
         closeApp();
     }
 }

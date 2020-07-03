@@ -26,8 +26,8 @@ public class BaseTest {
         final String URL_STRING = "http://localhost:4723/wd/hub";
         url = new URL(URL_STRING);
 
-//        String apk_Path = System.getProperty("user.dir")
-//                + "~/Downloads/switch.apk";
+        String apk_Path = System.getProperty("user.dir")
+                + "/src/test/resources/app/switch.apk";
 
         System.out.println("instance " + this.getClass().getSimpleName());
 
@@ -39,7 +39,7 @@ public class BaseTest {
         capabilities.setCapability("appActivity", "com.smartfren.switchmobile.views.activities.SplashScreenActivity");
         capabilities.setCapability(MobileCapabilityType.NO_RESET, "true");
         capabilities.setCapability("autoGrantPermissions", "true");
-//        capabilities.setCapability(MobileCapabilityType.APP, apk_Path);
+        capabilities.setCapability(MobileCapabilityType.APP, apk_Path);
 
 
         driver = new AndroidDriver<MobileElement>(url, capabilities);
@@ -48,6 +48,7 @@ public class BaseTest {
     }
 
     public void testLogin() throws InterruptedException {
+        driver.findElement(By.id(ObjectElement.LandingPageObject.btnLogin)).click();
         driver.findElement(By.id(ObjectElement.LoginPageObject.inputUserName)).sendKeys(BaseData.Login.EMAIL_ID);
         driver.findElement(By.id(ObjectElement.LoginPageObject.btnSubmitLogin)).click();
         driver.findElement(By.id(ObjectElement.PINPageObject.inputPIN)).sendKeys(BaseData.Login.PIN);
@@ -56,10 +57,11 @@ public class BaseTest {
         driver.resetApp();
     }
 
-    public void closeApp() {
+    public void closeApp() throws InterruptedException {
         driver.closeApp();
     }
+
     public void uninstallApp() throws InterruptedException {
-//        driver.removeApp("com.smartfren.switchmobile");
+        driver.removeApp("com.smartfren.switchmobile");
     }
 }
