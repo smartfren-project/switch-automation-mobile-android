@@ -1,5 +1,87 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "tests.LandingITest",
+    "children" : [ {
+      "name" : "checkGoToSignUpPage",
+      "uid" : "759bcb34f9de0d3a",
+      "parentUid" : "320085db1b4b8ba6143982bc8853af1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593743263962,
+        "stop" : 1593743272766,
+        "duration" : 8804
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "checkGoToLoginPage",
+      "uid" : "2399908b9f01c806",
+      "parentUid" : "320085db1b4b8ba6143982bc8853af1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593743277843,
+        "stop" : 1593743285531,
+        "duration" : 7688
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "checkLoginAsGuest",
+      "uid" : "3506252b51df840b",
+      "parentUid" : "320085db1b4b8ba6143982bc8853af1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593743290542,
+        "stop" : 1593743296815,
+        "duration" : 6273
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "checkMoveToPageFrequently",
+      "uid" : "386e59aa0d0502ed",
+      "parentUid" : "320085db1b4b8ba6143982bc8853af1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593743301824,
+        "stop" : 1593743305817,
+        "duration" : 3993
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "checkSignUpWithUnregisteredFacebookAccount",
+      "uid" : "7835cb1ef07adb42",
+      "parentUid" : "320085db1b4b8ba6143982bc8853af1f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1593743310826,
+        "stop" : 1593743331372,
+        "duration" : 20546
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "checkSignUpWithUnregisteredGoogleAccount",
+      "uid" : "6d6b15f6cc8cc318",
+      "parentUid" : "320085db1b4b8ba6143982bc8853af1f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1593743336380,
+        "stop" : 1593743356999,
+        "duration" : 20619
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.LandingITest"
+  } ]
 }

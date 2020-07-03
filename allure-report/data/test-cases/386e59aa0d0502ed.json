@@ -1,0 +1,187 @@
+{
+  "uid" : "386e59aa0d0502ed",
+  "name" : "Switch_004 - User able to go to any page",
+  "fullName" : "tests.LandingITest.checkMoveToPageFrequently",
+  "historyId" : "2d730800a553b3d8183571aee5195f0b",
+  "time" : {
+    "start" : 1593743301824,
+    "stop" : 1593743305817,
+    "duration" : 3993
+  },
+  "description" : "Verify that User is able to Navigate to Sign Up/Login page simultneously.",
+  "descriptionHtml" : "<p>Verify that User is able to Navigate to Sign Up/Login page simultneously.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1593743238155,
+      "stop" : 1593743253884,
+      "duration" : 15729
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify that User is able to Navigate to Sign Up/Login page simultneously.",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "789bbc6505a2b60d",
+      "name" : "screenShot",
+      "source" : "789bbc6505a2b60d.png",
+      "type" : "image/png",
+      "size" : 84718
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeApp",
+    "time" : {
+      "start" : 1593743357010,
+      "stop" : 1593743357116,
+      "duration" : 106
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.LandingITest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.LandingITest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkMoveToPageFrequently"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "switch-mobile-automation"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.LandingITest"
+  }, {
+    "name" : "host",
+    "value" : "Faizals-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "13357@Faizals-MacBook-Pro.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story Name : Check On Landing Page"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "279a63e349270f2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593743088843,
+        "stop" : 1593743096402,
+        "duration" : 7559
+      }
+    }, {
+      "uid" : "748b09b0196a5312",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593741884969,
+        "stop" : 1593741888856,
+        "duration" : 3887
+      }
+    }, {
+      "uid" : "208f88e9d322860a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593712621870,
+        "stop" : 1593712635823,
+        "duration" : 13953
+      }
+    }, {
+      "uid" : "9c6553a9303b115b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593710984191,
+        "stop" : 1593710989125,
+        "duration" : 4934
+      }
+    }, {
+      "uid" : "cc3b310aec640163",
+      "status" : "failed",
+      "statusDetails" : "expected [Log in] but found [Sign up]",
+      "time" : {
+        "start" : 1593710530703,
+        "stop" : 1593710532651,
+        "duration" : 1948
+      }
+    }, {
+      "uid" : "305dcf8a21af4b8a",
+      "status" : "failed",
+      "statusDetails" : "expected [Log in] but found [Sign up]",
+      "time" : {
+        "start" : 1593710498459,
+        "stop" : 1593710500348,
+        "duration" : 1889
+      }
+    }, {
+      "uid" : "38d07ada7d5acd92",
+      "status" : "failed",
+      "statusDetails" : "expected [Log in] but found [Sign up]",
+      "time" : {
+        "start" : 1593710055669,
+        "stop" : 1593710057669,
+        "duration" : 2000
+      }
+    }, {
+      "uid" : "8b27a86f9376b67b",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Faizals-MacBook-Pro.local', ip: 'fe80:0:0:0:835:2272:6c54:f6cf%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_251'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/faizalprakoso/IdeaPr..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, databaseEnabled: false, desired: {app: /Users/faizalprakoso/IdeaPr..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, noReset: true, platformName: android, platformVersion: 8.1.0, udid: emulator-5554}, deviceApiLevel: 27, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: ANDROID, platformVersion: 8.1.0, statBarHeight: 63, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 2d3ce164-864a-4a47-bb31-0570c8c9fb7f\n*** Element info: {Using=id, value=com.smartfren.switchmobile:id/Next}",
+      "time" : {
+        "start" : 1593709675364,
+        "stop" : 1593709697718,
+        "duration" : 22354
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "386e59aa0d0502ed.json",
+  "parameterValues" : [ ]
+}

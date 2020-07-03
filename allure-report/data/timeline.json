@@ -1,5 +1,620 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Faizals-MacBook-Pro.local",
+    "children" : [ {
+      "name" : "13158@Faizals-MacBook-Pro.local.main(1)",
+      "children" : [ {
+        "name" : "Switch_005 - User able to SIGN UP using Unregistered Google Account",
+        "uid" : "409b0b97c77e439e",
+        "parentUid" : "7cd246c61f519d4c3a6eda025907153b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1593741919472,
+          "stop" : 1593741940054,
+          "duration" : 20582
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Switch_001 - User able to go to REGISTER PAGE",
+        "uid" : "d5ec912b8123fcda",
+        "parentUid" : "7cd246c61f519d4c3a6eda025907153b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593741845703,
+          "stop" : 1593741854649,
+          "duration" : 8946
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Switch_002 - User able to go to LOGIN PAGE",
+        "uid" : "7146cbe286e2a9ed",
+        "parentUid" : "7cd246c61f519d4c3a6eda025907153b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593741859724,
+          "stop" : 1593741866101,
+          "duration" : 6377
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Switch_003 - User able to login as GUEST",
+        "uid" : "fa57e3de457291da",
+        "parentUid" : "7cd246c61f519d4c3a6eda025907153b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593741871109,
+          "stop" : 1593741879961,
+          "duration" : 8852
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Switch_006 - User able to SIGN UP using Unregistered Facebook Account",
+        "uid" : "62e2d0702387cd9d",
+        "parentUid" : "7cd246c61f519d4c3a6eda025907153b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1593741893864,
+          "stop" : 1593741914462,
+          "duration" : 20598
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Switch_004 - User able to go to any page",
+        "uid" : "748b09b0196a5312",
+        "parentUid" : "7cd246c61f519d4c3a6eda025907153b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593741884969,
+          "stop" : 1593741888856,
+          "duration" : 3887
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7cd246c61f519d4c3a6eda025907153b"
+    }, {
+      "name" : "11759@Faizals-MacBook-Pro.local.main(1)",
+      "children" : [ {
+        "name" : "Switch_005 - User able to SIGN UP using Unregistered Google Account",
+        "uid" : "9b30f6f8e671f221",
+        "parentUid" : "9aba2c19e68f6cf94db85c4d74953ed9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1593710091361,
+          "stop" : 1593710112565,
+          "duration" : 21204
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Switch_002 - User able to go to LOGIN PAGE",
+        "uid" : "366db7d11a5f121",
+        "parentUid" : "9aba2c19e68f6cf94db85c4d74953ed9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593710032373,
+          "stop" : 1593710039205,
+          "duration" : 6832
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Switch_004 - User able to go to any page",
+        "uid" : "38d07ada7d5acd92",
+        "parentUid" : "9aba2c19e68f6cf94db85c4d74953ed9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1593710055669,
+          "stop" : 1593710057669,
+          "duration" : 2000
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Switch_001 - User able to go to REGISTER PAGE",
+        "uid" : "a6cb73e1fff39b91",
+        "parentUid" : "9aba2c19e68f6cf94db85c4d74953ed9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593710016637,
+          "stop" : 1593710027304,
+          "duration" : 10667
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Switch_003 - User able to login as GUEST",
+        "uid" : "dc24bacd9c56bf11",
+        "parentUid" : "9aba2c19e68f6cf94db85c4d74953ed9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593710044214,
+          "stop" : 1593710050662,
+          "duration" : 6448
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Switch_006 - User able to SIGN UP using Unregistered Facebook Account",
+        "uid" : "75aa08193b2074eb",
+        "parentUid" : "9aba2c19e68f6cf94db85c4d74953ed9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1593710062678,
+          "stop" : 1593710086353,
+          "duration" : 23675
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9aba2c19e68f6cf94db85c4d74953ed9"
+    }, {
+      "name" : "11661@Faizals-MacBook-Pro.local.main(1)",
+      "children" : [ {
+        "name" : "Switch_003 - User able to login as GUEST",
+        "uid" : "9af2561aab8b2ff4",
+        "parentUid" : "5a15a87ec744371708f9c593eb85dfa6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593709642680,
+          "stop" : 1593709670359,
+          "duration" : 27679
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Switch_006 - User able to SIGN UP using Unregistered Facebook Account",
+        "uid" : "1bbebb639160cc75",
+        "parentUid" : "5a15a87ec744371708f9c593eb85dfa6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1593709702725,
+          "stop" : 1593709726120,
+          "duration" : 23395
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Switch_002 - User able to go to LOGIN PAGE",
+        "uid" : "ce3fe03595171805",
+        "parentUid" : "5a15a87ec744371708f9c593eb85dfa6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1593709616974,
+          "stop" : 1593709637673,
+          "duration" : 20699
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Switch_004 - User able to go to any page",
+        "uid" : "8b27a86f9376b67b",
+        "parentUid" : "5a15a87ec744371708f9c593eb85dfa6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1593709675364,
+          "stop" : 1593709697718,
+          "duration" : 22354
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Switch_001 - User able to go to REGISTER PAGE",
+        "uid" : "75e4e29c28d82d90",
+        "parentUid" : "5a15a87ec744371708f9c593eb85dfa6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593709602411,
+          "stop" : 1593709611912,
+          "duration" : 9501
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Switch_005 - User able to SIGN UP using Unregistered Google Account",
+        "uid" : "418ee5548a1fb308",
+        "parentUid" : "5a15a87ec744371708f9c593eb85dfa6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1593709731128,
+          "stop" : 1593709751728,
+          "duration" : 20600
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5a15a87ec744371708f9c593eb85dfa6"
+    }, {
+      "name" : "13259@Faizals-MacBook-Pro.local.main(1)",
+      "children" : [ {
+        "name" : "Switch_005 - User able to SIGN UP using Unregistered Google Account",
+        "uid" : "bedd8c8dc0b8739",
+        "parentUid" : "7d59a9ecd815a80e251077c04bc5eb2a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1593743130294,
+          "stop" : 1593743153685,
+          "duration" : 23391
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Switch_003 - User able to login as GUEST",
+        "uid" : "1e3cda27ecc3046a",
+        "parentUid" : "7d59a9ecd815a80e251077c04bc5eb2a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593743057128,
+          "stop" : 1593743083832,
+          "duration" : 26704
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Switch_006 - User able to SIGN UP using Unregistered Facebook Account",
+        "uid" : "739692511ba32876",
+        "parentUid" : "7d59a9ecd815a80e251077c04bc5eb2a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1593743101406,
+          "stop" : 1593743125278,
+          "duration" : 23872
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Switch_004 - User able to go to any page",
+        "uid" : "279a63e349270f2f",
+        "parentUid" : "7d59a9ecd815a80e251077c04bc5eb2a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593743088843,
+          "stop" : 1593743096402,
+          "duration" : 7559
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Switch_002 - User able to go to LOGIN PAGE",
+        "uid" : "4d05ccc8dd730183",
+        "parentUid" : "7d59a9ecd815a80e251077c04bc5eb2a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593743018261,
+          "stop" : 1593743052122,
+          "duration" : 33861
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Switch_001 - User able to go to REGISTER PAGE",
+        "uid" : "7ecfc9926d985af0",
+        "parentUid" : "7d59a9ecd815a80e251077c04bc5eb2a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593742983303,
+          "stop" : 1593743013183,
+          "duration" : 29880
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7d59a9ecd815a80e251077c04bc5eb2a"
+    }, {
+      "name" : "12631@Faizals-MacBook-Pro.local.main(1)",
+      "children" : [ {
+        "name" : "Switch_002 - User able to go to LOGIN PAGE",
+        "uid" : "71c92942870e3ca8",
+        "parentUid" : "b69a92e7dac9d75cb6e2c09464ed3c7b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593712541094,
+          "stop" : 1593712594236,
+          "duration" : 53142
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Switch_004 - User able to go to any page",
+        "uid" : "208f88e9d322860a",
+        "parentUid" : "b69a92e7dac9d75cb6e2c09464ed3c7b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593712621870,
+          "stop" : 1593712635823,
+          "duration" : 13953
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Switch_003 - User able to login as GUEST",
+        "uid" : "277e3481f5a7b44b",
+        "parentUid" : "b69a92e7dac9d75cb6e2c09464ed3c7b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593712599242,
+          "stop" : 1593712616862,
+          "duration" : 17620
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Switch_005 - User able to SIGN UP using Unregistered Google Account",
+        "uid" : "bf0bea7999b1ff6f",
+        "parentUid" : "b69a92e7dac9d75cb6e2c09464ed3c7b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1593712667160,
+          "stop" : 1593712688477,
+          "duration" : 21317
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Switch_001 - User able to go to REGISTER PAGE",
+        "uid" : "105c7cfb5944e0ca",
+        "parentUid" : "b69a92e7dac9d75cb6e2c09464ed3c7b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593712475980,
+          "stop" : 1593712536008,
+          "duration" : 60028
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Switch_006 - User able to SIGN UP using Unregistered Facebook Account",
+        "uid" : "625d1c58ede772bb",
+        "parentUid" : "b69a92e7dac9d75cb6e2c09464ed3c7b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1593712640828,
+          "stop" : 1593712662143,
+          "duration" : 21315
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b69a92e7dac9d75cb6e2c09464ed3c7b"
+    }, {
+      "name" : "13357@Faizals-MacBook-Pro.local.main(1)",
+      "children" : [ {
+        "name" : "Switch_004 - User able to go to any page",
+        "uid" : "386e59aa0d0502ed",
+        "parentUid" : "605ff6bffd0d1bb6dc0bdcf02924edc2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593743301824,
+          "stop" : 1593743305817,
+          "duration" : 3993
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Switch_005 - User able to SIGN UP using Unregistered Google Account",
+        "uid" : "6d6b15f6cc8cc318",
+        "parentUid" : "605ff6bffd0d1bb6dc0bdcf02924edc2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1593743336380,
+          "stop" : 1593743356999,
+          "duration" : 20619
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Switch_002 - User able to go to LOGIN PAGE",
+        "uid" : "2399908b9f01c806",
+        "parentUid" : "605ff6bffd0d1bb6dc0bdcf02924edc2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593743277843,
+          "stop" : 1593743285531,
+          "duration" : 7688
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Switch_003 - User able to login as GUEST",
+        "uid" : "3506252b51df840b",
+        "parentUid" : "605ff6bffd0d1bb6dc0bdcf02924edc2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593743290542,
+          "stop" : 1593743296815,
+          "duration" : 6273
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Switch_001 - User able to go to REGISTER PAGE",
+        "uid" : "759bcb34f9de0d3a",
+        "parentUid" : "605ff6bffd0d1bb6dc0bdcf02924edc2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593743263962,
+          "stop" : 1593743272766,
+          "duration" : 8804
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Switch_006 - User able to SIGN UP using Unregistered Facebook Account",
+        "uid" : "7835cb1ef07adb42",
+        "parentUid" : "605ff6bffd0d1bb6dc0bdcf02924edc2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1593743310826,
+          "stop" : 1593743331372,
+          "duration" : 20546
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "605ff6bffd0d1bb6dc0bdcf02924edc2"
+    }, {
+      "name" : "12111@Faizals-MacBook-Pro.local.main(1)",
+      "children" : [ {
+        "name" : "Switch_005 - User able to SIGN UP using Unregistered Google Account",
+        "uid" : "ee52288de7fd9774",
+        "parentUid" : "3fb3e9343414d0aec3c2fdf6c815df9a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593711023194,
+          "stop" : 1593711026255,
+          "duration" : 3061
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3fb3e9343414d0aec3c2fdf6c815df9a"
+    }, {
+      "name" : "12061@Faizals-MacBook-Pro.local.main(1)",
+      "children" : [ {
+        "name" : "Switch_004 - User able to go to any page",
+        "uid" : "9c6553a9303b115b",
+        "parentUid" : "e45235697184ed00b93499c6f974b1c4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593710984191,
+          "stop" : 1593710989125,
+          "duration" : 4934
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e45235697184ed00b93499c6f974b1c4"
+    }, {
+      "name" : "13048@Faizals-MacBook-Pro.local.main(1)",
+      "children" : [ {
+        "name" : "Switch_005 - User able to SIGN UP using Unregistered Google Account",
+        "uid" : "961c6ff0702c37be",
+        "parentUid" : "06f6415ce5884ca1da0c03ca01db2059",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593741739958,
+          "stop" : 1593741742813,
+          "duration" : 2855
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "06f6415ce5884ca1da0c03ca01db2059"
+    }, {
+      "name" : "11976@Faizals-MacBook-Pro.local.main(1)",
+      "children" : [ {
+        "name" : "Switch_004 - User able to go to any page",
+        "uid" : "cc3b310aec640163",
+        "parentUid" : "e5e226f9fcfdc238e52fe274402f5a43",
+        "status" : "failed",
+        "time" : {
+          "start" : 1593710530703,
+          "stop" : 1593710532651,
+          "duration" : 1948
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e5e226f9fcfdc238e52fe274402f5a43"
+    }, {
+      "name" : "12462@Faizals-MacBook-Pro.local.TestNG-test=Switch Android Regression Test-1(23)",
+      "children" : [ {
+        "name" : "Switch_001 - User able to go to REGISTER PAGE",
+        "uid" : "99a4ef33bea86da2",
+        "parentUid" : "3c919051692f647408a0640a43303988",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593711525133,
+          "stop" : 1593711552620,
+          "duration" : 27487
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3c919051692f647408a0640a43303988"
+    }, {
+      "name" : "11927@Faizals-MacBook-Pro.local.main(1)",
+      "children" : [ {
+        "name" : "Switch_004 - User able to go to any page",
+        "uid" : "305dcf8a21af4b8a",
+        "parentUid" : "4fbb4eb9239e7d802a49d9a51ae14215",
+        "status" : "failed",
+        "time" : {
+          "start" : 1593710498459,
+          "stop" : 1593710500348,
+          "duration" : 1889
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4fbb4eb9239e7d802a49d9a51ae14215"
+    }, {
+      "name" : "12993@Faizals-MacBook-Pro.local.main(1)",
+      "children" : [ {
+        "name" : "Switch_002 - User able to go to LOGIN PAGE",
+        "uid" : "4c05781dfe37aa84",
+        "parentUid" : "27a552761db272eb68ff18d2e7f90e0c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593741692950,
+          "stop" : 1593741700970,
+          "duration" : 8020
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "27a552761db272eb68ff18d2e7f90e0c"
+    } ],
+    "uid" : "ee3d3e2fb7d082425f1b55fd2aa3b1fc"
+  } ]
 }

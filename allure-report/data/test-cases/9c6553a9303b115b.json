@@ -1,0 +1,117 @@
+{
+  "uid" : "9c6553a9303b115b",
+  "name" : "Switch_004 - User able to go to any page",
+  "fullName" : "tests.LandingITest.checkMoveToPageFrequently",
+  "historyId" : "2d730800a553b3d8183571aee5195f0b",
+  "time" : {
+    "start" : 1593710984191,
+    "stop" : 1593710989125,
+    "duration" : 4934
+  },
+  "description" : "Verify that User is able to Navigate to Sign Up/Login page simultneously.",
+  "descriptionHtml" : "<p>Verify that User is able to Navigate to Sign Up/Login page simultneously.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1593710946005,
+      "stop" : 1593710974116,
+      "duration" : 28111
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify that User is able to Navigate to Sign Up/Login page simultneously.",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ee09ab13ecf6b95c",
+      "name" : "screenShot",
+      "source" : "ee09ab13ecf6b95c.png",
+      "type" : "image/png",
+      "size" : 84925
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeApp",
+    "time" : {
+      "start" : 1593710989187,
+      "stop" : 1593710989281,
+      "duration" : 94
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.LandingITest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.LandingITest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkMoveToPageFrequently"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "switch-mobile-automation"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.LandingITest"
+  }, {
+    "name" : "host",
+    "value" : "Faizals-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "12061@Faizals-MacBook-Pro.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story Name : Check On Landing Page"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9c6553a9303b115b.json",
+  "parameterValues" : [ ]
+}

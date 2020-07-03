@@ -1,0 +1,117 @@
+{
+  "uid" : "a6cb73e1fff39b91",
+  "name" : "Switch_001 - User able to go to REGISTER PAGE",
+  "fullName" : "tests.LandingITest.checkGoToSignUpPage",
+  "historyId" : "b21b59e36858e4fc98c86ca42113d6dd",
+  "time" : {
+    "start" : 1593710016637,
+    "stop" : 1593710027304,
+    "duration" : 10667
+  },
+  "description" : "Verify that User is navigating to Sign Up Page on Clicking on Sign Up Button in any storyboard.",
+  "descriptionHtml" : "<p>Verify that User is navigating to Sign Up Page on Clicking on Sign Up Button in any storyboard.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1593709989168,
+      "stop" : 1593710006561,
+      "duration" : 17393
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify that User is navigating to Sign Up Page on Clicking on Sign Up Button in any storyboard.",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d60f2b90c5ebc6f6",
+      "name" : "screenShot",
+      "source" : "d60f2b90c5ebc6f6.png",
+      "type" : "image/png",
+      "size" : 131048
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeApp",
+    "time" : {
+      "start" : 1593710112577,
+      "stop" : 1593710112717,
+      "duration" : 140
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.LandingITest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.LandingITest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkGoToSignUpPage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "switch-mobile-automation"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.LandingITest"
+  }, {
+    "name" : "host",
+    "value" : "Faizals-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "11759@Faizals-MacBook-Pro.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story Name : Check On Landing Page"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a6cb73e1fff39b91.json",
+  "parameterValues" : [ ]
+}
