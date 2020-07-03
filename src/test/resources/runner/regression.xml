@@ -1,3 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
-<properties/>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Switch Android Regression Test" verbose="1" parallel="classes" thread-count="3">
+    <listeners>
+        <listener class-name="listeners.TestAllureListener" />
+    </listeners>
+    <test name="Switch Android Regression Test">
+        <classes>
+            <class name="tests.LandingITest" />
+            <class name="tests.LoginITest" />
+        </classes>
+    </test>
+</suite>
