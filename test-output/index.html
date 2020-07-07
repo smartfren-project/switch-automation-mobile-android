@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,17 +102,7 @@
                     <div class="method-list-content passed suite-Default_Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_Suite" title="Runner.LandingITest" hash-for-method="checkGoToLoginPage">checkGoToLoginPage</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_Suite" title="Runner.LandingITest" hash-for-method="checkGoToSignUpPage">checkGoToSignUpPage</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_Suite" title="Runner.LandingITest" hash-for-method="checkLoginAsGuest">checkLoginAsGuest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_Suite" title="tests.LandingITest" hash-for-method="checkGoToLoginPage">checkGoToLoginPage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_Suite -->
@@ -130,7 +120,7 @@
           <div class="suite-Default_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">Runner.LandingITest</span>
+              <span class="class-name">tests.LandingITest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -140,24 +130,6 @@
                   <span class="method-name">checkGoToLoginPage</span>
                   <em>
 (User able to go to LOGIN PAGE)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="checkGoToSignUpPage">
-                  </a> <!-- checkGoToSignUpPage -->
-                  <span class="method-name">checkGoToSignUpPage</span>
-                  <em>
-(User able to go to REGISTER PAGE)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="checkLoginAsGuest">
-                  </a> <!-- checkLoginAsGuest -->
-                  <span class="method-name">checkLoginAsGuest</span>
-                  <em>
-(User able to login as GUEST)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -174,7 +146,11 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default Suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;switch-mobile-automation&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Runner.LandingITest&quot;/&gt;
+      &lt;class name=&quot;tests.LandingITest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;checkGoToLoginPage&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- tests.LandingITest --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- switch-mobile-automation --&gt;
 &lt;/suite&gt; &lt;!-- Default Suite --&gt;
@@ -214,24 +190,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'checkGoToSignUpPage')
-data.setCell(0, 2, 'Runner.LandingITest')
-data.setCell(0, 3, 20131);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'checkGoToLoginPage')
-data.setCell(1, 2, 'Runner.LandingITest')
-data.setCell(1, 3, 16374);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'checkLoginAsGuest')
-data.setCell(2, 2, 'Runner.LandingITest')
-data.setCell(2, 3, 13061);
+data.setCell(0, 1, 'checkGoToLoginPage')
+data.setCell(0, 2, 'tests.LandingITest')
+data.setCell(0, 3, 16190);
 window.suiteTableData['Default_Suite']= { tableData: data, tableDiv: 'times-div-Default_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 49 seconds</span>
+              <span class="suite-total-time">Total running time: 16 seconds</span>
               <div id="times-div-Default_Suite">
               </div> <!-- times-div-Default_Suite -->
             </div> <!-- times-div -->
@@ -246,9 +214,18 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">2 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.LandingITest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">checkLoginAsGuest</span>
+                <br/>
+                <span class="ignored-method-name">checkGoToSignUpPage</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Default_Suite" class="panel">
@@ -257,28 +234,20 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">Runner.LandingITest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">tests.LandingITest</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="test-method">
                 <span class="method-name">checkGoToLoginPage</span>
-                <span class="method-start">7200 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">checkLoginAsGuest</span>
-                <span class="method-start">23665 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">checkGoToSignUpPage</span>
-                <span class="method-start">36730 ms</span>
+                <span class="method-start">18463 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-suite after">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">closeApp</span>
-                <span class="method-start">61883 ms</span>
+                <span class="method-start">40111 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

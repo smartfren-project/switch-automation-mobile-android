@@ -20,15 +20,23 @@ public class LoginITest extends BaseLogin {
         launchAppSwitch();
     }
 
-    @Test(priority = 1, description = "Switch_Login_001 - User able to pass HOMEPAGE from VALID LOGIN")
+    @Test(priority = 7, description = "Switch_Login_001 - User able to pass HOMEPAGE from VALID LOGIN EMAIL")
     @Severity(SeverityLevel.CRITICAL)
     @Description("Go To Homepage Successfully Using Valid Email and Password.")
     @Story("Story Name : Check Credential")
-    public void checkValidLogin() throws InterruptedException {
-        testValidLogin();
+    public void checkValidLoginUsingEmail() throws InterruptedException {
+        testValidLoginEmail();
     }
 
-    @Test(priority = 2, description = "Switch_Login_002 - User unable to pass HOMEPAGE from INVALID LOGIN")
+    @Test(priority = 8, description = "Switch_Login_002 - User able to pass HOMEPAGE from VALID LOGIN SWITCH NUMBER")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Go To Homepage Successfully Using Valid Switch Number and Password.")
+    @Story("Story Name : Check Credential")
+    public void checkValidLoginUsingSwitchNumber() throws InterruptedException {
+        testValidLoginSwitchNumber();
+    }
+
+    @Test(priority = 9, description = "Switch_Login_003 - User unable to pass HOMEPAGE from INVALID LOGIN")
     @Severity(SeverityLevel.CRITICAL)
     @Description("Go To Homepage Unsuccessfully Using Invalid Email")
     @Story("Story Name : Check Credential")

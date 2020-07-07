@@ -58,6 +58,7 @@ public class ObjectElement extends BaseTest {
         String btnHistory = "com.smartfren.switchmobile:id/history";
         String btnProfile = "com.smartfren.switchmobile:id/profile";
         String txtUserProfile = "com.smartfren.switchmobile:id/username";
+        String btnNotification = "com.smartfren.switchmobile:id/im_notification";
     }
 
     public interface ProfilePageObject {
@@ -68,5 +69,6 @@ public class ObjectElement extends BaseTest {
         String txtDealsTitle = "com.smartfren.switchmobile:id/deals";
         String btnLogout = "com.smartfren.switchmobile:id/logout";
         String btnConfirmLogout = "android:id/button1";
+        String inputFullName = "com.smartfren.switchmobile:id/user_name";
     }
 }

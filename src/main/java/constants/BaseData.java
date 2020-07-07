@@ -6,6 +6,8 @@ public class BaseData {
         String EMAIL_ID = "faizal.prakoso@smartfren.com";
         String PIN = "545454";
         String INVALID_EMAIL_ID = "haris@smart.com";
+        String SWITCH_NUMBER = "088906011294";
+        String PIN2 = "142839";
     }
 
     public interface LaunchPage {
@@ -21,6 +23,8 @@ public class BaseData {
         String VALIDATION_USERNAME_DESC_EN = "You can register and create your account now!";
         String VALIDATION_LOGIN_PAGE = "Log in";
         String VALIDATION_REGISTER_PAGE = "Sign up";
+        String VALIDATION_USERNAME_1 = "Faizal Akbar Prakoso";
+        String VALIDATION_USERNAME_2 = "Satrio Panji Prakoso";
     }
 
     public interface HomePage {

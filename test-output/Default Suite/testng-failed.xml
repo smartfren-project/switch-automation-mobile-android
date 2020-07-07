@@ -3,12 +3,10 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
   <test thread-count="5" name="switch-mobile-automation(failed)">
     <classes>
-      <class name="Runner.LandingITest">
+      <class name="tests.LandingITest">
         <methods>
-          <include name="checkGoToSignUpPage"/>
           <include name="setUp"/>
           <include name="checkGoToLoginPage"/>
-          <include name="checkLoginAsGuest"/>
           <include name="closeApp"/>
         </methods>
       </class> <!-- Runner.LandingITest -->

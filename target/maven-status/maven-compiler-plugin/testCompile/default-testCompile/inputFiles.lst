@@ -1,9 +1,4 @@
-/Users/faizalprakoso/IdeaProjects/switch-mobile-automation/src/test/java/Operation/BaseLogin.java
-/Users/faizalprakoso/IdeaProjects/switch-mobile-automation/src/test/java/Operation/BaseLogout.java
-/Users/faizalprakoso/IdeaProjects/switch-mobile-automation/src/test/java/Runner/LoginITest.java
-/Users/faizalprakoso/IdeaProjects/switch-mobile-automation/src/test/java/Operation/BaseLanding.java
-/Users/faizalprakoso/IdeaProjects/switch-mobile-automation/src/test/java/Operation/Driver.java
-/Users/faizalprakoso/IdeaProjects/switch-mobile-automation/src/test/java/Runner/LogoutRunner.java
-/Users/faizalprakoso/IdeaProjects/switch-mobile-automation/src/test/java/Runner/LandingITest.java
-/Users/faizalprakoso/IdeaProjects/switch-mobile-automation/src/test/java/Data/ObjectElement.java
-/Users/faizalprakoso/IdeaProjects/switch-mobile-automation/src/test/java/Data/BaseData.java
+/Users/faizalprakoso/IdeaProjects/switch-mobile-automation/src/test/java/tests/ProfileITest.java
+/Users/faizalprakoso/IdeaProjects/switch-mobile-automation/src/test/java/tests/LoginITest.java
+/Users/faizalprakoso/IdeaProjects/switch-mobile-automation/src/test/java/tests/LandingITest.java
+/Users/faizalprakoso/IdeaProjects/switch-mobile-automation/src/test/java/tests/LogoutITest.java

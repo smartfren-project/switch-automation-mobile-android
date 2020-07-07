@@ -31,7 +31,7 @@ public class LandingITest extends BaseLanding {
     @Severity(SeverityLevel.NORMAL)
     @Description("Verify that User is navigating to Login Page on Clicking on Login Button in any storyboard.")
     @Story("Story Name : Check On Landing Page")
-    public void checkGoToLoginPage() {
+    public void checkGoToLoginPage() throws InterruptedException {
         testGoToLoginPage();
     }
 
@@ -39,7 +39,7 @@ public class LandingITest extends BaseLanding {
     @Severity(SeverityLevel.NORMAL)
     @Description("Verify that User is navigating to GuestPage on Clicking on Skip Button in any storyboard.")
     @Story("Story Name : Check On Landing Page")
-    public void checkLoginAsGuest() {
+    public void checkLoginAsGuest() throws InterruptedException {
         testLoginAsGuest();
     }
 
@@ -47,7 +47,7 @@ public class LandingITest extends BaseLanding {
     @Severity(SeverityLevel.NORMAL)
     @Description("Verify that User is able to Navigate to Sign Up/Login page simultneously.")
     @Story("Story Name : Check On Landing Page")
-    public void checkMoveToPageFrequently() {
+    public void checkMoveToPageFrequently() throws InterruptedException {
         testCheckHeaderFooterButton();
     }
 
@@ -59,7 +59,7 @@ public class LandingITest extends BaseLanding {
         testSignUpWithGoogle();
     }
 
-    @Test(priority = 5, description = "Switch_Land_006 - User able to SIGN UP using Unregistered Facebook Account")
+    @Test(priority = 6, description = "Switch_Land_006 - User able to SIGN UP using Unregistered Facebook Account")
     @Severity(SeverityLevel.NORMAL)
     @Description("Verify that User is able to Capture Facebook account in Sign Up flow.")
     @Story("Story Name : Check On Landing Page")

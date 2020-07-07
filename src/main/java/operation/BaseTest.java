@@ -43,8 +43,7 @@ public class BaseTest {
 
 
         driver = new AndroidDriver<MobileElement>(url, capabilities);
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
     }
 
     public void testLogin() throws InterruptedException {
@@ -52,11 +51,12 @@ public class BaseTest {
         driver.findElement(By.id(ObjectElement.LoginPageObject.inputUserName)).sendKeys(BaseData.Login.EMAIL_ID);
         driver.findElement(By.id(ObjectElement.LoginPageObject.btnSubmitLogin)).click();
         driver.findElement(By.id(ObjectElement.PINPageObject.inputPIN)).sendKeys(BaseData.Login.PIN);
-        Thread.sleep(5000);
-        driver.resetApp();
-        driver.resetApp();
+        Thread.sleep(2000);
     }
 
+    public void resetApp() {
+        driver.resetApp();
+    }
     public void closeApp() throws InterruptedException {
         driver.closeApp();
     }

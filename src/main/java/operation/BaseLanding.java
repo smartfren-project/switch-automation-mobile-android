@@ -45,65 +45,79 @@ public class BaseLanding extends BaseTest {
         driver.findElement(By.id(ObjectElement.LoginPageObject.btnFacebook)).click();
     }
 
-    @Step("Click Button Login")
-    public void testGoToLoginPage() {
-        clickButtonLogin();
+    public void checkTitlePage(String titlePage) {
+        String TitlePage = driver.findElement(By.id(ObjectElement.LoginPageObject.txtLoginTitle)).getText();
+        Assert.assertEquals(TitlePage, titlePage);
+    }
+
+    public void checkValidationWelcomeText(String outTitleEN, String outDescEn, String outDescID) {
         String WelcomeAppSwitch = driver.findElement(By.id(ObjectElement.LoginPageObject.txtWelcomeTitle)).getText();
         String WelcomeDesc = driver.findElement(By.id(ObjectElement.LoginPageObject.txtWelcomeDesc)).getText();
         String OtherWaysTitle = driver.findElement(By.id(ObjectElement.LoginPageObject.txtOtherWaysTitle)).getText();
-        if (OtherWaysTitle == "atau bisa pakai") {
-            Assert.assertEquals(WelcomeAppSwitch, BaseData.LaunchPage.WELCOME_EN);
-            Assert.assertEquals(WelcomeDesc, BaseData.LaunchPage.WELCOME_DESC_ID);
-        } else if (OtherWaysTitle == "or use") {
-            Assert.assertEquals(WelcomeAppSwitch, BaseData.LaunchPage.WELCOME_EN);
-            Assert.assertEquals(WelcomeDesc, BaseData.LaunchPage.WELCOME_DESC_EN);
+        if (OtherWaysTitle.equals("atau bisa pakai")) {
+            Assert.assertEquals(WelcomeAppSwitch, outTitleEN);
+            Assert.assertEquals(WelcomeDesc, outDescID);
+        } else if (OtherWaysTitle.equals("or use")) {
+            Assert.assertEquals(WelcomeAppSwitch, outTitleEN);
+            Assert.assertEquals(WelcomeDesc, outDescEn);
         }
-        driver.resetApp();
+    }
+
+    public void checkUserProfile(String username) {
+        String ProfileName = driver.findElement(By.id(ObjectElement.MenuPageObject.txtUserProfile)).getText();
+        Assert.assertEquals(ProfileName, username);
+    }
+
+    @Step("Click Button Login")
+    public void testGoToLoginPage() throws InterruptedException {
+        clickButtonLogin();
+        checkValidationWelcomeText(
+                BaseData.LaunchPage.WELCOME_EN,
+                BaseData.LaunchPage.WELCOME_DESC_ID,
+                BaseData.LaunchPage.WELCOME_DESC_EN);
+        Thread.sleep(1500);
+        resetApp();
     }
 
     @Step("Click Button Login Without Sign Up")
-    public void testLoginAsGuest() {
+    public void testLoginAsGuest() throws InterruptedException{
         clickButtonSkip();
-        String ProfileName = driver.findElement(By.id(ObjectElement.MenuPageObject.txtUserProfile)).getText();
-        Assert.assertEquals(ProfileName, BaseData.HomePage.GUEST_NAME);
-        driver.resetApp();
+        checkUserProfile(BaseData.HomePage.GUEST_NAME);
+        Thread.sleep(1500);
+        resetApp();
     }
 
     @Step("Click Button Sign Up")
     public void testGoToSignUpPage() throws InterruptedException {
         Thread.sleep(2500);
         clickButtonSignUp();
-        String WelcomeAppSwitch = driver.findElement(By.id(ObjectElement.LoginPageObject.txtWelcomeTitle)).getText();
-        String WelcomeDesc = driver.findElement(By.id(ObjectElement.LoginPageObject.txtWelcomeDesc)).getText();
-        String OtherWaysTitle = driver.findElement(By.id(ObjectElement.LoginPageObject.txtOtherWaysTitle)).getText();
-        if (OtherWaysTitle == "atau bisa pakai") {
-            Assert.assertEquals(WelcomeAppSwitch, BaseData.LaunchPage.WELCOME_EN);
-            Assert.assertEquals(WelcomeDesc, BaseData.LaunchPage.WELCOME_DESC_SIGN_UP_ID);
-        } else if (OtherWaysTitle == "or use") {
-            Assert.assertEquals(WelcomeAppSwitch, BaseData.LaunchPage.WELCOME_EN);
-            Assert.assertEquals(WelcomeDesc, BaseData.LaunchPage.WELCOME_DESC_SIGN_UP_EN);
-        }
-        driver.resetApp();
+        checkValidationWelcomeText(
+                BaseData.LaunchPage.WELCOME_EN,
+                BaseData.LaunchPage.WELCOME_DESC_SIGN_UP_ID,
+                BaseData.LaunchPage.WELCOME_DESC_SIGN_UP_EN
+        );
+        Thread.sleep(1500);
+        resetApp();
     }
 
-    public void testCheckHeaderFooterButton() {
+    public void testCheckHeaderFooterButton() throws InterruptedException {
         //From landing page to sign up page
         clickButtonSignUp();
-        String TitlePage1 = driver.findElement(By.id(ObjectElement.LoginPageObject.txtLoginTitle)).getText();
-        Assert.assertEquals(TitlePage1, BaseData.Validation.VALIDATION_REGISTER_PAGE);
+        checkTitlePage(BaseData.Validation.VALIDATION_REGISTER_PAGE);
         //From sign up page to login page using button header
         clickButtonHeaderCredential();
-        String TitlePage2 = driver.findElement(By.id(ObjectElement.LoginPageObject.txtLoginTitle)).getText();
-        Assert.assertEquals(TitlePage2, BaseData.Validation.VALIDATION_LOGIN_PAGE);
+        checkTitlePage(BaseData.Validation.VALIDATION_LOGIN_PAGE);
         //From login page to sign up using button header
         clickButtonHeaderCredential();
-        Assert.assertEquals(TitlePage1, BaseData.Validation.VALIDATION_REGISTER_PAGE);
+        checkTitlePage(BaseData.Validation.VALIDATION_REGISTER_PAGE);
         //From sign up page to login page using button footer
         clickButtonFooterCredential();
-        Assert.assertEquals(TitlePage2, BaseData.Validation.VALIDATION_LOGIN_PAGE);
+        checkTitlePage(BaseData.Validation.VALIDATION_LOGIN_PAGE);
         //From login page to sign up page using button footer
         clickButtonFooterCredential();
-        Assert.assertEquals(TitlePage1, BaseData.Validation.VALIDATION_REGISTER_PAGE);
+        checkTitlePage(BaseData.Validation.VALIDATION_REGISTER_PAGE);
+        Thread.sleep(1500);
+        resetApp();
     }
 
     public void testSignUpWithGoogle() throws InterruptedException {
@@ -111,6 +125,7 @@ public class BaseLanding extends BaseTest {
         Thread.sleep(2000);
         clickButtonOtherMethod();
         clickButtonGoogle();
+        resetApp();
     }
 
     public void testSignUpWithFacebook() throws InterruptedException{
@@ -118,10 +133,11 @@ public class BaseLanding extends BaseTest {
         Thread.sleep(2000);
         clickButtonOtherMethod();
         clickButtonFacebook();
+        resetApp();
     }
 
 
-    public void testCloseAppSwitch() {
-        driver.closeApp();
+    public void testCloseAppSwitch() throws InterruptedException{
+        closeApp();
     }
 }
