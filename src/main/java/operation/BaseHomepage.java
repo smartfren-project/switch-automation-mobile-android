@@ -4,7 +4,8 @@ import constants.ObjectElement;
 import org.openqa.selenium.By;
 
 public class BaseHomepage extends BaseTest {
-    public BaseLogin baseLogin;
+
+    BaseLogin baseLogin = new BaseLogin();
 
     public void clickButtonHome() {
         driver.findElement(By.id(ObjectElement.MenuPageObject.btnHome)).click();
@@ -33,4 +34,21 @@ public class BaseHomepage extends BaseTest {
     public void clickButtonNotification() {
         driver.findElement(By.id(ObjectElement.MenuPageObject.btnNotification)).click();
     }
+
+    public void testUserCanMoveToMainMenuPage() throws InterruptedException {
+        baseLogin.testValidLoginEmail();
+        clickButtonDeals();
+        Thread.sleep(2500);
+        clickButtonQuest();
+        Thread.sleep(2500);
+        clickButtonHistory();
+        Thread.sleep(2500);
+        clickButtonProfile();
+        Thread.sleep(2500);
+        clickButtonHome();
+        Thread.sleep(2500);
+        clickButtonNotification();
+    }
+
+
 }

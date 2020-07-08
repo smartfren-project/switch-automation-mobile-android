@@ -69,6 +69,15 @@ public class ObjectElement extends BaseTest {
         String txtDealsTitle = "com.smartfren.switchmobile:id/deals";
         String btnLogout = "com.smartfren.switchmobile:id/logout";
         String btnConfirmLogout = "android:id/button1";
+        String btnLanguage = "com.smartfren.switchmobile:id/language";
+        String btnBahasa = "com.smartfren.switchmobile:id/indonesia";
+        String btnEnglish = "com.smartfren.switchmobile:id/english";
+        String btnCancelChangeLang = "com.smartfren.switchmobile:id/cancel";
+    }
+
+    public interface EditProfileObject {
         String inputFullName = "com.smartfren.switchmobile:id/user_name";
+        String btnSubmitChangeProfile = "com.smartfren.switchmobile:id/save";
+        String inputAlternatePhoneNumber = "com.smartfren.switchmobile:id/user_alter_number";
     }
 }

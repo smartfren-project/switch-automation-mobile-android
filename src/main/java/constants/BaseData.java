@@ -15,7 +15,7 @@ public class BaseData {
         String WELCOME_DESC_EN = "You can log in by using email or switch number that has been registered.";
         String WELCOME_DESC_ID = "Kamu bisa log in menggunakan email atau nomor switch yang telah terdaftar.";
         String WELCOME_DESC_SIGN_UP_EN = "Enter your email address or register via social media.";
-        String WELCOME_DESC_SIGN_UP_ID = "";
+        String WELCOME_DESC_SIGN_UP_ID = "Silakan masukkan alamat emailmu atau daftar melalui sosial media.";
     }
 
     public interface Validation {
@@ -25,6 +25,10 @@ public class BaseData {
         String VALIDATION_REGISTER_PAGE = "Sign up";
         String VALIDATION_USERNAME_1 = "Faizal Akbar Prakoso";
         String VALIDATION_USERNAME_2 = "Satrio Panji Prakoso";
+        String VALIDATION_ALT_PHONE_1 = "8194120194";
+        String VALIDATION_ALT_PHONE_2 = "8881850440";
+        String VALIDATION_ALREADY_REGISTERED_TITLE_EN = "Email Registered";
+        String VALIDATION_ALREADY_REGISTERED_DESC_EN = "You can log in to your switch account now!";
     }
 
     public interface HomePage {

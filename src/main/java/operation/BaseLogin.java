@@ -58,7 +58,6 @@ public class BaseLogin extends BaseTest {
         Thread.sleep(1500);
         checkSuccessLogin();
         Thread.sleep(1500);
-        resetApp();
     }
 
     @Step("User Do Valid Login Using Switch Number")
@@ -71,7 +70,6 @@ public class BaseLogin extends BaseTest {
         Thread.sleep(1500);
 //        Assert.assertNotNull(driver.findElement(By.id(ObjectElement.MenuPageObject.btnProfile)));
 //        Thread.sleep(1500);
-        resetApp();
     }
 
     @Step("User Do Invalid Login")
@@ -83,10 +81,5 @@ public class BaseLogin extends BaseTest {
         Thread.sleep(1500);
         checkValidationUnregisteredEmail();
         Thread.sleep(1500);
-        resetApp();
-    }
-
-    public void testCloseAppSwitch() throws InterruptedException {
-        closeApp();
     }
 }

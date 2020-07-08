@@ -12,6 +12,7 @@ import org.testng.ITestResult;
 import org.testng.annotations.AfterSuite;
 
 import java.io.ByteArrayInputStream;
+import java.io.File;
 
 public class TestAllureListener implements ITestListener {
 
@@ -35,7 +36,6 @@ public class TestAllureListener implements ITestListener {
     }
     @Override
     public void onTestStart(ITestResult iTestResult) {
-
     }
 
     @Override
@@ -56,7 +56,6 @@ public class TestAllureListener implements ITestListener {
 
     @Override
     public void onTestSkipped(ITestResult iTestResult) {
-
     }
 
     @Override

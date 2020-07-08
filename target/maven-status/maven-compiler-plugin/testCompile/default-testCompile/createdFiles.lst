@@ -1,4 +1,5 @@
 tests/LandingITest.class
 tests/LoginITest.class
 tests/LogoutITest.class
+tests/HomepageITest.class
 tests/ProfileITest.class

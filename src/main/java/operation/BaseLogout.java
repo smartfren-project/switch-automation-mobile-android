@@ -12,7 +12,8 @@ import java.net.MalformedURLException;
 
 public class BaseLogout extends BaseTest {
 
-    public BaseLogin baseLogin;
+    BaseLogin baseLogin = new BaseLogin();
+    BaseHomepage baseHomepage = new BaseHomepage();
 
     public void launchAppSwitch() throws MalformedURLException {
         setupAppium();
@@ -35,15 +36,11 @@ public class BaseLogout extends BaseTest {
     }
 
     public void testValidLogout() throws InterruptedException {
-        testLogin();
-        clickButtonProfile();
+        baseLogin.testValidLoginEmail();
+        baseHomepage.clickButtonProfile();
         clickButtonLogout();
         clickButtonConfirmLogout();
         resetApp();
         uninstallApp();
-    }
-
-    public void testCloseAppSwitch() throws InterruptedException {
-        closeApp();
     }
 }

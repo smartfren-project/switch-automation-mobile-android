@@ -6,10 +6,8 @@ import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Listeners;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
+
 import java.net.MalformedURLException;
 
 @Listeners({TestAllureListener.class})
@@ -20,7 +18,7 @@ public class LoginITest extends BaseLogin {
         launchAppSwitch();
     }
 
-    @Test(priority = 7, description = "Switch_Login_001 - User able to pass HOMEPAGE from VALID LOGIN EMAIL")
+    @Test(priority = 6, description = "Switch_Login_001 - User able to pass HOMEPAGE from VALID LOGIN EMAIL")
     @Severity(SeverityLevel.CRITICAL)
     @Description("Go To Homepage Successfully Using Valid Email and Password.")
     @Story("Story Name : Check Credential")
@@ -28,7 +26,7 @@ public class LoginITest extends BaseLogin {
         testValidLoginEmail();
     }
 
-    @Test(priority = 8, description = "Switch_Login_002 - User able to pass HOMEPAGE from VALID LOGIN SWITCH NUMBER")
+    @Test(priority = 7, description = "Switch_Login_002 - User able to pass HOMEPAGE from VALID LOGIN SWITCH NUMBER")
     @Severity(SeverityLevel.CRITICAL)
     @Description("Go To Homepage Successfully Using Valid Switch Number and Password.")
     @Story("Story Name : Check Credential")
@@ -36,7 +34,7 @@ public class LoginITest extends BaseLogin {
         testValidLoginSwitchNumber();
     }
 
-    @Test(priority = 9, description = "Switch_Login_003 - User unable to pass HOMEPAGE from INVALID LOGIN")
+    @Test(priority = 8, description = "Switch_Login_003 - User unable to pass HOMEPAGE from INVALID LOGIN")
     @Severity(SeverityLevel.CRITICAL)
     @Description("Go To Homepage Unsuccessfully Using Invalid Email")
     @Story("Story Name : Check Credential")
@@ -44,8 +42,8 @@ public class LoginITest extends BaseLogin {
         testInvalidEmailLogin();
     }
 
-    @AfterSuite
-    public void closeApp() throws InterruptedException {
-        testCloseAppSwitch();
+    @AfterMethod
+    public void closeAppSwitch() throws InterruptedException {
+        driver.resetApp();
     }
 }

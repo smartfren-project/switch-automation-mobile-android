@@ -9,6 +9,8 @@
         <classes>
             <class name="tests.LandingITest" />
             <class name="tests.LoginITest" />
+            <class name="tests.HomepageITest" />
+            <class name="tests.ProfileITest" />
             <class name="tests.LogoutITest" />
         </classes>
     </test>

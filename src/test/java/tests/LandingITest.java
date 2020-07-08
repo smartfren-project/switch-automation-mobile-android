@@ -6,10 +6,9 @@ import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Listeners;
-import org.testng.annotations.Test;
+import org.junit.jupiter.api.AfterEach;
+import org.testng.annotations.*;
+
 import java.net.MalformedURLException;
 
 @Listeners({TestAllureListener.class})
@@ -19,7 +18,7 @@ public class LandingITest extends BaseLanding {
         launchAppSwitch();
     }
 
-    @Test(priority = 1, description = "Switch_Land_001 - User able to go to REGISTER PAGE")
+    @Test(priority = 1, description = "Switch_Land_001 - User able to go to Login/SignUp")
     @Severity(SeverityLevel.NORMAL)
     @Description("Verify that User is navigating to Sign Up Page on Clicking on Sign Up Button in any storyboard.")
     @Story("Story Name : Check On Landing Page")
@@ -51,7 +50,15 @@ public class LandingITest extends BaseLanding {
         testCheckHeaderFooterButton();
     }
 
-    @Test(priority = 5, description = "Switch_Land_005 - User able to SIGN UP using Unregistered Google Account")
+    @Test(priority = 5, description = "Switch_Land_007 - User unable to SIGN UP using registered email")
+    @Severity(SeverityLevel.NORMAL)
+    @Description("Verify that User is unable to Navigate to Next SignUp Page.")
+    @Story("Story Name : Check On Landing Page")
+    public void checkSignUpUsingRegisteredEmail() throws InterruptedException {
+        testInvalidSignUpWithRegisteredEmail();
+    }
+
+    @Test(priority = 14, description = "Switch_Land_005 - User able to SIGN UP using Unregistered Google Account")
     @Severity(SeverityLevel.NORMAL)
     @Description("Verify that User is able to Capture Google account in Sign Up flow.")
     @Story("Story Name : Check On Landing Page")
@@ -59,7 +66,7 @@ public class LandingITest extends BaseLanding {
         testSignUpWithGoogle();
     }
 
-    @Test(priority = 6, description = "Switch_Land_006 - User able to SIGN UP using Unregistered Facebook Account")
+    @Test(priority = 15, description = "Switch_Land_006 - User able to SIGN UP using Unregistered Facebook Account")
     @Severity(SeverityLevel.NORMAL)
     @Description("Verify that User is able to Capture Facebook account in Sign Up flow.")
     @Story("Story Name : Check On Landing Page")
@@ -67,8 +74,8 @@ public class LandingITest extends BaseLanding {
         testSignUpWithFacebook();
     }
 
-    @AfterSuite
-    public void closeApp() throws InterruptedException {
-        testCloseAppSwitch();
+    @AfterMethod
+    public void closeAppSwitch() {
+        driver.resetApp();
     }
 }

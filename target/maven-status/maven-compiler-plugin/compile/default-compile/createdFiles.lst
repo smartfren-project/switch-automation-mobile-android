@@ -10,10 +10,12 @@ listeners/TestAllureListener.class
 operation/BaseProfile.class
 constants/AndroidSetupData.class
 constants/ObjectElement$SignUpPageObject.class
+constants/ObjectElement$EditProfileObject.class
 constants/ObjectElement$MenuPageObject.class
 constants/BaseData$LaunchPage.class
 operation/BaseTest.class
 constants/ObjectElement$PINPageObject.class
+operation/BaseHomepage.class
 constants/ObjectElement$ProfilePageObject.class
 constants/ObjectElement$LandingPageObject.class
 constants/BaseData.class
