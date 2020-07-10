@@ -12,10 +12,6 @@ import java.io.File;
 import java.net.MalformedURLException;
 
 public class BaseLanding extends BaseTest {
-    public void launchAppSwitch() throws MalformedURLException {
-        setupAppium();
-    }
-
     public void clickButtonLogin() {
         driver.findElement(By.id(ObjectElement.LandingPageObject.btnLogin)).click();
     }
@@ -53,16 +49,23 @@ public class BaseLanding extends BaseTest {
         Assert.assertEquals(TitlePage, titlePage);
     }
 
-    public void checkValidationWelcomeText(String outTitleEN, String outDescEn, String outDescID) {
+    public void checkValidationWelcomeText() {
         String WelcomeAppSwitch = driver.findElement(By.id(ObjectElement.LoginPageObject.txtWelcomeTitle)).getText();
         String WelcomeDesc = driver.findElement(By.id(ObjectElement.LoginPageObject.txtWelcomeDesc)).getText();
         String OtherWaysTitle = driver.findElement(By.id(ObjectElement.LoginPageObject.txtOtherWaysTitle)).getText();
-        if (OtherWaysTitle.equals("atau bisa pakai")) {
-            Assert.assertEquals(WelcomeAppSwitch, outTitleEN);
-            Assert.assertEquals(WelcomeDesc, outDescID);
-        } else if (OtherWaysTitle.equals("or use")) {
-            Assert.assertEquals(WelcomeAppSwitch, outTitleEN);
-            Assert.assertEquals(WelcomeDesc, outDescEn);
+        String TitlePage = driver.findElement(By.id(ObjectElement.LoginPageObject.txtLoginTitle)).getText();
+        if (OtherWaysTitle.equals("atau bisa pakai") && TitlePage.equals(BaseData.Validation.VALIDATION_LOGIN_PAGE)) {
+            Assert.assertEquals(WelcomeAppSwitch, BaseData.LaunchPage.WELCOME_EN);
+            Assert.assertEquals(WelcomeDesc, BaseData.LaunchPage.WELCOME_DESC_ID);
+        } else if (OtherWaysTitle.equals("or use") && TitlePage.equals(BaseData.Validation.VALIDATION_LOGIN_PAGE)) {
+            Assert.assertEquals(WelcomeAppSwitch, BaseData.LaunchPage.WELCOME_EN);
+            Assert.assertEquals(WelcomeDesc, BaseData.LaunchPage.WELCOME_DESC_EN);
+        } else if (OtherWaysTitle.equals("atau bisa pakai") && TitlePage.equals(BaseData.Validation.VALIDATION_REGISTER_PAGE)) {
+            Assert.assertEquals(WelcomeAppSwitch, BaseData.LaunchPage.WELCOME_EN);
+            Assert.assertEquals(WelcomeDesc, BaseData.LaunchPage.WELCOME_DESC_SIGN_UP_ID);
+        } else {
+            Assert.assertEquals(WelcomeAppSwitch, BaseData.LaunchPage.WELCOME_EN);
+            Assert.assertEquals(WelcomeDesc, BaseData.LaunchPage.WELCOME_DESC_SIGN_UP_EN);
         }
     }
 
@@ -71,30 +74,14 @@ public class BaseLanding extends BaseTest {
         Assert.assertEquals(ProfileName, username);
     }
 
-    public void inputUsername(String username) {
-        driver.findElement(By.id(ObjectElement.LoginPageObject.inputUserName)).sendKeys(username);
-    }
-
     public void clickButtonSubmitSignUp() {
         driver.findElement(By.id(ObjectElement.LoginPageObject.btnSubmitLogin)).click();
-    }
-
-    public void checkValidationRegisteredEmail() {
-        String TextInfo = driver.findElement(By.id(ObjectElement.LoginPageObject.txtUserValidationTitle)).getText();
-        String DescInfoValidation = driver.findElement(By.id(ObjectElement.LoginPageObject.txtVariousLoginDesc)).getText();
-        Assert.assertEquals(BaseData.Validation.VALIDATION_ALREADY_REGISTERED_TITLE_EN, TextInfo);
-        Assert.assertEquals(BaseData.Validation.VALIDATION_ALREADY_REGISTERED_DESC_EN, DescInfoValidation);
-        Assert.assertNotNull(driver.findElement(By.id(ObjectElement.LoginPageObject.btnChangeEmail)));
-        Assert.assertNotNull(driver.findElement(By.id(ObjectElement.LoginPageObject.btnSignUp2)));
     }
 
     @Step("Click Button Login")
     public void testGoToLoginPage() throws InterruptedException {
         clickButtonLogin();
-        checkValidationWelcomeText(
-                BaseData.LaunchPage.WELCOME_EN,
-                BaseData.LaunchPage.WELCOME_DESC_EN,
-                BaseData.LaunchPage.WELCOME_DESC_EN);
+        checkValidationWelcomeText();
         Thread.sleep(3000);
     }
 
@@ -109,11 +96,7 @@ public class BaseLanding extends BaseTest {
     public void testGoToSignUpPage() throws InterruptedException {
         Thread.sleep(3000);
         clickButtonSignUp();
-        checkValidationWelcomeText(
-                BaseData.LaunchPage.WELCOME_EN,
-                BaseData.LaunchPage.WELCOME_DESC_SIGN_UP_EN,
-                BaseData.LaunchPage.WELCOME_DESC_SIGN_UP_EN
-        );
+        checkValidationWelcomeText();
         Thread.sleep(3000);
     }
 
@@ -149,14 +132,6 @@ public class BaseLanding extends BaseTest {
         Thread.sleep(2000);
         clickButtonOtherMethod();
         clickButtonFacebook();
-        Thread.sleep(3000);
-    }
-
-    public void testInvalidSignUpWithRegisteredEmail() throws InterruptedException {
-        clickButtonSignUp();
-        inputUsername(BaseData.Login.EMAIL_ID);
-        clickButtonSubmitSignUp();
-        checkValidationRegisteredEmail();
         Thread.sleep(3000);
     }
 

@@ -46,17 +46,6 @@ public class BaseTest {
         driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
     }
 
-    public void testLogin() throws InterruptedException {
-        driver.findElement(By.id(ObjectElement.LandingPageObject.btnLogin)).click();
-        driver.findElement(By.id(ObjectElement.LoginPageObject.inputUserName)).sendKeys(BaseData.Login.EMAIL_ID);
-        driver.findElement(By.id(ObjectElement.LoginPageObject.btnSubmitLogin)).click();
-        driver.findElement(By.id(ObjectElement.PINPageObject.inputPIN)).sendKeys(BaseData.Login.PIN);
-        Thread.sleep(2000);
-    }
-
-    public void resetApp() {
-        driver.resetApp();
-    }
     public void closeApp() throws InterruptedException {
         driver.closeApp();
     }

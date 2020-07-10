@@ -6,34 +6,18 @@ import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
 import listeners.TestAllureListener;
 import operation.BaseHomepage;
-import operation.BaseTest;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Listeners;
-import org.testng.annotations.Test;
-
-import java.net.MalformedURLException;
+import org.testng.annotations.*;
 
 @Listeners({TestAllureListener.class})
-public class HomepageITest extends BaseHomepage {
+public class HomepageITest extends TestSetup {
 
-    BaseTest baseTest = new BaseTest();
+    BaseHomepage baseHomepage = new BaseHomepage();
 
-    @BeforeSuite
-    public void setUp() throws MalformedURLException {
-        baseTest.setupAppium();
-    }
-
-    @Test(priority = 13, description = "Switch_Home_001 - User able to go to All Page")
+    @Test(priority = 13, description = "Switch_Home_001 - User able to go to All Menu Page")
     @Severity(SeverityLevel.NORMAL)
-    @Description("Verify that User is navigating to Sign Up Page on Clicking on Sign Up Button in any storyboard.")
-    @Story("Story Name : Check On Landing Page")
+    @Description("Verify that User is navigating to All Menu Page by Clicking on Any Available Main Menu.")
+    @Story("Story Name : Check On Home Page")
     public void checkGoToSignUpPage() throws InterruptedException {
-        testUserCanMoveToMainMenuPage();
-    }
-
-    @AfterMethod
-    public void closeAppSwitch() {
-        driver.resetApp();
+        baseHomepage.testUserCanMoveToMainMenuPage();
     }
 }

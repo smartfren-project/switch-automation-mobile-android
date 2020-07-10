@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="Switch Android Regression Test" verbose="1" parallel="classes" thread-count="12">
+<suite name="Switch Android Regression Test" verbose="1" parallel="methods" thread-count="12">
     <listeners>
         <listener class-name="listeners.TestAllureListener" />
     </listeners>
     <test name="Switch Android Regression Test">
         <classes>
-            <class name="tests.LandingITest" />
-            <class name="tests.LoginITest" />
-            <class name="tests.HomepageITest" />
+            <class name="tests.TestSetup" />
             <class name="tests.ProfileITest" />
             <class name="tests.LogoutITest" />
+            <class name="tests.LoginITest" />
+            <class name="tests.LandingITest" />
+            <class name="tests.HomepageITest" />
         </classes>
     </test>
 </suite>

@@ -59,6 +59,8 @@ public class ObjectElement extends BaseTest {
         String btnProfile = "com.smartfren.switchmobile:id/profile";
         String txtUserProfile = "com.smartfren.switchmobile:id/username";
         String btnNotification = "com.smartfren.switchmobile:id/im_notification";
+        String addPopUp = "com.smartfren.switchmobile:id/com_appboy_inappmessage_modal_imageview";
+        String btnClosePopup = "com.smartfren.switchmobile:id/com_appboy_inappmessage_modal_close_button";
     }
 
     public interface ProfilePageObject {

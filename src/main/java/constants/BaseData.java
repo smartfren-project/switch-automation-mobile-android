@@ -7,7 +7,7 @@ public class BaseData {
         String PIN = "545454";
         String INVALID_EMAIL_ID = "haris@smart.com";
         String SWITCH_NUMBER = "088906011294";
-        String PIN2 = "142839";
+        String PIN2 = "111111";
     }
 
     public interface LaunchPage {

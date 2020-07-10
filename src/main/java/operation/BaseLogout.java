@@ -15,14 +15,6 @@ public class BaseLogout extends BaseTest {
     BaseLogin baseLogin = new BaseLogin();
     BaseHomepage baseHomepage = new BaseHomepage();
 
-    public void launchAppSwitch() throws MalformedURLException {
-        setupAppium();
-    }
-
-    public void clickButtonProfile() {
-        driver.findElement(By.id(ObjectElement.MenuPageObject.btnProfile)).click();
-    }
-
     public void clickButtonLogout() {
         MobileElement elementToClick = (MobileElement) driver
                 .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
@@ -40,7 +32,5 @@ public class BaseLogout extends BaseTest {
         baseHomepage.clickButtonProfile();
         clickButtonLogout();
         clickButtonConfirmLogout();
-        resetApp();
-        uninstallApp();
     }
 }

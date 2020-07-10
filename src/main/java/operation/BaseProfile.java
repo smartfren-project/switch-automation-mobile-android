@@ -12,10 +12,6 @@ public class BaseProfile extends BaseTest{
     BaseLogin baseLogin = new BaseLogin();
     BaseHomepage baseHomepage = new BaseHomepage();
 
-    public void launchAppSwitch() throws MalformedURLException {
-        setupAppium();
-    }
-
     public void clickButtonEditProfile() {
         driver.findElement(By.id(ObjectElement.ProfilePageObject.btnEdit)).click();
     }
