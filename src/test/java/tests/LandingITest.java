@@ -45,7 +45,7 @@ public class LandingITest extends TestSetup {
         baseLanding.testCheckHeaderFooterButton();
     }
 
-    @Test(priority = 14, description = "Switch_Land_005 - User able to SIGN UP using Unregistered Google Account")
+    @Test(priority = 5, description = "Switch_Land_005 - User able to SIGN UP using Unregistered Google Account")
     @Severity(SeverityLevel.NORMAL)
     @Description("Verify that User is able to Capture Google account in Sign Up flow.")
     @Story("Story Name : Check On Landing Page")
@@ -53,7 +53,7 @@ public class LandingITest extends TestSetup {
         baseLanding.testSignUpWithGoogle();
     }
 
-    @Test(priority = 15, description = "Switch_Land_006 - User able to SIGN UP using Unregistered Facebook Account")
+    @Test(priority = 6, description = "Switch_Land_006 - User able to SIGN UP using Unregistered Facebook Account")
     @Severity(SeverityLevel.NORMAL)
     @Description("Verify that User is able to Capture Facebook account in Sign Up flow.")
     @Story("Story Name : Check On Landing Page")

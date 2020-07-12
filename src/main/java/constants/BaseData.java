@@ -5,9 +5,14 @@ public class BaseData {
     public interface Login {
         String EMAIL_ID = "faizal.prakoso@smartfren.com";
         String PIN = "545454";
-        String INVALID_EMAIL_ID = "haris@smart.com";
+        String UNREGISTERED_EMAIL_ID = "haris@smart.com";
         String SWITCH_NUMBER = "088906011294";
+        String WRONG_NUMBER = "08881850440";
         String PIN2 = "111111";
+        String ALPHABET = "abcde";
+        String LESS_SWITCH_NUMBER = "12345678";
+        String LESS_EMAIL = "a@a.c";
+        String EMAIL_ID2 = "satriopanjiprakoso@gmail.com";
     }
 
     public interface LaunchPage {
@@ -29,6 +34,7 @@ public class BaseData {
         String VALIDATION_ALT_PHONE_2 = "8881850440";
         String VALIDATION_ALREADY_REGISTERED_TITLE_EN = "Email Registered";
         String VALIDATION_ALREADY_REGISTERED_DESC_EN = "You can log in to your switch account now!";
+        String VALIDATION_WRONG_SWITCH_NUMBER = "The number is incorrect, please enter your email or switch number";
     }
 
     public interface HomePage {

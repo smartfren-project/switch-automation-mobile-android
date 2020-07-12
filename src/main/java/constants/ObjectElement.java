@@ -61,6 +61,8 @@ public class ObjectElement extends BaseTest {
         String btnNotification = "com.smartfren.switchmobile:id/im_notification";
         String addPopUp = "com.smartfren.switchmobile:id/com_appboy_inappmessage_modal_imageview";
         String btnClosePopup = "com.smartfren.switchmobile:id/com_appboy_inappmessage_modal_close_button";
+        String popUpLocation = "com.smartfren.switchmobile:id/alertTitle";
+        String buttonConfirmPopup = "android:id/button1";
     }
 
     public interface ProfilePageObject {

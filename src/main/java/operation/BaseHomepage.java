@@ -2,6 +2,7 @@ package operation;
 
 import constants.ObjectElement;
 import org.openqa.selenium.By;
+import org.testng.Assert;
 
 public class BaseHomepage extends BaseTest {
 
@@ -27,16 +28,12 @@ public class BaseHomepage extends BaseTest {
         driver.findElement(By.id(ObjectElement.MenuPageObject.btnProfile)).click();
     }
 
-    public void checkUserName() {
-        driver.findElement(By.id(ObjectElement.MenuPageObject.txtUserProfile));
-    }
-
     public void clickButtonNotification() {
         driver.findElement(By.id(ObjectElement.MenuPageObject.btnNotification)).click();
     }
 
-    public void testUserCanMoveToMainMenuPage() throws InterruptedException {
-        baseLogin.testValidLoginEmail();
+    public void testUserCanMoveToMainMenuPage(String username, String pin) throws InterruptedException {
+        baseLogin.testValidLogin(username, pin);
         clickButtonDeals();
         Thread.sleep(2500);
         clickButtonQuest();

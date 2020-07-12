@@ -56,24 +56,24 @@ public class BaseProfile extends BaseTest{
         }
     }
 
-    public void testUpdateFullName() throws InterruptedException{
-        baseLogin.testValidLoginEmail();
+    public void testUpdateFullName(String username, String pin) throws InterruptedException{
+        baseLogin.testValidLogin(username, pin);
         baseHomepage.clickButtonProfile();
         clickButtonEditProfile();
         updateFullNameProfile();
         clickButtonSubmitEditProfile();
     }
 
-    public void testUpdateAlternatePhoneNumber() throws InterruptedException{
-        baseLogin.testValidLoginEmail();
+    public void testUpdateAlternatePhoneNumber(String username, String pin) throws InterruptedException{
+        baseLogin.testValidLogin(username, pin);
         baseHomepage.clickButtonProfile();
         clickButtonEditProfile();
         updateAlternatePhoneNumber();
         clickButtonSubmitEditProfile();
     }
 
-    public void testChangeLanguage() throws InterruptedException{
-        baseLogin.testValidLoginEmail();
+    public void testChangeLanguage(String username, String pin) throws InterruptedException{
+        baseLogin.testValidLogin(username, pin);
         baseHomepage.clickButtonProfile();
         clickButtonLanguage();
     }

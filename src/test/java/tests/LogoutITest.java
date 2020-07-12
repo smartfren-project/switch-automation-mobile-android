@@ -1,5 +1,6 @@
 package tests;
 
+import constants.BaseData;
 import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
@@ -13,11 +14,11 @@ public class LogoutITest extends TestSetup {
 
     BaseLogout baseLogout = new BaseLogout();
 
-    @Test(priority = 9, description = "Switch_Profile_001 - User able to LOGOUT and go back to PIN Page")
+    @Test(priority = 22, description = "Switch_Profile_001 - User able to LOGOUT and go back to PIN Page")
     @Severity(SeverityLevel.CRITICAL)
     @Description("Verify that user can success logout from profile menu.")
     @Story("Story Name : Check Credential")
     public void checkValidLogout() throws InterruptedException {
-        baseLogout.testValidLogout();
+        baseLogout.testValidLogout(BaseData.Login.EMAIL_ID, BaseData.Login.PIN);
     }
 }

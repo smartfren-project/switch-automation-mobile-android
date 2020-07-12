@@ -1,5 +1,6 @@
 package tests;
 
+import constants.BaseData;
 import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
@@ -13,27 +14,27 @@ public class ProfileITest extends TestSetup {
 
     BaseProfile baseProfile = new BaseProfile();
 
-    @Test(priority = 10, description = "Switch_Profile_001 - User able to EDIT FULL NAME")
+    @Test(priority = 19, description = "Switch_Profile_001 - User able to EDIT FULL NAME")
     @Severity(SeverityLevel.CRITICAL)
     @Description("Verify that user can success EDIT FULL NAME from Profile Menu.")
     @Story("Story Name : Check User Profile")
     public void checkChangeFullName() throws InterruptedException {
-        baseProfile.testUpdateFullName();
+        baseProfile.testUpdateFullName(BaseData.Login.EMAIL_ID, BaseData.Login.PIN);
     }
 
-    @Test(priority = 11, description = "Switch_Profile_002 - User able to EDIT ALT PHONE NUMBER")
+    @Test(priority = 20, description = "Switch_Profile_002 - User able to EDIT ALT PHONE NUMBER")
     @Severity(SeverityLevel.CRITICAL)
     @Description("Verify that user can success EDIT ALT PHONE NUMBER from Profile Menu.")
     @Story("Story Name : Check User Profile")
     public void checkChangeAlternatePhoneNumber() throws InterruptedException {
-        baseProfile.testUpdateAlternatePhoneNumber();
+        baseProfile.testUpdateAlternatePhoneNumber(BaseData.Login.EMAIL_ID, BaseData.Login.PIN);
     }
 
-    @Test(priority = 12, description = "Switch_Profile_003 - User able to CHANGE LANGUAGE")
+    @Test(priority = 21, description = "Switch_Profile_003 - User able to CHANGE LANGUAGE")
     @Severity(SeverityLevel.CRITICAL)
     @Description("Verify that user can success CHANGE LANGUAGE from Profile Menu.")
     @Story("Story Name : Check User Profile")
     public void checkChangeLanguage() throws InterruptedException {
-        baseProfile.testChangeLanguage();
+        baseProfile.testChangeLanguage(BaseData.Login.EMAIL_ID, BaseData.Login.PIN);
     }
 }

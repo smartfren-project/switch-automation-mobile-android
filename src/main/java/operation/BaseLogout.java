@@ -1,5 +1,6 @@
 package operation;
 
+import constants.BaseData;
 import constants.ObjectElement;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.PerformsTouchActions;
@@ -27,8 +28,8 @@ public class BaseLogout extends BaseTest {
         driver.findElement(By.id(ObjectElement.ProfilePageObject.btnConfirmLogout)).click();
     }
 
-    public void testValidLogout() throws InterruptedException {
-        baseLogin.testValidLoginEmail();
+    public void testValidLogout(String username, String pin) throws InterruptedException {
+        baseLogin.testValidLogin(username, pin);
         baseHomepage.clickButtonProfile();
         clickButtonLogout();
         clickButtonConfirmLogout();

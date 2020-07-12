@@ -50,11 +50,12 @@ public class BaseLogin extends BaseTest {
     }
 
     public void checkInvalidSwitchNumber() {
-
+        String validationTxt = driver.findElement(By.id(ObjectElement.LoginPageObject.txtErrorInputDesc)).getText();
+        Assert.assertEquals(validationTxt, BaseData.Validation.VALIDATION_WRONG_SWITCH_NUMBER);
     }
 
     public void checkDisabledButtonSubmit() {
-
+        Assert.assertFalse(driver.findElement(By.id(ObjectElement.LoginPageObject.btnSubmitLogin)).isEnabled());
     }
 
     public void clickButtonSignUp() {
@@ -62,37 +63,54 @@ public class BaseLogin extends BaseTest {
     }
 
     @Step("User Do Valid Login Using Email")
-    public void testValidLoginEmail() throws InterruptedException {
+    public void testValidLogin(String username, String pin) throws InterruptedException {
         baseLanding.clickButtonLogin();
         baseLanding.checkValidationWelcomeText();
-        inputUsername(BaseData.Login.EMAIL_ID);
+        inputUsername(username);
         clickButtonSubmitLogin();
-        inputPIN(BaseData.Login.PIN);
+        inputPIN(pin);
         Thread.sleep(1500);
         checkSuccessLogin();
         Thread.sleep(1500);
     }
 
-    @Step("User Do Valid Login Using Switch Number")
-    public void testValidLoginSwitchNumber() throws InterruptedException {
+    public void testInvalidLogin(String username) {
         baseLanding.clickButtonLogin();
         baseLanding.checkValidationWelcomeText();
-        inputUsername(BaseData.Login.SWITCH_NUMBER);
+        inputUsername(username);
+    }
+
+    @Step("User Do Invalid Login Using Wrong Username")
+    public void testInvalidWrongUsernameAndPin(String username, String pin) throws InterruptedException {
+        testInvalidLogin(username);
         clickButtonSubmitLogin();
-        inputPIN(BaseData.Login.PIN2);
         Thread.sleep(1500);
-        Assert.assertNotNull(driver.findElement(By.id(ObjectElement.MenuPageObject.btnProfile)));
+        inputPIN(pin);
         Thread.sleep(1500);
     }
 
-    @Step("User Do Invalid Login")
-    public void testInvalidEmailLogin() throws InterruptedException {
-        baseLanding.clickButtonLogin();
-        baseLanding.checkValidationWelcomeText();
-        inputUsername(BaseData.Login.INVALID_EMAIL_ID);
+    @Step("User Do Invalid Login Using Unregistered Email")
+    public void testInvalidUnregisteredEmailLogin(String username) throws InterruptedException {
+        testInvalidLogin(username);
         clickButtonSubmitLogin();
         Thread.sleep(1500);
         checkValidationUnregisteredEmail();
+        Thread.sleep(1500);
+    }
+
+    @Step("User Do Invalid Login Button Disabled")
+    public void testInvalidInputButtonDisabled(String username) throws InterruptedException {
+        testInvalidLogin(username);
+        checkDisabledButtonSubmit();
+        Thread.sleep(1500);
+    }
+
+    @Step("User Do Invalid Login Button Disabled")
+    public void testInvalidInputValidation(String username) throws InterruptedException {
+        testInvalidLogin(username);
+        clickButtonSubmitLogin();
+        Thread.sleep(1500);
+        checkInvalidSwitchNumber();
         Thread.sleep(1500);
     }
 
