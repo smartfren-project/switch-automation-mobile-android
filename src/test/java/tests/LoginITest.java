@@ -30,7 +30,7 @@ public class LoginITest extends TestSetup {
         baseLogin.testValidLogin(BaseData.Login.SWITCH_NUMBER, BaseData.Login.PIN2);
     }
 
-    @Test(priority = 15, description = "Switch_Login_003 - User unable to pass HOMEPAGE from INVALID LOGIN")
+    @Test(priority = 15, description = "Switch_Login_003 - User unable to pass HOMEPAGE from INVALID LOGIN UNREGISTERED EMAIL")
     @Severity(SeverityLevel.CRITICAL)
     @Description("Go To Homepage Unsuccessfully Using Invalid Email")
     @Story("Story Name : Check Credential")
@@ -86,7 +86,7 @@ public class LoginITest extends TestSetup {
         baseLogin.testInvalidWrongUsernameAndPin(BaseData.Login.EMAIL_ID, BaseData.Login.PIN2);
     }
 
-    @Test(priority = 8, description = "Switch_Login_009 - User unable to login using INVALID PIN SWITCH NUMBER")
+    @Test(priority = 8, description = "Switch_Login_010 - User unable to login using INVALID PIN SWITCH NUMBER")
     @Severity(SeverityLevel.CRITICAL)
     @Description("User Unable to Login Using WRONG PIN From SWITCH NUMBER")
     @Story("Story Name : Check Credential")
@@ -94,7 +94,7 @@ public class LoginITest extends TestSetup {
         baseLogin.testInvalidWrongUsernameAndPin(BaseData.Login.SWITCH_NUMBER, BaseData.Login.PIN);
     }
 
-    @Test(priority = 7, description = "Switch_Login_009 - User unable to login using INVALID PIN SWITCH NUMBER")
+    @Test(priority = 7, description = "Switch_Login_011 - User unable to login using INVALID SWITCH NUMBER")
     @Severity(SeverityLevel.CRITICAL)
     @Description("User Unable to Login Using WRONG PIN From SWITCH NUMBER")
     @Story("Story Name : Check Credential")

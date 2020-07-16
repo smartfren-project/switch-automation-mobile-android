@@ -13,13 +13,15 @@ import org.testng.annotations.*;
 public class ProfileITest extends TestSetup {
 
     BaseProfile baseProfile = new BaseProfile();
+    LoginITest login = new LoginITest();
 
     @Test(priority = 19, description = "Switch_Profile_001 - User able to EDIT FULL NAME")
     @Severity(SeverityLevel.CRITICAL)
     @Description("Verify that user can success EDIT FULL NAME from Profile Menu.")
     @Story("Story Name : Check User Profile")
     public void checkChangeFullName() throws InterruptedException {
-        baseProfile.testUpdateFullName(BaseData.Login.EMAIL_ID, BaseData.Login.PIN);
+        login.checkValidLoginUsingSwitchNumber();
+        baseProfile.testUpdateFullName();
     }
 
     @Test(priority = 20, description = "Switch_Profile_002 - User able to EDIT ALT PHONE NUMBER")
@@ -27,7 +29,8 @@ public class ProfileITest extends TestSetup {
     @Description("Verify that user can success EDIT ALT PHONE NUMBER from Profile Menu.")
     @Story("Story Name : Check User Profile")
     public void checkChangeAlternatePhoneNumber() throws InterruptedException {
-        baseProfile.testUpdateAlternatePhoneNumber(BaseData.Login.EMAIL_ID, BaseData.Login.PIN);
+        login.checkValidLoginUsingSwitchNumber();
+        baseProfile.testUpdateAlternatePhoneNumber();
     }
 
     @Test(priority = 21, description = "Switch_Profile_003 - User able to CHANGE LANGUAGE")
@@ -35,6 +38,16 @@ public class ProfileITest extends TestSetup {
     @Description("Verify that user can success CHANGE LANGUAGE from Profile Menu.")
     @Story("Story Name : Check User Profile")
     public void checkChangeLanguage() throws InterruptedException {
-        baseProfile.testChangeLanguage(BaseData.Login.EMAIL_ID, BaseData.Login.PIN);
+        login.checkValidLoginUsingEmail();
+        baseProfile.testChangeLanguage();
+    }
+
+    @Test(priority = 25, description = "Switch_Profile_003 - User unable to EMPTY FULLNAME")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that user can't EMPTY FULL NAME from Profile Menu.")
+    @Story("Story Name : Check User Profile")
+    public void checkEmptyFullName() throws InterruptedException {
+        login.checkValidLoginUsingSwitchNumber();
+        baseProfile.testInputFullName("");
     }
 }

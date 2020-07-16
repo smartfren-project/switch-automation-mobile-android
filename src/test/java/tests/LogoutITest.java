@@ -11,7 +11,7 @@ import org.testng.annotations.*;
 
 @Listeners({TestAllureListener.class})
 public class LogoutITest extends TestSetup {
-
+    LoginITest login = new LoginITest();
     BaseLogout baseLogout = new BaseLogout();
 
     @Test(priority = 22, description = "Switch_Profile_001 - User able to LOGOUT and go back to PIN Page")
@@ -19,6 +19,7 @@ public class LogoutITest extends TestSetup {
     @Description("Verify that user can success logout from profile menu.")
     @Story("Story Name : Check Credential")
     public void checkValidLogout() throws InterruptedException {
-        baseLogout.testValidLogout(BaseData.Login.EMAIL_ID, BaseData.Login.PIN);
+        login.checkValidLoginUsingSwitchNumber();
+        baseLogout.testValidLogout();
     }
 }

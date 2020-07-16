@@ -63,6 +63,41 @@ public class ObjectElement extends BaseTest {
         String btnClosePopup = "com.smartfren.switchmobile:id/com_appboy_inappmessage_modal_close_button";
         String popUpLocation = "com.smartfren.switchmobile:id/alertTitle";
         String buttonConfirmPopup = "android:id/button1";
+        String planBox = "com.smartfren.switchmobile:id/constraintLayout12";
+        String btnBuyProduct = "com.smartfren.switchmobile:id/buy";
+        String btnCloseGuestPp = "com.smartfren.switchmobile:id/img_close";
+    }
+
+    public interface DealsPageObject {
+        String btnPoint = "com.smartfren.switchmobile:id/btn_points";
+        String txtPointValue = "com.smartfren.switchmobile:id/points_value";
+        String btnRuby = "com.smartfren.switchmobile:id/btn_ruby";
+        String txtRubyValue = "com.smartfren.switchmobile:id/ruby_value";
+        String btnSeeAllSpecialDeals = "//android.widget.FrameLayout/" +
+                "androidx.recyclerview.widget.RecyclerView[0]" +
+                "android.widget.TextView" +
+                "[@resource-id='com.smartfren.switchmobile:id/txt_see_all']";
+    }
+
+    public interface HistoryPageObject {
+        String btnTabAll = "//androidx.appcompat.app.ActionBar$Tab[@index='0']";
+        String btnTabWaiting = "//androidx.appcompat.app.ActionBar$Tab[@index='1']";
+        String btnTabProcessTrx = "//androidx.appcompat.app.ActionBar$Tab[@index='2']";
+        String btnFinishTrx = "//androidx.appcompat.app.ActionBar$Tab[@index='3']";
+        String textHistoryMenuTitle = "com.smartfren.switchmobile:id/history";
+    }
+
+    public interface ProductPageObject {
+        String txtProductTitle = "com.smartfren.switchmobile:id/textView83";
+        String btnAddToCart = "com.smartfren.switchmobile:id/buy_now";
+        String txtCheckPriceDesc = "com.smartfren.switchmobile:id/textView105";
+        String btnDecrease = "com.smartfren.switchmobile:id/decrease";
+        String btnIncrease = "com.smartfren.switchmobile:id/increase";
+        String productCardOne = "//android.widget.FrameLayout[@index='0']";
+        String productCardTwo = "//android.widget.FrameLayout[@index='1']";
+        String productCardThree = "//android.widget.FrameLayout[@index='2']";
+        String productCardFour = "//android.widget.FrameLayout[@index='4']";
+        String btnConfirmBuy = "com.smartfren.switchmobile:id/button6";
     }
 
     public interface ProfilePageObject {

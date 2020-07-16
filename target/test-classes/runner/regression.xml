@@ -13,6 +13,9 @@
             <class name="tests.LoginITest" />
             <class name="tests.LandingITest" />
             <class name="tests.HomepageITest" />
+            <class name="tests.PurchaseITest" />
+            <class name="tests.DealsITest" />
+            <class name="tests.HistoryITest" />
         </classes>
     </test>
 </suite>

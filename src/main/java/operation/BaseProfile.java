@@ -4,6 +4,7 @@ import constants.BaseData;
 import constants.ObjectElement;
 import io.appium.java_client.MobileElement;
 import org.openqa.selenium.By;
+import org.testng.Assert;
 
 import java.net.MalformedURLException;
 
@@ -28,19 +29,26 @@ public class BaseProfile extends BaseTest{
     public void updateAlternatePhoneNumber() {
         String AlternatePhone = driver.findElement(By.id(ObjectElement.EditProfileObject.inputAlternatePhoneNumber)).getText();
         if (AlternatePhone.equals(BaseData.Validation.VALIDATION_ALT_PHONE_1)) {
-            driver.findElement(By.id(ObjectElement.EditProfileObject.inputAlternatePhoneNumber)).sendKeys(BaseData.Validation.VALIDATION_ALT_PHONE_2);
+            driver.findElement(By.id(ObjectElement.EditProfileObject.inputAlternatePhoneNumber)).click();
+            driver.findElement(By.id(ObjectElement.EditProfileObject.inputAlternatePhoneNumber)).sendKeys("881850440");
         } else if (AlternatePhone.equals(BaseData.Validation.VALIDATION_ALT_PHONE_2)){
-            driver.findElement(By.id(ObjectElement.EditProfileObject.inputAlternatePhoneNumber)).sendKeys(BaseData.Validation.VALIDATION_ALT_PHONE_1);
-        } else {
-            driver.findElement(By.id(ObjectElement.EditProfileObject.inputAlternatePhoneNumber)).sendKeys(BaseData.Validation.VALIDATION_ALT_PHONE_2);
+            driver.findElement(By.id(ObjectElement.EditProfileObject.inputAlternatePhoneNumber)).click();
+            driver.findElement(By.id(ObjectElement.EditProfileObject.inputAlternatePhoneNumber)).sendKeys("8194120194");
+        } else if (AlternatePhone.equals("+62")){
+            driver.findElement(By.id(ObjectElement.EditProfileObject.inputAlternatePhoneNumber)).click();
+            driver.findElement(By.id(ObjectElement.EditProfileObject.inputAlternatePhoneNumber)).sendKeys("8194120194");
         }
+    }
+
+    public void inputFullName(String fullName) {
+        driver.findElement(By.id(ObjectElement.EditProfileObject.inputFullName)).sendKeys(fullName);
     }
 
     public void clickButtonSubmitEditProfile() {
         driver.findElement(By.id(ObjectElement.EditProfileObject.btnSubmitChangeProfile)).click();
     }
 
-    private void clickButtonLanguage() {
+    public void clickButtonLanguage() throws InterruptedException{
         MobileElement elementToClick = (MobileElement) driver
                 .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
                         + ".resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView("
@@ -49,32 +57,39 @@ public class BaseProfile extends BaseTest{
         elementToClick.click();
         if (txtLangNow.equals("English")) {
             driver.findElement(By.id(ObjectElement.ProfilePageObject.btnBahasa)).click();
+            Assert.assertEquals(txtLangNow, "English");
         } else if (txtLangNow.equals("Bahasa")) {
             driver.findElement(By.id(ObjectElement.ProfilePageObject.btnEnglish)).click();
+            Assert.assertEquals(txtLangNow, "Bahasa");
         } else {
             driver.findElement(By.id(ObjectElement.ProfilePageObject.btnCancelChangeLang)).click();
         }
+        Thread.sleep(4000);
     }
 
-    public void testUpdateFullName(String username, String pin) throws InterruptedException{
-        baseLogin.testValidLogin(username, pin);
+    public void testUpdateFullName() {
         baseHomepage.clickButtonProfile();
         clickButtonEditProfile();
         updateFullNameProfile();
         clickButtonSubmitEditProfile();
     }
 
-    public void testUpdateAlternatePhoneNumber(String username, String pin) throws InterruptedException{
-        baseLogin.testValidLogin(username, pin);
+    public void testUpdateAlternatePhoneNumber() {
         baseHomepage.clickButtonProfile();
         clickButtonEditProfile();
         updateAlternatePhoneNumber();
         clickButtonSubmitEditProfile();
     }
 
-    public void testChangeLanguage(String username, String pin) throws InterruptedException{
-        baseLogin.testValidLogin(username, pin);
+    public void testChangeLanguage() throws InterruptedException{
         baseHomepage.clickButtonProfile();
         clickButtonLanguage();
+    }
+
+    public void testInputFullName(String fullName) {
+        baseHomepage.clickButtonProfile();
+        clickButtonEditProfile();
+        inputFullName(fullName);
+        clickButtonSubmitEditProfile();
     }
 }

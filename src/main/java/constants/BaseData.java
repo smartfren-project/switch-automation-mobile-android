@@ -30,8 +30,8 @@ public class BaseData {
         String VALIDATION_REGISTER_PAGE = "Sign up";
         String VALIDATION_USERNAME_1 = "Faizal Akbar Prakoso";
         String VALIDATION_USERNAME_2 = "Satrio Panji Prakoso";
-        String VALIDATION_ALT_PHONE_1 = "8194120194";
-        String VALIDATION_ALT_PHONE_2 = "8881850440";
+        String VALIDATION_ALT_PHONE_1 = "+628194120194";
+        String VALIDATION_ALT_PHONE_2 = "+628881850440";
         String VALIDATION_ALREADY_REGISTERED_TITLE_EN = "Email Registered";
         String VALIDATION_ALREADY_REGISTERED_DESC_EN = "You can log in to your switch account now!";
         String VALIDATION_WRONG_SWITCH_NUMBER = "The number is incorrect, please enter your email or switch number";
@@ -39,5 +39,9 @@ public class BaseData {
 
     public interface HomePage {
         String GUEST_NAME = "Hi, Guest";
+    }
+
+    public interface TestDescription {
+        String USER_ABLE_TO = "";
     }
 }

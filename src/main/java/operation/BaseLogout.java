@@ -13,7 +13,6 @@ import java.net.MalformedURLException;
 
 public class BaseLogout extends BaseTest {
 
-    BaseLogin baseLogin = new BaseLogin();
     BaseHomepage baseHomepage = new BaseHomepage();
 
     public void clickButtonLogout() {
@@ -28,8 +27,7 @@ public class BaseLogout extends BaseTest {
         driver.findElement(By.id(ObjectElement.ProfilePageObject.btnConfirmLogout)).click();
     }
 
-    public void testValidLogout(String username, String pin) throws InterruptedException {
-        baseLogin.testValidLogin(username, pin);
+    public void testValidLogout() throws InterruptedException {
         baseHomepage.clickButtonProfile();
         clickButtonLogout();
         clickButtonConfirmLogout();

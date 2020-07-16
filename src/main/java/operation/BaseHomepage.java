@@ -6,8 +6,6 @@ import org.testng.Assert;
 
 public class BaseHomepage extends BaseTest {
 
-    BaseLogin baseLogin = new BaseLogin();
-
     public void clickButtonHome() {
         driver.findElement(By.id(ObjectElement.MenuPageObject.btnHome)).click();
     }
@@ -32,8 +30,15 @@ public class BaseHomepage extends BaseTest {
         driver.findElement(By.id(ObjectElement.MenuPageObject.btnNotification)).click();
     }
 
-    public void testUserCanMoveToMainMenuPage(String username, String pin) throws InterruptedException {
-        baseLogin.testValidLogin(username, pin);
+    public void clickButtonBuyProduct() {
+        driver.findElement(By.id(ObjectElement.MenuPageObject.btnBuyProduct)).click();
+    }
+
+    public void clickButtonCloseGuestPp() {
+        driver.findElement(By.id(ObjectElement.MenuPageObject.btnCloseGuestPp)).click();
+    }
+
+    public void testUserCanMoveToMainMenuPage() throws InterruptedException {
         clickButtonDeals();
         Thread.sleep(2500);
         clickButtonQuest();
@@ -47,5 +52,23 @@ public class BaseHomepage extends BaseTest {
         clickButtonNotification();
     }
 
+    public void testUserUnableMoveToAllMenuExceptMainMenu() throws InterruptedException{
+        clickButtonDeals();
+        clickButtonCloseGuestPp();
+        Thread.sleep(2500);
+        clickButtonQuest();
+        clickButtonCloseGuestPp();
+        Thread.sleep(2500);
+        clickButtonHistory();
+        clickButtonCloseGuestPp();
+        Thread.sleep(2500);
+        clickButtonProfile();
+        clickButtonCloseGuestPp();
+        Thread.sleep(2500);
+        clickButtonHome();
+        Thread.sleep(2500);
+        clickButtonNotification();
+        clickButtonCloseGuestPp();
+    }
 
 }
