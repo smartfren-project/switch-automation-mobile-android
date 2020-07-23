@@ -16,7 +16,7 @@ public class BaseHistory extends BaseTest {
         MobileElement elementToClick = (MobileElement) driver
                 .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
                         + ".resourceId(\"com.smartfren.switchmobile:id/tab_layout\")).scrollIntoView("
-                        + "new UiSelector().text(\"Semua\"));");
+                        + "new UiSelector().text(\"All\"));");
         elementToClick.click();
     }
 
@@ -24,7 +24,7 @@ public class BaseHistory extends BaseTest {
         MobileElement elementToClick = (MobileElement) driver
                 .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
                         + ".resourceId(\"com.smartfren.switchmobile:id/tab_layout\")).scrollIntoView("
-                        + "new UiSelector().text(\"Menunggu\"));");
+                        + "new UiSelector().text(\"Waiting\"));");
         elementToClick.click();
     }
 
@@ -32,7 +32,7 @@ public class BaseHistory extends BaseTest {
         MobileElement elementToClick = (MobileElement) driver
                 .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
                         + ".resourceId(\"com.smartfren.switchmobile:id/tab_layout\")).scrollIntoView("
-                        + "new UiSelector().text(\"Pesanan Diproses\"));");
+                        + "new UiSelector().text(\"In Process\"));");
         elementToClick.click();
     }
 
@@ -40,7 +40,7 @@ public class BaseHistory extends BaseTest {
         MobileElement elementToClick = (MobileElement) driver
                 .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
                         + ".resourceId(\"com.smartfren.switchmobile:id/tab_layout\")).scrollIntoView("
-                        + "new UiSelector().text(\"Pesanan Selesai\"));");
+                        + "new UiSelector().text(\"Completed\"));");
         elementToClick.click();
     }
 

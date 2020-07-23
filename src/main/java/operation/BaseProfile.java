@@ -57,13 +57,24 @@ public class BaseProfile extends BaseTest{
         elementToClick.click();
         if (txtLangNow.equals("English")) {
             driver.findElement(By.id(ObjectElement.ProfilePageObject.btnBahasa)).click();
-            Assert.assertEquals(txtLangNow, "English");
+            Assert.assertEquals(txtLangNow, "Bahasa");
         } else if (txtLangNow.equals("Bahasa")) {
             driver.findElement(By.id(ObjectElement.ProfilePageObject.btnEnglish)).click();
-            Assert.assertEquals(txtLangNow, "Bahasa");
+            Assert.assertEquals(txtLangNow, "English");
         } else {
             driver.findElement(By.id(ObjectElement.ProfilePageObject.btnCancelChangeLang)).click();
         }
+        Thread.sleep(4000);
+    }
+
+    public void clickButtonBahasa() throws InterruptedException {
+        MobileElement elementToClick = (MobileElement) driver
+                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
+                        + ".resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView("
+                        + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/language\"));");
+        String txtLangNow = driver.findElement(By.id(ObjectElement.ProfilePageObject.btnLanguage)).getText();
+        elementToClick.click();
+        driver.findElement(By.id(ObjectElement.ProfilePageObject.btnBahasa)).click();
         Thread.sleep(4000);
     }
 
@@ -83,7 +94,7 @@ public class BaseProfile extends BaseTest{
 
     public void testChangeLanguage() throws InterruptedException{
         baseHomepage.clickButtonProfile();
-        clickButtonLanguage();
+        clickButtonBahasa();
     }
 
     public void testInputFullName(String fullName) {

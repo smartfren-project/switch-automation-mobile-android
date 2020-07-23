@@ -44,4 +44,19 @@ public class BaseData {
     public interface TestDescription {
         String USER_ABLE_TO = "";
     }
+
+    public interface ApplicationInformation {
+        String UDID_NAME = "emulator-5554";
+        String ANDROID_PLATFORM_NAME = "ANDROID";
+        String ANDROID_PLATFORM_VERSION = "8.1.0";
+        String ANDROID_APPLICATION_PACKAGE = "com.smartfren.switchmobile";
+        String ANDROID_APPLICATION_ACTIVITY = "com.smartfren.switchmobile.views.activities.SplashScreenActivity";
+    }
+
+    public interface PCloudInformation {
+        String USERNAME = "pramoda.kumar@smartfren.com";
+        String API_KEY = "ybrf4d2k3jv496f5x53w93wc";
+        String APL_NAME = "switch.apk";
+        String DEVICE_NAME = "SAMSUNG_GalaxyS9_Android_10.0.0";
+    }
 }

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="pCloud-Switch-Regression" configfailurepolicy="continue" parallel="methods" >
+    <listeners>
+        <listener class-name="listeners.TestAllureListener" />
+    </listeners>
+    <test name="Switch Automation Regression" parallel="methods">
+<!--        <parameter name="deviceName" value="Samsung" />-->
+        <classes>
+            <class name="tests.TestSetup" />
+            <class name="tests.ProfileITest" />
+            <class name="tests.LogoutITest" />
+            <class name="tests.LoginITest" />
+            <class name="tests.LandingITest" />
+            <class name="tests.HomepageITest" />
+            <class name="tests.PurchaseITest" />
+            <class name="tests.DealsITest" />
+            <class name="tests.HistoryITest" />
+        </classes>
+    </test>
+</suite>

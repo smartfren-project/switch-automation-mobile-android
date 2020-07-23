@@ -2,9 +2,13 @@ package operation;
 
 import constants.BaseData;
 import constants.ObjectElement;
+import io.appium.java_client.MobileElement;
+import io.appium.java_client.pagefactory.AndroidFindBy;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 import io.qameta.allure.*;
 
@@ -78,6 +82,10 @@ public class BaseLanding extends BaseTest {
         driver.findElement(By.id(ObjectElement.LoginPageObject.btnSubmitLogin)).click();
     }
 
+    public void clickButtonGoogleAccount() {
+        driver.findElement(By.id(ObjectElement.LoginPageObject.btnGoogleAccount)).click();
+    }
+
     @Step("Click Button Login")
     public void testGoToLoginPage() throws InterruptedException {
         clickButtonLogin();
@@ -125,6 +133,7 @@ public class BaseLanding extends BaseTest {
         clickButtonOtherMethod();
         clickButtonGoogle();
         Thread.sleep(3000);
+        clickButtonGoogleAccount();
     }
 
     public void testSignUpWithFacebook() throws InterruptedException{

@@ -34,6 +34,7 @@ public class ObjectElement extends BaseTest {
         String btnSignUp2 = "com.smartfren.switchmobile:id/btn_signUp";
         String txtLoginTitle = "com.smartfren.switchmobile:id/signup";
         String txtErrorInputDesc = "com.smartfren.switchmobile:id/validation_txt";
+        String btnGoogleAccount = "com.google.android.gms:id/container";
     }
 
     public interface SignUpPageObject {

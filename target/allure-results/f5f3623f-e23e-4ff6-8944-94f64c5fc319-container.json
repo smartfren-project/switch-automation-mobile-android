@@ -1,0 +1,1 @@
+{"uuid":"f5f3623f-e23e-4ff6-8944-94f64c5fc319","name":"pCloud-Switch-Regression","children":["f17ddb0c-3bd6-4c5e-9fba-6548a937e75e"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1595207222181,"stop":1595207284116}],"afters":[],"links":[],"start":1595207222157,"stop":1595208662281}

@@ -1,6 +1,7 @@
 package operation;
 
 import constants.ObjectElement;
+import io.appium.java_client.pagefactory.AndroidFindBy;
 import org.openqa.selenium.By;
 
 public class BaseDeals extends BaseTest {
