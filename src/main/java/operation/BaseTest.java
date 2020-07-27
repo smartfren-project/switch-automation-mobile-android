@@ -31,7 +31,7 @@ public class BaseTest {
         url = new URL(URL_P_CLOUD);
 
         String apk_Path = System.getProperty("user.dir")
-                + "/src/test/resources/app/switch.apk";
+                + "/src/test/resources/app/com.smartfren.switchmobile.apk";
 
         System.out.println("instance " + this.getClass().getSimpleName());
 
@@ -41,7 +41,7 @@ public class BaseTest {
         capabilities.setCapability("pCloudy_DurationInMinutes", 30);
         capabilities.setCapability("newCommandTimeout", 600);
         capabilities.setCapability("launchTimeout", 90000);
-        capabilities.setCapability("pCloudy_DeviceFullName", "SAMSUNG_GalaxyS8_Android_8.0.0");
+        capabilities.setCapability("pCloudy_DeviceFullName", "SAMSUNG_GalaxyJ8_Android_8.0.0_29e45");
         capabilities.setCapability("platformVersion", "8.0.0");
         capabilities.setCapability("platformName", "Android");
         capabilities.setCapability("automationName", "uiautomator2");
@@ -50,14 +50,6 @@ public class BaseTest {
         capabilities.setCapability("appActivity", "com.smartfren.switchmobile.views.activities.SplashScreenActivity");
         capabilities.setCapability("pCloudy_WildNet", "false");
         capabilities.setCapability("autoGrantPermissions", true);
-//        capabilities.setCapability(MobileCapabilityType.UDID, BaseData.ApplicationInformation.UDID_NAME);
-//        capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, BaseData.ApplicationInformation.ANDROID_PLATFORM_NAME);
-//        capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, BaseData.ApplicationInformation.ANDROID_PLATFORM_VERSION);
-//        capabilities.setCapability(AndroidCapabilityType.APP_PACKAGE, BaseData.ApplicationInformation.ANDROID_APPLICATION_PACKAGE);
-//        capabilities.setCapability(AndroidCapabilityType.APP_ACTIVITY, BaseData.ApplicationInformation.ANDROID_APPLICATION_ACTIVITY);
-//        capabilities.setCapability(MobileCapabilityType.NO_RESET, "true");
-//        capabilities.setCapability(AndroidCapabilityType.AUTO_GRANT_PERMISSION, "true");
-//        capabilities.setCapability(MobileCapabilityType.APP, apk_Path);
 
 
         driver = new AndroidDriver<MobileElement>(url, capabilities);

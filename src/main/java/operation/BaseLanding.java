@@ -133,7 +133,7 @@ public class BaseLanding extends BaseTest {
         clickButtonOtherMethod();
         clickButtonGoogle();
         Thread.sleep(3000);
-        clickButtonGoogleAccount();
+//        clickButtonGoogleAccount();
     }
 
     public void testSignUpWithFacebook() throws InterruptedException{

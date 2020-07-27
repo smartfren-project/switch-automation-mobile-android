@@ -1,5 +1,9 @@
+tests/TestSetup.class
+tests/DealsITest.class
 tests/LandingITest.class
-tests/LoginITest.class
+tests/PurchaseITest.class
 tests/LogoutITest.class
-tests/HomepageITest.class
 tests/ProfileITest.class
+tests/HistoryITest.class
+tests/LoginITest.class
+tests/HomepageITest.class
