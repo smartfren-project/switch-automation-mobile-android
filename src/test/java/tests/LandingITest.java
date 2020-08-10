@@ -1,63 +1,64 @@
 package tests;
 
-import listeners.TestAllureListener;
-import operation.BaseLanding;
 import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
-import org.testng.annotations.*;
+import listeners.TestAllureListener;
+import org.testng.annotations.Listeners;
+import org.testng.annotations.Test;
+import pages.LandingPages;
 
 @Listeners({TestAllureListener.class})
 public class LandingITest extends TestSetup {
 
-    BaseLanding baseLanding = new BaseLanding();
+    LandingPages landingPages = new LandingPages();
 
-    @Test(priority = 1, description = "Switch_Land_001 - User able to go to Login/SignUp")
+    @Test(priority = 201, description = "Switch_Land_001 - User able to go to Login/SignUp")
     @Severity(SeverityLevel.NORMAL)
     @Description("Verify that User is navigating to Sign Up Page on Clicking on Sign Up Button in any storyboard.")
     @Story("Story Name : Check On Landing Page")
     public void checkGoToSignUpPage() throws InterruptedException {
-        baseLanding.testGoToSignUpPage();
+        landingPages.testGoToSignUpPage();
     }
 
-    @Test(priority = 2, description = "Switch_Land_002 - User able to go to LOGIN PAGE")
+    @Test(priority = 202, description = "Switch_Land_002 - User able to go to LOGIN PAGE")
     @Severity(SeverityLevel.NORMAL)
     @Description("Verify that User is navigating to Login Page on Clicking on Login Button in any storyboard.")
     @Story("Story Name : Check On Landing Page")
     public void checkGoToLoginPage() throws InterruptedException {
-        baseLanding.testGoToLoginPage();
+        landingPages.testGoToLoginPage();
     }
 
-    @Test(priority = 3, description = "Switch_Land_003 - User able to login as GUEST")
+    @Test(priority = 203, description = "Switch_Land_003 - User able to login as GUEST")
     @Severity(SeverityLevel.NORMAL)
     @Description("Verify that User is navigating to GuestPage on Clicking on Skip Button in any storyboard.")
     @Story("Story Name : Check On Landing Page")
     public void checkLoginAsGuest() throws InterruptedException {
-        baseLanding.testLoginAsGuest();
+        landingPages.testLoginAsGuest();
     }
 
-    @Test(priority = 4, description = "Switch_Land_004 - User able to go to any page")
+    @Test(priority = 204, description = "Switch_Land_004 - User able to go to any page")
     @Severity(SeverityLevel.NORMAL)
     @Description("Verify that User is able to Navigate to Sign Up/Login page simultneously.")
     @Story("Story Name : Check On Landing Page")
     public void checkMoveToPageFrequently() throws InterruptedException {
-        baseLanding.testCheckHeaderFooterButton();
+        landingPages.testCheckHeaderFooterButton();
     }
 
-    @Test(priority = 5, description = "Switch_Land_005 - User able to SIGN UP using Unregistered Google Account")
+    @Test(priority = 205, description = "Switch_Land_005 - User able to SIGN UP using Unregistered Google Account")
     @Severity(SeverityLevel.NORMAL)
     @Description("Verify that User is able to Capture Google account in Sign Up flow.")
     @Story("Story Name : Check On Landing Page")
     public void checkSignUpWithUnregisteredGoogleAccount() throws InterruptedException {
-        baseLanding.testSignUpWithGoogle();
+        landingPages.testSignUpWithGoogle();
     }
 
-    @Test(priority = 6, description = "Switch_Land_006 - User able to SIGN UP using Unregistered Facebook Account")
+    @Test(priority = 206, description = "Switch_Land_006 - User able to SIGN UP using Unregistered Facebook Account")
     @Severity(SeverityLevel.NORMAL)
     @Description("Verify that User is able to Capture Facebook account in Sign Up flow.")
     @Story("Story Name : Check On Landing Page")
     public void checkSignUpWithUnregisteredFacebookAccount() throws InterruptedException {
-        baseLanding.testSignUpWithFacebook();
+        landingPages.testSignUpWithFacebook();
     }
 }

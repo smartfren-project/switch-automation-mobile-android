@@ -5,7 +5,7 @@
         <listener class-name="listeners.TestAllureListener" />
     </listeners>
     <test name="Switch Automation Regression" parallel="methods">
-<!--        <parameter name="deviceName" value="Samsung" />-->
+        <parameter name="deviceName" value="Samsung" />
         <classes>
             <class name="tests.TestSetup" />
             <class name="tests.ProfileITest" />

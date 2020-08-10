@@ -127,6 +127,11 @@
             <artifactId>slf4j-simple</artifactId>
             <version>1.7.21</version>
         </dependency>
+        <dependency>
+            <groupId>pCloudy-java-connector</groupId>
+            <artifactId>pCloudy-java-connector</artifactId>
+            <version>11.0.6</version>
+        </dependency>
     </dependencies>
 
     <properties>

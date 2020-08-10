@@ -1,6 +1,7 @@
 package operation;
 
 import constants.ObjectElement;
+import io.appium.java_client.MobileElement;
 import org.openqa.selenium.By;
 
 public class BasePurchase extends BaseTest {
@@ -30,52 +31,83 @@ public class BasePurchase extends BaseTest {
         }
     }
 
-    public void testAddToCartPromoSuperBundle(String productTitle) throws InterruptedException {
-        baseHomepage.clickButtonBuyProduct();
-        Thread.sleep(2000);
-        baseProduct.clickDetailPromoSuperBundle();
-        baseProduct.checkProductTitle(productTitle);
-        clickButtonAddToCart();
-        clickButtonConfirmBuy();
+    public void clickButtonOrderSIMCard() {
+        driver.findElement(By.id(""));
     }
 
-    public void testAddToCartPromoSuperBundleMax(String productTitle, int increase) throws InterruptedException {
-        baseHomepage.clickButtonBuyProduct();
-        Thread.sleep(2000);
-        baseProduct.clickDetailPromoSuperBundle();
-        baseProduct.checkProductTitle(productTitle);
-        clickButtonIncreaseCountProduct(increase);
-        clickButtonAddToCart();
-        clickButtonConfirmBuy();
+    public void clickButtonChoosePayment() {
+        driver.findElement(By.id(ObjectElement.ProductPageObject.btnChoosePayment)).click();
     }
 
-    public void testAddToCartPromoSuperBundleMin(String productTitle, int increase, int decrease) throws InterruptedException {
-        baseHomepage.clickButtonBuyProduct();
-        Thread.sleep(2000);
-        baseProduct.clickDetailPromoSuperBundle();
-        baseProduct.checkProductTitle(productTitle);
-        clickButtonIncreaseCountProduct(increase);
-        Thread.sleep(2000);
-        clickButtonDecreaseCountProduct(decrease);
-        clickButtonAddToCart();
-        clickButtonConfirmBuy();
+    public void clickButtonChooseGoPay() {
+        MobileElement elementToClick = (MobileElement) driver
+                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
+                        + ".resourceId(\"com.smartfren.switchmobile:id/recycler_e_wallet\")).scrollIntoView("
+                        + "new UiSelector().text(\"GoPay\"));");
+        String txtLangNow = driver.findElement(By.id(ObjectElement.ProfilePageObject.btnLanguage)).getText();
+        elementToClick.click();
     }
 
-    public void testAddToCartPromoPowerBundle(String productTitle) throws InterruptedException {
-        baseHomepage.clickButtonBuyProduct();
-        baseProduct.clickDetailPromoPowerBundle();
-        baseProduct.checkProductTitle(productTitle);
-        Thread.sleep(3000);
-        clickButtonAddToCart();
-        clickButtonConfirmBuy();
+    public void clickButtonChooseDana() {
+        MobileElement elementToClick = (MobileElement) driver
+                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
+                        + ".resourceId(\"com.smartfren.switchmobile:id/recycler_e_wallet\")).scrollIntoView("
+                        + "new UiSelector().text(\"DANA\"));");
+        String txtLangNow = driver.findElement(By.id(ObjectElement.ProfilePageObject.btnLanguage)).getText();
+        elementToClick.click();
     }
 
-    public void testAddToCartPromoStandardBundle(String productTitle) throws InterruptedException {
-        baseHomepage.clickButtonBuyProduct();
-        baseProduct.clickDetailPromoStandardBundle();
-        baseProduct.checkProductTitle(productTitle);
-        Thread.sleep(3000);
-        clickButtonAddToCart();
-        clickButtonConfirmBuy();
+    public void clickButtonChooseOVO() {
+        MobileElement elementToClick = (MobileElement) driver
+                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
+                        + ".resourceId(\"com.smartfren.switchmobile:id/recycler_e_wallet\")).scrollIntoView("
+                        + "new UiSelector().text(\"OVO\"));");
+        String txtLangNow = driver.findElement(By.id(ObjectElement.ProfilePageObject.btnLanguage)).getText();
+        elementToClick.click();
+    }
+
+    public void clickButtonChooseCC() {
+        MobileElement elementToClick = (MobileElement) driver
+                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
+                        + ".resourceId(\"com.smartfren.switchmobile:id/recycler_e_wallet\")).scrollIntoView("
+                        + "new UiSelector().text(\"Visa/Master/JCB\"));");
+        String txtLangNow = driver.findElement(By.id(ObjectElement.ProfilePageObject.btnLanguage)).getText();
+        elementToClick.click();
+    }
+
+    public void clickButtonChoosePermataVA() {
+        MobileElement elementToClick = (MobileElement) driver
+                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
+                        + ".resourceId(\"com.smartfren.switchmobile:id/recycler_e_wallet\")).scrollIntoView("
+                        + "new UiSelector().text(\"Permata VA\"));");
+        String txtLangNow = driver.findElement(By.id(ObjectElement.ProfilePageObject.btnLanguage)).getText();
+        elementToClick.click();
+    }
+
+    public void clickButtonChooseDanamonVA() {
+        MobileElement elementToClick = (MobileElement) driver
+                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
+                        + ".resourceId(\"com.smartfren.switchmobile:id/recycler_e_wallet\")).scrollIntoView("
+                        + "new UiSelector().text(\"Danamon VA\"));");
+        String txtLangNow = driver.findElement(By.id(ObjectElement.ProfilePageObject.btnLanguage)).getText();
+        elementToClick.click();
+    }
+
+    public void clickButtonChooseMandiriVA() {
+        MobileElement elementToClick = (MobileElement) driver
+                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
+                        + ".resourceId(\"com.smartfren.switchmobile:id/recycler_e_wallet\")).scrollIntoView("
+                        + "new UiSelector().text(\"Mandiri VA\"));");
+        String txtLangNow = driver.findElement(By.id(ObjectElement.ProfilePageObject.btnLanguage)).getText();
+        elementToClick.click();
+    }
+
+    public void clickButtonChooseAlfamart() {
+        MobileElement elementToClick = (MobileElement) driver
+                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
+                        + ".resourceId(\"com.smartfren.switchmobile:id/recycler_e_wallet\")).scrollIntoView("
+                        + "new UiSelector().text(\"Alfamart\"));");
+        String txtLangNow = driver.findElement(By.id(ObjectElement.ProfilePageObject.btnLanguage)).getText();
+        elementToClick.click();
     }
 }

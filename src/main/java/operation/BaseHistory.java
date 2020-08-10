@@ -43,28 +43,4 @@ public class BaseHistory extends BaseTest {
                         + "new UiSelector().text(\"Completed\"));");
         elementToClick.click();
     }
-
-    public void testCheckHistoryAllTrx() throws InterruptedException {
-        baseHomepage.clickButtonHistory();
-        Thread.sleep(3000);
-        clickButtonAll();
-    }
-
-    public void testCheckHistoryWaitingTrx() throws InterruptedException {
-        baseHomepage.clickButtonHistory();
-        Thread.sleep(3000);
-        clickButtonWaiting();
-    }
-
-    public void testCheckHistoryProcessedTrx() throws InterruptedException {
-        baseHomepage.clickButtonHistory();
-        Thread.sleep(3000);
-        clickButtonProcess();
-    }
-
-    public void testCheckHistoryFinishTrx() throws InterruptedException {
-        baseHomepage.clickButtonHistory();
-        Thread.sleep(3000);
-        clickButtonFinishTrx();
-    }
 }

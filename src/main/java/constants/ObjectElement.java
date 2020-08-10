@@ -67,6 +67,7 @@ public class ObjectElement extends BaseTest {
         String planBox = "com.smartfren.switchmobile:id/constraintLayout12";
         String btnBuyProduct = "com.smartfren.switchmobile:id/buy";
         String btnCloseGuestPp = "com.smartfren.switchmobile:id/img_close";
+        String btnLetsSwitch = "com.smartfren.switchmobile:id/button_activate";
     }
 
     public interface DealsPageObject {
@@ -99,6 +100,7 @@ public class ObjectElement extends BaseTest {
         String productCardThree = "//android.widget.FrameLayout[@index='2']";
         String productCardFour = "//android.widget.FrameLayout[@index='4']";
         String btnConfirmBuy = "com.smartfren.switchmobile:id/button6";
+        String btnChoosePayment = "com.smartfren.switchmobile:id/button4";
     }
 
     public interface ProfilePageObject {
@@ -113,11 +115,53 @@ public class ObjectElement extends BaseTest {
         String btnBahasa = "com.smartfren.switchmobile:id/indonesia";
         String btnEnglish = "com.smartfren.switchmobile:id/english";
         String btnCancelChangeLang = "com.smartfren.switchmobile:id/cancel";
+        String btnSeeAllFavorite = "com.smartfren.switchmobile:id/textView37";
+        String scrollView = "com.smartfren.switchmobile:id/scrollView2";
     }
 
     public interface EditProfileObject {
         String inputFullName = "com.smartfren.switchmobile:id/user_name";
         String btnSubmitChangeProfile = "com.smartfren.switchmobile:id/save";
         String inputAlternatePhoneNumber = "com.smartfren.switchmobile:id/user_alter_number";
+    }
+
+    public interface ReferralObject {
+        String btnBack = "com.smartfren.switchmobile:id/back";
+        String txtHeadTitleMenu = "com.smartfren.switchmobile:id/head_title";
+        String txtReferralTitle = "com.smartfren.switchmobile:id/textView45";
+        String txtReferralDesc = "com.smartfren.switchmobile:id/textView51";
+        String txtReferralCode = "com.smartfren.switchmobile:id/textView133_referral_code";
+        String btnCopyRef = "com.smartfren.switchmobile:id/textView125_copy";
+        String btnShareRef = "com.smartfren.switchmobile:id/share";
+    }
+
+    public interface AccountObject {
+        String txtChangePinTitle = "com.smartfren.switchmobile:id/textView";
+        String txtChangePinDesc = "com.smartfren.switchmobile:id/textView2";
+        String inputPin = "com.smartfren.switchmobile:id/pinnumber";
+        String btnNext = "com.smartfren.switchmobile:id/button";
+        String btnClose = "com.smartfren.switchmobile:id/close";
+        String btnChangePin = "com.smartfren.switchmobile:id/change_pin";
+        String btnDeliveryAddress = "com.smartfren.switchmobile:id/address";
+        String btnAddAddress = "com.smartfren.switchmobile:id/save";
+        String inputHomeOrOfficeName = "com.smartfren.switchmobile:id/txt_address_type";
+        String inputRecipientName = "com.smartfren.switchmobile:id/recName";
+        String inputRecipientNumber = "com.smartfren.switchmobile:id/recPhone";
+        String btnCityOrDistrict = "com.smartfren.switchmobile:id/recCity";
+        String inputSearchCityOrDistrict = "com.smartfren.switchmobile:id/edt_search";
+        String btnSelectCityOrDistrict = "com.smartfren.switchmobile:id/tv_places";
+        String inputAddressDetail = "com.smartfren.switchmobile:id/recDetails";
+        String btnChooseLocation = "com.smartfren.switchmobile:id/img_view_map";
+        String btnSearchLocation = "com.smartfren.switchmobile:id/edt_search";
+        String inputSearchGoogleLocation = "android:id/search_src_text";
+        String btnSelectGoogleLocation = "com.smartfren.switchmobile:id/address_text";
+        String btnSelectThisLocation = "com.smartfren.switchmobile:id/btn_select_location";
+        String cbTermsAndCondition = "com.smartfren.switchmobile:id/checkBox";
+        String btnSave = "com.smartfren.switchmobile:id/next";
+    }
+
+    public interface SIMSettingObject {
+        String btnSimInfo = "com.smartfren.switchmobile:id/siminfo";
+        String btnCheckCompatibility = "com.smartfren.switchmobile:id/compatib";
     }
 }

@@ -19,23 +19,5 @@ public class BaseDeals extends BaseTest {
         driver.findElement(By.id(ObjectElement.DealsPageObject.btnSeeAllSpecialDeals)).click();
     }
 
-    public void testSeeAllSpecialDeals() throws InterruptedException {
-        baseHomepage.clickButtonDeals();
-        //clickButtonSeeAllDeals();
-        Thread.sleep(3000);
-    }
 
-    public void testCheckPointsValue() throws InterruptedException {
-        baseHomepage.clickButtonDeals();
-        Thread.sleep(3000);
-        clickButtonCheckPoints();
-        Thread.sleep(3000);
-    }
-
-    public void testCheckRubyValue() throws InterruptedException {
-        baseHomepage.clickButtonDeals();
-        Thread.sleep(3000);
-        clickButtonCheckRuby();
-        Thread.sleep(3000);
-    }
 }

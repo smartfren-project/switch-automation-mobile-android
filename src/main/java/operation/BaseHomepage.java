@@ -37,38 +37,4 @@ public class BaseHomepage extends BaseTest {
     public void clickButtonCloseGuestPp() {
         driver.findElement(By.id(ObjectElement.MenuPageObject.btnCloseGuestPp)).click();
     }
-
-    public void testUserCanMoveToMainMenuPage() throws InterruptedException {
-        clickButtonDeals();
-        Thread.sleep(2500);
-        clickButtonQuest();
-        Thread.sleep(2500);
-        clickButtonHistory();
-        Thread.sleep(2500);
-        clickButtonProfile();
-        Thread.sleep(2500);
-        clickButtonHome();
-        Thread.sleep(2500);
-        clickButtonNotification();
-    }
-
-    public void testUserUnableMoveToAllMenuExceptMainMenu() throws InterruptedException{
-        clickButtonDeals();
-        clickButtonCloseGuestPp();
-        Thread.sleep(2500);
-        clickButtonQuest();
-        clickButtonCloseGuestPp();
-        Thread.sleep(2500);
-        clickButtonHistory();
-        clickButtonCloseGuestPp();
-        Thread.sleep(2500);
-        clickButtonProfile();
-        clickButtonCloseGuestPp();
-        Thread.sleep(2500);
-        clickButtonHome();
-        Thread.sleep(2500);
-        clickButtonNotification();
-        clickButtonCloseGuestPp();
-    }
-
 }

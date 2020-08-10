@@ -13,23 +13,7 @@ import java.net.MalformedURLException;
 
 public class BaseLogout extends BaseTest {
 
-    BaseHomepage baseHomepage = new BaseHomepage();
-
-    public void clickButtonLogout() {
-        MobileElement elementToClick = (MobileElement) driver
-                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
-                        + ".resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView("
-                        + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/logout\"));");
-        elementToClick.click();
-    }
-
     public void clickButtonConfirmLogout() {
         driver.findElement(By.id(ObjectElement.ProfilePageObject.btnConfirmLogout)).click();
-    }
-
-    public void testValidLogout() throws InterruptedException {
-        baseHomepage.clickButtonProfile();
-        clickButtonLogout();
-        clickButtonConfirmLogout();
     }
 }

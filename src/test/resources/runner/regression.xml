@@ -6,6 +6,7 @@
         <listener class-name="listeners.TestAllureListener" />
     </listeners>
     <test name="Switch Android Regression Test" parallel="methods">
+        <parameter name="deviceName" value="Nexus" />
         <classes>
             <class name="tests.TestSetup" />
             <class name="tests.ProfileITest" />

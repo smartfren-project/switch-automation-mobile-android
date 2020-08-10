@@ -19,6 +19,7 @@ public class BaseLanding extends BaseTest {
     public void clickButtonLogin() {
         driver.findElement(By.id(ObjectElement.LandingPageObject.btnLogin)).click();
     }
+//    private By clickButtonLogin = By.id(ObjectElement.LandingPageObject.btnLogin);
 
     public void clickButtonSignUp() {
         driver.findElement(By.id(ObjectElement.LandingPageObject.btnSignUp)).click();
@@ -84,67 +85,5 @@ public class BaseLanding extends BaseTest {
 
     public void clickButtonGoogleAccount() {
         driver.findElement(By.id(ObjectElement.LoginPageObject.btnGoogleAccount)).click();
-    }
-
-    @Step("Click Button Login")
-    public void testGoToLoginPage() throws InterruptedException {
-        clickButtonLogin();
-        checkValidationWelcomeText();
-        Thread.sleep(3000);
-    }
-
-    @Step("Click Button Login Without Sign Up")
-    public void testLoginAsGuest() throws InterruptedException{
-        clickButtonSkip();
-        checkUserProfile(BaseData.HomePage.GUEST_NAME);
-        Thread.sleep(3000);
-    }
-
-    @Step("Click Button Sign Up")
-    public void testGoToSignUpPage() throws InterruptedException {
-        Thread.sleep(3000);
-        clickButtonSignUp();
-        checkValidationWelcomeText();
-        Thread.sleep(3000);
-    }
-
-    public void testCheckHeaderFooterButton() throws InterruptedException {
-        //From landing page to sign up page
-        clickButtonSignUp();
-        checkTitlePage(BaseData.Validation.VALIDATION_REGISTER_PAGE);
-        //From sign up page to login page using button header
-        clickButtonHeaderCredential();
-        checkTitlePage(BaseData.Validation.VALIDATION_LOGIN_PAGE);
-        //From login page to sign up using button header
-        clickButtonHeaderCredential();
-        checkTitlePage(BaseData.Validation.VALIDATION_REGISTER_PAGE);
-        //From sign up page to login page using button footer
-        clickButtonFooterCredential();
-        checkTitlePage(BaseData.Validation.VALIDATION_LOGIN_PAGE);
-        //From login page to sign up page using button footer
-        clickButtonFooterCredential();
-        checkTitlePage(BaseData.Validation.VALIDATION_REGISTER_PAGE);
-        Thread.sleep(3000);
-    }
-
-    public void testSignUpWithGoogle() throws InterruptedException {
-        clickButtonSignUp();
-        Thread.sleep(3000);
-        clickButtonOtherMethod();
-        clickButtonGoogle();
-        Thread.sleep(3000);
-//        clickButtonGoogleAccount();
-    }
-
-    public void testSignUpWithFacebook() throws InterruptedException{
-        clickButtonSignUp();
-        Thread.sleep(2000);
-        clickButtonOtherMethod();
-        clickButtonFacebook();
-        Thread.sleep(3000);
-    }
-
-    public void testCloseAppSwitch() throws InterruptedException{
-        closeApp();
     }
 }

@@ -3,7 +3,7 @@ package constants;
 public class BaseData {
 
     public interface Login {
-        String EMAIL_ID = "faizal.prakoso@smartfren.com";
+        String EMAIL_ID = "satriopanjiprakoso@gmail.com";
         String PIN = "545454";
         String UNREGISTERED_EMAIL_ID = "haris@smart.com";
         String SWITCH_NUMBER = "088906011294";
@@ -58,5 +58,10 @@ public class BaseData {
         String API_KEY = "ybrf4d2k3jv496f5x53w93wc";
         String APL_NAME = "switch.apk";
         String DEVICE_NAME = "SAMSUNG_GalaxyS9_Android_10.0.0";
+    }
+
+    public interface ReferralValidation {
+        String REFERRAL_TITLE = "Referral Code";
+        String REFERRAL_DESC = "Share this referral code to your friends.So you and your friends will get an amazing rewards!";
     }
 }

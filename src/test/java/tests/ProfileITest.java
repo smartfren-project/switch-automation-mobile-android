@@ -1,53 +1,110 @@
 package tests;
 
-import constants.BaseData;
 import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
 import listeners.TestAllureListener;
-import operation.BaseProfile;
-import org.testng.annotations.*;
+import org.testng.annotations.Listeners;
+import org.testng.annotations.Test;
+import pages.ProfilePages;
 
 @Listeners({TestAllureListener.class})
 public class ProfileITest extends TestSetup {
 
-    BaseProfile baseProfile = new BaseProfile();
     LoginITest login = new LoginITest();
+    ProfilePages profilePages = new ProfilePages();
 
-    @Test(priority = 19, description = "Switch_Profile_001 - User able to EDIT FULL NAME")
+    @Test(priority = 301, description = "Switch_Profile_001 - User able to EDIT FULL NAME")
     @Severity(SeverityLevel.CRITICAL)
     @Description("Verify that user can success EDIT FULL NAME from Profile Menu.")
     @Story("Story Name : Check User Profile")
     public void checkChangeFullName() throws InterruptedException {
         login.checkValidLoginUsingSwitchNumber();
-        baseProfile.testUpdateFullName();
+        profilePages.testUpdateFullName();
     }
 
-    @Test(priority = 20, description = "Switch_Profile_002 - User able to EDIT ALT PHONE NUMBER")
+    @Test(priority = 302, description = "Switch_Profile_002 - User able to EDIT ALT PHONE NUMBER")
     @Severity(SeverityLevel.CRITICAL)
     @Description("Verify that user can success EDIT ALT PHONE NUMBER from Profile Menu.")
     @Story("Story Name : Check User Profile")
     public void checkChangeAlternatePhoneNumber() throws InterruptedException {
         login.checkValidLoginUsingSwitchNumber();
-        baseProfile.testUpdateAlternatePhoneNumber();
+        profilePages.testUpdateAlternatePhoneNumber();
     }
 
-    @Test(priority = 21, description = "Switch_Profile_003 - User able to CHANGE LANGUAGE")
+    @Test(priority = 303, description = "Switch_Profile_003 - User able to CHANGE LANGUAGE")
     @Severity(SeverityLevel.CRITICAL)
     @Description("Verify that user can success CHANGE LANGUAGE from Profile Menu.")
     @Story("Story Name : Check User Profile")
     public void checkChangeLanguage() throws InterruptedException {
         login.checkValidLoginUsingEmail();
-        baseProfile.testChangeLanguage();
+        profilePages.testChangeLanguage();
     }
 
-    @Test(priority = 25, description = "Switch_Profile_003 - User unable to EMPTY FULLNAME")
+    @Test(priority = 304, description = "Switch_Profile_004 - User unable to EMPTY FULLNAME")
     @Severity(SeverityLevel.CRITICAL)
     @Description("Verify that user can't EMPTY FULL NAME from Profile Menu.")
     @Story("Story Name : Check User Profile")
     public void checkEmptyFullName() throws InterruptedException {
         login.checkValidLoginUsingSwitchNumber();
-        baseProfile.testInputFullName("");
+        profilePages.testInputFullName("");
+    }
+
+    @Test(priority = 305, description = "Switch_Profile_005 - User able to Fill Address")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that user can ADD ADDRESS from Profile Menu.")
+    @Story("Story Name : Check User Profile")
+    public void checkValidSaveDeliveryAddress() throws InterruptedException {
+        login.checkValidLoginUsingSwitchNumber();
+        profilePages.testAddDeliveryAddress(
+                "OFFICE",
+                "Faizal",
+                "087784292693",
+                "Bendungan Hilir",
+                "JL. Benhil Raya"
+                );
+    }
+
+    @Test(priority = 306, description = "Switch_Profile_006 - User able to Fill Address")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that user can't ADD EMPTY ALL ADDRESS FORM from Profile Menu.")
+    @Story("Story Name : Check User Profile")
+    public void checkInvalidSaveDeliveryAddressAllEmpty() throws InterruptedException {
+        login.checkValidLoginUsingSwitchNumber();
+        profilePages.testAddDeliveryAddress(
+                "",
+                "",
+                "",
+                "",
+                ""
+        );
+    }
+
+    @Test(priority = 307, description = "Switch_Profile_007 - User able to Copy Referral Code")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that user can COPY REFERRAL CODE from Profile Menu.")
+    @Story("Story Name : Check User Profile")
+    public void checkCopyReferralCode() throws InterruptedException {
+        login.checkValidLoginUsingSwitchNumber();
+        profilePages.testCopyReferralCode();
+    }
+
+    @Test(priority = 308, description = "Switch_Profile_008 - User able to Share Referral Code")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that user can SHARE REFERRAL CODE from Profile Menu.")
+    @Story("Story Name : Check User Profile")
+    public void checkShareReferralCode() throws InterruptedException {
+        login.checkValidLoginUsingSwitchNumber();
+        profilePages.testShareReferralCode();
+    }
+
+    @Test(priority = 309, description = "Switch_Profile_009 - User unable to Change PIN with Incorrect Current PIN")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that user can't CHANGE PIN with Incorrect Current PIN from Profile Menu.")
+    @Story("Story Name : Check User Profile")
+    public void checkInvalidChangePIN() throws InterruptedException {
+        login.checkValidLoginUsingSwitchNumber();
+        profilePages.testChangePin("123456");
     }
 }
