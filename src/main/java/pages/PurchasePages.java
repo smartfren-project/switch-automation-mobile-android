@@ -17,6 +17,7 @@ public class PurchasePages {
         baseProduct.checkProductTitle(productTitle);
         basePurchase.clickButtonAddToCart();
         basePurchase.clickButtonConfirmBuy();
+        basePurchase.clickButtonChoosePayment();
     }
 
     public void testAddToCartPromoSuperBundleMax(String productTitle, int increase) throws InterruptedException {
@@ -27,6 +28,8 @@ public class PurchasePages {
         basePurchase.clickButtonIncreaseCountProduct(increase);
         basePurchase.clickButtonAddToCart();
         basePurchase.clickButtonConfirmBuy();
+        Thread.sleep(2500);
+        basePurchase.clickButtonChoosePayment();
     }
 
     public void testAddToCartPromoSuperBundleMin(String productTitle, int increase, int decrease) throws InterruptedException {
@@ -39,6 +42,7 @@ public class PurchasePages {
         basePurchase.clickButtonDecreaseCountProduct(decrease);
         basePurchase.clickButtonAddToCart();
         basePurchase.clickButtonConfirmBuy();
+        basePurchase.clickButtonChoosePayment();
     }
 
     public void testAddToCartPromoPowerBundle(String productTitle) throws InterruptedException {
@@ -48,6 +52,7 @@ public class PurchasePages {
         Thread.sleep(3000);
         basePurchase.clickButtonAddToCart();
         basePurchase.clickButtonConfirmBuy();
+        basePurchase.clickButtonChoosePayment();
     }
 
     public void testAddToCartPromoStandardBundle(String productTitle) throws InterruptedException {
@@ -57,6 +62,7 @@ public class PurchasePages {
         Thread.sleep(3000);
         basePurchase.clickButtonAddToCart();
         basePurchase.clickButtonConfirmBuy();
+        basePurchase.clickButtonChoosePayment();
     }
 
     public void testConfirmPaymentGopay() {

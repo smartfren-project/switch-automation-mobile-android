@@ -4,6 +4,8 @@ import constants.BaseData;
 import constants.ObjectElement;
 import io.appium.java_client.MobileElement;
 import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 
 import java.net.MalformedURLException;
@@ -170,36 +172,57 @@ public class BaseProfile extends BaseTest {
 
     public void clickButtonAdd() {
         driver.findElement(By.id(ObjectElement.AccountObject.btnAddAddress)).click();
+        driver.hideKeyboard();
     }
 
     public void inputHomeOrOffice(String homeOfficeName) {
         Object officeName = driver.findElement(By.id(ObjectElement.AccountObject.inputHomeOrOfficeName));
         Assert.assertNotNull(officeName);
-        driver.findElement(By.id(ObjectElement.AccountObject.inputHomeOrOfficeName)).sendKeys(homeOfficeName);
+        MobileElement elementToInput = (MobileElement) driver
+                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
+                        + ".resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView("
+                        + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/txt_address_type\"));");
+        elementToInput.sendKeys(homeOfficeName);
     }
 
     public void inputRecipientName(String recipientName) {
         Object recName = driver.findElement(By.id(ObjectElement.AccountObject.inputRecipientName));
         Assert.assertNotNull(recName);
-        driver.findElement(By.id(ObjectElement.AccountObject.inputRecipientName)).sendKeys(recipientName);
+        MobileElement elementToInput = (MobileElement) driver
+                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
+                        + ".resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView("
+                        + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/recName\"));");
+        elementToInput.sendKeys(recipientName);
     }
 
     public void inputRecipientPhoneNumber(String recipientNumber) {
         Object recNumber = driver.findElement(By.id(ObjectElement.AccountObject.inputRecipientNumber));
         Assert.assertNotNull(recNumber);
-        driver.findElement(By.id(ObjectElement.AccountObject.inputRecipientNumber)).sendKeys(recipientNumber);
+        MobileElement elementToInput = (MobileElement) driver
+                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
+                        + ".resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView("
+                        + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/recPhone\"));");
+        elementToInput.sendKeys(recipientNumber);
     }
 
     public void clickButtonCityOrDistrict() {
         Object btnSelectCity = driver.findElement(By.id(ObjectElement.AccountObject.btnCityOrDistrict));
         Assert.assertNotNull(btnSelectCity);
-        driver.findElement(By.id(ObjectElement.AccountObject.btnCityOrDistrict)).click();
+        MobileElement elementToClick = (MobileElement) driver
+                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
+                        + ".resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView("
+                        + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/recCity\"));");
+        elementToClick.click();
     }
 
     public void inputSearchCityOrDistrict(String city) {
         Object inputCity = driver.findElement(By.id(ObjectElement.AccountObject.inputSearchCityOrDistrict));
         Assert.assertNotNull(inputCity);
-        driver.findElement(By.id(ObjectElement.AccountObject.inputSearchCityOrDistrict)).sendKeys(city);
+        MobileElement elementToInput = (MobileElement) driver
+                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
+                        + ".resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView("
+                        + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/edt_search\"));");
+        elementToInput.sendKeys(city);
     }
 
     public void clickSelectedCityOrDistrict() {
@@ -211,11 +234,19 @@ public class BaseProfile extends BaseTest {
     public void inputAddressDetail(String address) {
         Object inputAddress = driver.findElement(By.id(ObjectElement.AccountObject.inputAddressDetail));
         Assert.assertNotNull(inputAddress);
-        driver.findElement(By.id(ObjectElement.AccountObject.inputAddressDetail)).sendKeys(address);
+        MobileElement elementToInput = (MobileElement) driver
+                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
+                        + ".resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView("
+                        + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/recDetails\"));");
+        elementToInput.sendKeys(address);
     }
 
     public void clickButtonChooseLocation() {
-        driver.findElement(By.id(ObjectElement.AccountObject.btnChooseLocation)).click();
+        MobileElement elementToClick = (MobileElement) driver
+                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
+                        + ".resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView("
+                        + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/img_view_map\"));");
+        elementToClick.click();
     }
 
     public void clickButtonSelectThisLocation() {
@@ -227,7 +258,11 @@ public class BaseProfile extends BaseTest {
     }
 
     public void clickButtonSave() {
-        driver.findElement(By.id(ObjectElement.AccountObject.btnSave)).click();
+        MobileElement elementToClick = (MobileElement) driver
+                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
+                        + ".resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView("
+                        + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/next\"));");
+        elementToClick.click();
     }
 
     public void clickButtonSIMInfo() {

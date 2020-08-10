@@ -56,7 +56,7 @@ public class PurchaseITest extends TestSetup {
     @Story("Story Name : Check Purchase")
     public void checkPurchasePowerBundleUseGoPay() throws InterruptedException {
         login.checkValidLoginUsingSwitchNumber();
-        purchasePages.testAddToCartPromoSuperBundleMax("Super Bundle", 4);
+        purchasePages.testAddToCartPromoSuperBundleMax("Super Bundle", 1);
         purchasePages.testConfirmPaymentGopay();
     }
     @Test(priority = 356, description = "Switch_Purchase_006 - User able to Pay Choose OVO")
@@ -65,7 +65,7 @@ public class PurchaseITest extends TestSetup {
     @Story("Story Name : Check Purchase")
     public void checkPurchasePowerBundleUseOvo() throws InterruptedException {
         login.checkValidLoginUsingSwitchNumber();
-        purchasePages.testAddToCartPromoSuperBundleMax("Super Bundle", 4);
+        purchasePages.testAddToCartPromoSuperBundleMax("Super Bundle", 2);
         purchasePages.testConfirmPaymentOVO();
     }
     @Test(priority = 357, description = "Switch_Purchase_007 - User able to Pay Choose Dana")
@@ -74,7 +74,7 @@ public class PurchaseITest extends TestSetup {
     @Story("Story Name : Check Purchase")
     public void checkPurchasePowerBundleUseDana() throws InterruptedException {
         login.checkValidLoginUsingSwitchNumber();
-        purchasePages.testAddToCartPromoSuperBundleMax("Super Bundle", 4);
+        purchasePages.testAddToCartPromoSuperBundleMax("Super Bundle", 1);
         purchasePages.testConfirmPaymentDana();
     }
     @Test(priority = 358, description = "Switch_Purchase_008 - User able to Pay Choose Credit Card")
@@ -83,7 +83,7 @@ public class PurchaseITest extends TestSetup {
     @Story("Story Name : Check Purchase")
     public void checkPurchasePowerBundleUseCreditCard() throws InterruptedException {
         login.checkValidLoginUsingSwitchNumber();
-        purchasePages.testAddToCartPromoSuperBundleMax("Super Bundle", 4);
+        purchasePages.testAddToCartPromoSuperBundleMax("Super Bundle", 1);
         purchasePages.testConfirmPaymentCC();
     }
     @Test(priority = 359, description = "Switch_Purchase_009 - User able to Pay Choose Mandiri VA")
@@ -92,7 +92,7 @@ public class PurchaseITest extends TestSetup {
     @Story("Story Name : Check Purchase")
     public void checkPurchasePowerBundleUseMandiriVA() throws InterruptedException {
         login.checkValidLoginUsingSwitchNumber();
-        purchasePages.testAddToCartPromoSuperBundleMax("Super Bundle", 4);
+        purchasePages.testAddToCartPromoSuperBundleMax("Super Bundle", 2);
         purchasePages.testConfirmMandiriVA();
     }
     @Test(priority = 360, description = "Switch_Purchase_010 - User able to Pay Choose Danamon VA")
@@ -101,7 +101,7 @@ public class PurchaseITest extends TestSetup {
     @Story("Story Name : Check Purchase")
     public void checkPurchasePowerBundleUseDanamonVA() throws InterruptedException {
         login.checkValidLoginUsingSwitchNumber();
-        purchasePages.testAddToCartPromoSuperBundleMax("Super Bundle", 4);
+        purchasePages.testAddToCartPromoSuperBundleMax("Super Bundle", 1);
         purchasePages.testConfirmDanamonVA();
     }
     @Test(priority = 361, description = "Switch_Purchase_011 - User able to Pay Choose Permata VA")
@@ -110,7 +110,7 @@ public class PurchaseITest extends TestSetup {
     @Story("Story Name : Check Purchase")
     public void checkPurchasePowerBundleUsePermataVA() throws InterruptedException {
         login.checkValidLoginUsingSwitchNumber();
-        purchasePages.testAddToCartPromoSuperBundleMax("Super Bundle", 4);
+        purchasePages.testAddToCartPromoSuperBundleMax("Super Bundle", 1);
         purchasePages.testConfirmPermataVA();
     }
     @Test(priority = 362, description = "Switch_Purchase_012 - User able to Pay Choose Alfamart")
@@ -119,7 +119,7 @@ public class PurchaseITest extends TestSetup {
     @Story("Story Name : Check Purchase")
     public void checkPurchasePowerBundleUseAlfamart() throws InterruptedException {
         login.checkValidLoginUsingSwitchNumber();
-        purchasePages.testAddToCartPromoSuperBundleMax("Super Bundle", 4);
+        purchasePages.testAddToCartPromoSuperBundleMax("Super Bundle", 2);
         purchasePages.testConfirmAlfamart();
     }
 }

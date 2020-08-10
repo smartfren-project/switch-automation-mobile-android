@@ -44,7 +44,6 @@ public class BasePurchase extends BaseTest {
                 .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
                         + ".resourceId(\"com.smartfren.switchmobile:id/recycler_e_wallet\")).scrollIntoView("
                         + "new UiSelector().text(\"GoPay\"));");
-        String txtLangNow = driver.findElement(By.id(ObjectElement.ProfilePageObject.btnLanguage)).getText();
         elementToClick.click();
     }
 
@@ -53,7 +52,6 @@ public class BasePurchase extends BaseTest {
                 .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
                         + ".resourceId(\"com.smartfren.switchmobile:id/recycler_e_wallet\")).scrollIntoView("
                         + "new UiSelector().text(\"DANA\"));");
-        String txtLangNow = driver.findElement(By.id(ObjectElement.ProfilePageObject.btnLanguage)).getText();
         elementToClick.click();
     }
 
@@ -62,7 +60,6 @@ public class BasePurchase extends BaseTest {
                 .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
                         + ".resourceId(\"com.smartfren.switchmobile:id/recycler_e_wallet\")).scrollIntoView("
                         + "new UiSelector().text(\"OVO\"));");
-        String txtLangNow = driver.findElement(By.id(ObjectElement.ProfilePageObject.btnLanguage)).getText();
         elementToClick.click();
     }
 
@@ -71,7 +68,6 @@ public class BasePurchase extends BaseTest {
                 .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
                         + ".resourceId(\"com.smartfren.switchmobile:id/recycler_e_wallet\")).scrollIntoView("
                         + "new UiSelector().text(\"Visa/Master/JCB\"));");
-        String txtLangNow = driver.findElement(By.id(ObjectElement.ProfilePageObject.btnLanguage)).getText();
         elementToClick.click();
     }
 
@@ -80,7 +76,6 @@ public class BasePurchase extends BaseTest {
                 .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
                         + ".resourceId(\"com.smartfren.switchmobile:id/recycler_e_wallet\")).scrollIntoView("
                         + "new UiSelector().text(\"Permata VA\"));");
-        String txtLangNow = driver.findElement(By.id(ObjectElement.ProfilePageObject.btnLanguage)).getText();
         elementToClick.click();
     }
 
@@ -89,7 +84,6 @@ public class BasePurchase extends BaseTest {
                 .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
                         + ".resourceId(\"com.smartfren.switchmobile:id/recycler_e_wallet\")).scrollIntoView("
                         + "new UiSelector().text(\"Danamon VA\"));");
-        String txtLangNow = driver.findElement(By.id(ObjectElement.ProfilePageObject.btnLanguage)).getText();
         elementToClick.click();
     }
 
@@ -98,7 +92,6 @@ public class BasePurchase extends BaseTest {
                 .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
                         + ".resourceId(\"com.smartfren.switchmobile:id/recycler_e_wallet\")).scrollIntoView("
                         + "new UiSelector().text(\"Mandiri VA\"));");
-        String txtLangNow = driver.findElement(By.id(ObjectElement.ProfilePageObject.btnLanguage)).getText();
         elementToClick.click();
     }
 
@@ -107,7 +100,6 @@ public class BasePurchase extends BaseTest {
                 .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
                         + ".resourceId(\"com.smartfren.switchmobile:id/recycler_e_wallet\")).scrollIntoView("
                         + "new UiSelector().text(\"Alfamart\"));");
-        String txtLangNow = driver.findElement(By.id(ObjectElement.ProfilePageObject.btnLanguage)).getText();
         elementToClick.click();
     }
 }

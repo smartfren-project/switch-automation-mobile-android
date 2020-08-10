@@ -7,20 +7,27 @@ import org.testng.Assert;
 
 public class BaseProduct extends BaseTest {
     public void clickDetailPromoSuperBundle() {
-        driver.findElement(By.xpath(ObjectElement.ProductPageObject.productCardOne)).click();
+        MobileElement elementToClick = (MobileElement) driver
+                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
+                        + ".resourceId(\"com.smartfren.switchmobile:id/recycler_\")).scrollIntoView("
+                        + "new UiSelector().text(\"Super Bundle\"));");
+        elementToClick.click();
     }
 
     public void clickDetailPromoPowerBundle() {
-        driver.findElement(By.xpath(ObjectElement.ProductPageObject.productCardTwo)).click();
+        MobileElement elementToClick = (MobileElement) driver
+                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
+                        + ".resourceId(\"com.smartfren.switchmobile:id/recycler_\")).scrollIntoView("
+                        + "new UiSelector().text(\"Power Bundle\"));");
+        elementToClick.click();
     }
 
     public void clickDetailPromoStandardBundle() {
-//        MobileElement elementToClick = (MobileElement) driver
-//                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
-//                        + ".resourceId(\"com.smartfren.switchmobile:id/viewpager\")).scrollIntoView("
-//                        + "new UiSelector().xpath(\"//android.widget.FrameLayout[@index='2']\"));");
-//        elementToClick.click();
-        driver.findElement(By.xpath(ObjectElement.ProductPageObject.productCardThree)).click();
+        MobileElement elementToClick = (MobileElement) driver
+                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
+                        + ".resourceId(\"com.smartfren.switchmobile:id/recycler_\")).scrollIntoView("
+                        + "new UiSelector().text(\"Standard Bundle\"));");
+        elementToClick.click();
     }
 
     public void clickDetailPromoLiteBundle() {
