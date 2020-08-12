@@ -1,6 +1,7 @@
 package pages;
 
 import constants.BaseData;
+import io.qameta.allure.Allure;
 import io.qameta.allure.Step;
 import operation.BaseLanding;
 

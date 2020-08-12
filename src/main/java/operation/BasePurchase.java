@@ -1,13 +1,12 @@
 package operation;
 
+import constants.BaseData;
 import constants.ObjectElement;
 import io.appium.java_client.MobileElement;
 import org.openqa.selenium.By;
+import org.testng.Assert;
 
 public class BasePurchase extends BaseTest {
-    BaseLogin baseLogin = new BaseLogin();
-    BaseHomepage baseHomepage = new BaseHomepage();
-    BaseProduct baseProduct = new BaseProduct();
 
     public void clickButtonAddToCart() {
         driver.findElement(By.id(ObjectElement.ProductPageObject.btnAddToCart)).click();
@@ -29,10 +28,6 @@ public class BasePurchase extends BaseTest {
         for(i=0;i<=decrease;i++) {
             driver.findElement(By.id(ObjectElement.ProductPageObject.btnDecrease)).click();
         }
-    }
-
-    public void clickButtonOrderSIMCard() {
-        driver.findElement(By.id(""));
     }
 
     public void clickButtonChoosePayment() {
@@ -67,7 +62,7 @@ public class BasePurchase extends BaseTest {
         MobileElement elementToClick = (MobileElement) driver
                 .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
                         + ".resourceId(\"com.smartfren.switchmobile:id/recycler_e_wallet\")).scrollIntoView("
-                        + "new UiSelector().text(\"Visa/Master/JCB\"));");
+                        + "new UiSelector().text(\"Visa/Master\"));");
         elementToClick.click();
     }
 
@@ -101,5 +96,27 @@ public class BasePurchase extends BaseTest {
                         + ".resourceId(\"com.smartfren.switchmobile:id/recycler_e_wallet\")).scrollIntoView("
                         + "new UiSelector().text(\"Alfamart\"));");
         elementToClick.click();
+    }
+
+    public void clickButtonLetsSwitch() {
+        driver.findElement(By.xpath("//*[@text = 'LET'S SWITCH']")).click();
+//        MobileElement elementToClick = (MobileElement) driver
+//                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
+//                        + ".resourceId(\"com.smartfren.switchmobile:id/rv_section_one\")).scrollIntoView("
+//                        + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/button_activate\"));");
+//        elementToClick.click();
+    }
+
+    public void clickChooseYourNumber(String mainNumber) {
+        driver.findElement(By.id(ObjectElement.OrderSIMNumberPage.btnMainNumber)).click();
+        driver.findElement(By.xpath(String.format("//*[@text = '%mainNumber']", mainNumber))).click();
+    }
+
+    public void clickButtonSeeDetailPurchase() {
+        driver.findElement(By.id(ObjectElement.ProductPageObject.btnSeeDetail)).click();
+    }
+
+    public void clickCloseButtonSeeDetailPurchase() {
+        driver.findElement(By.id(ObjectElement.PaymentDetailObject.btnCloseDetail)).click();
     }
 }

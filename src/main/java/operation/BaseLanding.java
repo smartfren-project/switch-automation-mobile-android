@@ -74,6 +74,12 @@ public class BaseLanding extends BaseTest {
         }
     }
 
+    public void checkValidationPINPage() {
+        String pinTitle = driver.findElement(By.id(ObjectElement.PINPageObject.txtPINPageTitle)).getText();
+        String pinDesc = driver.findElement(By.id(ObjectElement.PINPageObject.txtPINInputDesc)).getText();
+
+    }
+
     public void checkUserProfile(String username) {
         String ProfileName = driver.findElement(By.id(ObjectElement.MenuPageObject.txtUserProfile)).getText();
         Assert.assertEquals(ProfileName, username);

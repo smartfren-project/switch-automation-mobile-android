@@ -10,17 +10,7 @@ public class PurchasePages {
     BaseProduct baseProduct = new BaseProduct();
     BasePurchase basePurchase = new BasePurchase();
 
-    public void testAddToCartPromoSuperBundle(String productTitle) throws InterruptedException {
-        baseHomepage.clickButtonBuyProduct();
-        Thread.sleep(2000);
-        baseProduct.clickDetailPromoSuperBundle();
-        baseProduct.checkProductTitle(productTitle);
-        basePurchase.clickButtonAddToCart();
-        basePurchase.clickButtonConfirmBuy();
-        basePurchase.clickButtonChoosePayment();
-    }
-
-    public void testAddToCartPromoSuperBundleMax(String productTitle, int increase) throws InterruptedException {
+    public void testAddToCartPromoSuperBundle(String productTitle, int increase) throws InterruptedException {
         baseHomepage.clickButtonBuyProduct();
         Thread.sleep(2000);
         baseProduct.clickDetailPromoSuperBundle();
@@ -28,41 +18,48 @@ public class PurchasePages {
         basePurchase.clickButtonIncreaseCountProduct(increase);
         basePurchase.clickButtonAddToCart();
         basePurchase.clickButtonConfirmBuy();
-        Thread.sleep(2500);
         basePurchase.clickButtonChoosePayment();
+        basePurchase.clickButtonSeeDetailPurchase();
     }
 
-    public void testAddToCartPromoSuperBundleMin(String productTitle, int increase, int decrease) throws InterruptedException {
+    public void testAddToCartPromoPowerBundle(String productTitle, int increase) throws InterruptedException {
         baseHomepage.clickButtonBuyProduct();
-        Thread.sleep(2000);
-        baseProduct.clickDetailPromoSuperBundle();
+        baseProduct.clickDetailPromoPowerBundle();
         baseProduct.checkProductTitle(productTitle);
         basePurchase.clickButtonIncreaseCountProduct(increase);
-        Thread.sleep(2000);
+        Thread.sleep(3000);
+        basePurchase.clickButtonAddToCart();
+        basePurchase.clickButtonConfirmBuy();
+        basePurchase.clickButtonChoosePayment();
+        basePurchase.clickButtonSeeDetailPurchase();
+        basePurchase.clickCloseButtonSeeDetailPurchase();
+    }
+
+    public void testAddToCartPromoStandardBundle(String productTitle, int increase, int decrease) throws InterruptedException {
+        baseHomepage.clickButtonBuyProduct();
+        baseProduct.clickDetailPromoStandardBundle();
+        baseProduct.checkProductTitle(productTitle);
+        basePurchase.clickButtonIncreaseCountProduct(increase);
+        Thread.sleep(3000);
         basePurchase.clickButtonDecreaseCountProduct(decrease);
         basePurchase.clickButtonAddToCart();
         basePurchase.clickButtonConfirmBuy();
         basePurchase.clickButtonChoosePayment();
+        basePurchase.clickButtonSeeDetailPurchase();
+        basePurchase.clickCloseButtonSeeDetailPurchase();
     }
 
-    public void testAddToCartPromoPowerBundle(String productTitle) throws InterruptedException {
+    public void testAddToCartPromoLiteBundle(String productTitle, int increase) throws InterruptedException {
         baseHomepage.clickButtonBuyProduct();
-        baseProduct.clickDetailPromoPowerBundle();
+        baseProduct.clickDetailPromoLiteBundle();
         baseProduct.checkProductTitle(productTitle);
+        basePurchase.clickButtonIncreaseCountProduct(increase);
         Thread.sleep(3000);
         basePurchase.clickButtonAddToCart();
         basePurchase.clickButtonConfirmBuy();
         basePurchase.clickButtonChoosePayment();
-    }
-
-    public void testAddToCartPromoStandardBundle(String productTitle) throws InterruptedException {
-        baseHomepage.clickButtonBuyProduct();
-        baseProduct.clickDetailPromoStandardBundle();
-        baseProduct.checkProductTitle(productTitle);
-        Thread.sleep(3000);
-        basePurchase.clickButtonAddToCart();
-        basePurchase.clickButtonConfirmBuy();
-        basePurchase.clickButtonChoosePayment();
+        basePurchase.clickButtonSeeDetailPurchase();
+        basePurchase.clickCloseButtonSeeDetailPurchase();
     }
 
     public void testConfirmPaymentGopay() {
@@ -95,5 +92,10 @@ public class PurchasePages {
 
     public void testConfirmAlfamart() {
         basePurchase.clickButtonChooseAlfamart();
+    }
+
+    public void testOrderSIM(String mainNumber) {
+//        basePurchase.clickButtonLetsSwitch();
+        basePurchase.clickChooseYourNumber(mainNumber);
     }
 }

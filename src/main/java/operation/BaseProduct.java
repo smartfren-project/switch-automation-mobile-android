@@ -31,6 +31,11 @@ public class BaseProduct extends BaseTest {
     }
 
     public void clickDetailPromoLiteBundle() {
+        MobileElement elementToClick = (MobileElement) driver
+                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
+                        + ".resourceId(\"com.smartfren.switchmobile:id/recycler_\")).scrollIntoView("
+                        + "new UiSelector().text(\"Lite Bundle\"));");
+        elementToClick.click();
     }
 
     public void checkProductTitle(String productTitle) {

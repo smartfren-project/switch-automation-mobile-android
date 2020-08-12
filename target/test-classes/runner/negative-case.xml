@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Switch Android Negative Test" verbose="1" parallel="tests" thread-count="12">
+    <listeners>
+        <listener class-name="listeners.TestAllureListener" />
+    </listeners>
+    <test name="Switch Android Regression Test" parallel="methods">
+        <parameter name="deviceName" value="Nexus" />
+        <classes>
+            <class name="tests.TestSetup" />
+            <class name="tests.ProfileITest" />
+            <class name="tests.LogoutITest" />
+            <class name="tests.LoginITest" />
+            <class name="tests.LandingITest" />
+            <class name="tests.HomepageITest" />
+            <class name="tests.PurchaseITest" />
+            <class name="tests.DealsITest" />
+            <class name="tests.HistoryITest" />
+        </classes>
+    </test>
+</suite>

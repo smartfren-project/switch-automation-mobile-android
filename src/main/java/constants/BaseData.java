@@ -35,6 +35,8 @@ public class BaseData {
         String VALIDATION_ALREADY_REGISTERED_TITLE_EN = "Email Registered";
         String VALIDATION_ALREADY_REGISTERED_DESC_EN = "You can log in to your switch account now!";
         String VALIDATION_WRONG_SWITCH_NUMBER = "The number is incorrect, please enter your email or switch number";
+        String VALIDATION_TITLE_ORDER_SIM = "Got Your SIM Card?";
+        String VALIDATION_DESC_ORDER_SIM = "Activate it now or order one if you haven't! ";
     }
 
     public interface HomePage {

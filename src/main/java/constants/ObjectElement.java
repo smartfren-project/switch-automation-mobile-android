@@ -101,6 +101,7 @@ public class ObjectElement extends BaseTest {
         String productCardFour = "//android.widget.FrameLayout[@index='4']";
         String btnConfirmBuy = "com.smartfren.switchmobile:id/button6";
         String btnChoosePayment = "com.smartfren.switchmobile:id/button4";
+        String btnSeeDetail = "com.smartfren.switchmobile:id/txt_see_details";
     }
 
     public interface ProfilePageObject {
@@ -163,5 +164,24 @@ public class ObjectElement extends BaseTest {
     public interface SIMSettingObject {
         String btnSimInfo = "com.smartfren.switchmobile:id/siminfo";
         String btnCheckCompatibility = "com.smartfren.switchmobile:id/compatib";
+    }
+
+    public interface OrderSIMNumberPage {
+        String btnMainNumber = "com.smartfren.switchmobile:id/textView6";
+        String btnFirstNumber = "com.smartfren.switchmobile:id/num1";
+        String btnSecondNumber = "com.smartfren.switchmobile:id/num2";
+        String btnThirdNumber = "com.smartfren.switchmobile:id/num3";
+        String btnFourthNumber = "com.smartfren.switchmobile:id/num4";
+        String btnFifthNumber = "com.smartfren.switchmobile:id/num5";
+        String btnSixthNumber = "com.smartfren.switchmobile:id/num6";
+        String btnSelectNumber = "com.smartfren.switchmobile:id/cv1";
+        String btnNext = "com.smartfren.switchmobile:id/next";
+        String btnChooseMainNumber = String.format("//*[@text = '']");
+    }
+
+    public interface PaymentDetailObject {
+        String txtDetailTitle = "com.smartfren.switchmobile:id/txt_payment_heading";
+        String txtTotalAmount = "com.smartfren.switchmobile:id/total_amt_aft_discount";
+        String btnCloseDetail = "com.smartfren.switchmobile:id/img_close";
     }
 }
