@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ElementRepository>
+    <Element title="btnLogin">
+        <id>com.smartfren.switchmobile:id/skip</id>
+    </Element>
+    <Element title="btnSignUp">
+        <id>com.smartfren.switchmobile:id/Next</id>
+    </Element>
+    <Element title="btnSkip">
+        <id>com.smartfren.switchmobile:id/skip_new</id>
+    </Element>
+    <Element title="txtBannerTitle">
+        <id>com.smartfren.switchmobile:id/slideheading</id>
+    </Element>
+    <Element title="txtBannerDesc">
+        <id>com.smartfren.switchmobile:id/slidedec</id>
+    </Element>
+</ElementRepository>
