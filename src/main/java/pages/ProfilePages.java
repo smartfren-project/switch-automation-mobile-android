@@ -25,7 +25,7 @@ public class ProfilePages {
 
     public void testChangeLanguage() throws InterruptedException{
         baseHomepage.clickButtonProfile();
-        baseProfile.clickButtonBahasa();
+        baseProfile.clickButtonLanguage();
     }
 
     public void testInputFullName(String fullName) {

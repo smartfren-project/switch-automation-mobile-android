@@ -112,7 +112,7 @@ public class ObjectElement extends BaseTest {
         String txtDealsTitle = "com.smartfren.switchmobile:id/deals";
         String btnLogout = "com.smartfren.switchmobile:id/logout";
         String btnConfirmLogout = "android:id/button1";
-        String btnLanguage = "com.smartfren.switchmobile:id/language";
+        String btnLanguage = "com.smartfren.switchmobile:id/langText";
         String btnBahasa = "com.smartfren.switchmobile:id/indonesia";
         String btnEnglish = "com.smartfren.switchmobile:id/english";
         String btnCancelChangeLang = "com.smartfren.switchmobile:id/cancel";

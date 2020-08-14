@@ -56,8 +56,8 @@ public class PurchaseITest extends TestSetup {
     @Description("Verify that user can see Payment Screen")
     @Story("Story Name : Check Purchase")
     public void checkSeePaymentScreen() throws InterruptedException {
-        System.out.println("Im in skip exception");
-        throw new SkipException("Skipping this exception");
+        login.checkValidLoginUsingSwitchNumber();
+        purchasePages.testAddToCartPromoLiteBundle("Lite Bundle", 2);
 //        login.checkValidLoginUsingEmail();
 //        purchasePages.testOrderSIM("0889-07");
     }

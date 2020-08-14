@@ -62,23 +62,35 @@ public class BaseProfile extends BaseTest {
         elementToClick.click();
     }
 
+    public String activeLang() {
+        String langNow = driver.findElement(By.id(ObjectElement.ProfilePageObject.btnLanguage)).getText();
+        try {
+            return String.valueOf(langNow);
+        } catch (Exception e) {
+            return null;
+        }
+    }
+
     public void clickButtonLanguage() throws InterruptedException{
         MobileElement elementToClick = (MobileElement) driver
                 .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
                         + ".resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView("
                         + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/language\"));");
-        String txtLangNow = driver.findElement(By.id(ObjectElement.ProfilePageObject.btnLanguage)).getText();
-        elementToClick.click();
-        if (txtLangNow.equals("English")) {
+        System.out.println(activeLang());
+        if (activeLang().equals("English")) {
+            elementToClick.click();
             driver.findElement(By.id(ObjectElement.ProfilePageObject.btnBahasa)).click();
-            Assert.assertEquals(txtLangNow, "Bahasa");
-            Thread.sleep(4000);
-        } else if (txtLangNow.equals("Bahasa")) {
-            driver.findElement(By.id(ObjectElement.ProfilePageObject.btnEnglish)).click();
-            Assert.assertEquals(txtLangNow, "English");
+            driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
+                            + ".resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView("
+                            + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/language\"));");
             Thread.sleep(4000);
         } else {
-            driver.findElement(By.id(ObjectElement.ProfilePageObject.btnCancelChangeLang)).click();
+            elementToClick.click();
+            driver.findElement(By.id(ObjectElement.ProfilePageObject.btnEnglish)).click();
+            driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
+                            + ".resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView("
+                            + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/language\"));");
+            Thread.sleep(4000);
         }
     }
 

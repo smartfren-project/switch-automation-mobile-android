@@ -54,23 +54,55 @@ public class BaseLanding extends BaseTest {
         Assert.assertEquals(TitlePage, titlePage);
     }
 
+    public String titlePage() {
+        String titlePage = driver.findElement(By.id(ObjectElement.LoginPageObject.txtLoginTitle)).getText();
+        try {
+            return String.valueOf(titlePage);
+        } catch (Exception e) {
+            return null;
+        }
+    }
+
+    public String welcomeTitle() {
+        String welcomeAppSwitch = driver.findElement(By.id(ObjectElement.LoginPageObject.txtWelcomeTitle)).getText();
+        try {
+            return String.valueOf(welcomeAppSwitch);
+        } catch (Exception e) {
+            return null;
+        }
+    }
+
+    public String welcomeDesc() {
+        String wDesc = driver.findElement(By.id(ObjectElement.LoginPageObject.txtWelcomeDesc)).getText();
+        try {
+            return String.valueOf(wDesc);
+        } catch (Exception e) {
+            return null;
+        }
+    }
+
+    public String langCenter() {
+        String owTitle = driver.findElement(By.id(ObjectElement.LoginPageObject.txtOtherWaysTitle)).getText();
+        try {
+            return String.valueOf(owTitle);
+        } catch (Exception e) {
+            return null;
+        }
+    }
+
     public void checkValidationWelcomeText() {
-        String WelcomeAppSwitch = driver.findElement(By.id(ObjectElement.LoginPageObject.txtWelcomeTitle)).getText();
-        String WelcomeDesc = driver.findElement(By.id(ObjectElement.LoginPageObject.txtWelcomeDesc)).getText();
-        String OtherWaysTitle = driver.findElement(By.id(ObjectElement.LoginPageObject.txtOtherWaysTitle)).getText();
-        String TitlePage = driver.findElement(By.id(ObjectElement.LoginPageObject.txtLoginTitle)).getText();
-        if (OtherWaysTitle.equals("atau bisa pakai") && TitlePage.equals(BaseData.Validation.VALIDATION_LOGIN_PAGE)) {
-            Assert.assertEquals(WelcomeAppSwitch, BaseData.LaunchPage.WELCOME_EN);
-            Assert.assertEquals(WelcomeDesc, BaseData.LaunchPage.WELCOME_DESC_ID);
-        } else if (OtherWaysTitle.equals("or use") && TitlePage.equals(BaseData.Validation.VALIDATION_LOGIN_PAGE)) {
-            Assert.assertEquals(WelcomeAppSwitch, BaseData.LaunchPage.WELCOME_EN);
-            Assert.assertEquals(WelcomeDesc, BaseData.LaunchPage.WELCOME_DESC_EN);
-        } else if (OtherWaysTitle.equals("atau bisa pakai") && TitlePage.equals(BaseData.Validation.VALIDATION_REGISTER_PAGE)) {
-            Assert.assertEquals(WelcomeAppSwitch, BaseData.LaunchPage.WELCOME_EN);
-            Assert.assertEquals(WelcomeDesc, BaseData.LaunchPage.WELCOME_DESC_SIGN_UP_ID);
+        if (langCenter().equals("atau bisa pakai") && titlePage().equals(BaseData.Validation.VALIDATION_LOGIN_PAGE)) {
+            Assert.assertEquals(welcomeTitle(), BaseData.LaunchPage.WELCOME_EN);
+            Assert.assertEquals(welcomeDesc(), BaseData.LaunchPage.WELCOME_DESC_ID);
+        } else if (langCenter().equals("or use") && titlePage().equals(BaseData.Validation.VALIDATION_LOGIN_PAGE)) {
+            Assert.assertEquals(welcomeTitle(), BaseData.LaunchPage.WELCOME_EN);
+            Assert.assertEquals(welcomeDesc(), BaseData.LaunchPage.WELCOME_DESC_EN);
+        } else if (langCenter().equals("atau bisa pakai") && titlePage().equals(BaseData.Validation.VALIDATION_REGISTER_PAGE)) {
+            Assert.assertEquals(welcomeTitle(), BaseData.LaunchPage.WELCOME_EN);
+            Assert.assertEquals(welcomeDesc(), BaseData.LaunchPage.WELCOME_DESC_SIGN_UP_ID);
         } else {
-            Assert.assertEquals(WelcomeAppSwitch, BaseData.LaunchPage.WELCOME_EN);
-            Assert.assertEquals(WelcomeDesc, BaseData.LaunchPage.WELCOME_DESC_SIGN_UP_EN);
+            Assert.assertEquals(welcomeTitle(), BaseData.LaunchPage.WELCOME_EN);
+            Assert.assertEquals(welcomeDesc(), BaseData.LaunchPage.WELCOME_DESC_SIGN_UP_EN);
         }
     }
 
