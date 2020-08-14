@@ -15,7 +15,7 @@ public class HistoryITest extends TestSetup {
     LoginITest login = new LoginITest();
     HistoryPages historyPages = new HistoryPages();
 
-    @Test(priority = 101, description = "Switch_History_001 - User able to see all Transaction History")
+    @Test(priority = 251, description = "Switch_History_001 - User able to see all Transaction History")
     @Severity(SeverityLevel.NORMAL)
     @Description("Verify that User is able to see All Transaction by Clicking All on History Menu.")
     @Story("Story Name : Check On History Page")
@@ -24,7 +24,7 @@ public class HistoryITest extends TestSetup {
         historyPages.testCheckHistoryAllTrx();
     }
 
-    @Test(priority = 102, description = "Switch_History_002 - User able to see Waiting Transaction History")
+    @Test(priority = 252, description = "Switch_History_002 - User able to see Waiting Transaction History")
     @Severity(SeverityLevel.NORMAL)
     @Description("Verify that User is able to see Waiting Transaction by Clicking Waiting on History Menu.")
     @Story("Story Name : Check On History Page")
@@ -33,7 +33,7 @@ public class HistoryITest extends TestSetup {
         historyPages.testCheckHistoryWaitingTrx();
     }
 
-    @Test(priority = 103, description = "Switch_History_003 - User able to see Processed Transaction History")
+    @Test(priority = 253, description = "Switch_History_003 - User able to see Processed Transaction History")
     @Severity(SeverityLevel.NORMAL)
     @Description("Verify that User is able to see Processed Transaction by Clicking Processed on History Menu.")
     @Story("Story Name : Check On History Page")
@@ -42,7 +42,7 @@ public class HistoryITest extends TestSetup {
         historyPages.testCheckHistoryProcessedTrx();
     }
 
-    @Test(priority = 104, description = "Switch_History_004 - User able to see Finished Transaction History")
+    @Test(priority = 254, description = "Switch_History_004 - User able to see Finished Transaction History")
     @Severity(SeverityLevel.NORMAL)
     @Description("Verify that User is able to see Finished Transaction by Clicking Finished on History Menu.")
     @Story("Story Name : Check On History Page")

@@ -16,4 +16,8 @@ public class BaseLogout extends BaseTest {
     public void clickButtonConfirmLogout() {
         driver.findElement(By.id(ObjectElement.ProfilePageObject.btnConfirmLogout)).click();
     }
+
+    public void clickButtonLoginHere() {
+        driver.findElement(By.id(ObjectElement.ProfilePageObject.btnLoginHere)).click();
+    }
 }

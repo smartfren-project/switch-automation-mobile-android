@@ -16,7 +16,7 @@ public class BaseHistory extends BaseTest {
         MobileElement elementToClick = (MobileElement) driver
                 .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
                         + ".resourceId(\"com.smartfren.switchmobile:id/tab_layout\")).scrollIntoView("
-                        + "new UiSelector().text(\"All\"));");
+                        + "new UiSelector().text(\"All\"I\"Semua\"));");
         elementToClick.click();
     }
 

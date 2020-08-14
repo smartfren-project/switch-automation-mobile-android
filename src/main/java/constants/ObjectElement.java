@@ -118,6 +118,7 @@ public class ObjectElement extends BaseTest {
         String btnCancelChangeLang = "com.smartfren.switchmobile:id/cancel";
         String btnSeeAllFavorite = "com.smartfren.switchmobile:id/textView37";
         String scrollView = "com.smartfren.switchmobile:id/scrollView2";
+        String btnLoginHere = "com.smartfren.switchmobile:id/clickhere";
     }
 
     public interface EditProfileObject {

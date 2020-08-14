@@ -70,4 +70,8 @@ public class LandingPages {
         baseLanding.clickButtonFacebook();
         Thread.sleep(3000);
     }
+
+    public void testCheckLoginPage() {
+        baseLanding.checkValidationWelcomeText();
+    }
 }

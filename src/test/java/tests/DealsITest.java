@@ -14,7 +14,7 @@ public class DealsITest extends TestSetup {
     LoginITest login = new LoginITest();
     DealsPages dealsPages = new DealsPages();
 
-    @Test(priority = 51, description = "Switch_Deals_001 - User able to see all SPECIAL DEALS Menu Page")
+    @Test(priority = 151, description = "Switch_Deals_001 - User able to see all SPECIAL DEALS Menu Page")
     @Severity(SeverityLevel.NORMAL)
     @Description("Verify that User is able to see All SPECIAL DEALS by Clicking on See All DEALS Menu.")
     @Story("Story Name : Check On Deals Page")
@@ -23,7 +23,7 @@ public class DealsITest extends TestSetup {
         dealsPages.testSeeAllSpecialDeals();
     }
 
-    @Test(priority = 52, description = "Switch_Deals_002 - User able to see all POINTS on POINT Page")
+    @Test(priority = 152, description = "Switch_Deals_002 - User able to see all POINTS on POINT Page")
     @Severity(SeverityLevel.NORMAL)
     @Description("Verify that User is able to see All POINTS by Clicking on See POINT Menu.")
     @Story("Story Name : Check On Point Page")
@@ -32,7 +32,7 @@ public class DealsITest extends TestSetup {
         dealsPages.testCheckPointsValue();
     }
 
-    @Test(priority = 53, description = "Switch_Deals_003 - User able to see all RUBIES on RUBY Page")
+    @Test(priority = 153, description = "Switch_Deals_003 - User able to see all RUBIES on RUBY Page")
     @Severity(SeverityLevel.NORMAL)
     @Description("Verify that User is able to see All RUBIES by Clicking on See RUBY Menu.")
     @Story("Story Name : Check On Ruby Page")

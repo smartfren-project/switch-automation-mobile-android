@@ -16,7 +16,7 @@ public class HomepageITest extends TestSetup {
     LandingITest landing = new LandingITest();
     LoginITest login = new LoginITest();
 
-    @Test(priority = 151, description = "Switch_Home_001 - User able to go to All Menu Page")
+    @Test(priority = 63, description = "Switch_Home_001 - User able to go to All Menu Page")
     @Severity(SeverityLevel.NORMAL)
     @Description("Verify that User is navigating to All Menu Page by Clicking on Any Available Main Menu.")
     @Story("Story Name : Check On Home Page")
@@ -25,7 +25,7 @@ public class HomepageITest extends TestSetup {
         homePages.testUserCanMoveToMainMenuPage();
     }
 
-    @Test(priority = 152, description = "Switch_Home_001 - User able to go to All Menu Page")
+    @Test(priority = 64, description = "Switch_Home_001 - User able to go to All Menu Page")
     @Severity(SeverityLevel.NORMAL)
     @Description("Verify that User is navigating to All Menu Page by Clicking on Any Available Main Menu.")
     @Story("Story Name : Check On Home Page")

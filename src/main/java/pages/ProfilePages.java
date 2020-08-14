@@ -25,7 +25,7 @@ public class ProfilePages {
 
     public void testChangeLanguage() throws InterruptedException{
         baseHomepage.clickButtonProfile();
-        baseProfile.clickButtonLanguage();
+        baseProfile.clickButtonBahasa();
     }
 
     public void testInputFullName(String fullName) {
@@ -78,8 +78,7 @@ public class ProfilePages {
         baseProfile.clickButtonConfirmChangePIN();
     }
 
-    public void testAddDeliveryAddress(String homeOfficeName, String recipientName, String recipientNumber,
-                                       String city, String address) {
+    public void testAddDeliveryAddress(String homeOfficeName, String recipientName, String recipientNumber) {
         baseHomepage.clickButtonProfile();
         baseProfile.clickButtonAccount();
         baseProfile.clickButtonDeliveryAddress();
@@ -87,6 +86,9 @@ public class ProfilePages {
         baseProfile.inputHomeOrOffice(homeOfficeName);
         baseProfile.inputRecipientName(recipientName);
         baseProfile.inputRecipientPhoneNumber(recipientNumber);
+    }
+
+    public void testDeliveryAddress(String city, String address) {
         baseProfile.clickButtonCityOrDistrict();
         baseProfile.inputSearchCityOrDistrict(city);
         baseProfile.clickSelectedCityOrDistrict();
@@ -129,5 +131,14 @@ public class ProfilePages {
         baseHomepage.clickButtonProfile();
         baseProfile.clickButtonLogout();
         baseLogout.clickButtonConfirmLogout();
+    }
+
+    public void testLogout() {
+        baseProfile.clickButtonLogout();
+        baseLogout.clickButtonConfirmLogout();
+    }
+
+    public void testClickButtonLoginHere() {
+        baseLogout.clickButtonLoginHere();
     }
 }
