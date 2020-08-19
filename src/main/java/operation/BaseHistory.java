@@ -6,6 +6,17 @@ import org.openqa.selenium.By;
 
 public class BaseHistory extends BaseTest {
 
+    public By btnTabAll = By.id(ObjectElement.HistoryPageObject.btnTabAll);
+
+    public By btnTabWaiting = By.id(ObjectElement.HistoryPageObject.btnTabWaiting);
+
+    public By btnTabProcessTrx = By.id(ObjectElement.HistoryPageObject.btnTabProcessTrx);
+
+    public By btnFinishTrx = By.id(ObjectElement.HistoryPageObject.btnFinishTrx);
+
+    public By textHistoryMenuTitle = By.id(ObjectElement.HistoryPageObject.textHistoryMenuTitle);
+
+
     public String getHistoryTitle() {
         String hTitle = driver.findElement(By.id(ObjectElement.HistoryPageObject.textHistoryMenuTitle)).getText();
         try {

@@ -12,6 +12,40 @@ import java.net.MalformedURLException;
 
 public class BaseProfile extends BaseTest {
 
+    public By txtHeaderTitle = By.id(ObjectElement.ProfilePageObject.txtHeaderTitle);
+
+    public By txtNameUserTitle = By.id(ObjectElement.ProfilePageObject.txtNameUserTitle);
+
+    public By txtEmailUserTitle = By.id(ObjectElement.ProfilePageObject.txtEmailUserTitle);
+
+    public By btnEdit = By.id(ObjectElement.ProfilePageObject.btnEdit);
+
+    public By txtDealsTitle = By.id(ObjectElement.ProfilePageObject.txtDealsTitle);
+
+    public By btnLogout = By.id(ObjectElement.ProfilePageObject.btnLogout);
+
+    public By btnConfirmLogout = By.id(ObjectElement.ProfilePageObject.btnConfirmLogout);
+
+    public By btnLanguage = By.id(ObjectElement.ProfilePageObject.btnLanguage);
+
+    public By btnBahasa = By.id(ObjectElement.ProfilePageObject.btnBahasa);
+
+    public By btnEnglish = By.id(ObjectElement.ProfilePageObject.btnEnglish);
+
+    public By btnCancelChangeLang = By.id(ObjectElement.ProfilePageObject.btnCancelChangeLang);
+
+    public By btnSeeAllFavorite = By.id(ObjectElement.ProfilePageObject.btnSeeAllFavorite);
+
+    public By scrollView = By.id(ObjectElement.ProfilePageObject.scrollView);
+
+    public By btnLoginHere = By.id(ObjectElement.ProfilePageObject.btnLoginHere);
+
+    public By inputFullName = By.id(ObjectElement.EditProfileObject.inputFullName);
+
+    public By btnSubmitChangeProfile = By.id(ObjectElement.EditProfileObject.btnSubmitChangeProfile);
+
+    public By inputAlternatePhoneNumber = By.id(ObjectElement.EditProfileObject.inputAlternatePhoneNumber);
+
     /* profile-menu-page */
 
     public void clickButtonEditProfile() {
