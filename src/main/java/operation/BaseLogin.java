@@ -15,11 +15,19 @@ public class BaseLogin extends BaseTest {
 
     public By inputPIN = By.id(ObjectElement.PINPageObject.inputPIN);
 
+    public By btnProfile = By.id(ObjectElement.MenuPageObject.btnProfile);
+
     public By txtValidationTitle = By.id(ObjectElement.LoginPageObject.txtUserValidationTitle);
 
     public By txtValidationDesc = By.id(ObjectElement.LoginPageObject.txtVariousLoginDesc);
 
     public By txtErrorInput = By.id(ObjectElement.LoginPageObject.txtErrorInputDesc);
+
+    public By btnChangeEmail = By.id(ObjectElement.LoginPageObject.btnChangeEmail);
+
+    public By btnSignUp2 = By.id(ObjectElement.LoginPageObject.btnSignUp2);
+
+    public By txtVariousLoginDesc = By.id(ObjectElement.LoginPageObject.txtVariousLoginDesc);
 
     public void clickButtonSubmitLogin() {
         driver.findElement(By.id(ObjectElement.LoginPageObject.btnSubmitLogin)).click();

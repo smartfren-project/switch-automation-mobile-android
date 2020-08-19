@@ -13,6 +13,10 @@ import java.net.MalformedURLException;
 
 public class BaseLogout extends BaseTest {
 
+    public By btnConfirmLogout = By.id(ObjectElement.ProfilePageObject.btnConfirmLogout);
+
+    public By btnLoginHere = By.id(ObjectElement.ProfilePageObject.btnLoginHere);
+
     public void clickButtonConfirmLogout() {
         driver.findElement(By.id(ObjectElement.ProfilePageObject.btnConfirmLogout)).click();
     }
