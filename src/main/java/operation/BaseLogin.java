@@ -9,7 +9,17 @@ import java.net.MalformedURLException;
 
 public class BaseLogin extends BaseTest {
 
-    BaseLanding baseLanding = new BaseLanding();
+    public By btnSubmitLogin = By.id(ObjectElement.LoginPageObject.btnSubmitLogin);
+
+    public By inputUsername = By.id(ObjectElement.LoginPageObject.inputUserName);
+
+    public By inputPIN = By.id(ObjectElement.PINPageObject.inputPIN);
+
+    public By txtValidationTitle = By.id(ObjectElement.LoginPageObject.txtUserValidationTitle);
+
+    public By txtValidationDesc = By.id(ObjectElement.LoginPageObject.txtVariousLoginDesc);
+
+    public By txtErrorInput = By.id(ObjectElement.LoginPageObject.txtErrorInputDesc);
 
     public void clickButtonSubmitLogin() {
         driver.findElement(By.id(ObjectElement.LoginPageObject.btnSubmitLogin)).click();

@@ -44,7 +44,7 @@ public class LoginITest extends TestSetup {
     @Description("Verify that User is unable to Navigate to Next SignUp Page.")
     @Story("Story Name : Check Credential")
     public void checkSignUpUsingRegisteredEmail() throws InterruptedException {
-        loginPages.testInvalidSignUpWithRegisteredEmail();
+        loginPages.testInvalidSignUpWithRegisteredEmail(BaseData.Login.EMAIL_ID);
     }
 
     @Test(priority = 55, description = "Switch_Login_005 - User unable to click button SUBMIT LOGIN when input False EMAIL Specification")

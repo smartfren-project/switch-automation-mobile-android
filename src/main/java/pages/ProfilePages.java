@@ -1,6 +1,7 @@
 package pages;
 
 import operation.BaseHomepage;
+import operation.BaseLanding;
 import operation.BaseLogout;
 import operation.BaseProfile;
 
@@ -8,6 +9,7 @@ public class ProfilePages {
     BaseHomepage baseHomepage = new BaseHomepage();
     BaseProfile baseProfile = new BaseProfile();
     BaseLogout baseLogout = new BaseLogout();
+    BaseLanding baseLanding = new BaseLanding();
 
     public void testUpdateFullName() {
         baseHomepage.clickButtonProfile();
@@ -140,5 +142,6 @@ public class ProfilePages {
 
     public void testClickButtonLoginHere() {
         baseLogout.clickButtonLoginHere();
+        baseLanding.checkValidationWelcomeText();
     }
 }

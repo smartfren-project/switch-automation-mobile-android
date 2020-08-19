@@ -1,17 +1,18 @@
 package pages;
 
 import constants.BaseData;
-import io.qameta.allure.Allure;
 import io.qameta.allure.Step;
 import operation.BaseLanding;
+import utilities.finders.ElementAction;
 
 public class LandingPages {
 
     BaseLanding baseLanding = new BaseLanding();
+    ElementAction action = new ElementAction();
 
     @Step("Click Button Login")
     public void testGoToLoginPage() throws InterruptedException {
-        baseLanding.clickButtonLogin();
+        action.click(baseLanding.btnLogin);
         baseLanding.checkValidationWelcomeText();
         Thread.sleep(3000);
         System.out.println("Click Button Login");
@@ -19,7 +20,7 @@ public class LandingPages {
 
     @Step("Click Button Skip")
     public void testLoginAsGuest() throws InterruptedException{
-        baseLanding.clickButtonSkip();
+        action.click(baseLanding.btnSkip);
         baseLanding.checkUserProfile(BaseData.HomePage.GUEST_NAME);
         Thread.sleep(3000);
     }
@@ -27,7 +28,7 @@ public class LandingPages {
     @Step("Click Button Sign Up")
     public void testGoToSignUpPage() throws InterruptedException {
         Thread.sleep(3000);
-        baseLanding.clickButtonSignUp();
+        action.click(baseLanding.btnSignUp);
         baseLanding.checkValidationWelcomeText();
         Thread.sleep(3000);
     }
@@ -35,39 +36,39 @@ public class LandingPages {
     @Step("Click All Possible Button Landing Pages")
     public void testCheckHeaderFooterButton() throws InterruptedException {
         //From landing page to sign up page
-        baseLanding.clickButtonSignUp();
-        baseLanding.checkTitlePage(BaseData.Validation.VALIDATION_REGISTER_PAGE);
+        action.click(baseLanding.btnSignUp);
+        baseLanding.checkValidationWelcomeText();
         //From sign up page to login page using button header
-        baseLanding.clickButtonHeaderCredential();
-        baseLanding.checkTitlePage(BaseData.Validation.VALIDATION_LOGIN_PAGE);
+        action.click(baseLanding.btnLogin);
+        baseLanding.checkValidationWelcomeText();
         //From login page to sign up using button header
-        baseLanding.clickButtonHeaderCredential();
-        baseLanding.checkTitlePage(BaseData.Validation.VALIDATION_REGISTER_PAGE);
+        action.click(baseLanding.btnLogin);
+        baseLanding.checkValidationWelcomeText();
         //From sign up page to login page using button footer
-        baseLanding.clickButtonFooterCredential();
-        baseLanding.checkTitlePage(BaseData.Validation.VALIDATION_LOGIN_PAGE);
+        action.click(baseLanding.btnLoginHere);
+        baseLanding.checkValidationWelcomeText();
         //From login page to sign up page using button footer
-        baseLanding.clickButtonFooterCredential();
-        baseLanding.checkTitlePage(BaseData.Validation.VALIDATION_REGISTER_PAGE);
+        action.click(baseLanding.btnLoginHere);
+        baseLanding.checkValidationWelcomeText();
         Thread.sleep(3000);
     }
 
     @Step("Sign Up With Google")
     public void testSignUpWithGoogle() throws InterruptedException {
-        baseLanding.clickButtonSignUp();
+        action.click(baseLanding.btnSignUp);
         Thread.sleep(3000);
-        baseLanding.clickButtonOtherMethod();
-        baseLanding.clickButtonGoogle();
+        action.click(baseLanding.btnOtherMethod);
+        action.click(baseLanding.btnGoogle);
+        action.click(baseLanding.btnGoogleAccount);
         Thread.sleep(3000);
-//        clickButtonGoogleAccount();
     }
 
     @Step("Sign Up With Facebook")
     public void testSignUpWithFacebook() throws InterruptedException{
-        baseLanding.clickButtonSignUp();
+        action.click(baseLanding.btnSignUp);
         Thread.sleep(2000);
-        baseLanding.clickButtonOtherMethod();
-        baseLanding.clickButtonFacebook();
+        action.click(baseLanding.btnOtherMethod);
+        action.click(baseLanding.btnFacebook);
         Thread.sleep(3000);
     }
 

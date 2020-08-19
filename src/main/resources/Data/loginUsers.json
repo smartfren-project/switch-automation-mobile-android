@@ -1,0 +1,10 @@
+{
+  "valid_user_number": {
+    "username" : "088906011294",
+    "pin" : "111111"
+  },
+  "valid_user_email": {
+    "username" : "satriopanjiprakoso@gmail.com",
+    "pin" : "545454"
+  }
+}

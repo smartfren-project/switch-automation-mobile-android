@@ -1,23 +1,25 @@
 package pages;
 
 import operation.BaseHomepage;
+import utilities.finders.ElementAction;
 
 public class HomePages {
 
     BaseHomepage baseHomepage = new BaseHomepage();
+    ElementAction action = new ElementAction();
 
     public void testUserCanMoveToMainMenuPage() throws InterruptedException {
-        baseHomepage.clickButtonDeals();
+        action.click(baseHomepage.btnDeals);
         Thread.sleep(2500);
-        baseHomepage.clickButtonQuest();
+        action.click(baseHomepage.btnQuest);
         Thread.sleep(2500);
-        baseHomepage.clickButtonHistory();
+        action.click(baseHomepage.btnHistory);
         Thread.sleep(2500);
-        baseHomepage.clickButtonProfile();
+        action.click(baseHomepage.btnProfile);
         Thread.sleep(2500);
-        baseHomepage.clickButtonHome();
+        action.click(baseHomepage.btnHome);
         Thread.sleep(2500);
-        baseHomepage.clickButtonNotification();
+        action.click(baseHomepage.btnNotification);
     }
 
     public void testUserUnableMoveToAllMenuExceptMainMenu() throws InterruptedException{

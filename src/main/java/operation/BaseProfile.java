@@ -84,6 +84,7 @@ public class BaseProfile extends BaseTest {
                             + ".resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView("
                             + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/language\"));");
             Thread.sleep(4000);
+            Assert.assertEquals(activeLang(), "Bahasa");
         } else {
             elementToClick.click();
             driver.findElement(By.id(ObjectElement.ProfilePageObject.btnEnglish)).click();
@@ -91,6 +92,7 @@ public class BaseProfile extends BaseTest {
                             + ".resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView("
                             + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/language\"));");
             Thread.sleep(4000);
+            Assert.assertEquals(activeLang(), "English");
         }
     }
 
@@ -311,4 +313,16 @@ public class BaseProfile extends BaseTest {
 
     }
 
+    public String getReferralTitle() {
+        String refTitle = driver.findElement(By.id("")).getText();
+        try {
+            return String.valueOf(refTitle);
+        } catch (Exception e) {
+            return null;
+        }
+    }
+
+    public void checkValidationReferralPage() {
+
+    }
 }

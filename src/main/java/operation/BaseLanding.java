@@ -11,51 +11,47 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 import io.qameta.allure.*;
+import utilities.finders.ElementAction;
 
 import java.io.File;
 import java.net.MalformedURLException;
 
 public class BaseLanding extends BaseTest {
-    public void clickButtonLogin() {
-        driver.findElement(By.id(ObjectElement.LandingPageObject.btnLogin)).click();
-    }
-//    private By clickButtonLogin = By.id(ObjectElement.LandingPageObject.btnLogin);
 
-    public void clickButtonSignUp() {
-        driver.findElement(By.id(ObjectElement.LandingPageObject.btnSignUp)).click();
-    }
+    ElementAction action = new ElementAction();
 
-    public void clickButtonSkip() {
-        driver.findElement(By.id(ObjectElement.LandingPageObject.btnSkip)).click();
-    }
+    public By btnLogin = By.id(ObjectElement.LandingPageObject.btnLogin);
 
-    public void clickButtonHeaderCredential() {
-        driver.findElement(By.id(ObjectElement.SignUpPageObject.btnLogin)).click();
-    }
+    public By btnSignUp = By.id(ObjectElement.LandingPageObject.btnSignUp);
 
-    public void clickButtonFooterCredential() {
-        driver.findElement(By.id(ObjectElement.SignUpPageObject.btnLoginHere)).click();
-    }
+    public By btnSkip = By.id(ObjectElement.LandingPageObject.btnSkip);
 
-    public void clickButtonOtherMethod() {
-        driver.findElement(By.id(ObjectElement.LoginPageObject.btnOtherMethods)).click();
-    }
+    public By btnLoginHere = By.id(ObjectElement.SignUpPageObject.btnLoginHere);
 
-    public void clickButtonGoogle() {
-        driver.findElement(By.id(ObjectElement.LoginPageObject.btnGoogle)).click();
-    }
+    public By btnOtherMethod = By.id(ObjectElement.LoginPageObject.btnOtherMethods);
 
-    public void clickButtonFacebook() {
-        driver.findElement(By.id(ObjectElement.LoginPageObject.btnFacebook)).click();
-    }
+    public By btnGoogle = By.id(ObjectElement.LoginPageObject.btnGoogle);
 
-    public void checkTitlePage(String titlePage) {
-        String TitlePage = driver.findElement(By.id(ObjectElement.LoginPageObject.txtLoginTitle)).getText();
-        Assert.assertEquals(TitlePage, titlePage);
-    }
+    public By btnFacebook = By.id(ObjectElement.LoginPageObject.btnFacebook);
+
+    public By txtTitlePages = By.id(ObjectElement.LoginPageObject.txtLoginTitle);
+
+    public By txtWelcomeTitle = By.id(ObjectElement.LoginPageObject.txtWelcomeTitle);
+
+    public By txtWelcomeDesc = By.id(ObjectElement.LoginPageObject.txtWelcomeDesc);
+
+    public By txtLangCenter = By.id(ObjectElement.LoginPageObject.txtOtherWaysTitle);
+
+    public By txtPinTitle = By.id(ObjectElement.PINPageObject.txtPINPageTitle);
+
+    public By txtPinDesc = By.id(ObjectElement.PINPageObject.txtPINInputDesc);
+
+    public By btnSubmitLogin = By.id(ObjectElement.LoginPageObject.btnSubmitLogin);
+
+    public By btnGoogleAccount = By.id(ObjectElement.LoginPageObject.btnGoogleAccount);
 
     public String titlePage() {
-        String titlePage = driver.findElement(By.id(ObjectElement.LoginPageObject.txtLoginTitle)).getText();
+        String titlePage = action.getText(txtTitlePages);
         try {
             return String.valueOf(titlePage);
         } catch (Exception e) {
@@ -64,7 +60,7 @@ public class BaseLanding extends BaseTest {
     }
 
     public String welcomeTitle() {
-        String welcomeAppSwitch = driver.findElement(By.id(ObjectElement.LoginPageObject.txtWelcomeTitle)).getText();
+        String welcomeAppSwitch = action.getText(txtWelcomeTitle);
         try {
             return String.valueOf(welcomeAppSwitch);
         } catch (Exception e) {
@@ -73,7 +69,7 @@ public class BaseLanding extends BaseTest {
     }
 
     public String welcomeDesc() {
-        String wDesc = driver.findElement(By.id(ObjectElement.LoginPageObject.txtWelcomeDesc)).getText();
+        String wDesc = action.getText(txtWelcomeDesc);
         try {
             return String.valueOf(wDesc);
         } catch (Exception e) {
@@ -82,7 +78,7 @@ public class BaseLanding extends BaseTest {
     }
 
     public String langCenter() {
-        String owTitle = driver.findElement(By.id(ObjectElement.LoginPageObject.txtOtherWaysTitle)).getText();
+        String owTitle = action.getText(txtLangCenter);
         try {
             return String.valueOf(owTitle);
         } catch (Exception e) {
@@ -106,12 +102,6 @@ public class BaseLanding extends BaseTest {
         }
     }
 
-    public void checkValidationPINPage() {
-        String pinTitle = driver.findElement(By.id(ObjectElement.PINPageObject.txtPINPageTitle)).getText();
-        String pinDesc = driver.findElement(By.id(ObjectElement.PINPageObject.txtPINInputDesc)).getText();
-
-    }
-
     public void checkUserProfile(String username) {
         String ProfileName = driver.findElement(By.id(ObjectElement.MenuPageObject.txtUserProfile)).getText();
         Assert.assertEquals(ProfileName, username);
@@ -119,9 +109,5 @@ public class BaseLanding extends BaseTest {
 
     public void clickButtonSubmitSignUp() {
         driver.findElement(By.id(ObjectElement.LoginPageObject.btnSubmitLogin)).click();
-    }
-
-    public void clickButtonGoogleAccount() {
-        driver.findElement(By.id(ObjectElement.LoginPageObject.btnGoogleAccount)).click();
     }
 }

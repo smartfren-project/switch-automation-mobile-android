@@ -5,6 +5,7 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
 import listeners.TestAllureListener;
+import operation.BaseLanding;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pages.LandingPages;
@@ -16,6 +17,7 @@ public class LandingITest extends TestSetup {
     LandingPages landingPages = new LandingPages();
     ProfilePages profilePages = new ProfilePages();
     ProfileITest profile = new ProfileITest();
+    BaseLanding baseLanding = new BaseLanding();
 
     @Test(priority = 1, description = "Switch_Land_001 - User able to go to Login/SignUp")
     @Severity(SeverityLevel.NORMAL)
@@ -74,5 +76,16 @@ public class LandingITest extends TestSetup {
         profilePages.testLogout();
         profilePages.testClickButtonLoginHere();
         landingPages.testCheckLoginPage();
+    }
+
+    @Test(priority = 7, description = "Switch_Land_007 - User able to go to Login/SignUp with Bahasa Language")
+    @Severity(SeverityLevel.NORMAL)
+    @Description("Verify that User is navigating to Sign Up Page on Clicking on Sign Up Button in any storyboard.")
+    @Story("Story Name : Check On Landing Page")
+    public void checkGoToSignInPageBahasa() throws InterruptedException {
+        profilePages.testChangeLanguage();
+        profilePages.testLogout();
+        profilePages.testClickButtonLoginHere();
+        landingPages.testGoToSignUpPage();
     }
 }
