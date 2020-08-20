@@ -46,6 +46,26 @@ public class BaseProfile extends BaseTest {
 
     public By inputAlternatePhoneNumber = By.id(ObjectElement.EditProfileObject.inputAlternatePhoneNumber);
 
+    public By txtReferralCode = By.id(ObjectElement.ReferralObject.txtReferralCode);
+
+    public By btnCopyReferralCode = By.id(ObjectElement.ReferralObject.btnCopyRef);
+
+    public By btnShareReferralCode = By.id(ObjectElement.ReferralObject.btnShareRef);
+
+    public By btnChangePIN = By.id(ObjectElement.AccountObject.btnChangePin);
+
+    public By inputChangePIN = By.id(ObjectElement.AccountObject.inputPin);
+
+    public By btnConfirmChangePIN = By.id(ObjectElement.AccountObject.btnNext);
+
+    public By btnDeliveryAddress = By.id(ObjectElement.AccountObject.btnDeliveryAddress);
+
+    public By btnAddAddress = By.id(ObjectElement.AccountObject.btnAddAddress);
+
+    public By btnSIMInfo = By.id(ObjectElement.SIMSettingObject.btnSimInfo);
+
+    public By btnCheckCompatibility = By.id(ObjectElement.SIMSettingObject.btnCheckCompatibility);
+
     /* profile-menu-page */
 
     public void clickButtonEditProfile() {
@@ -159,6 +179,7 @@ public class BaseProfile extends BaseTest {
 
     public void updateAlternatePhoneNumber() {
         String AlternatePhone = driver.findElement(By.id(ObjectElement.EditProfileObject.inputAlternatePhoneNumber)).getText();
+        System.out.println(AlternatePhone);
         if (AlternatePhone.equals(BaseData.Validation.VALIDATION_ALT_PHONE_1)) {
             driver.findElement(By.id(ObjectElement.EditProfileObject.inputAlternatePhoneNumber)).click();
             driver.findElement(By.id(ObjectElement.EditProfileObject.inputAlternatePhoneNumber)).sendKeys("881850440");

@@ -1,6 +1,7 @@
 package operation;
 
 import constants.ObjectElement;
+import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import org.openqa.selenium.By;
 
@@ -26,7 +27,11 @@ public class BaseDeals extends BaseTest {
     }
 
     public void clickButtonSeeAllDeals() {
-        driver.findElement(By.id(ObjectElement.DealsPageObject.btnSeeAllSpecialDeals)).click();
+        MobileElement elementToClick = (MobileElement) driver
+                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
+                        + ".resourceId(\"com.smartfren.switchmobile:id/recycler_view\")).scrollIntoView("
+                        + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/txt_browse_deals\"));");
+        elementToClick.click();
     }
 
 

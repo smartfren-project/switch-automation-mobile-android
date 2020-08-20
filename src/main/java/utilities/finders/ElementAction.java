@@ -20,7 +20,7 @@ public class ElementAction extends BaseTest {
     }
 
     public void checkerEqual(By element, String expected) {
-        Assert.assertEquals(driver.findElement(element), expected);
+        Assert.assertEquals(driver.findElement(element).getText(), expected);
     }
 
     public void checkerDisabled(By element) {

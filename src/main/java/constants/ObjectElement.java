@@ -75,10 +75,7 @@ public class ObjectElement extends BaseTest {
         String txtPointValue = "com.smartfren.switchmobile:id/points_value";
         String btnRuby = "com.smartfren.switchmobile:id/btn_ruby";
         String txtRubyValue = "com.smartfren.switchmobile:id/ruby_value";
-        String btnSeeAllSpecialDeals = "//android.widget.FrameLayout/" +
-                "androidx.recyclerview.widget.RecyclerView[0]" +
-                "android.widget.TextView" +
-                "[@resource-id='com.smartfren.switchmobile:id/txt_see_all']";
+        String btnSeeAllSpecialDeals = "//*[@resource-id='com.smartfren.switchmobile:id/txt_see_all'][1]";
     }
 
     public interface HistoryPageObject {

@@ -2,29 +2,31 @@ package pages;
 
 import operation.BaseDeals;
 import operation.BaseHomepage;
+import utilities.finders.ElementAction;
 
 public class DealsPages {
 
+    ElementAction action = new ElementAction();
     BaseHomepage baseHomepage = new BaseHomepage();
     BaseDeals baseDeals = new BaseDeals();
 
     public void testSeeAllSpecialDeals() throws InterruptedException {
-        baseHomepage.clickButtonDeals();
-//        baseDeals.clickButtonSeeAllDeals();
+        action.click(baseHomepage.btnDeals);
+        baseDeals.clickButtonSeeAllDeals();
         Thread.sleep(3000);
     }
 
     public void testCheckPointsValue() throws InterruptedException {
-        baseHomepage.clickButtonDeals();
+        action.click(baseHomepage.btnDeals);
         Thread.sleep(3000);
-        baseDeals.clickButtonCheckPoints();
+        action.click(baseDeals.btnPoint);
         Thread.sleep(3000);
     }
 
     public void testCheckRubyValue() throws InterruptedException {
-        baseHomepage.clickButtonDeals();
+        action.click(baseHomepage.btnDeals);
         Thread.sleep(3000);
-        baseDeals.clickButtonCheckRuby();
+        action.click(baseDeals.btnRuby);
         Thread.sleep(3000);
     }
 
