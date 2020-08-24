@@ -68,14 +68,6 @@ public class BaseProfile extends BaseTest {
 
     /* profile-menu-page */
 
-    public void clickButtonEditProfile() {
-        driver.findElement(By.id(ObjectElement.ProfilePageObject.btnEdit)).click();
-    }
-
-    public void clickSeeAllFavorite() {
-        driver.findElement(By.id(ObjectElement.ProfilePageObject.btnSeeAllFavorite)).click();
-    }
-
     public void clickReferralCode() throws InterruptedException {
         MobileElement elementToClick = (MobileElement) driver
                 .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
@@ -211,18 +203,6 @@ public class BaseProfile extends BaseTest {
         Thread.sleep(4000);
     }
 
-    public void clickButtonCopyRefCode() {
-        final String referralCode = driver.findElement(By.id(ObjectElement.ReferralObject.txtReferralCode)).getText();
-        Assert.assertEquals(referralCode, "fgyRpcHC");
-        driver.findElement(By.id(ObjectElement.ReferralObject.btnCopyRef)).click();
-    }
-
-    public void clickButtonShareRefCode() {
-        final String referralCode = driver.findElement(By.id(ObjectElement.ReferralObject.txtReferralCode)).getText();
-        Assert.assertEquals(referralCode, "fgyRpcHC");
-        driver.findElement(By.id(ObjectElement.ReferralObject.btnShareRef)).click();
-    }
-
     public void clickButtonChangePIN() {
         driver.findElement(By.id(ObjectElement.AccountObject.btnChangePin)).click();
     }
@@ -334,24 +314,6 @@ public class BaseProfile extends BaseTest {
         elementToClick.click();
     }
 
-    public void clickButtonSIMInfo() {
-        driver.findElement(By.id(ObjectElement.SIMSettingObject.btnSimInfo)).click();
-    }
-
-    public void checkSIMInfo() {
-
-    }
-
-    public void clickButtonCheckCompatibility() {
-        driver.findElement(By.id(ObjectElement.SIMSettingObject.btnCheckCompatibility)).click();
-    }
-
-    private By clickButtonCheckCompatibility = By.id(ObjectElement.SIMSettingObject.btnCheckCompatibility);
-
-    public void checkCompatibility() {
-
-    }
-
     public void clickButtonChatWithShely() {
 
     }
@@ -361,10 +323,6 @@ public class BaseProfile extends BaseTest {
     }
 
     public void clickButtonEmail() {
-
-    }
-
-    public void checkValueAddress() {
 
     }
 

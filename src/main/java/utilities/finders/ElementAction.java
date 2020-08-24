@@ -30,4 +30,8 @@ public class ElementAction extends BaseTest {
     public void checkerEnabled(By element) {
         Assert.assertTrue(driver.findElement(element).isEnabled());
     }
+
+    public void checkerElementExist(By element) {
+        Assert.assertNotNull(driver.findElement(element));
+    }
 }

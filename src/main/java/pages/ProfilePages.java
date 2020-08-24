@@ -120,14 +120,14 @@ public class ProfilePages {
     }
 
     public void testChatWithShely() {
-        baseHomepage.clickButtonProfile();
+        action.click(baseHomepage.btnProfile);
         baseProfile.clickButtonHelp();
         baseProfile.clickButtonChatWithShely();
         baseProfile.clickButtonChat();
     }
 
     public void testEmailUs() {
-        baseHomepage.clickButtonProfile();
+        action.click(baseHomepage.btnProfile);
         baseProfile.clickButtonHelp();
         baseProfile.clickButtonChatWithShely();
         baseProfile.clickButtonEmail();
