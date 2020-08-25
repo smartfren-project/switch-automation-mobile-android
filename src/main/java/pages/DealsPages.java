@@ -10,9 +10,9 @@ public class DealsPages {
     BaseHomepage baseHomepage = new BaseHomepage();
     BaseDeals baseDeals = new BaseDeals();
 
-    public void testSeeAllSpecialDeals() {
+    public void testCheckVoucherList() {
         action.click(baseHomepage.btnDeals);
-        baseDeals.clickButtonSeeAllDeals();
+        action.click(baseDeals.btnCheckVoucher);
     }
 
     public void testCheckPointsValue() {

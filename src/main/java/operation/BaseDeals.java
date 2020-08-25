@@ -18,21 +18,7 @@ public class BaseDeals extends BaseTest {
 
     public By btnSeeAllSpecialDeals = By.id(ObjectElement.DealsPageObject.btnSeeAllSpecialDeals);
 
-    public void clickButtonCheckPoints() {
-        driver.findElement(By.id(ObjectElement.DealsPageObject.btnPoint)).click();
-    }
+    public By btnCheckVoucher = By.id(ObjectElement.DealsPageObject.btnSeeAllVoucher);
 
-    public void clickButtonCheckRuby() {
-        driver.findElement(By.id(ObjectElement.DealsPageObject.btnRuby)).click();
-    }
-
-    public void clickButtonSeeAllDeals() {
-        MobileElement elementToClick = (MobileElement) driver
-                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
-                        + ".resourceId(\"com.smartfren.switchmobile:id/recycler_view\")).scrollIntoView("
-                        + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/txt_browse_deals\"));");
-        elementToClick.click();
-    }
-
-
+    public String btnMoreDeals = ObjectElement.DealsPageObject.btnSeeMore;
 }

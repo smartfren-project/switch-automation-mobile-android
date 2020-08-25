@@ -3,22 +3,17 @@ package operation;
 import constants.ObjectElement;
 import io.appium.java_client.MobileElement;
 import org.openqa.selenium.By;
+import utilities.finders.ElementAction;
 
 public class BaseHistory extends BaseTest {
 
-    public By btnTabAll = By.id(ObjectElement.HistoryPageObject.btnTabAll);
-
-    public By btnTabWaiting = By.id(ObjectElement.HistoryPageObject.btnTabWaiting);
-
-    public By btnTabProcessTrx = By.id(ObjectElement.HistoryPageObject.btnTabProcessTrx);
-
-    public By btnFinishTrx = By.id(ObjectElement.HistoryPageObject.btnFinishTrx);
+    ElementAction action = new ElementAction();
 
     public By textHistoryMenuTitle = By.id(ObjectElement.HistoryPageObject.textHistoryMenuTitle);
 
 
     public String getHistoryTitle() {
-        String hTitle = driver.findElement(By.id(ObjectElement.HistoryPageObject.textHistoryMenuTitle)).getText();
+        String hTitle = action.getText(textHistoryMenuTitle);
         try {
             return String.valueOf(hTitle);
         } catch (Exception e) {
@@ -28,66 +23,33 @@ public class BaseHistory extends BaseTest {
 
     public void clickButtonAll() {
         if (getHistoryTitle().equals("Transaction History")) {
-            MobileElement elementToClick = (MobileElement) driver
-                    .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
-                            + ".resourceId(\"com.smartfren.switchmobile:id/tab_layout\")).scrollIntoView("
-                            + "new UiSelector().text(\"All\"));");
-            elementToClick.click();
+            action.scrollAndClick(ObjectElement.HistoryPageObject.btnTabAll);
         } else {
-            MobileElement elementToClick = (MobileElement) driver
-                    .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
-                            + ".resourceId(\"com.smartfren.switchmobile:id/tab_layout\")).scrollIntoView("
-                            + "new UiSelector().text(\"Semua\"));");
-            elementToClick.click();
+            action.scrollAndClick(ObjectElement.HistoryPageObject.btnTabSemua);
         }
-
     }
 
     public void clickButtonWaiting() {
         if (getHistoryTitle().equals("Transaction History")) {
-            MobileElement elementToClick = (MobileElement) driver
-                    .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
-                            + ".resourceId(\"com.smartfren.switchmobile:id/tab_layout\")).scrollIntoView("
-                            + "new UiSelector().text(\"Waiting\"));");
-            elementToClick.click();
+            action.scrollAndClick(ObjectElement.HistoryPageObject.btnTabWaiting);
         } else {
-            MobileElement elementToClick = (MobileElement) driver
-                    .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
-                            + ".resourceId(\"com.smartfren.switchmobile:id/tab_layout\")).scrollIntoView("
-                            + "new UiSelector().text(\"Menunggu\"));");
-            elementToClick.click();
+            action.scrollAndClick(ObjectElement.HistoryPageObject.btnTabMenunggu);
         }
     }
 
     public void clickButtonProcess() {
         if (getHistoryTitle().equals("Transaction History")) {
-            MobileElement elementToClick = (MobileElement) driver
-                    .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
-                            + ".resourceId(\"com.smartfren.switchmobile:id/tab_layout\")).scrollIntoView("
-                            + "new UiSelector().text(\"In Process\"));");
-            elementToClick.click();
+            action.scrollAndClick(ObjectElement.HistoryPageObject.btnTabProcessTrx);
         } else {
-            MobileElement elementToClick = (MobileElement) driver
-                    .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
-                            + ".resourceId(\"com.smartfren.switchmobile:id/tab_layout\")).scrollIntoView("
-                            + "new UiSelector().text(\"Pesanan Diproses\"));");
-            elementToClick.click();
+            action.scrollAndClick(ObjectElement.HistoryPageObject.btnTabDiProses);
         }
     }
 
     public void clickButtonFinishTrx() {
         if (getHistoryTitle().equals("Transaction History")) {
-            MobileElement elementToClick = (MobileElement) driver
-                    .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
-                            + ".resourceId(\"com.smartfren.switchmobile:id/tab_layout\")).scrollIntoView("
-                            + "new UiSelector().text(\"Completed\"));");
-            elementToClick.click();
+            action.scrollAndClick(ObjectElement.HistoryPageObject.btnFinishTrx);
         } else {
-            MobileElement elementToClick = (MobileElement) driver
-                    .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
-                            + ".resourceId(\"com.smartfren.switchmobile:id/tab_layout\")).scrollIntoView("
-                            + "new UiSelector().text(\"Pesanan Selesai\"));");
-            elementToClick.click();
+            action.scrollAndClick(ObjectElement.HistoryPageObject.btnTabSelesai);
         }
     }
 }

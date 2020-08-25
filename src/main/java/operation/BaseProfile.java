@@ -22,8 +22,6 @@ public class BaseProfile extends BaseTest {
 
     public By txtDealsTitle = By.id(ObjectElement.ProfilePageObject.txtDealsTitle);
 
-    public By btnLogout = By.id(ObjectElement.ProfilePageObject.btnLogout);
-
     public By btnConfirmLogout = By.id(ObjectElement.ProfilePageObject.btnConfirmLogout);
 
     public By btnLanguage = By.id(ObjectElement.ProfilePageObject.btnLanguage);
@@ -65,6 +63,8 @@ public class BaseProfile extends BaseTest {
     public By btnSIMInfo = By.id(ObjectElement.SIMSettingObject.btnSimInfo);
 
     public By btnCheckCompatibility = By.id(ObjectElement.SIMSettingObject.btnCheckCompatibility);
+
+    public String btnLogout = ObjectElement.ProfilePageObject.btnLogout;
 
     /* profile-menu-page */
 
@@ -147,14 +147,6 @@ public class BaseProfile extends BaseTest {
                 .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
                         + ".resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView("
                         + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/help\"));");
-        elementToClick.click();
-    }
-
-    public void clickButtonLogout() {
-        MobileElement elementToClick = (MobileElement) driver
-                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
-                        + ".resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView("
-                        + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/logout\"));");
         elementToClick.click();
     }
 
@@ -303,7 +295,11 @@ public class BaseProfile extends BaseTest {
     }
 
     public void clickCheckboxTermsAndCondition() {
-        driver.findElement(By.id(ObjectElement.AccountObject.cbTermsAndCondition)).click();
+        MobileElement elementToClick = (MobileElement) driver
+                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
+                        + ".resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView("
+                        + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/checkBox\"));");
+        elementToClick.click();
     }
 
     public void clickButtonSave() {

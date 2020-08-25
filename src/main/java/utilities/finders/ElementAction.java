@@ -1,5 +1,6 @@
 package utilities.finders;
 
+import io.appium.java_client.MobileElement;
 import operation.BaseTest;
 import org.openqa.selenium.By;
 
@@ -47,5 +48,10 @@ public class ElementAction extends BaseTest {
 
     public void checkerElementExist(By element) {
         Assert.assertNotNull(driver.findElement(element));
+    }
+
+    public void scrollAndClick(String element) {
+        MobileElement elementToClick = (MobileElement) driver.findElementByAndroidUIAutomator(element);
+        elementToClick.click();
     }
 }

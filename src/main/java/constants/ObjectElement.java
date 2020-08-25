@@ -76,13 +76,37 @@ public class ObjectElement extends BaseTest {
         String btnRuby = "com.smartfren.switchmobile:id/btn_ruby";
         String txtRubyValue = "com.smartfren.switchmobile:id/ruby_value";
         String btnSeeAllSpecialDeals = "//*[@resource-id='com.smartfren.switchmobile:id/txt_see_all'][1]";
+        String btnSeeAllVoucher = "com.smartfren.switchmobile:id/im_notification";
+        String btnSeeMore = "new UiScrollable(new UiSelector()"
+                + ".resourceId(\"com.smartfren.switchmobile:id/recycler_view\")).scrollIntoView("
+                + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/txt_browse_deals\"));";
     }
 
     public interface HistoryPageObject {
-        String btnTabAll = "//androidx.appcompat.app.ActionBar$Tab[@index='0']";
-        String btnTabWaiting = "//androidx.appcompat.app.ActionBar$Tab[@index='1']";
-        String btnTabProcessTrx = "//androidx.appcompat.app.ActionBar$Tab[@index='2']";
-        String btnFinishTrx = "//androidx.appcompat.app.ActionBar$Tab[@index='3']";
+        String btnTabAll = "new UiScrollable(new UiSelector()"
+                + ".resourceId(\"com.smartfren.switchmobile:id/tab_layout\")).scrollIntoView("
+                + "new UiSelector().text(\"All\"));";
+        String btnTabWaiting = "new UiScrollable(new UiSelector()"
+                + ".resourceId(\"com.smartfren.switchmobile:id/tab_layout\")).scrollIntoView("
+                + "new UiSelector().text(\"Waiting\"));";
+        String btnTabProcessTrx = "new UiScrollable(new UiSelector()"
+                + ".resourceId(\"com.smartfren.switchmobile:id/tab_layout\")).scrollIntoView("
+                + "new UiSelector().text(\"In Process\"));";
+        String btnFinishTrx = "new UiScrollable(new UiSelector()"
+                + ".resourceId(\"com.smartfren.switchmobile:id/tab_layout\")).scrollIntoView("
+                + "new UiSelector().text(\"Completed\"));";
+        String btnTabSemua = "new UiScrollable(new UiSelector()"
+                + ".resourceId(\"com.smartfren.switchmobile:id/tab_layout\")).scrollIntoView("
+                + "new UiSelector().text(\"Semua\"));";
+        String btnTabMenunggu = "new UiScrollable(new UiSelector()"
+                + ".resourceId(\"com.smartfren.switchmobile:id/tab_layout\")).scrollIntoView("
+                + "new UiSelector().text(\"Menunggu\"));";
+        String btnTabDiProses = "new UiScrollable(new UiSelector()"
+                + ".resourceId(\"com.smartfren.switchmobile:id/tab_layout\")).scrollIntoView("
+                + "new UiSelector().text(\"Pesanan Diproses\"));";
+        String btnTabSelesai = "new UiScrollable(new UiSelector()"
+                + ".resourceId(\"com.smartfren.switchmobile:id/tab_layout\")).scrollIntoView("
+                + "new UiSelector().text(\"Pesanan Selesai\"));";
         String textHistoryMenuTitle = "com.smartfren.switchmobile:id/history";
     }
 
@@ -107,7 +131,9 @@ public class ObjectElement extends BaseTest {
         String txtEmailUserTitle = "com.smartfren.switchmobile:id/user_email";
         String btnEdit = "com.smartfren.switchmobile:id/edit_profile";
         String txtDealsTitle = "com.smartfren.switchmobile:id/deals";
-        String btnLogout = "com.smartfren.switchmobile:id/logout";
+        String btnLogout = "new UiScrollable(new UiSelector()"
+                + ".resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView("
+                + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/logout\"));";
         String btnConfirmLogout = "android:id/button1";
         String btnLanguage = "com.smartfren.switchmobile:id/langText";
         String btnBahasa = "com.smartfren.switchmobile:id/indonesia";

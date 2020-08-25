@@ -20,7 +20,7 @@ public class DealsITest extends TestSetup {
     @Story("Story Name : Check On Deals Page")
     public void checkSeeAllSpecialDeals() throws InterruptedException {
         login.checkValidLoginUsingSwitchNumber();
-        dealsPages.testSeeAllSpecialDeals();
+        dealsPages.testCheckVoucherList();
     }
 
     @Test(priority = 152, description = "Switch_Deals_002 - User able to see all POINTS on POINT Page")

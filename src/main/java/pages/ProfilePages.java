@@ -135,12 +135,12 @@ public class ProfilePages {
 
     public void testValidLogout() throws InterruptedException {
         action.click(baseHomepage.btnProfile);
-        baseProfile.clickButtonLogout();
+        action.scrollAndClick(baseProfile.btnLogout);
         action.click(baseLogout.btnConfirmLogout);
     }
 
     public void testLogout() {
-        baseProfile.clickButtonLogout();
+        action.scrollAndClick(baseProfile.btnLogout);
         action.click(baseLogout.btnConfirmLogout);
     }
 
