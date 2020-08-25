@@ -18,7 +18,7 @@ public class TestSetup extends BaseTest {
 
 
     @AfterMethod
-    public void closeAppSwitch() {
-        driver.resetApp();
+    public void closeAppSwitch() throws IOException {
+        closeApp();
     }
 }

@@ -12,25 +12,21 @@ public class HistoryPages {
 
     public void testCheckHistoryAllTrx() throws InterruptedException {
         action.click(baseHomepage.btnHistory);
-        Thread.sleep(3000);
         baseHistory.clickButtonAll();
     }
 
     public void testCheckHistoryWaitingTrx() throws InterruptedException {
         action.click(baseHomepage.btnHistory);
-        Thread.sleep(3000);
         baseHistory.clickButtonWaiting();
     }
 
     public void testCheckHistoryProcessedTrx() throws InterruptedException {
         action.click(baseHomepage.btnHistory);
-        Thread.sleep(3000);
         baseHistory.clickButtonProcess();
     }
 
     public void testCheckHistoryFinishTrx() throws InterruptedException {
         action.click(baseHomepage.btnHistory);
-        Thread.sleep(3000);
         baseHistory.clickButtonFinishTrx();
     }
 }

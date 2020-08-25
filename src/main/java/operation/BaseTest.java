@@ -78,16 +78,16 @@ public class BaseTest {
         wait = new WebDriverWait(driver, 15);
 
         //Populating the properties file
-        configFile.setProperty("Device Name", "udid");
-        configFile.setProperty("Android Version", "androidPlatformVersion");
-        File file = new File("target\\allure-results");
+        configFile.setProperty("Device Name", configFile.getProperty("udid"));
+        configFile.setProperty("Android Version", configFile.getProperty("androidPlatformVersion"));
+        File file = new File("allure-results/environment.properties");
         FileOutputStream fileOut = new FileOutputStream(file);
         configFile.store(fileOut, "Device Info");
         fileOut.close();
     }
 
-    public void closeApp() {
-        driver.closeApp();
+    public void closeApp() throws IOException {
+        driver.resetApp();
     }
 
     public void uninstallApp() {

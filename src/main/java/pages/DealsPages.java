@@ -10,24 +10,19 @@ public class DealsPages {
     BaseHomepage baseHomepage = new BaseHomepage();
     BaseDeals baseDeals = new BaseDeals();
 
-    public void testSeeAllSpecialDeals() throws InterruptedException {
+    public void testSeeAllSpecialDeals() {
         action.click(baseHomepage.btnDeals);
         baseDeals.clickButtonSeeAllDeals();
-        Thread.sleep(3000);
     }
 
-    public void testCheckPointsValue() throws InterruptedException {
+    public void testCheckPointsValue() {
         action.click(baseHomepage.btnDeals);
-        Thread.sleep(3000);
         action.click(baseDeals.btnPoint);
-        Thread.sleep(3000);
     }
 
-    public void testCheckRubyValue() throws InterruptedException {
+    public void testCheckRubyValue() {
         action.click(baseHomepage.btnDeals);
-        Thread.sleep(3000);
         action.click(baseDeals.btnRuby);
-        Thread.sleep(3000);
     }
 
     public void testMarkWishlistProduct() {
