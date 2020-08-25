@@ -14,7 +14,6 @@ public class PurchasePages {
 
     public void testAddToCartPromoSuperBundle(String productTitle, int increase) throws InterruptedException {
         action.click(baseHomepage.btnBuyPlan);
-        Thread.sleep(2000);
         baseProduct.clickDetailPromoSuperBundle();
         action.checkerEqual(baseProduct.txtProductTitle, productTitle);
         basePurchase.clickButtonIncreaseCountProduct(increase);
@@ -29,7 +28,6 @@ public class PurchasePages {
         baseProduct.clickDetailPromoPowerBundle();
         action.checkerEqual(baseProduct.txtProductTitle, productTitle);
         basePurchase.clickButtonIncreaseCountProduct(increase);
-        Thread.sleep(3000);
         action.click(basePurchase.btnAddToCart);
         action.click(basePurchase.btnConfirmBuy);
         action.click(basePurchase.btnChoosePayment);
@@ -42,7 +40,6 @@ public class PurchasePages {
         baseProduct.clickDetailPromoStandardBundle();
         action.checkerEqual(baseProduct.txtProductTitle, productTitle);
         basePurchase.clickButtonIncreaseCountProduct(increase);
-        Thread.sleep(3000);
         basePurchase.clickButtonDecreaseCountProduct(decrease);
         action.click(basePurchase.btnAddToCart);
         action.click(basePurchase.btnConfirmBuy);
@@ -56,7 +53,6 @@ public class PurchasePages {
         baseProduct.clickDetailPromoLiteBundle();
         action.checkerEqual(baseProduct.txtProductTitle, productTitle);
         basePurchase.clickButtonIncreaseCountProduct(increase);
-        Thread.sleep(3000);
         action.click(basePurchase.btnAddToCart);
         action.click(basePurchase.btnConfirmBuy);
         action.click(basePurchase.btnChoosePayment);
