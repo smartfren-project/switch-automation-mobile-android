@@ -7,10 +7,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
+import utilities.finders.ElementAction;
 
 import java.net.MalformedURLException;
 
 public class BaseProfile extends BaseTest {
+    ElementAction action = new ElementAction();
 
     public By txtHeaderTitle = By.id(ObjectElement.ProfilePageObject.txtHeaderTitle);
 
@@ -66,50 +68,45 @@ public class BaseProfile extends BaseTest {
 
     public String btnLogout = ObjectElement.ProfilePageObject.btnLogout;
 
+    public String btnReferral = ObjectElement.ProfilePageObject.btnReferral;
+
+    public String btnYourWishList = ObjectElement.ProfilePageObject.btnYourWishList;
+
+    public String btnSolveMission = ObjectElement.ProfilePageObject.btnSolveMission;
+
+    public String btnAccount = ObjectElement.ProfilePageObject.btnAccount;
+
+    public String btnSIMSetting = ObjectElement.ProfilePageObject.btnSIMSetting;
+
+    public String btnCLanguage = ObjectElement.ProfilePageObject.btnCLanguage;
+
+    public String btnHelp = ObjectElement.ProfilePageObject.btnHelp;
+
+    public String inputHomeOrOffice = ObjectElement.ProfilePageObject.inputHomeOrOffice;
+
+    public String inputRecipientName = ObjectElement.ProfilePageObject.inputRecipientName;
+
+    public String inputRecipientPhoneNumber = ObjectElement.ProfilePageObject.inputRecipientNumber;
+
+    public String btnCityOrDistrict = ObjectElement.ProfilePageObject.btnCityOrDistrict;
+
+    public String inputSrcCityOrDistrict = ObjectElement.ProfilePageObject.inputCityOrDistrict;
+
+    public By btnSelectCityOrDistrict = By.id(ObjectElement.AccountObject.btnSelectCityOrDistrict);
+
+    public String inputAddressDetail = ObjectElement.ProfilePageObject.inputAddressDetail;
+
+    public String btnChooseLocation = ObjectElement.ProfilePageObject.btnChooseLocation;
+
+    public By btnSelectThisLocation = By.id(ObjectElement.AccountObject.btnSelectThisLocation);
+
+    public String cbTermsAndConditions = ObjectElement.ProfilePageObject.cbTermsAndConditions;
+
+    public String btnSave = ObjectElement.ProfilePageObject.btnSave;
     /* profile-menu-page */
 
-    public void clickReferralCode() throws InterruptedException {
-        MobileElement elementToClick = (MobileElement) driver
-                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
-                        + ".resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView("
-                        + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/button3\"));");
-        elementToClick.click();
-    }
-
-    public void clickButtonYourWishlist() {
-        MobileElement elementToClick = (MobileElement) driver
-                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
-                        + ".resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView("
-                        + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/wishlist\"));");
-        elementToClick.click();
-    }
-
-    public void clickButtonSolveMission() {
-        MobileElement elementToClick = (MobileElement) driver
-                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
-                        + ".resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView("
-                        + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/textView119\"));");
-        elementToClick.click();
-    }
-
-    public void clickButtonAccount() {
-        MobileElement elementToClick = (MobileElement) driver
-                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
-                        + ".resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView("
-                        + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/account_txt\"));");
-        elementToClick.click();
-    }
-
-    public void clickButtonSIMSettings() {
-        MobileElement elementToClick = (MobileElement) driver
-                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
-                        + ".resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView("
-                        + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/sim_setting\"));");
-        elementToClick.click();
-    }
-
     public String activeLang() {
-        String langNow = driver.findElement(By.id(ObjectElement.ProfilePageObject.btnLanguage)).getText();
+        String langNow = action.getText(btnLanguage);
         try {
             return String.valueOf(langNow);
         } catch (Exception e) {
@@ -117,197 +114,61 @@ public class BaseProfile extends BaseTest {
         }
     }
 
-    public void clickButtonLanguage() throws InterruptedException{
-        MobileElement elementToClick = (MobileElement) driver
-                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
-                        + ".resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView("
-                        + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/language\"));");
-        System.out.println(activeLang());
-        if (activeLang().equals("English")) {
-            elementToClick.click();
-            driver.findElement(By.id(ObjectElement.ProfilePageObject.btnBahasa)).click();
-            driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
-                            + ".resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView("
-                            + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/language\"));");
-            Thread.sleep(4000);
-            Assert.assertEquals(activeLang(), "Bahasa");
-        } else {
-            elementToClick.click();
-            driver.findElement(By.id(ObjectElement.ProfilePageObject.btnEnglish)).click();
-            driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
-                            + ".resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView("
-                            + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/language\"));");
-            Thread.sleep(4000);
-            Assert.assertEquals(activeLang(), "English");
+    public String currentName() {
+        String curName = action.getText(inputFullName);
+        try {
+            return String.valueOf(curName);
+        } catch (Exception e) {
+            return null;
         }
     }
 
-    public void clickButtonHelp() {
-        MobileElement elementToClick = (MobileElement) driver
-                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
-                        + ".resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView("
-                        + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/help\"));");
-        elementToClick.click();
+    public String currentPhoneNumber() {
+        String curNumber = action.getText(inputAlternatePhoneNumber);
+        try {
+            return String.valueOf(curNumber);
+        } catch (Exception e) {
+            return null;
+        }
+    }
+
+    public void clickButtonLanguage() throws InterruptedException{
+        action.scrollTo(btnCLanguage);
+        System.out.println(activeLang());
+        if (activeLang().equals("English")) {
+            action.scrollAndClick(btnCLanguage);
+            action.click(btnBahasa);
+            action.scrollTo(btnCLanguage);
+            Assert.assertEquals(activeLang(), "Bahasa");
+        } else {
+            action.scrollAndClick(btnCLanguage);
+            action.click(btnEnglish);
+            action.scrollTo(btnCLanguage);
+            Assert.assertEquals(activeLang(), "English");
+        }
     }
 
     /* menu-config */
 
     public void updateFullNameProfile() {
-        String UserFullName = driver.findElement(By.id(ObjectElement.EditProfileObject.inputFullName)).getText();
-        if (UserFullName.equals(BaseData.Validation.VALIDATION_USERNAME_1)) {
-            driver.findElement(By.id(ObjectElement.EditProfileObject.inputFullName)).sendKeys(BaseData.Validation.VALIDATION_USERNAME_2);
-        } else if (UserFullName.equals(BaseData.Validation.VALIDATION_USERNAME_2)) {
-            driver.findElement(By.id(ObjectElement.EditProfileObject.inputFullName)).sendKeys(BaseData.Validation.VALIDATION_USERNAME_1);
+        if (currentName().equals(BaseData.Validation.VALIDATION_USERNAME_1)) {
+            action.sendKeys(inputFullName, BaseData.Validation.VALIDATION_USERNAME_2);
+        } else if (currentName().equals(BaseData.Validation.VALIDATION_USERNAME_2)) {
+            action.sendKeys(inputFullName, BaseData.Validation.VALIDATION_USERNAME_1);
         }
     }
 
     public void updateAlternatePhoneNumber() {
-        String AlternatePhone = driver.findElement(By.id(ObjectElement.EditProfileObject.inputAlternatePhoneNumber)).getText();
-        System.out.println(AlternatePhone);
-        if (AlternatePhone.equals(BaseData.Validation.VALIDATION_ALT_PHONE_1)) {
-            driver.findElement(By.id(ObjectElement.EditProfileObject.inputAlternatePhoneNumber)).click();
-            driver.findElement(By.id(ObjectElement.EditProfileObject.inputAlternatePhoneNumber)).sendKeys("881850440");
-        } else if (AlternatePhone.equals(BaseData.Validation.VALIDATION_ALT_PHONE_2)){
-            driver.findElement(By.id(ObjectElement.EditProfileObject.inputAlternatePhoneNumber)).click();
-            driver.findElement(By.id(ObjectElement.EditProfileObject.inputAlternatePhoneNumber)).sendKeys("8194120194");
-        } else if (AlternatePhone.equals("+62")){
-            driver.findElement(By.id(ObjectElement.EditProfileObject.inputAlternatePhoneNumber)).click();
-            driver.findElement(By.id(ObjectElement.EditProfileObject.inputAlternatePhoneNumber)).sendKeys("8194120194");
+        if (currentPhoneNumber().equals(BaseData.Validation.VALIDATION_ALT_PHONE_1)) {
+            action.click(inputAlternatePhoneNumber);
+            action.sendKeys(inputAlternatePhoneNumber, "881850440");
+        } else if (currentPhoneNumber().equals(BaseData.Validation.VALIDATION_ALT_PHONE_2)){
+            action.click(inputAlternatePhoneNumber);
+            action.sendKeys(inputAlternatePhoneNumber, "8194120194");
+        } else if (currentPhoneNumber().equals("+62")){
+            action.click(inputAlternatePhoneNumber);
+            action.sendKeys(inputAlternatePhoneNumber, "8194120194");
         }
-    }
-
-    public void inputFullName(String fullName) {
-        driver.findElement(By.id(ObjectElement.EditProfileObject.inputFullName)).sendKeys(fullName);
-    }
-
-    public void clickButtonSubmitEditProfile() {
-        driver.findElement(By.id(ObjectElement.EditProfileObject.btnSubmitChangeProfile)).click();
-    }
-
-    public void clickButtonBahasa() throws InterruptedException {
-        MobileElement elementToClick = (MobileElement) driver
-                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
-                        + ".resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView("
-                        + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/language\"));");
-        String txtLangNow = driver.findElement(By.id(ObjectElement.ProfilePageObject.btnLanguage)).getText();
-        elementToClick.click();
-        driver.findElement(By.id(ObjectElement.ProfilePageObject.btnBahasa)).click();
-        Thread.sleep(4000);
-    }
-
-    public void clickButtonChangePIN() {
-        driver.findElement(By.id(ObjectElement.AccountObject.btnChangePin)).click();
-    }
-
-    public void inputChangePIN(String pin) {
-        driver.findElement(By.id(ObjectElement.AccountObject.inputPin)).sendKeys(pin);
-    }
-
-    public void clickButtonConfirmChangePIN() {
-        driver.findElement(By.id(ObjectElement.AccountObject.btnNext)).click();
-    }
-
-    public void clickButtonDeliveryAddress() {
-        driver.findElement(By.id(ObjectElement.AccountObject.btnDeliveryAddress)).click();
-    }
-
-    public void clickButtonAdd() {
-        driver.findElement(By.id(ObjectElement.AccountObject.btnAddAddress)).click();
-        driver.hideKeyboard();
-    }
-
-    public void inputHomeOrOffice(String homeOfficeName) {
-        Object officeName = driver.findElement(By.id(ObjectElement.AccountObject.inputHomeOrOfficeName));
-        Assert.assertNotNull(officeName);
-        MobileElement elementToInput = (MobileElement) driver
-                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
-                        + ".resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView("
-                        + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/txt_address_type\"));");
-        elementToInput.sendKeys(homeOfficeName);
-    }
-
-    public void inputRecipientName(String recipientName) {
-        Object recName = driver.findElement(By.id(ObjectElement.AccountObject.inputRecipientName));
-        Assert.assertNotNull(recName);
-        MobileElement elementToInput = (MobileElement) driver
-                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
-                        + ".resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView("
-                        + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/recName\"));");
-        elementToInput.sendKeys(recipientName);
-    }
-
-    public void inputRecipientPhoneNumber(String recipientNumber) {
-        Object recNumber = driver.findElement(By.id(ObjectElement.AccountObject.inputRecipientNumber));
-        Assert.assertNotNull(recNumber);
-        MobileElement elementToInput = (MobileElement) driver
-                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
-                        + ".resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView("
-                        + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/recPhone\"));");
-        elementToInput.sendKeys(recipientNumber);
-    }
-
-    public void clickButtonCityOrDistrict() {
-        Object btnSelectCity = driver.findElement(By.id(ObjectElement.AccountObject.btnCityOrDistrict));
-        Assert.assertNotNull(btnSelectCity);
-        MobileElement elementToClick = (MobileElement) driver
-                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
-                        + ".resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView("
-                        + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/recCity\"));");
-        elementToClick.click();
-    }
-
-    public void inputSearchCityOrDistrict(String city) {
-        Object inputCity = driver.findElement(By.id(ObjectElement.AccountObject.inputSearchCityOrDistrict));
-        Assert.assertNotNull(inputCity);
-        MobileElement elementToInput = (MobileElement) driver
-                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
-                        + ".resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView("
-                        + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/edt_search\"));");
-        elementToInput.sendKeys(city);
-    }
-
-    public void clickSelectedCityOrDistrict() {
-        Object btnSelectCity = driver.findElement(By.id(ObjectElement.AccountObject.btnSelectCityOrDistrict));
-        Assert.assertNotNull(btnSelectCity);
-        driver.findElement(By.id(ObjectElement.AccountObject.btnSelectCityOrDistrict)).click();
-    }
-
-    public void inputAddressDetail(String address) {
-        Object inputAddress = driver.findElement(By.id(ObjectElement.AccountObject.inputAddressDetail));
-        Assert.assertNotNull(inputAddress);
-        MobileElement elementToInput = (MobileElement) driver
-                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
-                        + ".resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView("
-                        + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/recDetails\"));");
-        elementToInput.sendKeys(address);
-    }
-
-    public void clickButtonChooseLocation() {
-        MobileElement elementToClick = (MobileElement) driver
-                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
-                        + ".resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView("
-                        + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/img_view_map\"));");
-        elementToClick.click();
-    }
-
-    public void clickButtonSelectThisLocation() {
-        driver.findElement(By.id(ObjectElement.AccountObject.btnSelectThisLocation)).click();
-    }
-
-    public void clickCheckboxTermsAndCondition() {
-        MobileElement elementToClick = (MobileElement) driver
-                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
-                        + ".resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView("
-                        + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/checkBox\"));");
-        elementToClick.click();
-    }
-
-    public void clickButtonSave() {
-        MobileElement elementToClick = (MobileElement) driver
-                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
-                        + ".resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView("
-                        + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/next\"));");
-        elementToClick.click();
     }
 
     public void clickButtonChatWithShely() {

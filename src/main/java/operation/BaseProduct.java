@@ -30,36 +30,11 @@ public class BaseProduct extends BaseTest {
 
     public By btnSeeDetail = By.id(ObjectElement.ProductPageObject.btnSeeDetail);
 
+    public String btnPromoSuperBundle = ObjectElement.ProductPageObject.btnPromoSuperBundle;
 
-    public void clickDetailPromoSuperBundle() {
-        MobileElement elementToClick = (MobileElement) driver
-                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
-                        + ".resourceId(\"com.smartfren.switchmobile:id/recycler_\")).scrollIntoView("
-                        + "new UiSelector().text(\"Super Bundle\"));");
-        elementToClick.click();
-    }
+    public String btnPromoPowerBundle = ObjectElement.ProductPageObject.btnPromoPowerBundle;
 
-    public void clickDetailPromoPowerBundle() {
-        MobileElement elementToClick = (MobileElement) driver
-                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
-                        + ".resourceId(\"com.smartfren.switchmobile:id/recycler_\")).scrollIntoView("
-                        + "new UiSelector().text(\"Power Bundle\"));");
-        elementToClick.click();
-    }
+    public String btnPromoStandardBundle = ObjectElement.ProductPageObject.btnPromoStandardBundle;
 
-    public void clickDetailPromoStandardBundle() {
-        MobileElement elementToClick = (MobileElement) driver
-                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
-                        + ".resourceId(\"com.smartfren.switchmobile:id/recycler_\")).scrollIntoView("
-                        + "new UiSelector().text(\"Standard Bundle\"));");
-        elementToClick.click();
-    }
-
-    public void clickDetailPromoLiteBundle() {
-        MobileElement elementToClick = (MobileElement) driver
-                .findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()"
-                        + ".resourceId(\"com.smartfren.switchmobile:id/recycler_\")).scrollIntoView("
-                        + "new UiSelector().text(\"Lite Bundle\"));");
-        elementToClick.click();
-    }
+    public String btnPromoLiteBundle = ObjectElement.ProductPageObject.btnPromoLiteBundle;
 }

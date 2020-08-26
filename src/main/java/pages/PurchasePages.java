@@ -14,9 +14,9 @@ public class PurchasePages {
 
     public void testAddToCartPromoSuperBundle(String productTitle, int increase) throws InterruptedException {
         action.click(baseHomepage.btnBuyPlan);
-        baseProduct.clickDetailPromoSuperBundle();
+        action.scrollAndClick(baseProduct.btnPromoSuperBundle);
         action.checkerEqual(baseProduct.txtProductTitle, productTitle);
-        basePurchase.clickButtonIncreaseCountProduct(increase);
+        action.countClick(baseProduct.btnIncrease, increase);
         action.click(basePurchase.btnAddToCart);
         action.click(basePurchase.btnConfirmBuy);
         action.click(basePurchase.btnChoosePayment);
@@ -25,9 +25,9 @@ public class PurchasePages {
 
     public void testAddToCartPromoPowerBundle(String productTitle, int increase) throws InterruptedException {
         action.click(baseHomepage.btnBuyPlan);
-        baseProduct.clickDetailPromoPowerBundle();
+        action.scrollAndClick(baseProduct.btnPromoPowerBundle);
         action.checkerEqual(baseProduct.txtProductTitle, productTitle);
-        basePurchase.clickButtonIncreaseCountProduct(increase);
+        action.countClick(baseProduct.btnIncrease, increase);
         action.click(basePurchase.btnAddToCart);
         action.click(basePurchase.btnConfirmBuy);
         action.click(basePurchase.btnChoosePayment);
@@ -37,10 +37,10 @@ public class PurchasePages {
 
     public void testAddToCartPromoStandardBundle(String productTitle, int increase, int decrease) throws InterruptedException {
         action.click(baseHomepage.btnBuyPlan);
-        baseProduct.clickDetailPromoStandardBundle();
+        action.scrollAndClick(baseProduct.btnPromoStandardBundle);
         action.checkerEqual(baseProduct.txtProductTitle, productTitle);
-        basePurchase.clickButtonIncreaseCountProduct(increase);
-        basePurchase.clickButtonDecreaseCountProduct(decrease);
+        action.countClick(baseProduct.btnIncrease, increase);
+        action.countClick(baseProduct.btnDecrease, decrease);
         action.click(basePurchase.btnAddToCart);
         action.click(basePurchase.btnConfirmBuy);
         action.click(basePurchase.btnChoosePayment);
@@ -50,9 +50,9 @@ public class PurchasePages {
 
     public void testAddToCartPromoLiteBundle(String productTitle, int increase) throws InterruptedException {
         action.click(baseHomepage.btnBuyPlan);
-        baseProduct.clickDetailPromoLiteBundle();
+        action.scrollAndClick(baseProduct.btnPromoLiteBundle);
         action.checkerEqual(baseProduct.txtProductTitle, productTitle);
-        basePurchase.clickButtonIncreaseCountProduct(increase);
+        action.countClick(baseProduct.btnIncrease, increase);
         action.click(basePurchase.btnAddToCart);
         action.click(basePurchase.btnConfirmBuy);
         action.click(basePurchase.btnChoosePayment);
@@ -61,35 +61,35 @@ public class PurchasePages {
     }
 
     public void testConfirmPaymentGopay() {
-        basePurchase.clickButtonChooseGoPay();
+        action.scrollAndClick(basePurchase.btnPaymentWithGoPay);
     }
 
     public void testConfirmPaymentDana() {
-        basePurchase.clickButtonChooseDana();
+        action.scrollAndClick(basePurchase.btnPaymentWithDana);
     }
 
     public void testConfirmPaymentOVO() {
-        basePurchase.clickButtonChooseOVO();
+        action.scrollAndClick(basePurchase.btnPaymentWithOVO);
     }
 
     public void testConfirmPaymentCC() {
-        basePurchase.clickButtonChooseCC();
+        action.scrollAndClick(basePurchase.btnPaymentWithCC);
     }
 
     public void testConfirmPermataVA() {
-        basePurchase.clickButtonChoosePermataVA();
+        action.scrollAndClick(basePurchase.btnPaymentWithPermataVA);
     }
 
     public void testConfirmDanamonVA() {
-        basePurchase.clickButtonChooseDanamonVA();
+        action.scrollAndClick(basePurchase.btnPaymentWithDanamonVA);
     }
 
     public void testConfirmMandiriVA() {
-        basePurchase.clickButtonChooseMandiriVA();
+        action.scrollAndClick(basePurchase.btnPaymentWithMandiriVA);
     }
 
     public void testConfirmAlfamart() {
-        basePurchase.clickButtonChooseAlfamart();
+        action.scrollAndClick(basePurchase.btnPaymentWithAlfamart);
     }
 
     public void testOrderSIM(String mainNumber) {

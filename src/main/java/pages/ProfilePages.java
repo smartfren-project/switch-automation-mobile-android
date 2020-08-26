@@ -32,6 +32,14 @@ public class ProfilePages {
         baseProfile.clickButtonLanguage();
     }
 
+    public void clickButtonBahasa() throws InterruptedException {
+        action.click(baseHomepage.btnProfile);
+        action.scrollTo(baseProfile.btnCLanguage);
+        action.scrollAndClick(baseProfile.btnCLanguage);
+        action.click(baseProfile.btnBahasa);
+        Thread.sleep(4000);
+    }
+
     public void testInputFullName(String fullName) {
         action.click(baseHomepage.btnProfile);
         action.click(baseProfile.btnEdit);
@@ -45,26 +53,26 @@ public class ProfilePages {
 
     public void testCopyReferralCode(String refCode) throws InterruptedException {
         action.click(baseHomepage.btnProfile);
-        baseProfile.clickReferralCode();
+        action.scrollAndClick(baseProfile.btnReferral);
         action.checkerEqual(baseProfile.txtReferralCode, refCode);
         action.click(baseProfile.btnCopyReferralCode);
     }
 
     public void testShareReferralCode(String refCode) throws InterruptedException {
         action.click(baseHomepage.btnProfile);
-        baseProfile.clickReferralCode();
+        action.scrollAndClick(baseProfile.btnReferral);
         action.checkerEqual(baseProfile.txtReferralCode, refCode);
         action.click(baseProfile.btnShareReferralCode);
     }
 
     public void testCheckWishlist() {
         action.click(baseHomepage.btnProfile);
-        baseProfile.clickButtonYourWishlist();
+        action.scrollAndClick(baseProfile.btnYourWishList);
     }
 
     public void testChangePin(String pin) {
         action.click(baseHomepage.btnProfile);
-        baseProfile.clickButtonAccount();
+        action.scrollAndClick(baseProfile.btnAccount);
         action.click(baseProfile.btnChangePIN);
         action.sendKeys(baseProfile.inputChangePIN, pin);
         action.click(baseProfile.btnConfirmChangePIN);
@@ -86,49 +94,49 @@ public class ProfilePages {
 
     public void testAddDeliveryAddress(String homeOfficeName, String recipientName, String recipientNumber) {
         action.click(baseHomepage.btnProfile);
-        baseProfile.clickButtonAccount();
+        action.scrollAndClick(baseProfile.btnAccount);
         action.click(baseProfile.btnDeliveryAddress);
         action.click(baseProfile.btnAddAddress);
-        baseProfile.inputHomeOrOffice(homeOfficeName);
-        baseProfile.inputRecipientName(recipientName);
-        baseProfile.inputRecipientPhoneNumber(recipientNumber);
+        action.scrollAndInput(baseProfile.inputHomeOrOffice, homeOfficeName);
+        action.scrollAndInput(baseProfile.inputRecipientName, recipientName);
+        action.scrollAndInput(baseProfile.inputRecipientPhoneNumber, recipientNumber);
     }
 
     public void testDeliveryAddress(String city, String address) {
-        baseProfile.clickButtonCityOrDistrict();
-        baseProfile.inputSearchCityOrDistrict(city);
-        baseProfile.clickSelectedCityOrDistrict();
-        baseProfile.inputAddressDetail(address);
-        baseProfile.clickButtonChooseLocation();
-        baseProfile.clickButtonSelectThisLocation();
-        baseProfile.clickCheckboxTermsAndCondition();
-        baseProfile.clickButtonSave();
+        action.scrollAndClick(baseProfile.btnCityOrDistrict);
+        action.scrollAndInput(baseProfile.inputSrcCityOrDistrict, city);
+        action.click(baseProfile.btnSelectCityOrDistrict);
+        action.scrollAndInput(baseProfile.inputAddressDetail, address);
+        action.scrollAndClick(baseProfile.btnChooseLocation);
+        action.click(baseProfile.btnSelectThisLocation);
+        action.scrollAndClick(baseProfile.cbTermsAndConditions);
+        action.scrollAndClick(baseProfile.btnSave);
     }
 
     public void testCheckSIMInfo() {
         action.click(baseHomepage.btnProfile);
-        baseProfile.clickButtonSIMSettings();
+        action.scrollAndClick(baseProfile.btnSIMSetting);
         action.click(baseProfile.btnSIMInfo);
 //        baseProfile.checkSIMInfo();
     }
 
     public void testCheckCompatibility() {
         action.click(baseHomepage.btnProfile);
-        baseProfile.clickButtonSIMSettings();
+        action.scrollAndClick(baseProfile.btnSIMSetting);
         action.click(baseProfile.btnCheckCompatibility);
 //        baseProfile.checkCompatibility();
     }
 
     public void testChatWithShely() {
         action.click(baseHomepage.btnProfile);
-        baseProfile.clickButtonHelp();
+        action.scrollAndClick(baseProfile.btnHelp);
         baseProfile.clickButtonChatWithShely();
         baseProfile.clickButtonChat();
     }
 
     public void testEmailUs() {
         action.click(baseHomepage.btnProfile);
-        baseProfile.clickButtonHelp();
+        action.scrollAndClick(baseProfile.btnHelp);
         baseProfile.clickButtonChatWithShely();
         baseProfile.clickButtonEmail();
     }

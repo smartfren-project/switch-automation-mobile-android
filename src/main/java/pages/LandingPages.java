@@ -2,6 +2,7 @@ package pages;
 
 import constants.BaseData;
 import io.qameta.allure.Step;
+import operation.BaseHomepage;
 import operation.BaseLanding;
 import utilities.finders.ElementAction;
 
@@ -9,18 +10,18 @@ public class LandingPages {
 
     BaseLanding baseLanding = new BaseLanding();
     ElementAction action = new ElementAction();
+    BaseHomepage baseHomepage = new BaseHomepage();
 
     @Step("Click Button Login")
     public void testGoToLoginPage() throws InterruptedException {
         action.click(baseLanding.btnLogin);
         baseLanding.checkValidationWelcomeText();
-        System.out.println("Click Button Login");
     }
 
     @Step("Click Button Skip")
     public void testLoginAsGuest() throws InterruptedException{
         action.click(baseLanding.btnSkip);
-        baseLanding.checkUserProfile(BaseData.HomePage.GUEST_NAME);
+        action.checkerEqual(baseHomepage.txtUserProfile, BaseData.HomePage.GUEST_NAME);
     }
 
     @Step("Click Button Sign Up")

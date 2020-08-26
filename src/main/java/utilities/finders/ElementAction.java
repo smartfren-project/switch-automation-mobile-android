@@ -54,4 +54,20 @@ public class ElementAction extends BaseTest {
         MobileElement elementToClick = (MobileElement) driver.findElementByAndroidUIAutomator(element);
         elementToClick.click();
     }
+
+    public void countClick(By element, int count) {
+        int i;
+        for(i=0;i<=count;i++) {
+            driver.findElement(element).click();
+        }
+    }
+
+    public void scrollAndInput(String element, String inputKey) {
+        MobileElement elementToInput = (MobileElement) driver.findElementByAndroidUIAutomator(element);
+        elementToInput.sendKeys(inputKey);
+    }
+
+    public void scrollTo(String element) {
+        MobileElement elementToClick = (MobileElement) driver.findElementByAndroidUIAutomator(element);
+    }
 }
