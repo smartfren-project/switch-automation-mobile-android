@@ -50,9 +50,25 @@ public class ElementAction extends BaseTest {
         Assert.assertNotNull(driver.findElement(element));
     }
 
-    public void scrollAndClick(String element) {
+    public MobileElement scrollToElement(String element) {
         MobileElement elementToClick = (MobileElement) driver.findElementByAndroidUIAutomator(element);
-        elementToClick.click();
+        try {
+            return elementToClick;
+        } catch (Exception e) {
+            return null;
+        }
+    }
+
+    public void scrollOnly(String element) {
+        scrollToElement(element);
+    }
+
+    public void clickElementScroll(String element) {
+        scrollToElement(element).click();
+    }
+
+    public void inputElementScroll(String element, String inputKey) {
+        scrollToElement(element).sendKeys(inputKey);
     }
 
     public void countClick(By element, int count) {
@@ -60,14 +76,5 @@ public class ElementAction extends BaseTest {
         for(i=0;i<=count;i++) {
             driver.findElement(element).click();
         }
-    }
-
-    public void scrollAndInput(String element, String inputKey) {
-        MobileElement elementToInput = (MobileElement) driver.findElementByAndroidUIAutomator(element);
-        elementToInput.sendKeys(inputKey);
-    }
-
-    public void scrollTo(String element) {
-        MobileElement elementToClick = (MobileElement) driver.findElementByAndroidUIAutomator(element);
     }
 }

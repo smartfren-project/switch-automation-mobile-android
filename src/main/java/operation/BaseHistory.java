@@ -1,7 +1,6 @@
 package operation;
 
 import constants.ObjectElement;
-import io.appium.java_client.MobileElement;
 import org.openqa.selenium.By;
 import utilities.finders.ElementAction;
 
@@ -23,33 +22,33 @@ public class BaseHistory extends BaseTest {
 
     public void clickButtonAll() {
         if (getHistoryTitle().equals("Transaction History")) {
-            action.scrollAndClick(ObjectElement.HistoryPageObject.btnTabAll);
+            action.clickElementScroll(ObjectElement.HistoryPageObject.btnTabAll);
         } else {
-            action.scrollAndClick(ObjectElement.HistoryPageObject.btnTabSemua);
+            action.clickElementScroll(ObjectElement.HistoryPageObject.btnTabSemua);
         }
     }
 
     public void clickButtonWaiting() {
         if (getHistoryTitle().equals("Transaction History")) {
-            action.scrollAndClick(ObjectElement.HistoryPageObject.btnTabWaiting);
+            action.clickElementScroll(ObjectElement.HistoryPageObject.btnTabWaiting);
         } else {
-            action.scrollAndClick(ObjectElement.HistoryPageObject.btnTabMenunggu);
+            action.clickElementScroll(ObjectElement.HistoryPageObject.btnTabMenunggu);
         }
     }
 
     public void clickButtonProcess() {
         if (getHistoryTitle().equals("Transaction History")) {
-            action.scrollAndClick(ObjectElement.HistoryPageObject.btnTabProcessTrx);
+            action.clickElementScroll(ObjectElement.HistoryPageObject.btnTabProcessTrx);
         } else {
-            action.scrollAndClick(ObjectElement.HistoryPageObject.btnTabDiProses);
+            action.clickElementScroll(ObjectElement.HistoryPageObject.btnTabDiProses);
         }
     }
 
     public void clickButtonFinishTrx() {
         if (getHistoryTitle().equals("Transaction History")) {
-            action.scrollAndClick(ObjectElement.HistoryPageObject.btnFinishTrx);
+            action.clickElementScroll(ObjectElement.HistoryPageObject.btnFinishTrx);
         } else {
-            action.scrollAndClick(ObjectElement.HistoryPageObject.btnTabSelesai);
+            action.clickElementScroll(ObjectElement.HistoryPageObject.btnTabSelesai);
         }
     }
 }

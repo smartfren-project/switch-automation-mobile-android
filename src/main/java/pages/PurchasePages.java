@@ -14,7 +14,7 @@ public class PurchasePages {
 
     public void testAddToCartPromoSuperBundle(String productTitle, int increase) throws InterruptedException {
         action.click(baseHomepage.btnBuyPlan);
-        action.scrollAndClick(baseProduct.btnPromoSuperBundle);
+        action.clickElementScroll(baseProduct.btnPromoSuperBundle);
         action.checkerEqual(baseProduct.txtProductTitle, productTitle);
         action.countClick(baseProduct.btnIncrease, increase);
         action.click(basePurchase.btnAddToCart);
@@ -25,7 +25,7 @@ public class PurchasePages {
 
     public void testAddToCartPromoPowerBundle(String productTitle, int increase) throws InterruptedException {
         action.click(baseHomepage.btnBuyPlan);
-        action.scrollAndClick(baseProduct.btnPromoPowerBundle);
+        action.clickElementScroll(baseProduct.btnPromoPowerBundle);
         action.checkerEqual(baseProduct.txtProductTitle, productTitle);
         action.countClick(baseProduct.btnIncrease, increase);
         action.click(basePurchase.btnAddToCart);
@@ -37,7 +37,7 @@ public class PurchasePages {
 
     public void testAddToCartPromoStandardBundle(String productTitle, int increase, int decrease) throws InterruptedException {
         action.click(baseHomepage.btnBuyPlan);
-        action.scrollAndClick(baseProduct.btnPromoStandardBundle);
+        action.clickElementScroll(baseProduct.btnPromoStandardBundle);
         action.checkerEqual(baseProduct.txtProductTitle, productTitle);
         action.countClick(baseProduct.btnIncrease, increase);
         action.countClick(baseProduct.btnDecrease, decrease);
@@ -50,7 +50,7 @@ public class PurchasePages {
 
     public void testAddToCartPromoLiteBundle(String productTitle, int increase) throws InterruptedException {
         action.click(baseHomepage.btnBuyPlan);
-        action.scrollAndClick(baseProduct.btnPromoLiteBundle);
+        action.clickElementScroll(baseProduct.btnPromoLiteBundle);
         action.checkerEqual(baseProduct.txtProductTitle, productTitle);
         action.countClick(baseProduct.btnIncrease, increase);
         action.click(basePurchase.btnAddToCart);
@@ -61,35 +61,35 @@ public class PurchasePages {
     }
 
     public void testConfirmPaymentGopay() {
-        action.scrollAndClick(basePurchase.btnPaymentWithGoPay);
+        action.clickElementScroll(basePurchase.btnPaymentWithGoPay);
     }
 
     public void testConfirmPaymentDana() {
-        action.scrollAndClick(basePurchase.btnPaymentWithDana);
+        action.clickElementScroll(basePurchase.btnPaymentWithDana);
     }
 
     public void testConfirmPaymentOVO() {
-        action.scrollAndClick(basePurchase.btnPaymentWithOVO);
+        action.clickElementScroll(basePurchase.btnPaymentWithOVO);
     }
 
     public void testConfirmPaymentCC() {
-        action.scrollAndClick(basePurchase.btnPaymentWithCC);
+        action.clickElementScroll(basePurchase.btnPaymentWithCC);
     }
 
     public void testConfirmPermataVA() {
-        action.scrollAndClick(basePurchase.btnPaymentWithPermataVA);
+        action.clickElementScroll(basePurchase.btnPaymentWithPermataVA);
     }
 
     public void testConfirmDanamonVA() {
-        action.scrollAndClick(basePurchase.btnPaymentWithDanamonVA);
+        action.clickElementScroll(basePurchase.btnPaymentWithDanamonVA);
     }
 
     public void testConfirmMandiriVA() {
-        action.scrollAndClick(basePurchase.btnPaymentWithMandiriVA);
+        action.clickElementScroll(basePurchase.btnPaymentWithMandiriVA);
     }
 
     public void testConfirmAlfamart() {
-        action.scrollAndClick(basePurchase.btnPaymentWithAlfamart);
+        action.clickElementScroll(basePurchase.btnPaymentWithAlfamart);
     }
 
     public void testOrderSIM(String mainNumber) {

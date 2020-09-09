@@ -133,17 +133,17 @@ public class BaseProfile extends BaseTest {
     }
 
     public void clickButtonLanguage() throws InterruptedException{
-        action.scrollTo(btnCLanguage);
+        action.scrollOnly(btnCLanguage);
         System.out.println(activeLang());
         if (activeLang().equals("English")) {
-            action.scrollAndClick(btnCLanguage);
+            action.clickElementScroll(btnCLanguage);
             action.click(btnBahasa);
-            action.scrollTo(btnCLanguage);
+            action.scrollOnly(btnCLanguage);
             Assert.assertEquals(activeLang(), "Bahasa");
         } else {
-            action.scrollAndClick(btnCLanguage);
+            action.clickElementScroll(btnCLanguage);
             action.click(btnEnglish);
-            action.scrollTo(btnCLanguage);
+            action.scrollOnly(btnCLanguage);
             Assert.assertEquals(activeLang(), "English");
         }
     }
