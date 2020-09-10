@@ -4,6 +4,7 @@ import operation.BaseHomepage;
 import operation.BaseProduct;
 import operation.BasePurchase;
 import utilities.finders.ElementAction;
+import utilities.generator.RandomNumber;
 
 public class PurchasePages {
 
@@ -93,7 +94,15 @@ public class PurchasePages {
     }
 
     public void testOrderSIM(String mainNumber) {
-//        basePurchase.clickButtonLetsSwitch();
+        action.click(basePurchase.btnOrderSIMHomeID);
+        action.click(basePurchase.btnMainNumber);
         basePurchase.clickChooseYourNumber(mainNumber);
+        action.sendKeys(basePurchase.inputNumber1, RandomNumber.randomNumber(1));
+        action.sendKeys(basePurchase.inputNumber2, RandomNumber.randomNumber(1));
+        action.sendKeys(basePurchase.inputNumber3, RandomNumber.randomNumber(1));
+        action.sendKeys(basePurchase.inputNumber4, RandomNumber.randomNumber(1));
+        action.sendKeys(basePurchase.inputNumber5, RandomNumber.randomNumber(1));
+        action.sendKeys(basePurchase.inputNumber6, RandomNumber.randomNumber(1));
+        action.click(basePurchase.btnRefresh);
     }
 }

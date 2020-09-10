@@ -14,7 +14,7 @@ public class LogoutITest extends TestSetup {
     LoginITest login = new LoginITest();
     ProfilePages profilePages = new ProfilePages();
 
-    @Test(priority = 62,description = "Switch_Profile_001 - User able to LOGOUT and go back to PIN Page")
+    @Test(priority = 62, description = "Switch_Profile_001 - User able to LOGOUT and go back to PIN Page")
     @Severity(SeverityLevel.CRITICAL)
     @Description("Verify that user can success logout from profile menu.")
     @Story("Story Name : Check Credential")

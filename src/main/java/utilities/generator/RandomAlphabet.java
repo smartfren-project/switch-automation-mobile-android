@@ -1,7 +1,7 @@
 package utilities.generator;
 
 public class RandomAlphabet {
-    public static final String ALPHABET_STRING = "alphabet";
+    public static final String ALPHABET_STRING = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 
     public static String randomAlphabet(int count) {
         StringBuilder builder = new StringBuilder();

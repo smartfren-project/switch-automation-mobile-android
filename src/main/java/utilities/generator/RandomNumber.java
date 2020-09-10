@@ -1,7 +1,7 @@
 package utilities.generator;
 
 public class RandomNumber {
-    public static final String NUMERIC_STRING = "numeral";
+    public static final String NUMERIC_STRING = "0123456789";
 
     public static String randomNumber(int count) {
         StringBuilder builder = new StringBuilder();

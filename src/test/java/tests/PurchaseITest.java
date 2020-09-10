@@ -136,4 +136,13 @@ public class PurchaseITest extends TestSetup {
         purchasePages.testAddToCartPromoLiteBundle("Lite Bundle", 2);
         purchasePages.testConfirmAlfamart();
     }
+
+    @Test(priority = 114, description = "Switch_Purchase_014 - User able to Order SIM First Time")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that user can success Order SIM First Time.")
+    @Story("Story Name : Check Purchase")
+    public void checkPurchaseSIMFirstTime() throws InterruptedException {
+        login.checkValidLoginUsingEmail();
+        purchasePages.testOrderSIM("0889-08");
+    }
 }

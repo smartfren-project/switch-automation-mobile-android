@@ -68,6 +68,7 @@ public class ObjectElement extends BaseTest {
         String btnBuyProduct = "com.smartfren.switchmobile:id/buy";
         String btnCloseGuestPp = "com.smartfren.switchmobile:id/img_close";
         String btnLetsSwitch = "com.smartfren.switchmobile:id/button_activate";
+        String txtDealsTitle = "com.smartfren.switchmobile:id/textView118";
     }
 
     public interface DealsPageObject {
@@ -135,6 +136,8 @@ public class ObjectElement extends BaseTest {
         String btnPromoLiteBundle = "new UiScrollable(new UiSelector()"
                 + ".resourceId(\"com.smartfren.switchmobile:id/recycler_\")).scrollIntoView("
                 + "new UiSelector().text(\"Lite Bundle\"));";
+        String btnOrderSIMHomeID = "//*[@text='YUK, MULAI']";
+        String btnOrderSIMHomeEN = "//*[@text='LET'S SWITCH']";
     }
 
     public interface ProfilePageObject {
@@ -261,6 +264,7 @@ public class ObjectElement extends BaseTest {
         String btnSelectNumber = "com.smartfren.switchmobile:id/cv1";
         String btnNext = "com.smartfren.switchmobile:id/next";
         String btnChooseMainNumber = String.format("//*[@text = '']");
+        String btnRefresh = "com.smartfren.switchmobile:id/textView12";
     }
 
     public interface PaymentDetailObject {
