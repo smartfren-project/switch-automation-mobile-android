@@ -137,12 +137,61 @@ public class PurchaseITest extends TestSetup {
         purchasePages.testConfirmAlfamart();
     }
 
-    @Test(priority = 114, description = "Switch_Purchase_014 - User able to Order SIM First Time")
+    @Test(priority = 114, description = "Switch_Purchase_014 - User able to Order SIM First Time GoPay")
     @Severity(SeverityLevel.CRITICAL)
     @Description("Verify that user can success Order SIM First Time.")
     @Story("Story Name : Check Purchase")
-    public void checkPurchaseSIMFirstTime() throws InterruptedException {
+    public void checkPurchaseSIMFirstTimeGoPay() throws InterruptedException {
         login.checkValidLoginUsingEmail();
-        purchasePages.testOrderSIM("0889-08");
+        purchasePages.testOrderSIM("0889-07", "Andi", "088906011294",
+                "pringgodani", "JL. Pringgodani", "GoPay");
+    }
+
+    @Test(priority = 115, description = "Switch_Purchase_015 - User able to Order SIM First Time DANA")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that user can success Order SIM First Time.")
+    @Story("Story Name : Check Purchase")
+    public void checkPurchaseSIMFirstTimeDANA() throws InterruptedException {
+        login.checkValidLoginUsingEmail();
+        purchasePages.testOrderSIM("0889-07", "Andi", "088906011294",
+                "pringgodani", "JL. Pringgodani", "DANA");
+    }
+
+    @Test(priority = 116, description = "Switch_Purchase_016 - User able to Order SIM First Time OVO")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that user can success Order SIM First Time.")
+    @Story("Story Name : Check Purchase")
+    public void checkPurchaseSIMFirstTimeOVO() throws InterruptedException {
+        login.checkValidLoginUsingEmail();
+        purchasePages.testOrderSIM("0889-07", "Andi", "088906011294",
+                "pringgodani", "JL. Pringgodani", "OVO");
+    }
+
+    @Test(priority = 117, description = "Switch_Purchase_017 - User able to Order SIM First Time CC")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that user can success Order SIM First Time.")
+    @Story("Story Name : Check Purchase")
+    public void checkPurchaseSIMFirstTimeCC() throws InterruptedException {
+        login.checkValidLoginUsingEmail();
+        purchasePages.testOrderSIM("0889-07", "Andi", "088906011294",
+                "pringgodani", "JL. Pringgodani", "CC");
+    }
+
+    @Test(priority = 118, description = "Switch_Purchase_018 - User able to Max Qty Product Power Bundle To Cart")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that user can success Add Product To Cart.")
+    @Story("Story Name : Check Purchase")
+    public void checkAddMaxPowerBundleToCart() throws InterruptedException {
+        login.checkValidLoginUsingSwitchNumber();
+        purchasePages.testAddToCartPromoPowerBundle("Power Bundle", 4);
+    }
+
+    @Test(priority = 119, description = "Switch_Purchase_019 - User able to Cancel Order by Decrease Product Standard Bundle To Cart")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that user can success Add Product To Cart.")
+    @Story("Story Name : Check Purchase")
+    public void checkCancelOrderStandardBundleToCart() throws InterruptedException {
+        login.checkValidLoginUsingSwitchNumber();
+        purchasePages.testAddToCartPromoStandardBundle("Standard Bundle", 4, 4);
     }
 }

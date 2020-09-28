@@ -1,7 +1,5 @@
 package pages;
 
-import constants.BaseData;
-import io.qameta.allure.Allure;
 import io.qameta.allure.Step;
 import operation.BaseHomepage;
 import operation.BaseLanding;
@@ -15,7 +13,7 @@ public class LoginPages {
     BaseHomepage baseHomepage = new BaseHomepage();
     ElementAction action = new ElementAction();
 
-    @Step("User Do Valid Login Using Email")
+    @Step("User Do Valid Login Using Email or Switch Number")
     public void testValidLogin(String username, String pin) throws InterruptedException {
         action.click(baseLanding.btnLogin);
         baseLanding.checkValidationWelcomeText();
@@ -25,13 +23,14 @@ public class LoginPages {
         action.checkerEnabled(baseHomepage.icUserProfile);
     }
 
+    @Step("User Do Invalid Login Input Username")
     public void testInvalidLogin(String username) {
         action.click(baseLanding.btnLogin);
         baseLanding.checkValidationWelcomeText();
         action.sendKeys(baseLogin.inputUsername, username);
     }
 
-    @Step("User Do Invalid Login Using Wrong Username")
+    @Step("User Do Invalid Login Input PIN")
     public void testInvalidWrongUsernameAndPin(String username, String pin) throws InterruptedException {
         testInvalidLogin(username);
         action.click(baseLogin.btnSubmitLogin);
@@ -58,6 +57,7 @@ public class LoginPages {
         baseLogin.checkInvalidSwitchNumber();
     }
 
+    @Step("User Do Sign Up With Registered Email")
     public void testInvalidSignUpWithRegisteredEmail(String username) throws InterruptedException {
         action.click(baseLanding.btnSignUp);
         action.sendKeys(baseLogin.inputUsername, username);

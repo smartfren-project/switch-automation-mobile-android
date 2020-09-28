@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "92556929380ddd425a3ae598558c420a",
+    "name" : "pCloud-Switch-Regression",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 6,
+      "skipped" : 0,
+      "passed" : 16,
+      "unknown" : 0,
+      "total" : 22
+    }
+  } ]
+}

@@ -1,0 +1,319 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "pCloud-Switch-Regression",
+    "children" : [ {
+      "name" : "Switch Automation Regression",
+      "children" : [ {
+        "name" : "tests.LandingITest",
+        "children" : [ {
+          "name" : "Switch_Land_001 - User able to go to Login/SignUp",
+          "uid" : "f0f119b9a257a680",
+          "parentUid" : "a54f76dbf61a50bda06eec8652af8a7d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599815100755,
+            "stop" : 1599815135345,
+            "duration" : 34590
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Samsung" ]
+        }, {
+          "name" : "Switch_Land_002 - User able to go to LOGIN PAGE",
+          "uid" : "cf334ad4f7b64cfb",
+          "parentUid" : "a54f76dbf61a50bda06eec8652af8a7d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599815142942,
+            "stop" : 1599815154661,
+            "duration" : 11719
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Samsung" ]
+        }, {
+          "name" : "Switch_Land_003 - User able to login as GUEST",
+          "uid" : "fe5a4c1ceae06940",
+          "parentUid" : "a54f76dbf61a50bda06eec8652af8a7d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599815161938,
+            "stop" : 1599815173681,
+            "duration" : 11743
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Samsung" ]
+        }, {
+          "name" : "Switch_Land_004 - User able to go to any page",
+          "uid" : "2b3604ede933296b",
+          "parentUid" : "a54f76dbf61a50bda06eec8652af8a7d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599815180851,
+            "stop" : 1599815243808,
+            "duration" : 62957
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Samsung" ]
+        }, {
+          "name" : "Switch_Land_005 - User able to SIGN UP using Unregistered Google Account",
+          "uid" : "7e88c1aedfebfb06",
+          "parentUid" : "a54f76dbf61a50bda06eec8652af8a7d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599815250942,
+            "stop" : 1599815263440,
+            "duration" : 12498
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Samsung" ]
+        }, {
+          "name" : "Switch_Land_006 - User able to SIGN UP using Unregistered Facebook Account",
+          "uid" : "43cdedc5d291979",
+          "parentUid" : "a54f76dbf61a50bda06eec8652af8a7d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599815270851,
+            "stop" : 1599815281531,
+            "duration" : 10680
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Samsung" ]
+        }, {
+          "name" : "Switch_Land_007 - User able to go to Login/SignUp with Bahasa Language",
+          "uid" : "8ae3bae01e1539ed",
+          "parentUid" : "a54f76dbf61a50bda06eec8652af8a7d",
+          "status" : "broken",
+          "time" : {
+            "start" : 1599815288917,
+            "stop" : 1599815339159,
+            "duration" : 50242
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Samsung" ]
+        } ],
+        "uid" : "a54f76dbf61a50bda06eec8652af8a7d"
+      }, {
+        "name" : "tests.LoginITest",
+        "children" : [ {
+          "name" : "Switch_Login_001 - User able to pass HOMEPAGE from VALID LOGIN EMAIL",
+          "uid" : "88f59123b756a837",
+          "parentUid" : "14eb80d3c6354d86a8b80dbadeac8080",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599815346468,
+            "stop" : 1599815374716,
+            "duration" : 28248
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Samsung" ]
+        }, {
+          "name" : "Switch_Login_002 - User able to pass HOMEPAGE from VALID LOGIN SWITCH NUMBER",
+          "uid" : "df63cc6e9f08a1bd",
+          "parentUid" : "14eb80d3c6354d86a8b80dbadeac8080",
+          "status" : "broken",
+          "time" : {
+            "start" : 1599815382072,
+            "stop" : 1599815413745,
+            "duration" : 31673
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Samsung" ]
+        }, {
+          "name" : "Switch_Login_003 - User unable to pass HOMEPAGE from INVALID LOGIN UNREGISTERED EMAIL",
+          "uid" : "d35682e29495c082",
+          "parentUid" : "14eb80d3c6354d86a8b80dbadeac8080",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599815420975,
+            "stop" : 1599815456468,
+            "duration" : 35493
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Samsung" ]
+        }, {
+          "name" : "Switch_Login_004 - User unable to SIGN UP using registered email",
+          "uid" : "d9aec675b320b3b",
+          "parentUid" : "14eb80d3c6354d86a8b80dbadeac8080",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599815463640,
+            "stop" : 1599815478867,
+            "duration" : 15227
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Samsung" ]
+        }, {
+          "name" : "Switch_Login_005 - User unable to click button SUBMIT LOGIN when input False EMAIL Specification",
+          "uid" : "1ee3f35fc58e9f33",
+          "parentUid" : "14eb80d3c6354d86a8b80dbadeac8080",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599815486152,
+            "stop" : 1599815507627,
+            "duration" : 21475
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Samsung" ]
+        }, {
+          "name" : "Switch_Login_006 - User unable to click button SUBMIT LOGIN when input LESS THAN 8 NUMBER",
+          "uid" : "23d29fbcbea1c5b8",
+          "parentUid" : "14eb80d3c6354d86a8b80dbadeac8080",
+          "status" : "broken",
+          "time" : {
+            "start" : 1599815514857,
+            "stop" : 1599815562984,
+            "duration" : 48127
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Samsung" ]
+        }, {
+          "name" : "Switch_Login_007 - User unable to click button SUBMIT LOGIN when input NUMBER with String",
+          "uid" : "b1b2086680f3df74",
+          "parentUid" : "14eb80d3c6354d86a8b80dbadeac8080",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599815570169,
+            "stop" : 1599815585664,
+            "duration" : 15495
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Samsung" ]
+        }, {
+          "name" : "Switch_Login_008 - User unable to click button SUBMIT LOGIN when input Email Less Than 8 Character",
+          "uid" : "d12fa858a1c30785",
+          "parentUid" : "14eb80d3c6354d86a8b80dbadeac8080",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599815592795,
+            "stop" : 1599815607926,
+            "duration" : 15131
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Samsung" ]
+        }, {
+          "name" : "Switch_Login_009 - User unable to login using INVALID PIN EMAIL",
+          "uid" : "6b1aef91e18ce988",
+          "parentUid" : "14eb80d3c6354d86a8b80dbadeac8080",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599815615165,
+            "stop" : 1599815633046,
+            "duration" : 17881
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Samsung" ]
+        }, {
+          "name" : "Switch_Login_010 - User unable to login using INVALID PIN SWITCH NUMBER",
+          "uid" : "f04a0d4dc4fb2305",
+          "parentUid" : "14eb80d3c6354d86a8b80dbadeac8080",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599815640141,
+            "stop" : 1599815675896,
+            "duration" : 35755
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Samsung" ]
+        }, {
+          "name" : "Switch_Login_011 - User unable to login using INVALID SWITCH NUMBER",
+          "uid" : "9b7a043fb3458241",
+          "parentUid" : "14eb80d3c6354d86a8b80dbadeac8080",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599815683080,
+            "stop" : 1599815705631,
+            "duration" : 22551
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Samsung" ]
+        } ],
+        "uid" : "14eb80d3c6354d86a8b80dbadeac8080"
+      }, {
+        "name" : "tests.LogoutITest",
+        "children" : [ {
+          "name" : "Switch_Profile_001 - User able to LOGOUT and go back to PIN Page",
+          "uid" : "848858f36b550a3f",
+          "parentUid" : "f3f7e5202b380247b08c318cb684fbaf",
+          "status" : "broken",
+          "time" : {
+            "start" : 1599815712934,
+            "stop" : 1599815784618,
+            "duration" : 71684
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Samsung" ]
+        } ],
+        "uid" : "f3f7e5202b380247b08c318cb684fbaf"
+      }, {
+        "name" : "tests.HomepageITest",
+        "children" : [ {
+          "name" : "Switch_Home_001 - User able to go to All Menu Page",
+          "uid" : "b63b665cee1b5b38",
+          "parentUid" : "77e64dc33d290a28b982a4701f2547dc",
+          "status" : "broken",
+          "time" : {
+            "start" : 1599815791977,
+            "stop" : 1599815814619,
+            "duration" : 22642
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Samsung" ]
+        }, {
+          "name" : "Switch_Home_001 - User able to go to All Menu Page",
+          "uid" : "1ceac7b7e801c711",
+          "parentUid" : "77e64dc33d290a28b982a4701f2547dc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599815821983,
+            "stop" : 1599815853101,
+            "duration" : 31118
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Samsung" ]
+        } ],
+        "uid" : "77e64dc33d290a28b982a4701f2547dc"
+      }, {
+        "name" : "tests.PurchaseITest",
+        "children" : [ {
+          "name" : "Switch_Purchase_001 - User able to Add Product Super Bundle To Cart",
+          "uid" : "883fa6cd55cc2eda",
+          "parentUid" : "2e49cec0fd428b8c43a858d73f34369f",
+          "status" : "broken",
+          "time" : {
+            "start" : 1599815860145,
+            "stop" : 1599815900149,
+            "duration" : 40004
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Samsung" ]
+        } ],
+        "uid" : "2e49cec0fd428b8c43a858d73f34369f"
+      } ],
+      "uid" : "b13eaac74da229e65248311d9c305bca"
+    } ],
+    "uid" : "92556929380ddd425a3ae598558c420a"
+  } ]
+}

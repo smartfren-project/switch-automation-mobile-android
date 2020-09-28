@@ -1,0 +1,139 @@
+{
+  "uid" : "2b3604ede933296b",
+  "name" : "Switch_Land_004 - User able to go to any page",
+  "fullName" : "tests.LandingITest.checkMoveToPageFrequently",
+  "historyId" : "a6609ea51de3448e2a283c1a566a8bf6",
+  "time" : {
+    "start" : 1599815180851,
+    "stop" : 1599815243808,
+    "duration" : 62957
+  },
+  "description" : "Verify that User is able to Navigate to Sign Up/Login page simultneously.",
+  "descriptionHtml" : "<p>Verify that User is able to Navigate to Sign Up/Login page simultneously.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Verify that User is able to Navigate to Sign Up/Login page simultneously.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click All Possible Button Landing Pages",
+      "time" : {
+        "start" : 1599815180852,
+        "stop" : 1599815240254,
+        "duration" : 59402
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "122f1a45e6b42cb4",
+      "name" : "screenShot",
+      "source" : "122f1a45e6b42cb4.jpg",
+      "type" : "image/jpeg",
+      "size" : 192925
+    }, {
+      "uid" : "295c14457dacb7df",
+      "name" : "Page Screenshot",
+      "source" : "295c14457dacb7df.jpg",
+      "type" : "image/png",
+      "size" : 192925
+    }, {
+      "uid" : "2e4f7af9be1a1278",
+      "name" : "screenShot",
+      "source" : "2e4f7af9be1a1278.jpg",
+      "type" : "image/jpeg",
+      "size" : 192925
+    }, {
+      "uid" : "16421466805f29bb",
+      "name" : "Page Screenshot",
+      "source" : "16421466805f29bb.jpg",
+      "type" : "image/png",
+      "size" : 192925
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeAppSwitch",
+    "time" : {
+      "start" : 1599815243809,
+      "stop" : 1599815245932,
+      "duration" : 2123
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.LandingITest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.LandingITest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkMoveToPageFrequently"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pCloud-Switch-Regression"
+  }, {
+    "name" : "suite",
+    "value" : "Switch Automation Regression"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.LandingITest"
+  }, {
+    "name" : "host",
+    "value" : "Faizals-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "37605@Faizals-MacBook-Pro.local.TestNG-test=Switch Automation Regression-2(23)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story Name : Check On Landing Page"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "deviceName",
+    "value" : "Samsung"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2b3604ede933296b.json",
+  "parameterValues" : [ "Samsung" ]
+}

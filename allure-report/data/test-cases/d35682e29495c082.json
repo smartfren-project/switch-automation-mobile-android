@@ -1,0 +1,142 @@
+{
+  "uid" : "d35682e29495c082",
+  "name" : "Switch_Login_003 - User unable to pass HOMEPAGE from INVALID LOGIN UNREGISTERED EMAIL",
+  "fullName" : "tests.LoginITest.checkInvalidEmail",
+  "historyId" : "97dac1bcbc9a2299c376af2a3fcbb3a4",
+  "time" : {
+    "start" : 1599815420975,
+    "stop" : 1599815456468,
+    "duration" : 35493
+  },
+  "description" : "Go To Homepage Unsuccessfully Using Invalid Email",
+  "descriptionHtml" : "<p>Go To Homepage Unsuccessfully Using Invalid Email</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Go To Homepage Unsuccessfully Using Invalid Email",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "User Do Invalid Login Using Unregistered Email",
+      "time" : {
+        "start" : 1599815420976,
+        "stop" : 1599815436663,
+        "duration" : 15687
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "haris@smart.com"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "8e6df4d8cfb1f33b",
+      "name" : "screenShot",
+      "source" : "8e6df4d8cfb1f33b.jpg",
+      "type" : "image/jpeg",
+      "size" : 205235
+    }, {
+      "uid" : "5baa5ccf85f403eb",
+      "name" : "Page Screenshot",
+      "source" : "5baa5ccf85f403eb.jpg",
+      "type" : "image/png",
+      "size" : 205235
+    }, {
+      "uid" : "be9444ab7fa24d49",
+      "name" : "screenShot",
+      "source" : "be9444ab7fa24d49.jpg",
+      "type" : "image/jpeg",
+      "size" : 205235
+    }, {
+      "uid" : "f5dee4b33a016898",
+      "name" : "Page Screenshot",
+      "source" : "f5dee4b33a016898.jpg",
+      "type" : "image/png",
+      "size" : 205235
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeAppSwitch",
+    "time" : {
+      "start" : 1599815456470,
+      "stop" : 1599815458636,
+      "duration" : 2166
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.LoginITest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.LoginITest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkInvalidEmail"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pCloud-Switch-Regression"
+  }, {
+    "name" : "suite",
+    "value" : "Switch Automation Regression"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.LoginITest"
+  }, {
+    "name" : "host",
+    "value" : "Faizals-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "37605@Faizals-MacBook-Pro.local.TestNG-test=Switch Automation Regression-2(23)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story Name : Check Credential"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "deviceName",
+    "value" : "Samsung"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d35682e29495c082.json",
+  "parameterValues" : [ "Samsung" ]
+}

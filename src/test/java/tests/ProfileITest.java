@@ -107,4 +107,13 @@ public class ProfileITest extends TestSetup {
         login.checkValidLoginUsingSwitchNumber();
         profilePages.testChangePin("123456");
     }
+
+    @Test(priority = 210, description = "Switch_Profile_010 - User able to see POINT and Ruby Value")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that user can see POINT and Ruby in Page")
+    @Story("Story Name : Check User Profile")
+    public void checkPointAndRuby() throws InterruptedException {
+        login.checkValidLoginUsingSwitchNumber();
+        profilePages.testCheckPointAndRubies();
+    }
 }

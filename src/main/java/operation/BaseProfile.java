@@ -2,17 +2,16 @@ package operation;
 
 import constants.BaseData;
 import constants.ObjectElement;
-import io.appium.java_client.MobileElement;
 import org.openqa.selenium.By;
-import org.openqa.selenium.support.ui.ExpectedCondition;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import utilities.finders.ElementAction;
 
-import java.net.MalformedURLException;
-
 public class BaseProfile extends BaseTest {
     ElementAction action = new ElementAction();
+
+    public By txtGetPoints = By.id(ObjectElement.ProfilePageObject.txtPointsValue);
+
+    public By txtGetRubies = By.id(ObjectElement.ProfilePageObject.txtRubiesValue);
 
     public By txtHeaderTitle = By.id(ObjectElement.ProfilePageObject.txtHeaderTitle);
 
@@ -21,6 +20,8 @@ public class BaseProfile extends BaseTest {
     public By txtEmailUserTitle = By.id(ObjectElement.ProfilePageObject.txtEmailUserTitle);
 
     public By btnEdit = By.id(ObjectElement.ProfilePageObject.btnEdit);
+
+    public By btnTrxHistory = By.id(ObjectElement.ProfilePageObject.btnTrxHistory);
 
     public By txtDealsTitle = By.id(ObjectElement.ProfilePageObject.txtDealsTitle);
 

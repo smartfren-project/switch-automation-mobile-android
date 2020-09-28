@@ -1,0 +1,67 @@
+[ {
+  "values" : [ "ybrf4d2k3jv496f5x53w93wc" ],
+  "name" : "pCloudyApiKey"
+}, {
+  "values" : [ "8.1.0" ],
+  "name" : "Android Version"
+}, {
+  "values" : [ "pramoda.kumar@smartfren.com" ],
+  "name" : "pCloudyUsername"
+}, {
+  "values" : [ "https://device.pcloudy.com/appiumcloud/wd/hub" ],
+  "name" : "cloudURL"
+}, {
+  "values" : [ "SAMSUNG_GalaxyS5_Android_6.0.1_09645" ],
+  "name" : "samsungS5"
+}, {
+  "values" : [ "" ],
+  "name" : "iOSAppLocation"
+}, {
+  "values" : [ "" ],
+  "name" : "samsungS8"
+}, {
+  "values" : [ "UiAutomator2" ],
+  "name" : "androidAutomationName"
+}, {
+  "values" : [ "ANDROID" ],
+  "name" : "androidPlatformName"
+}, {
+  "values" : [ "com.smartfren.switchmobile" ],
+  "name" : "androidAppPackage"
+}, {
+  "values" : [ "/src/test/resources/app/switch_112_release.apk" ],
+  "name" : "androidAppLocation"
+}, {
+  "values" : [ "com.smartfren.switchmobile.views.activities.SplashScreenActivity" ],
+  "name" : "androidAppActivity"
+}, {
+  "values" : [ "http://localhost:4723/wd/hub" ],
+  "name" : "localURL"
+}, {
+  "values" : [ "" ],
+  "name" : "samsungNote10"
+}, {
+  "values" : [ "10.0.0" ],
+  "name" : "platformVersion"
+}, {
+  "values" : [ "SAMSUNG_GalaxyS9_Android_10.0.0_ed24d" ],
+  "name" : "samsungS9"
+}, {
+  "values" : [ "XCUITest" ],
+  "name" : "iOSAutomationName"
+}, {
+  "values" : [ "emulator-5554" ],
+  "name" : "Device Name"
+}, {
+  "values" : [ "emulator-5554" ],
+  "name" : "udid"
+}, {
+  "values" : [ "" ],
+  "name" : "iOSBundleId"
+}, {
+  "values" : [ "SAMSUNG_GalaxyJ7_Android_6.0.1_2b257" ],
+  "name" : "samsungJ7"
+}, {
+  "values" : [ "8.1.0" ],
+  "name" : "androidPlatformVersion"
+} ]

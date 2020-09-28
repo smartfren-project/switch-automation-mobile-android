@@ -1,0 +1,103 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "androidx.test.uiautomator.StaleObjectException\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Faizals-MacBook-Pro.local', ip: 'fe80:0:0:0:14de:e496:6318:a6af%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_251'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /home/radmin/build/raid-dat..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 30092, databaseEnabled: false, desired: {app: /home/radmin/build/raid-dat..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 30092, deviceName: 442, launchTimeout: 90000, newCommandTimeout: 600, pCloudy_ApiKey: ybrf4d2k3jv496f5x53w93wc, pCloudy_ApplicationName: switch.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyS9_Android_10..., pCloudy_DurationInMinutes: 30, pCloudy_Username: pramoda.kumar@smartfren.com, pCloudy_WildNet: false, platformName: android, platformVersion: 10.0.0, systemPort: 30094, udid: 218b2700920d7ece}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-G960F, deviceName: 218b2700920d7ece, deviceScreenDensity: 640, deviceScreenSize: 1440x2960, deviceUDID: 218b2700920d7ece, javascriptEnabled: true, launchTimeout: 90000, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pCloudy_ApiKey: ybrf4d2k3jv496f5x53w93wc, pCloudy_ApplicationName: switch.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyS9_Android_10..., pCloudy_DurationInMinutes: 30, pCloudy_Username: pramoda.kumar@smartfren.com, pCloudy_WildNet: false, pixelRatio: 4, platform: LINUX, platformName: ANDROID, platformVersion: 10, statBarHeight: 96, systemPort: 30094, takesScreenshot: true, udid: 218b2700920d7ece, viewportRect: {height: 2672, left: 0, top: 96, width: 1440}, warnings: {}, webStorageEnabled: false}\nSession ID: 3e215947-6e0d-48aa-98ea-2820e2d2eafc",
+      "children" : [ {
+        "name" : "Switch_Land_007 - User able to go to Login/SignUp with Bahasa Language",
+        "uid" : "8ae3bae01e1539ed",
+        "parentUid" : "057f241497545c7f4c24b7d24f64c880",
+        "status" : "broken",
+        "time" : {
+          "start" : 1599815288917,
+          "stop" : 1599815339159,
+          "duration" : 50242
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Samsung" ]
+      }, {
+        "name" : "Switch_Login_002 - User able to pass HOMEPAGE from VALID LOGIN SWITCH NUMBER",
+        "uid" : "df63cc6e9f08a1bd",
+        "parentUid" : "057f241497545c7f4c24b7d24f64c880",
+        "status" : "broken",
+        "time" : {
+          "start" : 1599815382072,
+          "stop" : 1599815413745,
+          "duration" : 31673
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Samsung" ]
+      } ],
+      "uid" : "057f241497545c7f4c24b7d24f64c880"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.id: com.smartfren.switchmobile:id/skip (tried for 10 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Switch_Login_006 - User unable to click button SUBMIT LOGIN when input LESS THAN 8 NUMBER",
+        "uid" : "23d29fbcbea1c5b8",
+        "parentUid" : "f482c1c13c1cbcbac5b92d4496903061",
+        "status" : "broken",
+        "time" : {
+          "start" : 1599815514857,
+          "stop" : 1599815562984,
+          "duration" : 48127
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Samsung" ]
+      } ],
+      "uid" : "f482c1c13c1cbcbac5b92d4496903061"
+    }, {
+      "name" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Faizals-MacBook-Pro.local', ip: 'fe80:0:0:0:14de:e496:6318:a6af%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_251'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /home/radmin/build/raid-dat..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 30092, databaseEnabled: false, desired: {app: /home/radmin/build/raid-dat..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 30092, deviceName: 442, launchTimeout: 90000, newCommandTimeout: 600, pCloudy_ApiKey: ybrf4d2k3jv496f5x53w93wc, pCloudy_ApplicationName: switch.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyS9_Android_10..., pCloudy_DurationInMinutes: 30, pCloudy_Username: pramoda.kumar@smartfren.com, pCloudy_WildNet: false, platformName: android, platformVersion: 10.0.0, systemPort: 30094, udid: 218b2700920d7ece}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-G960F, deviceName: 218b2700920d7ece, deviceScreenDensity: 640, deviceScreenSize: 1440x2960, deviceUDID: 218b2700920d7ece, javascriptEnabled: true, launchTimeout: 90000, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pCloudy_ApiKey: ybrf4d2k3jv496f5x53w93wc, pCloudy_ApplicationName: switch.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyS9_Android_10..., pCloudy_DurationInMinutes: 30, pCloudy_Username: pramoda.kumar@smartfren.com, pCloudy_WildNet: false, pixelRatio: 4, platform: LINUX, platformName: ANDROID, platformVersion: 10, statBarHeight: 96, systemPort: 30094, takesScreenshot: true, udid: 218b2700920d7ece, viewportRect: {height: 2672, left: 0, top: 96, width: 1440}, warnings: {}, webStorageEnabled: false}\nSession ID: 3e215947-6e0d-48aa-98ea-2820e2d2eafc\n*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView(new UiSelector().resourceId(\"com.smartfren.switchmobile:id/logout\"));}",
+      "children" : [ {
+        "name" : "Switch_Profile_001 - User able to LOGOUT and go back to PIN Page",
+        "uid" : "848858f36b550a3f",
+        "parentUid" : "9567269af3591fa07b69be79ad46e86a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1599815712934,
+          "stop" : 1599815784618,
+          "duration" : 71684
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Samsung" ]
+      } ],
+      "uid" : "9567269af3591fa07b69be79ad46e86a"
+    }, {
+      "name" : "The element 'By.id: com.smartfren.switchmobile:id/username' does not exist in DOM anymore\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Faizals-MacBook-Pro.local', ip: 'fe80:0:0:0:14de:e496:6318:a6af%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_251'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /home/radmin/build/raid-dat..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 30092, databaseEnabled: false, desired: {app: /home/radmin/build/raid-dat..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 30092, deviceName: 442, launchTimeout: 90000, newCommandTimeout: 600, pCloudy_ApiKey: ybrf4d2k3jv496f5x53w93wc, pCloudy_ApplicationName: switch.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyS9_Android_10..., pCloudy_DurationInMinutes: 30, pCloudy_Username: pramoda.kumar@smartfren.com, pCloudy_WildNet: false, platformName: android, platformVersion: 10.0.0, systemPort: 30094, udid: 218b2700920d7ece}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-G960F, deviceName: 218b2700920d7ece, deviceScreenDensity: 640, deviceScreenSize: 1440x2960, deviceUDID: 218b2700920d7ece, javascriptEnabled: true, launchTimeout: 90000, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pCloudy_ApiKey: ybrf4d2k3jv496f5x53w93wc, pCloudy_ApplicationName: switch.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyS9_Android_10..., pCloudy_DurationInMinutes: 30, pCloudy_Username: pramoda.kumar@smartfren.com, pCloudy_WildNet: false, pixelRatio: 4, platform: LINUX, platformName: ANDROID, platformVersion: 10, statBarHeight: 96, systemPort: 30094, takesScreenshot: true, udid: 218b2700920d7ece, viewportRect: {height: 2672, left: 0, top: 96, width: 1440}, warnings: {}, webStorageEnabled: false}\nSession ID: 3e215947-6e0d-48aa-98ea-2820e2d2eafc",
+      "children" : [ {
+        "name" : "Switch_Home_001 - User able to go to All Menu Page",
+        "uid" : "b63b665cee1b5b38",
+        "parentUid" : "3d6f7f8dca53bc3bb1f0bdc2e2e44177",
+        "status" : "broken",
+        "time" : {
+          "start" : 1599815791977,
+          "stop" : 1599815814619,
+          "duration" : 22642
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Samsung" ]
+      }, {
+        "name" : "Switch_Purchase_001 - User able to Add Product Super Bundle To Cart",
+        "uid" : "883fa6cd55cc2eda",
+        "parentUid" : "3d6f7f8dca53bc3bb1f0bdc2e2e44177",
+        "status" : "broken",
+        "time" : {
+          "start" : 1599815860145,
+          "stop" : 1599815900149,
+          "duration" : 40004
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Samsung" ]
+      } ],
+      "uid" : "3d6f7f8dca53bc3bb1f0bdc2e2e44177"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

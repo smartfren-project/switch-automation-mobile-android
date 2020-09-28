@@ -1,0 +1,48 @@
+{
+  "total" : 4,
+  "items" : [ {
+    "uid" : "e63040ff878c73067d728b8b397012ad",
+    "name" : "Story Name : Check Credential",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 12
+    }
+  }, {
+    "uid" : "9ed3ed3440f5ad31c05cdc650ec2edf1",
+    "name" : "Story Name : Check On Landing Page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "72b657c77f61f1075af3cb2d99ebe4fa",
+    "name" : "Story Name : Check On Home Page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "c9d1ff9ee6aeffd28af0d53d04d3835f",
+    "name" : "Story Name : Check Purchase",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

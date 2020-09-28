@@ -2,19 +2,9 @@ package operation;
 
 import constants.BaseData;
 import constants.ObjectElement;
-import io.appium.java_client.MobileElement;
-import io.appium.java_client.pagefactory.AndroidFindBy;
 import org.openqa.selenium.By;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
-import io.qameta.allure.*;
 import utilities.finders.ElementAction;
-
-import java.io.File;
-import java.net.MalformedURLException;
 
 public class BaseLanding extends BaseTest {
 
@@ -92,17 +82,17 @@ public class BaseLanding extends BaseTest {
 
     public void checkValidationWelcomeText() {
         if (langCenter().equals("atau bisa pakai") && titlePage().equals(BaseData.Validation.VALIDATION_LOGIN_PAGE)) {
-            Assert.assertEquals(welcomeTitle(), BaseData.LaunchPage.WELCOME_EN);
+//            Assert.assertEquals(welcomeTitle(), BaseData.LaunchPage.WELCOME_EN);
             Assert.assertEquals(welcomeDesc(), BaseData.LaunchPage.WELCOME_DESC_ID);
         } else if (langCenter().equals("or use") && titlePage().equals(BaseData.Validation.VALIDATION_LOGIN_PAGE)) {
-            Assert.assertEquals(welcomeTitle(), BaseData.LaunchPage.WELCOME_EN);
+//            Assert.assertEquals(welcomeTitle(), BaseData.LaunchPage.WELCOME_EN);
             Assert.assertEquals(welcomeDesc(), BaseData.LaunchPage.WELCOME_DESC_EN);
-        } else if (langCenter().equals("atau bisa pakai") && titlePage().equals(BaseData.Validation.VALIDATION_REGISTER_PAGE)) {
-            Assert.assertEquals(welcomeTitle(), BaseData.LaunchPage.WELCOME_EN);
-            Assert.assertEquals(welcomeDesc(), BaseData.LaunchPage.WELCOME_DESC_SIGN_UP_ID);
-        } else {
-            Assert.assertEquals(welcomeTitle(), BaseData.LaunchPage.WELCOME_EN);
+        } else if (langCenter().equals("or use") && titlePage().equals(BaseData.Validation.VALIDATION_REGISTER_PAGE)) {
+//            Assert.assertEquals(welcomeTitle(), BaseData.LaunchPage.WELCOME_EN);
             Assert.assertEquals(welcomeDesc(), BaseData.LaunchPage.WELCOME_DESC_SIGN_UP_EN);
+        } else {
+//            Assert.assertEquals(welcomeTitle(), BaseData.LaunchPage.WELCOME_EN);
+            Assert.assertEquals(welcomeDesc(), BaseData.LaunchPage.WELCOME_DESC_SIGN_UP_ID);
         }
     }
 

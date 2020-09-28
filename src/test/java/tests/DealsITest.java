@@ -40,4 +40,31 @@ public class DealsITest extends TestSetup {
         login.checkValidLoginUsingSwitchNumber();
         dealsPages.testCheckRubyValue();
     }
+
+    @Test(priority = 154, description = "Switch_Deals_004 - User able to buy Voucher using Points and Rubies")
+    @Severity(SeverityLevel.NORMAL)
+    @Description("Verify that User is able to buy Voucher using RUBIES and POINTS by Clicking on Voucher Product.")
+    @Story("Story Name : Check On Deals Page")
+    public void checkBuyVoucherUsingRubyAndPoints() throws InterruptedException {
+        login.checkValidLoginUsingSwitchNumber();
+        dealsPages.testBuyVoucherUsingRubyAndPoint();
+    }
+
+    @Test(priority = 155, description = "Switch_Deals_005 - User able to buy Voucher using Points")
+    @Severity(SeverityLevel.NORMAL)
+    @Description("Verify that User is able to buy Voucher using RUBIES or POINTS by Clicking on Voucher Product.")
+    @Story("Story Name : Check On Deals Page")
+    public void checkBuyVoucherUsingPoints() throws InterruptedException {
+        login.checkValidLoginUsingSwitchNumber();
+        dealsPages.testBuyVoucherUsingRubyOrPoint();
+    }
+
+    @Test(priority = 156, description = "Switch_Deals_006 - User able to buy Voucher using Rubies")
+    @Severity(SeverityLevel.NORMAL)
+    @Description("Verify that User is able to buy Voucher using RUBIES or POINTS by Clicking on Voucher Product.")
+    @Story("Story Name : Check On Deals Page")
+    public void checkBuyVoucherUsingRubies() throws InterruptedException {
+        login.checkValidLoginUsingSwitchNumber();
+        dealsPages.testBuyVoucherUsingRubyOrPoint();
+    }
 }

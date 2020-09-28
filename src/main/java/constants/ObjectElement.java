@@ -40,6 +40,7 @@ public class ObjectElement extends BaseTest {
     public interface SignUpPageObject {
         String btnLogin = "com.smartfren.switchmobile:id/login";
         String btnLoginHere = "com.smartfren.switchmobile:id/login_here";
+        String txtTitleSignUp = "com.smartfren.switchmobile:id/textView1";
     }
 
     public interface PINPageObject {
@@ -69,6 +70,18 @@ public class ObjectElement extends BaseTest {
         String btnCloseGuestPp = "com.smartfren.switchmobile:id/img_close";
         String btnLetsSwitch = "com.smartfren.switchmobile:id/button_activate";
         String txtDealsTitle = "com.smartfren.switchmobile:id/textView118";
+        String txtMainCard = "com.smartfren.switchmobile:id/title";
+        String txtDescMainCard = "com.smartfren.switchmobile:id/description";
+        String btnPlan = "com.smartfren.switchmobile:id/btn_fab";
+        String btnDetail = "com.smartfren.switchmobile:id/buy";
+        String txtBalance = "com.smartfren.switchmobile:id/txtInternet";
+        String txtSMSRemaining = "com.smartfren.switchmobile:id/txtSms";
+        String txtCallRemaining = "com.smartfren.switchmobile:id/txtCall";
+        String txtDataRemaining = "com.smartfren.switchmobile:id/pack_name";
+        String btnCustomNow = "//*[@text='Custom Now']";
+        String btnBigMission = "//*[@text='Big Mission']";
+        String btnECommerce = "//*[@text='E-Commerce']";
+        String btnMixAndMax = "com.smartfren.switchmobile:id/img_mix_n_match";
     }
 
     public interface DealsPageObject {
@@ -81,6 +94,9 @@ public class ObjectElement extends BaseTest {
         String btnSeeMore = "new UiScrollable(new UiSelector()"
                 + ".resourceId(\"com.smartfren.switchmobile:id/recycler_view\")).scrollIntoView("
                 + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/txt_browse_deals\"));";
+        String btnBuyVoucher = "com.smartfren.switchmobile:id/btn_get";
+        String txtPointPrice = "com.smartfren.switchmobile:id/txt_points";
+        String txtRubyPrice = "com.smartfren.switchmobile:id/txt_ruby";
     }
 
     public interface HistoryPageObject {
@@ -108,7 +124,7 @@ public class ObjectElement extends BaseTest {
         String btnTabSelesai = "new UiScrollable(new UiSelector()"
                 + ".resourceId(\"com.smartfren.switchmobile:id/tab_layout\")).scrollIntoView("
                 + "new UiSelector().text(\"Pesanan Selesai\"));";
-        String textHistoryMenuTitle = "com.smartfren.switchmobile:id/history";
+        String textHistoryMenuTitle = "com.smartfren.switchmobile:id/head_title";
     }
 
     public interface ProductPageObject {
@@ -205,6 +221,9 @@ public class ObjectElement extends BaseTest {
         String btnSave = "new UiScrollable(new UiSelector()"
                 + ".resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView("
                 + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/next\"));";
+        String btnTrxHistory = "com.smartfren.switchmobile:id/txn_history";
+        String txtPointsValue = "com.smartfren.switchmobile:id/textView122";
+        String txtRubiesValue = "com.smartfren.switchmobile:id/textView124";
     }
 
     public interface EditProfileObject {
@@ -265,6 +284,35 @@ public class ObjectElement extends BaseTest {
         String btnNext = "com.smartfren.switchmobile:id/next";
         String btnChooseMainNumber = String.format("//*[@text = '']");
         String btnRefresh = "com.smartfren.switchmobile:id/textView12";
+        String txtOrderSIMTitle = "com.smartfren.switchmobile:id/textView93";
+        String txtOrderSIMDesc = "com.smartfren.switchmobile:id/activate_text";
+        String btnSIMCardActivation = "com.smartfren.switchmobile:id/constraint_scan_main";
+        String btnOrderSIM = "com.smartfren.switchmobile:id/constraint_sim_main";
+        String btnClose = "com.smartfren.switchmobile:id/close";
+    }
+
+    public interface DeliveryAddressObject {
+        String txtTitle = "com.smartfren.switchmobile:id/textView";
+        String inputRecipientName = "com.smartfren.switchmobile:id/recName";
+        String inputRecipientPhoneNumber = "com.smartfren.switchmobile:id/recPhone";
+        String btnCity = "new UiScrollable(new UiSelector()"
+                + ".resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView("
+                + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/recCity\"));";
+        String inputZipCode = "new UiScrollable(new UiSelector()"
+                + ".resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView("
+                + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/recArea\"));";
+        String inputAddressDetail = "new UiScrollable(new UiSelector()"
+                + ".resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView("
+                + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/recDetails\"));";
+        String btnGoogleLocation = "new UiScrollable(new UiSelector()"
+                + ".resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView("
+                + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/img_view_map\"));";
+        String cbTermsAndConditions = "new UiScrollable(new UiSelector()"
+                + ".resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView("
+                + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/checkBox\"));";
+        String btnContinue = "new UiScrollable(new UiSelector()"
+                + ".resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView("
+                + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/next\"));";
     }
 
     public interface PaymentDetailObject {
@@ -295,5 +343,35 @@ public class ObjectElement extends BaseTest {
         String btnAlfamart = "new UiScrollable(new UiSelector()"
                 + ".resourceId(\"com.smartfren.switchmobile:id/recycler_e_wallet\")).scrollIntoView("
                 + "new UiSelector().text(\"Alfamart\"));";
+        String btnDelivery = "com.smartfren.switchmobile:id/cardViewDelivery";
+        String btnSelecrJNEReg = "//*[@text='JNE regular (2 - 7 days)']";
+        String btnSimGoPay = "//*[@text='GoPay']";
+        String btnSimDana = "//*[@text='DANA']";
+        String btnSimOVO = "//*[@text='OVO']";
+        String btnSimCC = "//*[@text='Visa/Master']";
+        String btnPay = "com.smartfren.switchmobile:id/btn_pay";
+        String btnSeeTrxStat = "com.smartfren.switchmobile:id/btn_payment_status";
+        String txtJNERegPrice = "com.smartfren.switchmobile:id/delivery_amt";
+    }
+
+    public interface ConfirmationAddressObject {
+        String txtTitle = "com.smartfren.switchmobile:id/txt_confirmation";
+        String txtQuestion = "com.smartfren.switchmobile:id/txt_question";
+        String btnContinue = "com.smartfren.switchmobile:id/btn_continue";
+        String btnRecheck = "com.smartfren.switchmobile:id/txt_recheck";
+        String btnClosePp = "com.smartfren.switchmobile:id/img_close";
+    }
+
+    public interface QuestPagesObject {
+        String imgAvatar = "com.smartfren.switchmobile:id/imageView19";
+        String txtPlayerName = "com.smartfren.switchmobile:id/textView130";
+        String btnMission = "com.smartfren.switchmobile:id/missions";
+        String btnProgress = "com.smartfren.switchmobile:id/progress";
+        String btnGames = "com.smartfren.switchmobile:id/games_btn";
+        String btnRank = "com.smartfren.switchmobile:id/textView135";
+        String btnCheckLoginQuest = "com.smartfren.switchmobile:id/constraint_daily_login";
+        String btnSeeAllBigMission = "com.smartfren.switchmobile:id/txt_see_all";
+        String btnLetsStartQuestWorld = "com.smartfren.switchmobile:id/btn_lets_start";
+        String btnCancelQuestWorld = "com.smartfren.switchmobile:id/txt_later";
     }
 }

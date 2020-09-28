@@ -64,10 +64,12 @@ public class LandingPages {
         action.click(baseLanding.btnFacebook);
     }
 
+    @Step("Check Validation Welcome Text")
     public void testCheckLoginPage() {
         baseLanding.checkValidationWelcomeText();
     }
 
+    @Step("Go Back")
     public void clickButtonBack() {
         action.click(baseLanding.btnBack);
     }

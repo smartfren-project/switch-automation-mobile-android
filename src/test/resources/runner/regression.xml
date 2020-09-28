@@ -17,6 +17,8 @@
             <class name="tests.PurchaseITest" />
             <class name="tests.DealsITest" />
             <class name="tests.HistoryITest" />
+            <class name="tests.QuestITest" />
+            <class name="tests.SignUpITest" />
         </classes>
     </test>
 </suite>

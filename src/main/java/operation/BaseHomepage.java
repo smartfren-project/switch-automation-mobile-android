@@ -2,7 +2,6 @@ package operation;
 
 import constants.ObjectElement;
 import org.openqa.selenium.By;
-import org.testng.Assert;
 
 public class BaseHomepage extends BaseTest {
 
@@ -34,7 +33,35 @@ public class BaseHomepage extends BaseTest {
 
     public By btnBuyPlan = By.id(ObjectElement.MenuPageObject.btnBuyProduct);
 
+    public By btnPlan = By.id(ObjectElement.MenuPageObject.btnPlan);
+
     public By btnCloseGuestPp = By.id(ObjectElement.MenuPageObject.btnCloseGuestPp);
 
+    public By txtMainCardTitle = By.id(ObjectElement.MenuPageObject.txtMainCard);
+
+    public By txtMainCardDesc = By.id(ObjectElement.MenuPageObject.txtDescMainCard);
+
     public By btnLetsSwitch = By.id(ObjectElement.MenuPageObject.btnLetsSwitch);
+
+    public By txtLSTitle = By.id(ObjectElement.OrderSIMNumberPage.txtOrderSIMTitle);
+
+    public By btnOrderSIM = By.id(ObjectElement.OrderSIMNumberPage.btnOrderSIM);
+
+    public By btnDetail = By.id(ObjectElement.MenuPageObject.btnDetail);
+
+    public By txtCheckBalanceRemaining = By.id(ObjectElement.MenuPageObject.txtBalance);
+
+    public By txtCheckSMSRemaining = By.id(ObjectElement.MenuPageObject.txtSMSRemaining);
+
+    public By txtCheckCallRemaining = By.id(ObjectElement.MenuPageObject.txtCallRemaining);
+
+    public By btnCustomNow = By.xpath(ObjectElement.MenuPageObject.btnCustomNow);
+
+    public By btnBigMission = By.xpath(ObjectElement.MenuPageObject.btnBigMission);
+
+    public By btnECommerce = By.xpath(ObjectElement.MenuPageObject.btnECommerce);
+
+    public By btnMixAndMax = By.id(ObjectElement.MenuPageObject.btnMixAndMax);
+
+    public By txtDataRemaining = By.id(ObjectElement.MenuPageObject.txtDataRemaining);
 }

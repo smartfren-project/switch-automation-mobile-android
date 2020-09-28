@@ -1,11 +1,11 @@
 package operation;
 
-import constants.BaseData;
 import constants.ObjectElement;
-import io.appium.java_client.MobileElement;
 import org.openqa.selenium.By;
-import org.testng.Assert;
 import utilities.finders.ElementAction;
+
+import java.text.DecimalFormat;
+import java.text.ParseException;
 
 public class BasePurchase extends BaseTest {
 
@@ -23,6 +23,22 @@ public class BasePurchase extends BaseTest {
     public By btnSeeDetailPurchase = By.id(ObjectElement.ProductPageObject.btnSeeDetail);
 
     public By btnCloseSeeDetailPurchase = By.id(ObjectElement.PaymentDetailObject.btnCloseDetail);
+
+    public By btnDeliveryOption = By.id(ObjectElement.PaymentDetailObject.btnDelivery);
+
+    public By btnSelectDeliveryJNEReg = By.xpath(ObjectElement.PaymentDetailObject.btnSelecrJNEReg);
+
+    public By btnGoPay = By.xpath(ObjectElement.PaymentDetailObject.btnSimGoPay);
+
+    public By btnDana = By.xpath(ObjectElement.PaymentDetailObject.btnSimDana);
+
+    public By btnOVO = By.xpath(ObjectElement.PaymentDetailObject.btnSimOVO);
+
+    public By btnCC = By.xpath(ObjectElement.PaymentDetailObject.btnSimCC);
+
+    public By btnPay = By.id(ObjectElement.PaymentDetailObject.btnPay);
+
+    public By btnSeeTrxStats = By.id(ObjectElement.PaymentDetailObject.btnSeeTrxStat);
 
     public By btnOrderSIMHomeID = By.xpath(ObjectElement.ProductPageObject.btnOrderSIMHomeID);
 
@@ -43,6 +59,28 @@ public class BasePurchase extends BaseTest {
     public By inputNumber6 = By.id(ObjectElement.OrderSIMNumberPage.btnSixthNumber);
 
     public By btnRefresh = By.id(ObjectElement.OrderSIMNumberPage.btnRefresh);
+
+    public By btnSelectFilteredNumber = By.id(ObjectElement.OrderSIMNumberPage.btnSelectNumber);
+
+    public By btnNext = By.id(ObjectElement.OrderSIMNumberPage.btnNext);
+
+    public By inputRecipientName = By.id(ObjectElement.DeliveryAddressObject.inputRecipientName);
+
+    public By inputRecipientPhoneNumber = By.id(ObjectElement.DeliveryAddressObject.inputRecipientPhoneNumber);
+
+    public By btnContinue =  By.id(ObjectElement.ConfirmationAddressObject.btnContinue);
+
+    public By txtJNERegularPrice = By.id(ObjectElement.PaymentDetailObject.txtJNERegPrice);
+
+    public String btnCityOrDistrict = ObjectElement.DeliveryAddressObject.btnCity;
+
+    public String inputPostalCode = ObjectElement.DeliveryAddressObject.inputZipCode;
+
+    public String inputAddressDetail = ObjectElement.DeliveryAddressObject.inputAddressDetail;
+
+    public String btnGoogleLocation = ObjectElement.DeliveryAddressObject.btnGoogleLocation;
+
+    public String cbTermsAndCondition = ObjectElement.DeliveryAddressObject.cbTermsAndConditions;
 
     public String btnPaymentWithGoPay = ObjectElement.PaymentDetailObject.btnGopay;
 
@@ -70,5 +108,34 @@ public class BasePurchase extends BaseTest {
 
     public void clickChooseYourNumber(String mainNumber) {
         driver.findElement(By.xpath(String.format("//*[@text = '%s']", mainNumber))).click();
+    }
+
+    public String getJNERegAmount() {
+        String delAmount = action.getText(txtJNERegularPrice);
+        DecimalFormat currencyIDR = (DecimalFormat) DecimalFormat.getCurrencyInstance();
+        try {
+            String amount = delAmount.replace("Rp ", "");
+            return amount;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+
+    public void selectPayment(String paymentType) {
+        switch (paymentType) {
+            case "GoPay" :
+                action.click(btnGoPay);
+                break;
+            case "DANA" :
+                action.click(btnDana);
+                break;
+            case "OVO" :
+                action.click(btnOVO);
+                break;
+            case "CC" :
+                action.click(btnCC);
+                break;
+        }
     }
 }

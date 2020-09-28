@@ -1,0 +1,426 @@
+{
+  "cb39b021d1d123068afb902868a8798e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f0f119b9a257a680",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599815100755,
+        "stop" : 1599815135345,
+        "duration" : 34590
+      }
+    } ]
+  },
+  "ddfaf391d90db9dff1b6d835fba02ccb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fe5a4c1ceae06940",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599815161938,
+        "stop" : 1599815173681,
+        "duration" : 11743
+      }
+    } ]
+  },
+  "a4c84adbe262152b151f372f4c971873" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "88f59123b756a837",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599815346468,
+        "stop" : 1599815374716,
+        "duration" : 28248
+      }
+    } ]
+  },
+  "a1460d5951cd66d791282a8e2989c05c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1ee3f35fc58e9f33",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599815486152,
+        "stop" : 1599815507627,
+        "duration" : 21475
+      }
+    } ]
+  },
+  "e154492dfc0b68d1b93feb04d638cc07" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b1b2086680f3df74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599815570169,
+        "stop" : 1599815585664,
+        "duration" : 15495
+      }
+    } ]
+  },
+  "d59ae09e0a1ac8824226f60a8888c9a0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cf334ad4f7b64cfb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599815142942,
+        "stop" : 1599815154661,
+        "duration" : 11719
+      }
+    } ]
+  },
+  "750187a7a8a74fe6f1c3dbdf8e68c895" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7e88c1aedfebfb06",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599815250942,
+        "stop" : 1599815263440,
+        "duration" : 12498
+      }
+    } ]
+  },
+  "859895797aea75f4f11067d4e8f05563" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "23d29fbcbea1c5b8",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: com.smartfren.switchmobile:id/skip (tried for 10 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1599815514857,
+        "stop" : 1599815562984,
+        "duration" : 48127
+      }
+    } ]
+  },
+  "6e4f7d91f12a7e2ba92c6f88c003907b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d9aec675b320b3b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599815463640,
+        "stop" : 1599815478867,
+        "duration" : 15227
+      }
+    } ]
+  },
+  "5e1457dca8668fbe73df9c185f2c06c0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6b1aef91e18ce988",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599815615165,
+        "stop" : 1599815633046,
+        "duration" : 17881
+      }
+    } ]
+  },
+  "ab9efb194edefddf2f88b9b58aa6506b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "df63cc6e9f08a1bd",
+      "status" : "broken",
+      "statusDetails" : "androidx.test.uiautomator.StaleObjectException\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Faizals-MacBook-Pro.local', ip: 'fe80:0:0:0:14de:e496:6318:a6af%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_251'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /home/radmin/build/raid-dat..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 30092, databaseEnabled: false, desired: {app: /home/radmin/build/raid-dat..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 30092, deviceName: 442, launchTimeout: 90000, newCommandTimeout: 600, pCloudy_ApiKey: ybrf4d2k3jv496f5x53w93wc, pCloudy_ApplicationName: switch.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyS9_Android_10..., pCloudy_DurationInMinutes: 30, pCloudy_Username: pramoda.kumar@smartfren.com, pCloudy_WildNet: false, platformName: android, platformVersion: 10.0.0, systemPort: 30094, udid: 218b2700920d7ece}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-G960F, deviceName: 218b2700920d7ece, deviceScreenDensity: 640, deviceScreenSize: 1440x2960, deviceUDID: 218b2700920d7ece, javascriptEnabled: true, launchTimeout: 90000, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pCloudy_ApiKey: ybrf4d2k3jv496f5x53w93wc, pCloudy_ApplicationName: switch.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyS9_Android_10..., pCloudy_DurationInMinutes: 30, pCloudy_Username: pramoda.kumar@smartfren.com, pCloudy_WildNet: false, pixelRatio: 4, platform: LINUX, platformName: ANDROID, platformVersion: 10, statBarHeight: 96, systemPort: 30094, takesScreenshot: true, udid: 218b2700920d7ece, viewportRect: {height: 2672, left: 0, top: 96, width: 1440}, warnings: {}, webStorageEnabled: false}\nSession ID: 3e215947-6e0d-48aa-98ea-2820e2d2eafc",
+      "time" : {
+        "start" : 1599815382072,
+        "stop" : 1599815413745,
+        "duration" : 31673
+      }
+    } ]
+  },
+  "dd30c09869a7355d6fb2918de91291f4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "883fa6cd55cc2eda",
+      "status" : "broken",
+      "statusDetails" : "The element 'By.id: com.smartfren.switchmobile:id/username' does not exist in DOM anymore\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Faizals-MacBook-Pro.local', ip: 'fe80:0:0:0:14de:e496:6318:a6af%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_251'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /home/radmin/build/raid-dat..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 30092, databaseEnabled: false, desired: {app: /home/radmin/build/raid-dat..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 30092, deviceName: 442, launchTimeout: 90000, newCommandTimeout: 600, pCloudy_ApiKey: ybrf4d2k3jv496f5x53w93wc, pCloudy_ApplicationName: switch.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyS9_Android_10..., pCloudy_DurationInMinutes: 30, pCloudy_Username: pramoda.kumar@smartfren.com, pCloudy_WildNet: false, platformName: android, platformVersion: 10.0.0, systemPort: 30094, udid: 218b2700920d7ece}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-G960F, deviceName: 218b2700920d7ece, deviceScreenDensity: 640, deviceScreenSize: 1440x2960, deviceUDID: 218b2700920d7ece, javascriptEnabled: true, launchTimeout: 90000, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pCloudy_ApiKey: ybrf4d2k3jv496f5x53w93wc, pCloudy_ApplicationName: switch.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyS9_Android_10..., pCloudy_DurationInMinutes: 30, pCloudy_Username: pramoda.kumar@smartfren.com, pCloudy_WildNet: false, pixelRatio: 4, platform: LINUX, platformName: ANDROID, platformVersion: 10, statBarHeight: 96, systemPort: 30094, takesScreenshot: true, udid: 218b2700920d7ece, viewportRect: {height: 2672, left: 0, top: 96, width: 1440}, warnings: {}, webStorageEnabled: false}\nSession ID: 3e215947-6e0d-48aa-98ea-2820e2d2eafc",
+      "time" : {
+        "start" : 1599815860145,
+        "stop" : 1599815900149,
+        "duration" : 40004
+      }
+    } ]
+  },
+  "6ea7d3c496e2072ff40d8a147402d639" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b63b665cee1b5b38",
+      "status" : "broken",
+      "statusDetails" : "The element 'By.id: com.smartfren.switchmobile:id/username' does not exist in DOM anymore\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Faizals-MacBook-Pro.local', ip: 'fe80:0:0:0:14de:e496:6318:a6af%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_251'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /home/radmin/build/raid-dat..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 30092, databaseEnabled: false, desired: {app: /home/radmin/build/raid-dat..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 30092, deviceName: 442, launchTimeout: 90000, newCommandTimeout: 600, pCloudy_ApiKey: ybrf4d2k3jv496f5x53w93wc, pCloudy_ApplicationName: switch.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyS9_Android_10..., pCloudy_DurationInMinutes: 30, pCloudy_Username: pramoda.kumar@smartfren.com, pCloudy_WildNet: false, platformName: android, platformVersion: 10.0.0, systemPort: 30094, udid: 218b2700920d7ece}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-G960F, deviceName: 218b2700920d7ece, deviceScreenDensity: 640, deviceScreenSize: 1440x2960, deviceUDID: 218b2700920d7ece, javascriptEnabled: true, launchTimeout: 90000, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pCloudy_ApiKey: ybrf4d2k3jv496f5x53w93wc, pCloudy_ApplicationName: switch.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyS9_Android_10..., pCloudy_DurationInMinutes: 30, pCloudy_Username: pramoda.kumar@smartfren.com, pCloudy_WildNet: false, pixelRatio: 4, platform: LINUX, platformName: ANDROID, platformVersion: 10, statBarHeight: 96, systemPort: 30094, takesScreenshot: true, udid: 218b2700920d7ece, viewportRect: {height: 2672, left: 0, top: 96, width: 1440}, warnings: {}, webStorageEnabled: false}\nSession ID: 3e215947-6e0d-48aa-98ea-2820e2d2eafc",
+      "time" : {
+        "start" : 1599815791977,
+        "stop" : 1599815814619,
+        "duration" : 22642
+      }
+    } ]
+  },
+  "97dac1bcbc9a2299c376af2a3fcbb3a4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d35682e29495c082",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599815420975,
+        "stop" : 1599815456468,
+        "duration" : 35493
+      }
+    } ]
+  },
+  "39e093befceb8765eacd644875f12ef6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d12fa858a1c30785",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599815592795,
+        "stop" : 1599815607926,
+        "duration" : 15131
+      }
+    } ]
+  },
+  "a6609ea51de3448e2a283c1a566a8bf6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2b3604ede933296b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599815180851,
+        "stop" : 1599815243808,
+        "duration" : 62957
+      }
+    } ]
+  },
+  "34480c9b72a9ea629dcddfa1212d2daf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "848858f36b550a3f",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Faizals-MacBook-Pro.local', ip: 'fe80:0:0:0:14de:e496:6318:a6af%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_251'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /home/radmin/build/raid-dat..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 30092, databaseEnabled: false, desired: {app: /home/radmin/build/raid-dat..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 30092, deviceName: 442, launchTimeout: 90000, newCommandTimeout: 600, pCloudy_ApiKey: ybrf4d2k3jv496f5x53w93wc, pCloudy_ApplicationName: switch.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyS9_Android_10..., pCloudy_DurationInMinutes: 30, pCloudy_Username: pramoda.kumar@smartfren.com, pCloudy_WildNet: false, platformName: android, platformVersion: 10.0.0, systemPort: 30094, udid: 218b2700920d7ece}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-G960F, deviceName: 218b2700920d7ece, deviceScreenDensity: 640, deviceScreenSize: 1440x2960, deviceUDID: 218b2700920d7ece, javascriptEnabled: true, launchTimeout: 90000, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pCloudy_ApiKey: ybrf4d2k3jv496f5x53w93wc, pCloudy_ApplicationName: switch.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyS9_Android_10..., pCloudy_DurationInMinutes: 30, pCloudy_Username: pramoda.kumar@smartfren.com, pCloudy_WildNet: false, pixelRatio: 4, platform: LINUX, platformName: ANDROID, platformVersion: 10, statBarHeight: 96, systemPort: 30094, takesScreenshot: true, udid: 218b2700920d7ece, viewportRect: {height: 2672, left: 0, top: 96, width: 1440}, warnings: {}, webStorageEnabled: false}\nSession ID: 3e215947-6e0d-48aa-98ea-2820e2d2eafc\n*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView(new UiSelector().resourceId(\"com.smartfren.switchmobile:id/logout\"));}",
+      "time" : {
+        "start" : 1599815712934,
+        "stop" : 1599815784618,
+        "duration" : 71684
+      }
+    } ]
+  },
+  "1f7c44b6c1eeaf9b067106701636c036" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1ceac7b7e801c711",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599815821983,
+        "stop" : 1599815853101,
+        "duration" : 31118
+      }
+    } ]
+  },
+  "a6fa99adb5255df066cffa0a357b0268" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f04a0d4dc4fb2305",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599815640141,
+        "stop" : 1599815675896,
+        "duration" : 35755
+      }
+    } ]
+  },
+  "236bb6c485f75514e6b8da8873c74ec7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "43cdedc5d291979",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599815270851,
+        "stop" : 1599815281531,
+        "duration" : 10680
+      }
+    } ]
+  },
+  "782005a0e4575c464fd493dfcdb4f948" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9b7a043fb3458241",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599815683080,
+        "stop" : 1599815705631,
+        "duration" : 22551
+      }
+    } ]
+  },
+  "c2362e0b779e329b78a928a745349de3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8ae3bae01e1539ed",
+      "status" : "broken",
+      "statusDetails" : "androidx.test.uiautomator.StaleObjectException\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Faizals-MacBook-Pro.local', ip: 'fe80:0:0:0:14de:e496:6318:a6af%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_251'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /home/radmin/build/raid-dat..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 30092, databaseEnabled: false, desired: {app: /home/radmin/build/raid-dat..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 30092, deviceName: 442, launchTimeout: 90000, newCommandTimeout: 600, pCloudy_ApiKey: ybrf4d2k3jv496f5x53w93wc, pCloudy_ApplicationName: switch.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyS9_Android_10..., pCloudy_DurationInMinutes: 30, pCloudy_Username: pramoda.kumar@smartfren.com, pCloudy_WildNet: false, platformName: android, platformVersion: 10.0.0, systemPort: 30094, udid: 218b2700920d7ece}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-G960F, deviceName: 218b2700920d7ece, deviceScreenDensity: 640, deviceScreenSize: 1440x2960, deviceUDID: 218b2700920d7ece, javascriptEnabled: true, launchTimeout: 90000, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pCloudy_ApiKey: ybrf4d2k3jv496f5x53w93wc, pCloudy_ApplicationName: switch.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyS9_Android_10..., pCloudy_DurationInMinutes: 30, pCloudy_Username: pramoda.kumar@smartfren.com, pCloudy_WildNet: false, pixelRatio: 4, platform: LINUX, platformName: ANDROID, platformVersion: 10, statBarHeight: 96, systemPort: 30094, takesScreenshot: true, udid: 218b2700920d7ece, viewportRect: {height: 2672, left: 0, top: 96, width: 1440}, warnings: {}, webStorageEnabled: false}\nSession ID: 3e215947-6e0d-48aa-98ea-2820e2d2eafc",
+      "time" : {
+        "start" : 1599815288917,
+        "stop" : 1599815339159,
+        "duration" : 50242
+      }
+    } ]
+  }
+}
