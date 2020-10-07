@@ -64,4 +64,6 @@ public class BaseHomepage extends BaseTest {
     public By btnMixAndMax = By.id(ObjectElement.MenuPageObject.btnMixAndMax);
 
     public By txtDataRemaining = By.id(ObjectElement.MenuPageObject.txtDataRemaining);
+
+    public By btnCustomPlan = By.id(ObjectElement.ProductPageObject.btnCustomPlan);
 }

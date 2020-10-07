@@ -68,6 +68,11 @@ public class PurchasePages {
         action.click(basePurchase.btnCloseSeeDetailPurchase);
     }
 
+    @Step("User Do Checkout Payment With")
+    public void testConfirmPaymentMethod(String paymentMethod) {
+        basePurchase.selectPaymentMethod(paymentMethod);
+    }
+
     @Step("User Do Checkout Payment With GoPay")
     public void testConfirmPaymentGopay() {
         action.clickElementScroll(basePurchase.btnPaymentWithGoPay);
@@ -142,5 +147,19 @@ public class PurchasePages {
         basePurchase.selectPayment(paymentType);
 //        action.click(basePurchase.btnPay);
 //        action.click(basePurchase.btnSeeTrxStats);
+    }
+
+    public void testAddToCartCustomPlan() {
+        action.click(baseHomepage.btnPlan);
+        action.click(basePurchase.btnCustomPlan);
+    }
+
+    public void testGoToServicePlan(String service) {
+        action.click(baseHomepage.btnPlan);
+        basePurchase.selectService(service);
+    }
+
+    public void testSelectBalancePlan(String bPlan) {
+        basePurchase.selectBalancePlan(bPlan);
     }
 }

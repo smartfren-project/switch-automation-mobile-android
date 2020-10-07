@@ -185,4 +185,10 @@ public class ProfilePages {
         action.click(baseHomepage.btnQuest);
         action.click(baseHomepage.btnProfile);
     }
+
+    @Step("User Cancel Logout")
+    public void testCancelLogout() {
+        action.clickElementScroll(baseProfile.btnLogout);
+        action.click(baseLogout.btnCancelLogout);
+    }
 }

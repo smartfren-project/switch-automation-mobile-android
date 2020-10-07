@@ -12,6 +12,7 @@ public class ObjectElement extends BaseTest {
         String btnSkip = "com.smartfren.switchmobile:id/skip_new";
         String txtBannerTitle = "com.smartfren.switchmobile:id/slideheading";
         String txtBannerDesc = "com.smartfren.switchmobile:id/slidedec";
+        String btnEmail = "com.smartfren.switchmobile:id/txt_email";
     }
 
     public interface LoginPageObject {
@@ -140,20 +141,45 @@ public class ObjectElement extends BaseTest {
         String btnConfirmBuy = "com.smartfren.switchmobile:id/button6";
         String btnChoosePayment = "com.smartfren.switchmobile:id/button4";
         String btnSeeDetail = "com.smartfren.switchmobile:id/txt_see_details";
+        String btnCustomPlan = "com.smartfren.switchmobile:id/img_mix_n_match";
         String btnPromoSuperBundle = "new UiScrollable(new UiSelector()"
                 + ".resourceId(\"com.smartfren.switchmobile:id/recycler_\")).scrollIntoView("
-                + "new UiSelector().text(\"Super Bundle\"));";
+                + "new UiSelector().text(\"Super Bar\"));";
         String btnPromoPowerBundle = "new UiScrollable(new UiSelector()"
                 + ".resourceId(\"com.smartfren.switchmobile:id/recycler_\")).scrollIntoView("
-                + "new UiSelector().text(\"Power Bundle\"));";
+                + "new UiSelector().text(\"Power Bar\"));";
         String btnPromoStandardBundle = "new UiScrollable(new UiSelector()"
                 + ".resourceId(\"com.smartfren.switchmobile:id/recycler_\")).scrollIntoView("
-                + "new UiSelector().text(\"Standard Bundle\"));";
+                + "new UiSelector().text(\"Standard Bar\"));";
         String btnPromoLiteBundle = "new UiScrollable(new UiSelector()"
                 + ".resourceId(\"com.smartfren.switchmobile:id/recycler_\")).scrollIntoView("
-                + "new UiSelector().text(\"Lite Bundle\"));";
+                + "new UiSelector().text(\"Lite Bar\"));";
         String btnOrderSIMHomeID = "//*[@text='YUK, MULAI']";
         String btnOrderSIMHomeEN = "//*[@text='LET'S SWITCH']";
+        String btnBasePlan = "new UiScrollable(new UiSelector()"
+                + ".resourceId(\"com.smartfren.switchmobile:id/tab_layout\")).scrollIntoView("
+                + "new UiSelector().text(\"Base Plan\"));";
+        String btnAddOn = "new UiScrollable(new UiSelector()"
+                + ".resourceId(\"com.smartfren.switchmobile:id/tab_layout\")).scrollIntoView("
+                + "new UiSelector().text(\"Add-on\"));";
+        String btnBalancePlan = "new UiScrollable(new UiSelector()"
+                + ".resourceId(\"com.smartfren.switchmobile:id/tab_layout\")).scrollIntoView("
+                + "new UiSelector().text(\"Balance Plan\"));";
+        String btnRoaming = "new UiScrollable(new UiSelector()"
+                + ".resourceId(\"com.smartfren.switchmobile:id/tab_layout\")).scrollIntoView("
+                + "new UiSelector().text(\"Roaming\"));";
+        String btnToken100 = "new UiScrollable(new UiSelector()"
+                + ".resourceId(\"com.smartfren.switchmobile:id/recycler_\")).scrollIntoView("
+                + "new UiSelector().text(\"Token 100\"));";
+        String btnToken50 = "new UiScrollable(new UiSelector()"
+                + ".resourceId(\"com.smartfren.switchmobile:id/recycler_\")).scrollIntoView("
+                + "new UiSelector().text(\"Token 50\"));";
+        String btnToken20 = "new UiScrollable(new UiSelector()"
+                + ".resourceId(\"com.smartfren.switchmobile:id/recycler_\")).scrollIntoView("
+                + "new UiSelector().text(\"Token 20\"));";
+        String btnToken10 = "new UiScrollable(new UiSelector()"
+                + ".resourceId(\"com.smartfren.switchmobile:id/recycler_\")).scrollIntoView("
+                + "new UiSelector().text(\"Token 10\"));";
     }
 
     public interface ProfilePageObject {
@@ -224,6 +250,7 @@ public class ObjectElement extends BaseTest {
         String btnTrxHistory = "com.smartfren.switchmobile:id/txn_history";
         String txtPointsValue = "com.smartfren.switchmobile:id/textView122";
         String txtRubiesValue = "com.smartfren.switchmobile:id/textView124";
+        String btnCancelLogout = "android:id/button2";
     }
 
     public interface EditProfileObject {
@@ -319,24 +346,36 @@ public class ObjectElement extends BaseTest {
         String txtDetailTitle = "com.smartfren.switchmobile:id/txt_payment_heading";
         String txtTotalAmount = "com.smartfren.switchmobile:id/total_amt_aft_discount";
         String btnCloseDetail = "com.smartfren.switchmobile:id/img_close";
+
+        /* E-Money */
         String btnGopay = "new UiScrollable(new UiSelector()"
                 + ".resourceId(\"com.smartfren.switchmobile:id/recycler_e_wallet\")).scrollIntoView("
-                + "new UiSelector().text(\"GoPay\"));";
+                + "new UiSelector().text(\"Go Pay\"));";
         String btnDana = "new UiScrollable(new UiSelector()"
                 + ".resourceId(\"com.smartfren.switchmobile:id/recycler_e_wallet\")).scrollIntoView("
                 + "new UiSelector().text(\"DANA\"));";
         String btnOVO = "new UiScrollable(new UiSelector()"
                 + ".resourceId(\"com.smartfren.switchmobile:id/recycler_e_wallet\")).scrollIntoView("
                 + "new UiSelector().text(\"OVO\"));";
+        String btnShopeePay = "new UiScrollable(new UiSelector()"
+                + ".resourceId(\"com.smartfren.switchmobile:id/recycler_e_wallet\")).scrollIntoView("
+                + "new UiSelector().text(\"ShopePay\"));";
+
+        /*Credit Or Debit Card*/
         String btnCC = "new UiScrollable(new UiSelector()"
                 + ".resourceId(\"com.smartfren.switchmobile:id/recycler_e_wallet\")).scrollIntoView("
                 + "new UiSelector().text(\"Visa/Master\"));";
+        String btnCCWithJCB = "new UiScrollable(new UiSelector()"
+                + ".resourceId(\"com.smartfren.switchmobile:id/recycler_e_wallet\")).scrollIntoView("
+                + "new UiSelector().text(\"Visa/Master/JCB\"));";
+
+        /*Virtual Account*/
         String btnVAPermata = "new UiScrollable(new UiSelector()"
                 + ".resourceId(\"com.smartfren.switchmobile:id/recycler_e_wallet\")).scrollIntoView("
-                + "new UiSelector().text(\"Permata VA\"));";
+                + "new UiSelector().text(\"Permata Virtual Account\"));";
         String btnVADanamon = "new UiScrollable(new UiSelector()"
                 + ".resourceId(\"com.smartfren.switchmobile:id/recycler_e_wallet\")).scrollIntoView("
-                + "new UiSelector().text(\"Danamon VA\"));";
+                + "new UiSelector().text(\"Danamon Virtual Account\"));";
         String btnVAMandiri = "new UiScrollable(new UiSelector()"
                 + ".resourceId(\"com.smartfren.switchmobile:id/recycler_e_wallet\")).scrollIntoView("
                 + "new UiSelector().text(\"Mandiri VA\"));";
@@ -373,5 +412,11 @@ public class ObjectElement extends BaseTest {
         String btnSeeAllBigMission = "com.smartfren.switchmobile:id/txt_see_all";
         String btnLetsStartQuestWorld = "com.smartfren.switchmobile:id/btn_lets_start";
         String btnCancelQuestWorld = "com.smartfren.switchmobile:id/txt_later";
+    }
+
+    public interface HomePopupObject {
+        String txtServicePlanAd = "com.smartfren.switchmobile:id/tvMid";
+        String txtServicePlanAdDesc = "com.smartfren.switchmobile:id/tvSubMid";
+        String btnConfirmServicePlanAd = "com.smartfren.switchmobile:id/btnDone";
     }
 }

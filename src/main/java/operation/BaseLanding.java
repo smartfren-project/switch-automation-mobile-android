@@ -44,6 +44,8 @@ public class BaseLanding extends BaseTest {
 
     public By btnBack = By.id(ObjectElement.LoginPageObject.btnBack);
 
+    public By btnEmail = By.id(ObjectElement.LandingPageObject.btnEmail);
+
     public String titlePage() {
         String titlePage = action.getText(txtTitlePages);
         try {

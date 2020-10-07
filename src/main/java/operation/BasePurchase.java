@@ -72,6 +72,8 @@ public class BasePurchase extends BaseTest {
 
     public By txtJNERegularPrice = By.id(ObjectElement.PaymentDetailObject.txtJNERegPrice);
 
+    public By btnCustomPlan = By.id(ObjectElement.ProductPageObject.btnCustomPlan);
+
     public String btnCityOrDistrict = ObjectElement.DeliveryAddressObject.btnCity;
 
     public String inputPostalCode = ObjectElement.DeliveryAddressObject.inputZipCode;
@@ -97,6 +99,26 @@ public class BasePurchase extends BaseTest {
     public String btnPaymentWithMandiriVA = ObjectElement.PaymentDetailObject.btnVAMandiri;
 
     public String btnPaymentWithAlfamart = ObjectElement.PaymentDetailObject.btnAlfamart;
+
+    public String btnPaymentWithShopeePay = ObjectElement.PaymentDetailObject.btnShopeePay;
+
+    public String btnPaymentWithCCJCB = ObjectElement.PaymentDetailObject.btnCCWithJCB;
+
+    public String btnBasePlan = ObjectElement.ProductPageObject.btnBasePlan;
+
+    public String btnAddOn = ObjectElement.ProductPageObject.btnAddOn;
+
+    public String btnBalancePlan = ObjectElement.ProductPageObject.btnBalancePlan;
+
+    public String btnRoaming = ObjectElement.ProductPageObject.btnRoaming;
+
+    public String btnToken100 = ObjectElement.ProductPageObject.btnToken100;
+
+    public String btnToken50 = ObjectElement.ProductPageObject.btnToken50;
+
+    public String btnToken20 = ObjectElement.ProductPageObject.btnToken20;
+
+    public String btnToken10 = ObjectElement.ProductPageObject.btnToken10;
 
     public void clickButtonLetsSwitch() {
         if (baseLanding.langCenter().equals("atau bisa pakai")) {
@@ -138,4 +160,75 @@ public class BasePurchase extends BaseTest {
                 break;
         }
     }
+
+    public void selectPaymentMethod(String paymentMethod) {
+        switch (paymentMethod) {
+            case "GoPay" :
+                action.clickElementScroll(btnPaymentWithGoPay);
+                break;
+            case "Dana" :
+                action.clickElementScroll(btnPaymentWithDana);
+                break;
+            case "OVO" :
+                action.clickElementScroll(btnPaymentWithOVO);
+                break;
+            case "ShopeePay" :
+                action.clickElementScroll(btnPaymentWithShopeePay);
+                break;
+            case "CC" :
+                action.clickElementScroll(btnPaymentWithCC);
+                break;
+            case "CC-JCB" :
+                action.clickElementScroll(btnPaymentWithCCJCB);
+                break;
+            case "PermataVA" :
+                action.clickElementScroll(btnPaymentWithPermataVA);
+                break;
+            case "DanamonVA" :
+                action.clickElementScroll(btnPaymentWithDanamonVA);
+                break;
+            case "MandiriVA" :
+                action.clickElementScroll(btnPaymentWithMandiriVA);
+                break;
+            case "Alfamart" :
+                action.clickElementScroll(btnPaymentWithAlfamart);
+                break;
+        }
+    }
+
+    public void selectService(String service) {
+        switch (service) {
+            case "BasePlan" :
+                action.clickElementScroll(btnBasePlan);
+                break;
+            case "AddOn" :
+                action.clickElementScroll(btnAddOn);
+                break;
+            case "BalancePlan" :
+                action.clickElementScroll(btnBalancePlan);
+                break;
+            case "Roaming" :
+                action.clickElementScroll(btnRoaming);
+                break;
+        }
+    }
+
+    public void selectBalancePlan(String bPlan) {
+        switch (bPlan) {
+            case "Token100" :
+                action.clickElementScroll(btnToken100);
+                break;
+            case "Token50" :
+                action.clickElementScroll(btnToken50);
+                break;
+            case "Token20" :
+                action.clickElementScroll(btnToken20);
+                break;
+            case "Token10" :
+                action.clickElementScroll(btnToken10);
+                break;
+        }
+    }
+
+
 }
