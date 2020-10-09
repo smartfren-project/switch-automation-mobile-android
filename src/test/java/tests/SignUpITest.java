@@ -19,7 +19,7 @@ public class SignUpITest extends TestSetup {
     @Test(priority = 25, description = "Switch_SignUp_001 - User able to sign up using valid unregistered email")
     @Severity(SeverityLevel.NORMAL)
     @Description("Verify that User can sign up using email.")
-    @Story("Story Name : Check On Landing Page")
+    @Story("Story Name : Check On SignUp Page")
     public void checkValidSignUpUsingEmail() throws InterruptedException {
         signUp.testValidSignUpUsingEmail(randomAlphabet(6) + "@mailinator.com");
     }
@@ -27,7 +27,7 @@ public class SignUpITest extends TestSetup {
     @Test(priority = 26, description = "Switch_SignUp_002 - User able to sign up using valid unregistered google account")
     @Severity(SeverityLevel.NORMAL)
     @Description("Verify that User can sign up using google account.")
-    @Story("Story Name : Check On Landing Page")
+    @Story("Story Name : Check On SignUp Page")
     public void checkValidSignUpUsingGoogle() throws InterruptedException {
         signUp.testValidSignUpUsingOtherMethod();
         signUp.testValidSignUpUsingGoogleAccount();
@@ -36,7 +36,7 @@ public class SignUpITest extends TestSetup {
     @Test(priority = 27, description = "Switch_SignUp_003 - User able to sign up using valid unregistered facebook account")
     @Severity(SeverityLevel.NORMAL)
     @Description("Verify that User can sign up using facebook account.")
-    @Story("Story Name : Check On Landing Page")
+    @Story("Story Name : Check On SignUp Page")
     public void checkValidSignUpUsingFacebook() throws InterruptedException {
         signUp.testValidSignUpUsingOtherMethod();
         signUp.testValidSignUpUsingFacebookAccount();
@@ -45,7 +45,7 @@ public class SignUpITest extends TestSetup {
     @Test(priority = 28, description = "Switch_SignUp_004 - User unable to sign up using alphabet")
     @Severity(SeverityLevel.NORMAL)
     @Description("Verify that User can't sign up using alphabet.")
-    @Story("Story Name : Check On Landing Page")
+    @Story("Story Name : Check On SignUp Page")
     public void checkInvalidSignUpUsingAlphabet() throws InterruptedException {
         signUp.testInvalidSignUpUsername(BaseData.Login.ALPHABET);
     }
@@ -53,7 +53,7 @@ public class SignUpITest extends TestSetup {
     @Test(priority = 29, description = "Switch_SignUp_005 - User unable to sign up using valid registered email")
     @Severity(SeverityLevel.NORMAL)
     @Description("Verify that User can't sign up using registered email.")
-    @Story("Story Name : Check On Landing Page")
+    @Story("Story Name : Check On SignUp Page")
     public void checkInvalidSignUpUsingRegisteredEmail() throws InterruptedException {
         signUp.testInvalidSignUpUsernameNormalValidation(BaseData.Login.EMAIL_ID);
     }
@@ -61,7 +61,7 @@ public class SignUpITest extends TestSetup {
     @Test(priority = 30, description = "Switch_SignUp_006 - User unable to sign up using invalid switch number")
     @Severity(SeverityLevel.NORMAL)
     @Description("Verify that User can't sign up using wrong number")
-    @Story("Story Name : Check On Landing Page")
+    @Story("Story Name : Check On SignUp Page")
     public void checkInvalidSignUpUsingSwitchNumber() throws InterruptedException {
         signUp.testInvalidSignUpUsername(BaseData.Login.SWITCH_NUMBER);
     }
@@ -69,7 +69,7 @@ public class SignUpITest extends TestSetup {
     @Test(priority = 31, description = "Switch_SignUp_007 - User unable to sign up using less email")
     @Severity(SeverityLevel.NORMAL)
     @Description("Verify that User can't sign up using less email.")
-    @Story("Story Name : Check On Landing Page")
+    @Story("Story Name : Check On SignUp Page")
     public void checkInvalidSignUpUsingLessChar() throws InterruptedException {
         signUp.testInvalidSignUpUsernameNormalValidation(BaseData.Login.LESS_EMAIL);
     }

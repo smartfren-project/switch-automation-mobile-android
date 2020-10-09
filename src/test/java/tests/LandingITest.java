@@ -19,7 +19,7 @@ public class LandingITest extends TestSetup {
     ProfileITest profile = new ProfileITest();
     BaseLanding baseLanding = new BaseLanding();
 
-    @Test(priority = 1, description = "Switch_Land_001 - User able to go to Login/SignUp")
+    @Test(priority = 1, description = "Switch_Land_001 - User able to go to SIGN UP PAGE")
     @Severity(SeverityLevel.NORMAL)
     @Description("Verify that User is navigating to Sign Up Page on Clicking on Sign Up Button in any storyboard.")
     @Story("Story Name : Check On Landing Page")

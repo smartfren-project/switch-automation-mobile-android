@@ -80,8 +80,8 @@ public class ObjectElement extends BaseTest {
         String txtCallRemaining = "com.smartfren.switchmobile:id/txtCall";
         String txtDataRemaining = "com.smartfren.switchmobile:id/pack_name";
         String btnCustomNow = "//*[@text='Custom Now']";
-        String btnBigMission = "//*[@text='Big Mission']";
-        String btnECommerce = "//*[@text='E-Commerce']";
+        String btnBigMission = "//*[@text='Get Now!']";
+        String btnECommerce = "//*[@text='Up To 35.000']";
         String btnMixAndMax = "com.smartfren.switchmobile:id/img_mix_n_match";
     }
 
@@ -350,7 +350,7 @@ public class ObjectElement extends BaseTest {
         /* E-Money */
         String btnGopay = "new UiScrollable(new UiSelector()"
                 + ".resourceId(\"com.smartfren.switchmobile:id/recycler_e_wallet\")).scrollIntoView("
-                + "new UiSelector().text(\"Go Pay\"));";
+                + "new UiSelector().text(\"GoPay\"));";
         String btnDana = "new UiScrollable(new UiSelector()"
                 + ".resourceId(\"com.smartfren.switchmobile:id/recycler_e_wallet\")).scrollIntoView("
                 + "new UiSelector().text(\"DANA\"));";

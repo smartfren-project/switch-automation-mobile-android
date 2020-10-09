@@ -28,7 +28,7 @@ public class PurchaseITest extends TestSetup {
         purchasePages.testAddToCartPromoSuperBundle("Super Bar", 2);
     }
 
-    @Test(priority = 102, description = "Switch_Purchase_002 - User able to Add Product Power Bundle To Cart")
+    @Test(priority = 102, description = "Switch_Purchase_002 - User able to Add Product Power Bar To Cart")
     @Severity(SeverityLevel.CRITICAL)
     @Description("Verify that user can success Add Product To Cart.")
     @Story("Story Name : Check Purchase")
@@ -187,13 +187,13 @@ public class PurchaseITest extends TestSetup {
                 "pringgodani", "JL. Pringgodani", "CC");
     }
 
-    @Test(priority = 118, description = "Switch_Purchase_018 - User able to Max Qty Product Power Bundle To Cart")
+    @Test(priority = 118, description = "Switch_Purchase_018 - User able to Max Qty Product Power Bar To Cart")
     @Severity(SeverityLevel.CRITICAL)
     @Description("Verify that user can success Add Product To Cart.")
     @Story("Story Name : Check Purchase")
     public void checkAddMaxPowerBundleToCart() throws InterruptedException {
         login.checkValidLoginUsingSwitchNumber();
-        purchasePages.testAddToCartPromoPowerBundle("Power Bundle", 4);
+        purchasePages.testAddToCartPromoPowerBundle("Power Bar", 4);
     }
 
     @Test(priority = 119, description = "Switch_Purchase_019 - User able to Cancel Order by Decrease Product Standard Bundle To Cart")
@@ -324,7 +324,7 @@ public class PurchaseITest extends TestSetup {
         purchasePages.testSelectBalancePlan("Token10");
     }
 
-    @Test(priority = 131, description = "Switch_Purchase_032 - User able to Pay Choose ShopeePay")
+    @Test(priority = 132, description = "Switch_Purchase_032 - User able to Pay Choose ShopeePay")
     @Severity(SeverityLevel.CRITICAL)
     @Description("Verify that user can success Pay using ShopeePay.")
     @Story("Story Name : Check Purchase")
@@ -334,7 +334,7 @@ public class PurchaseITest extends TestSetup {
         purchasePages.testConfirmPaymentMethod("ShopeePay");
     }
 
-    @Test(priority = 132, description = "Switch_Purchase_031 - User can buy Token using OVO")
+    @Test(priority = 133, description = "Switch_Purchase_031 - User can buy Token using OVO")
     @Severity(SeverityLevel.CRITICAL)
     @Description("Verify that user can buy token using OVO.")
     @Story("Story Name : Check Purchase")
