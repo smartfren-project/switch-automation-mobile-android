@@ -39,15 +39,15 @@ public class LoginITest extends TestSetup {
         loginPages.testInvalidUnregisteredEmailLogin(BaseData.Login.UNREGISTERED_EMAIL_ID);
     }
 
-    @Test(priority = 54, description = "Switch_Login_004 - User unable to SIGN UP using registered email")
+    @Test(priority = 54, description = "Switch_Login_004 - User unable to Login using wrong type of email")
     @Severity(SeverityLevel.NORMAL)
-    @Description("Verify that User is unable to Navigate to Next SignUp Page.")
+    @Description("Verify that User is unable to Go To Home Page.")
     @Story("Story Name : Check Login")
     public void checkInvalidSignInUsingInvalidEmail() throws InterruptedException {
         loginPages.testInvalidLogin("alpha@@a.");
     }
 
-    @Test(priority = 55, description = "Switch_Login_005 - User unable to click button SUBMIT LOGIN when input False EMAIL Specification")
+    @Test(priority = 55, description = "Switch_Login_005 - User unable to click button SUBMIT LOGIN when input Alphabet Only")
     @Severity(SeverityLevel.CRITICAL)
     @Description("Button Submit Login Is Disabled When Input Wrong Email Criteria")
     @Story("Story Name : Check Login")

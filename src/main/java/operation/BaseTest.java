@@ -52,20 +52,19 @@ public class BaseTest {
 
                 /* Use Cloud Server */
                 case "cloudURL":
-                    capabilities.setCapability("pCloudy_Username", configFile.getProperty("pCloudyUsername"));
-                    capabilities.setCapability("pCloudy_ApiKey", configFile.getProperty("pCloudyApiKey"));
-                    capabilities.setCapability("pCloudy_DurationInMinutes", 30);
+                    capabilities.setCapability("pCloudy_Username", "pramoda.kumar@smartfren.com");
+                    capabilities.setCapability("pCloudy_ApiKey", "ybrf4d2k3jv496f5x53w93wc");
+                    capabilities.setCapability("pCloudy_DurationInMinutes", 50);
                     capabilities.setCapability("newCommandTimeout", 600);
                     capabilities.setCapability("launchTimeout", 90000);
-                    capabilities.setCapability("pCloudy_DeviceFullName", configFile.getProperty("samsungS9"));
-                    capabilities.setCapability("platformVersion", configFile.getProperty("platformVersion"));
-                    capabilities.setCapability("platformName", configFile.getProperty("androidPlatformName"));
+                    capabilities.setCapability("pCloudy_DeviceFullName", "SAMSUNG_GalaxyM51_Android_10.0.0_9e3a9");
+                    capabilities.setCapability("platformVersion", "10.0.0");
+                    capabilities.setCapability("platformName", "Android");
                     capabilities.setCapability("automationName", "uiautomator2");
-                    capabilities.setCapability("pCloudy_ApplicationName", "switch.apk");
-                    capabilities.setCapability("appPackage", configFile.getProperty("androidAppPackage"));
-                    capabilities.setCapability("appActivity", configFile.getProperty("androidAppActivity"));
-                    capabilities.setCapability("pCloudy_WildNet", "false");
-                    capabilities.setCapability("autoGrantPermissions", true);
+                    capabilities.setCapability("pCloudy_ApplicationName", "app-production-release-1602233459.apk");
+                    capabilities.setCapability("appPackage", "com.smartfren.switchmobile");
+                    capabilities.setCapability("appActivity", "com.smartfren.switchmobile.views.activities.SplashScreenActivity");
+                    capabilities.setCapability("pCloudy_WildNet", "true");
                     break;
             }
         } catch (IOException e) {
