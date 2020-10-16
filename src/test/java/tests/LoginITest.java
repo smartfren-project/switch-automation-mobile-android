@@ -102,4 +102,12 @@ public class LoginITest extends TestSetup {
     public void checkInvalidCredentialSwitchNumber() throws InterruptedException {
         loginPages.testInvalidInputValidation(BaseData.Login.WRONG_NUMBER);
     }
+
+    @Test(priority = 62, description = "Switch_Login_012 - User unable to login using INVALID DOMAIN")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("User Unable to Login Using INVALID DOMAIN")
+    @Story("Story Name : Check Login")
+    public void checkInvalidDomainEmail() throws InterruptedException {
+        loginPages.testInvalidInputButtonDisabled("abcd@abc");
+    }
 }

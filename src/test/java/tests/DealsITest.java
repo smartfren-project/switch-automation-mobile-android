@@ -67,4 +67,22 @@ public class DealsITest extends TestSetup {
         login.checkValidLoginUsingSwitchNumber();
         dealsPages.testBuyVoucherUsingRubyOrPoint();
     }
+
+    @Test(priority = 157, description = "Switch_Deals_007 - User unable to buy Voucher using less Points")
+    @Severity(SeverityLevel.NORMAL)
+    @Description("Verify that User is unable to buy Voucher using less POINTS by Clicking on Voucher Product.")
+    @Story("Story Name : Check On Deals Page")
+    public void checkBuyVoucherUsingPointsWithInsufficientBalance() throws InterruptedException {
+        login.checkValidLoginUsingSwitchNumber();
+        dealsPages.testBuyVoucherUsingRubyOrPoint();
+    }
+
+    @Test(priority = 158, description = "Switch_Deals_008 - User unable to buy Voucher using less Rubies")
+    @Severity(SeverityLevel.NORMAL)
+    @Description("Verify that User is unable to buy Voucher using less RUBIES by Clicking on Voucher Product.")
+    @Story("Story Name : Check On Deals Page")
+    public void checkBuyVoucherUsingRubiesWithInsufficientBalance() throws InterruptedException {
+        login.checkValidLoginUsingSwitchNumber();
+        dealsPages.testBuyVoucherUsingRubyOrPoint();
+    }
 }

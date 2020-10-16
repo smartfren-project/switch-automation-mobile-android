@@ -14,6 +14,7 @@ public class LandingPages {
 
     @Step("Click Button Login")
     public void testGoToLoginPage() throws InterruptedException {
+        Thread.sleep(5000);
         action.click(baseLanding.btnLogin);
         baseLanding.checkValidationWelcomeText();
     }
@@ -26,6 +27,7 @@ public class LandingPages {
 
     @Step("Click Button Sign Up")
     public void testGoToSignUpPage() throws InterruptedException {
+        Thread.sleep(5000);
         action.click(baseLanding.btnSignUp);
         baseLanding.checkValidationWelcomeText();
     }
@@ -33,6 +35,7 @@ public class LandingPages {
     @Step("Click All Possible Button Landing Pages")
     public void testCheckHeaderFooterButton() throws InterruptedException {
         //From landing page to sign up page
+        Thread.sleep(5000);
         action.click(baseLanding.btnSignUp);
         baseLanding.checkValidationWelcomeText();
         //From sign up page to login page using button header
@@ -51,6 +54,7 @@ public class LandingPages {
 
     @Step("Sign Up With Google")
     public void testSignUpWithGoogle() throws InterruptedException {
+        Thread.sleep(5000);
         action.click(baseLanding.btnSignUp);
         action.click(baseLanding.btnOtherMethod);
         action.click(baseLanding.btnGoogle);
@@ -59,6 +63,7 @@ public class LandingPages {
 
     @Step("Sign Up With Facebook")
     public void testSignUpWithFacebook() throws InterruptedException{
+        Thread.sleep(5000);
         action.click(baseLanding.btnSignUp);
         action.click(baseLanding.btnOtherMethod);
         action.click(baseLanding.btnFacebook);

@@ -66,4 +66,10 @@ public class BaseHomepage extends BaseTest {
     public By txtDataRemaining = By.id(ObjectElement.MenuPageObject.txtDataRemaining);
 
     public By btnCustomPlan = By.id(ObjectElement.ProductPageObject.btnCustomPlan);
+
+    public String btnSeeAllNews = ObjectElement.MenuPageObject.btnSeeAllNews;
+
+    public String btnFirstNews = ObjectElement.MenuPageObject.btnFirstNews;
+
+    public By btnBack = By.id(ObjectElement.MenuPageObject.btnBack);
 }

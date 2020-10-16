@@ -8,7 +8,6 @@ import java.text.DecimalFormat;
 import java.text.ParseException;
 
 public class BasePurchase extends BaseTest {
-
     ElementAction action = new ElementAction();
     BaseLanding baseLanding = new BaseLanding();
 
@@ -119,6 +118,22 @@ public class BasePurchase extends BaseTest {
     public String btnToken20 = ObjectElement.ProductPageObject.btnToken20;
 
     public String btnToken10 = ObjectElement.ProductPageObject.btnToken10;
+
+    public String btnInfluencer = ObjectElement.ProductPageObject.btnInfluencer;
+
+    public String btnMovieMania = ObjectElement.ProductPageObject.btnMovieMania;
+
+    public String btnGamer = ObjectElement.ProductPageObject.btnGamer;
+
+    public String btnExecutive = ObjectElement.ProductPageObject.btnExecutive;
+
+    public By btnEditAddress = By.id(ObjectElement.DeliveryAddressObject.btnEditAddress);
+
+    public By btnEditNumber = By.id(ObjectElement.ProductPageObject.btnEditNumber);
+
+    public String btnEditCustomPlan = ObjectElement.ProductPageObject.btnEditCustomPlan;
+
+    public By btnBuy = By.id(ObjectElement.PaymentDetailObject.btnBuy);
 
     public void clickButtonLetsSwitch() {
         if (baseLanding.langCenter().equals("atau bisa pakai")) {
@@ -231,4 +246,20 @@ public class BasePurchase extends BaseTest {
     }
 
 
+    public void selectCustomPlan(String cPlan) {
+        switch (cPlan) {
+            case "Influencer" :
+                action.clickElementScroll(btnInfluencer);
+                break;
+            case "Movie Mania" :
+                action.clickElementScroll(btnMovieMania);
+                break;
+            case "Gamer" :
+                action.clickElementScroll(btnGamer);
+                break;
+            case "Executive" :
+                action.clickElementScroll(btnExecutive);
+                break;
+        }
+    }
 }

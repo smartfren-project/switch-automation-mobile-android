@@ -148,16 +148,24 @@ public class ProfilePages {
     public void testChatWithShely() {
         action.click(baseHomepage.btnProfile);
         action.clickElementScroll(baseProfile.btnHelp);
-        baseProfile.clickButtonChatWithShely();
-        baseProfile.clickButtonChat();
+        action.click(baseProfile.btnChatWithShelly);
+        action.click(baseProfile.btnChat);
     }
 
     @Step("User Do Check Email Us")
     public void testEmailUs() {
         action.click(baseHomepage.btnProfile);
         action.clickElementScroll(baseProfile.btnHelp);
-        baseProfile.clickButtonChatWithShely();
-        baseProfile.clickButtonEmail();
+        action.click(baseProfile.btnChatWithShelly);
+        action.click(baseProfile.btnEmailUs);
+    }
+
+    @Step("User Do Check FAQ")
+    public void testCheckOnFAQ() {
+        action.click(baseHomepage.btnProfile);
+        action.clickElementScroll(baseProfile.btnHelp);
+        action.click(baseProfile.btnChatWithShelly);
+        action.click(baseProfile.btnFAQ);
     }
 
     @Step("User Do Check Valid Logout")

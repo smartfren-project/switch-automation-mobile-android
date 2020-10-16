@@ -15,6 +15,7 @@ public class LoginPages {
 
     @Step("User Do Valid Login Using Email or Switch Number")
     public void testValidLogin(String username, String pin) throws InterruptedException {
+        Thread.sleep(4000);
         action.click(baseLanding.btnLogin);
         baseLanding.checkValidationWelcomeText();
         action.sendKeys(baseLogin.inputUsername, username);
@@ -24,7 +25,8 @@ public class LoginPages {
     }
 
     @Step("User Do Invalid Login Input Username")
-    public void testInvalidLogin(String username) {
+    public void testInvalidLogin(String username) throws InterruptedException {
+        Thread.sleep(4000);
         action.click(baseLanding.btnLogin);
         baseLanding.checkValidationWelcomeText();
         action.sendKeys(baseLogin.inputUsername, username);
@@ -59,6 +61,7 @@ public class LoginPages {
 
     @Step("User Do Sign Up With Registered Email")
     public void testInvalidSignUpWithRegisteredEmail(String username) throws InterruptedException {
+        Thread.sleep(4000);
         action.click(baseLanding.btnSignUp);
         action.sendKeys(baseLogin.inputUsername, username);
         action.click(baseLogin.btnSubmitLogin);

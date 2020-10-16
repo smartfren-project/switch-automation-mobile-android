@@ -21,7 +21,7 @@ public class BaseData {
         String WELCOME_DESC_EN = "You can log in by using email or switch number that has been registered.";
         String WELCOME_DESC_ID = "Kamu bisa log in menggunakan email atau nomor switch yang telah terdaftar.";
         String WELCOME_DESC_SIGN_UP_EN = "Enter your email address or register via social media.";
-        String WELCOME_DESC_SIGN_UP_ID = "Silakan masukkan alamat emailmu atau daftar melalui sosial media.";
+        String WELCOME_DESC_SIGN_UP_ID = "Silakan daftar melalui email atau sosial media.";
     }
 
     public interface Validation {

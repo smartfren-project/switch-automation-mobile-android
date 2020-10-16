@@ -108,12 +108,48 @@ public class ProfileITest extends TestSetup {
         profilePages.testChangePin("123456");
     }
 
-    @Test(priority = 210, description = "Switch_Profile_010 - User able to see POINT and Ruby Value")
+    @Test(priority = 210, description = "Switch_Profile_010 - User able to see POINT Value")
     @Severity(SeverityLevel.CRITICAL)
-    @Description("Verify that user can see POINT and Ruby in Page")
+    @Description("Verify that user can see POINT in Profile Page")
     @Story("Story Name : Check User Profile")
-    public void checkPointAndRuby() throws InterruptedException {
+    public void checkPointOnProfilePage() throws InterruptedException {
         login.checkValidLoginUsingSwitchNumber();
         profilePages.testCheckPointAndRubies();
+    }
+
+    @Test(priority = 211, description = "Switch_Profile_011 - User able to see RUBY Value")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that user can see RUBY in Page")
+    @Story("Story Name : Check User Profile")
+    public void checkRubyOnProfilePage() throws InterruptedException {
+        login.checkValidLoginUsingSwitchNumber();
+        profilePages.testCheckPointAndRubies();
+    }
+
+    @Test(priority = 212, description = "Switch_Profile_012 - User able to contact Shelly using Chat")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that user can Chat Shelly")
+    @Story("Story Name : Check User Profile")
+    public void checkChatWithShellyUsingChat() throws InterruptedException {
+        login.checkValidLoginUsingSwitchNumber();
+        profilePages.testChatWithShely();
+    }
+
+    @Test(priority = 213, description = "Switch_Profile_013 - User able to contact Shelly using Email")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that user can Email Shelly")
+    @Story("Story Name : Check User Profile")
+    public void checkChatWithShellyUsingEmail() throws InterruptedException {
+        login.checkValidLoginUsingSwitchNumber();
+        profilePages.testEmailUs();
+    }
+
+    @Test(priority = 214, description = "Switch_Profile_014 - User able to check FAQ")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that user can Check FAQ")
+    @Story("Story Name : Check User Profile")
+    public void checkFAQ() throws InterruptedException {
+        login.checkValidLoginUsingSwitchNumber();
+        profilePages.testCheckOnFAQ();
     }
 }

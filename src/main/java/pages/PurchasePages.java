@@ -116,30 +116,9 @@ public class PurchasePages {
     @Step("User Do Order SIM First Time Using Input Number")
     public void testOrderSIM(String mainNumber, String recName, String recPhone, String city,
                              String address, String paymentType) {
-        action.click(baseHomepage.btnLetsSwitch);
-        action.click(baseHomepage.btnOrderSIM);
-        action.click(basePurchase.btnMainNumber);
-        basePurchase.clickChooseYourNumber(mainNumber);
-        action.sendKeys(basePurchase.inputNumber1, "6");
-        action.sendKeys(basePurchase.inputNumber2, "1");
-        action.sendKeys(basePurchase.inputNumber3, "0");
-        action.sendKeys(basePurchase.inputNumber4, RandomNumber.randomNumber(1));
-        action.sendKeys(basePurchase.inputNumber5, RandomNumber.randomNumber(1));
-        action.sendKeys(basePurchase.inputNumber6, RandomNumber.randomNumber(1));
-        action.click(basePurchase.btnRefresh);
-        action.click(basePurchase.btnSelectFilteredNumber);
-        action.click(basePurchase.btnNext);
-        action.sendKeys(basePurchase.inputRecipientName, recName);
-        action.sendKeys(basePurchase.inputRecipientPhoneNumber, recPhone);
-        action.clickElementScroll(basePurchase.btnCityOrDistrict);
-        action.inputElementScroll(baseProfile.inputSrcCityOrDistrict, city);
-        action.click(baseProfile.btnSelectCityOrDistrict);
-        action.inputElementScroll(basePurchase.inputAddressDetail, address);
-        action.clickElementScroll(basePurchase.btnGoogleLocation);
-        action.click(baseProfile.btnSelectThisLocation);
-        action.clickElementScroll(basePurchase.cbTermsAndCondition);
-        action.click(basePurchase.btnNext);
-        action.click(basePurchase.btnContinue);
+        testGoToOrderSIM();
+        testChooseNumberByInput(mainNumber);
+        testInputAddress(recName, recPhone, city, address);
         action.click(basePurchase.btnDeliveryOption);
         System.out.println(basePurchase.getJNERegAmount());
         action.click(basePurchase.btnSelectDeliveryJNEReg);
@@ -147,6 +126,13 @@ public class PurchasePages {
         basePurchase.selectPayment(paymentType);
 //        action.click(basePurchase.btnPay);
 //        action.click(basePurchase.btnSeeTrxStats);
+    }
+
+    public void testGoToCheckOut(String mainNumber, String recName, String recPhone, String city,
+                                 String address) {
+        testGoToOrderSIM();
+        testChooseNumberByInput(mainNumber);
+        testInputAddress(recName, recPhone, city, address);
     }
 
     public void testAddToCartCustomPlan() {
@@ -161,5 +147,69 @@ public class PurchasePages {
 
     public void testSelectBalancePlan(String bPlan) {
         basePurchase.selectBalancePlan(bPlan);
+    }
+
+    public void testSelectCustomPlan(String cPlan) {
+        basePurchase.selectCustomPlan(cPlan);
+    }
+
+    public void testClickBackFromMixAndMatch() {
+        action.click(baseHomepage.btnBack);
+    }
+
+    public void testGoToOrderSIM() {
+        action.click(baseHomepage.btnLetsSwitch);
+        action.click(baseHomepage.btnOrderSIM);
+    }
+
+    public void testChooseNumberByInput(String mainNumber) {
+        action.click(basePurchase.btnMainNumber);
+        basePurchase.clickChooseYourNumber(mainNumber);
+        action.sendKeys(basePurchase.inputNumber1, "6");
+        action.sendKeys(basePurchase.inputNumber2, "1");
+        action.sendKeys(basePurchase.inputNumber3, "0");
+        action.sendKeys(basePurchase.inputNumber4, RandomNumber.randomNumber(1));
+        action.sendKeys(basePurchase.inputNumber5, RandomNumber.randomNumber(1));
+        action.sendKeys(basePurchase.inputNumber6, RandomNumber.randomNumber(1));
+        action.click(basePurchase.btnRefresh);
+        action.click(basePurchase.btnSelectFilteredNumber);
+        action.click(basePurchase.btnNext);
+    }
+
+    public void testInputAddress(String recName, String recPhone, String city, String address) {
+        action.sendKeys(basePurchase.inputRecipientName, recName);
+        action.sendKeys(basePurchase.inputRecipientPhoneNumber, recPhone);
+        action.clickElementScroll(basePurchase.btnCityOrDistrict);
+        action.inputElementScroll(baseProfile.inputSrcCityOrDistrict, city);
+        action.click(baseProfile.btnSelectCityOrDistrict);
+        action.inputElementScroll(basePurchase.inputAddressDetail, address);
+        action.clickElementScroll(basePurchase.btnGoogleLocation);
+        action.click(baseProfile.btnSelectThisLocation);
+        action.clickElementScroll(basePurchase.cbTermsAndCondition);
+        action.click(basePurchase.btnNext);
+        action.click(basePurchase.btnContinue);
+    }
+
+    public void testEditAddressCheckout(String mainNumber, String recName, String recPhone, String city,
+                                        String address, String upRecName, String upRecPhone, String upCity,
+                                        String upAddress) {
+        testGoToCheckOut(mainNumber, recName, recPhone, city, address);
+        action.click(basePurchase.btnEditAddress);
+        testInputAddress(upRecName, upRecPhone, upCity, upAddress);
+    }
+
+    public void testEditMDNCheckout(String mainNumber, String recName, String recPhone, String city,
+                                    String address, String upMainNumber) {
+        testGoToCheckOut(mainNumber, recName, recPhone, city, address);
+        action.click(basePurchase.btnEditNumber);
+        testChooseNumberByInput(upMainNumber);
+    }
+
+    public void testEditCustomPlan() {
+        action.clickElementScroll(basePurchase.btnEditCustomPlan);
+    }
+
+    public void testBuyCustomPlan() {
+        action.click(basePurchase.btnBuy);
     }
 }

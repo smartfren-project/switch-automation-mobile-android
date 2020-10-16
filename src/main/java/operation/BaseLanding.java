@@ -102,4 +102,8 @@ public class BaseLanding extends BaseTest {
         String ProfileName = driver.findElement(By.id(ObjectElement.MenuPageObject.txtUserProfile)).getText();
         Assert.assertEquals(ProfileName, username);
     }
+
+    public void clickButtonSignUp() {
+        driver.findElement(By.id(ObjectElement.LandingPageObject.btnSignUp)).click();
+    }
 }

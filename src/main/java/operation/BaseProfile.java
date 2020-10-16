@@ -104,6 +104,14 @@ public class BaseProfile extends BaseTest {
     public String cbTermsAndConditions = ObjectElement.ProfilePageObject.cbTermsAndConditions;
 
     public String btnSave = ObjectElement.ProfilePageObject.btnSave;
+
+    public By btnChatWithShelly = By.id(ObjectElement.ProfilePageObject.btnChatWithShelly);
+
+    public By btnChat = By.id(ObjectElement.ProfilePageObject.btnChat);
+
+    public By btnEmailUs = By.id(ObjectElement.ProfilePageObject.btnEmail);
+
+    public By btnFAQ = By.id(ObjectElement.ProfilePageObject.btnFAQ);
     /* profile-menu-page */
 
     public String activeLang() {
@@ -170,14 +178,6 @@ public class BaseProfile extends BaseTest {
             action.click(inputAlternatePhoneNumber);
             action.sendKeys(inputAlternatePhoneNumber, "8194120194");
         }
-    }
-
-    public void clickButtonChatWithShely() {
-
-    }
-
-    public void clickButtonChat() {
-
     }
 
     public void clickButtonEmail() {

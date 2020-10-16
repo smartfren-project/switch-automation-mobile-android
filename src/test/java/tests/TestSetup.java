@@ -13,7 +13,7 @@ public class TestSetup extends BaseTest {
     @Parameters({"deviceName"})
     @BeforeSuite
     public void setUp() throws IOException {
-        setupAppium("cloudURL");
+        setupAppium("localURL");
     }
 
 

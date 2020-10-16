@@ -18,7 +18,7 @@ public class LogoutITest extends TestSetup {
     ElementAction action = new ElementAction();
     BaseLogin baseLogin = new BaseLogin();
 
-    @Test(priority = 62, description = "Switch_Logout_001 - User able to LOGOUT and go back to PIN Page")
+    @Test(priority = 63, description = "Switch_Logout_001 - User able to LOGOUT and go back to PIN Page")
     @Severity(SeverityLevel.CRITICAL)
     @Description("Verify that user can success logout from profile menu.")
     @Story("Story Name : Check Logout")
@@ -27,7 +27,7 @@ public class LogoutITest extends TestSetup {
         profilePages.testValidLogout();
     }
 
-    @Test(priority = 63, description = "Switch_Logout_002 - User able to LOGOUT and go back to HomePage")
+    @Test(priority = 64, description = "Switch_Logout_002 - User able to LOGOUT and go back to HomePage")
     @Severity(SeverityLevel.CRITICAL)
     @Description("Verify that user can success logout from profile menu and go back to HomePage.")
     @Story("Story Name : Check Logout")
@@ -37,7 +37,7 @@ public class LogoutITest extends TestSetup {
         action.sendKeys(baseLogin.inputPIN, "111111");
     }
 
-    @Test(priority = 75, description = "Switch_Logout_003 - User able to cancel LOGOUT")
+    @Test(priority = 65, description = "Switch_Logout_003 - User able to cancel LOGOUT")
     @Severity(SeverityLevel.CRITICAL)
     @Description("Verify that user can cancel logout.")
     @Story("Story Name : Check Logout")

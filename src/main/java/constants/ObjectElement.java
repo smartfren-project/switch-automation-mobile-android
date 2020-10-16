@@ -83,6 +83,19 @@ public class ObjectElement extends BaseTest {
         String btnBigMission = "//*[@text='Get Now!']";
         String btnECommerce = "//*[@text='Up To 35.000']";
         String btnMixAndMax = "com.smartfren.switchmobile:id/img_mix_n_match";
+        String btnSeeAllNews = "new UiScrollable(new UiSelector()"
+                + ".resourceId(\"com.smartfren.switchmobile:id/scrollView\")).scrollIntoView("
+                + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/seeall_news\"));";
+        String btnFirstNews = "new UiScrollable(new UiSelector()"
+                + ".resourceId(\"com.smartfren.switchmobile:id/recycler_trending_news\")).scrollIntoView("
+                + "new UiSelector().xpath(\"/hierarchy/android.widget.FrameLayout/" +
+                "android.widget.LinearLayout/android.widget.FrameLayout/" +
+                "android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/" +
+                "android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/" +
+                "android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup[2]/" +
+                "androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/" +
+                "android.widget.TextView[1]\"));";
+        String btnBack = "com.smartfren.switchmobile:id/back_button";
     }
 
     public interface DealsPageObject {
@@ -180,6 +193,22 @@ public class ObjectElement extends BaseTest {
         String btnToken10 = "new UiScrollable(new UiSelector()"
                 + ".resourceId(\"com.smartfren.switchmobile:id/recycler_\")).scrollIntoView("
                 + "new UiSelector().text(\"Token 10\"));";
+        String btnInfluencer = "new UiScrollable(new UiSelector()"
+                + ".resourceId(\"com.smartfren.switchmobile:id/plan_recyler\")).scrollIntoView("
+                + "new UiSelector().text(\"Influencer\"));";
+        String btnMovieMania = "new UiScrollable(new UiSelector()"
+                + ".resourceId(\"com.smartfren.switchmobile:id/plan_recyler\")).scrollIntoView("
+                + "new UiSelector().text(\"Movie Mania\"));";
+        String btnGamer = "new UiScrollable(new UiSelector()"
+                + ".resourceId(\"com.smartfren.switchmobile:id/plan_recyler\")).scrollIntoView("
+                + "new UiSelector().text(\"Gamer\"));";
+        String btnExecutive = "new UiScrollable(new UiSelector()"
+                + ".resourceId(\"com.smartfren.switchmobile:id/plan_recyler\")).scrollIntoView("
+                + "new UiSelector().text(\"Executive\"));";
+        String btnEditNumber = "com.smartfren.switchmobile:id/edit_mdn";
+        String btnEditCustomPlan = "new UiScrollable(new UiSelector()"
+                + ".resourceId(\"com.smartfren.switchmobile:id/nestedScroll\")).scrollIntoView("
+                + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/txt_change\"));";;
     }
 
     public interface ProfilePageObject {
@@ -251,6 +280,10 @@ public class ObjectElement extends BaseTest {
         String txtPointsValue = "com.smartfren.switchmobile:id/textView122";
         String txtRubiesValue = "com.smartfren.switchmobile:id/textView124";
         String btnCancelLogout = "android:id/button2";
+        String btnChat = "com.smartfren.switchmobile:id/txt_chat";
+        String btnChatWithShelly = "com.smartfren.switchmobile:id/txt_chat_with_us";
+        String btnEmail = "com.smartfren.switchmobile:id/txt_email";
+        String btnFAQ = "com.smartfren.switchmobile:id/txt_faq";
     }
 
     public interface EditProfileObject {
@@ -340,6 +373,7 @@ public class ObjectElement extends BaseTest {
         String btnContinue = "new UiScrollable(new UiSelector()"
                 + ".resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView("
                 + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/next\"));";
+        String btnEditAddress = "com.smartfren.switchmobile:id/edit_address";
     }
 
     public interface PaymentDetailObject {
@@ -372,10 +406,10 @@ public class ObjectElement extends BaseTest {
         /*Virtual Account*/
         String btnVAPermata = "new UiScrollable(new UiSelector()"
                 + ".resourceId(\"com.smartfren.switchmobile:id/recycler_e_wallet\")).scrollIntoView("
-                + "new UiSelector().text(\"Permata Virtual Account\"));";
+                + "new UiSelector().text(\"Permata VA\"));";
         String btnVADanamon = "new UiScrollable(new UiSelector()"
                 + ".resourceId(\"com.smartfren.switchmobile:id/recycler_e_wallet\")).scrollIntoView("
-                + "new UiSelector().text(\"Danamon Virtual Account\"));";
+                + "new UiSelector().text(\"Danamon VA\"));";
         String btnVAMandiri = "new UiScrollable(new UiSelector()"
                 + ".resourceId(\"com.smartfren.switchmobile:id/recycler_e_wallet\")).scrollIntoView("
                 + "new UiSelector().text(\"Mandiri VA\"));";
@@ -391,6 +425,7 @@ public class ObjectElement extends BaseTest {
         String btnPay = "com.smartfren.switchmobile:id/btn_pay";
         String btnSeeTrxStat = "com.smartfren.switchmobile:id/btn_payment_status";
         String txtJNERegPrice = "com.smartfren.switchmobile:id/delivery_amt";
+        String btnBuy = "com.smartfren.switchmobile:id/btn_buy";
     }
 
     public interface ConfirmationAddressObject {

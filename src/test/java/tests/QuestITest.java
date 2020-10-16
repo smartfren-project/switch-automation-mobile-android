@@ -86,4 +86,13 @@ public class QuestITest extends TestSetup {
         login.checkValidLoginUsingSwitchNumber();
         questPages.testDailyLoginQuest();
     }
+
+    @Test(priority = 309, description = "Switch_Quest_009 - User able to Check Mission")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that user can check all Mission")
+    @Story("Story Name : Check Quest")
+    public void checkMainMission() throws InterruptedException {
+        login.checkValidLoginUsingSwitchNumber();
+        questPages.testCheckMission();
+    }
 }

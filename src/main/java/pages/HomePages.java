@@ -80,4 +80,14 @@ public class HomePages {
     public void testUserCanClickMixAndMax() {
         action.click(baseHomepage.btnMixAndMax);
     }
+
+    @Step("User Can Click See All News Button")
+    public void testUserCanClickSeeAllNewsButton() {
+        action.clickElementScroll(baseHomepage.btnSeeAllNews);
+    }
+
+    @Step("User Can Click First News")
+    public void testUserCanClickFirstNews() {
+        action.clickElementScroll(baseHomepage.btnFirstNews);
+    }
 }

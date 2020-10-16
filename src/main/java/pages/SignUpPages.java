@@ -11,19 +11,16 @@ public class SignUpPages {
     ElementAction action = new ElementAction();
     BaseLanding baseLanding = new BaseLanding();
     BaseLogin baseLogin = new BaseLogin();
+    LandingPages landingPages = new LandingPages();
 
     @Step("User can sign up using email")
     public void testValidSignUpUsingEmail(String email) {
-        action.click(baseLanding.btnSignUp);
-        baseLanding.checkValidationWelcomeText();
         action.sendKeys(baseLogin.inputUsername, email);
         action.click(baseLogin.btnSubmitLogin);
     }
 
     @Step("User can sign up using other method")
-    public void testValidSignUpUsingOtherMethod() {
-        action.click(baseLanding.btnSignUp);
-        baseLanding.checkValidationWelcomeText();
+    public void testValidSignUpUsingOtherMethod() throws InterruptedException {
         action.click(baseLanding.btnOtherMethod);
     }
 
@@ -40,14 +37,12 @@ public class SignUpPages {
 
     @Step("User Invalid SignUp Username Disable Button")
     public void testInvalidSignUpUsername(String email) {
-        action.click(baseLanding.btnSignUp);
         action.sendKeys(baseLogin.inputUsername, email);
         action.checkerDisabled(baseLogin.btnSubmitLogin);
     }
 
     @Step("User Invalid SignUp Username Validation")
     public void testInvalidSignUpUsernameNormalValidation(String email) {
-        action.click(baseLanding.btnSignUp);
         action.sendKeys(baseLogin.inputUsername, email);
     }
 }

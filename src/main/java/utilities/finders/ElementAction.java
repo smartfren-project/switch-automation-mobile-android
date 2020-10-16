@@ -1,9 +1,11 @@
 package utilities.finders;
 
 import io.appium.java_client.MobileElement;
+import io.appium.java_client.TouchAction;
 import operation.BaseTest;
 import org.openqa.selenium.By;
 
+import org.openqa.selenium.interactions.touch.TouchActions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -11,7 +13,7 @@ import org.testng.Assert;
 public class ElementAction extends BaseTest {
 
     public void waitUntilElement(By element) {
-        WebDriverWait wait = new WebDriverWait(driver, 10);
+        WebDriverWait wait = new WebDriverWait(driver, 20);
         wait.until(ExpectedConditions.visibilityOfElementLocated(element));
     }
 

@@ -18,6 +18,7 @@ public class PurchaseITest extends TestSetup {
     LoginITest login = new LoginITest();
     ElementAction action = new ElementAction();
     BaseProduct baseProduct = new BaseProduct();
+    HomepageITest homepage = new HomepageITest();
 
     @Test(priority = 101,description = "Switch_Purchase_001 - User able to Add Product Super Bundle To Cart")
     @Severity(SeverityLevel.CRITICAL)
@@ -28,7 +29,7 @@ public class PurchaseITest extends TestSetup {
         purchasePages.testAddToCartPromoSuperBundle("Super Bar", 2);
     }
 
-    @Test(priority = 102, description = "Switch_Purchase_002 - User able to Add Product Power Bar To Cart")
+    @Test(priority = 102, description = "Switch_Purchase_002 - User able to Add Product Power Bundle To Cart")
     @Severity(SeverityLevel.CRITICAL)
     @Description("Verify that user can success Add Product To Cart.")
     @Story("Story Name : Check Purchase")
@@ -304,7 +305,7 @@ public class PurchaseITest extends TestSetup {
         action.countClick(baseProduct.btnDecrease, 2);
     }
 
-    @Test(priority = 131, description = "Switch_Purchase_030 - User able to Pay Choose CC JCB")
+    @Test(priority = 130, description = "Switch_Purchase_030 - User able to Pay Choose CC JCB")
     @Severity(SeverityLevel.CRITICAL)
     @Description("Verify that user can success Pay using CC JCB.")
     @Story("Story Name : Check Purchase")
@@ -314,7 +315,7 @@ public class PurchaseITest extends TestSetup {
         purchasePages.testConfirmPaymentMethod("CC-JCB");
     }
 
-    @Test(priority = 130, description = "Switch_Purchase_031 - User can buy Token using Go Pay")
+    @Test(priority = 131, description = "Switch_Purchase_031 - User can buy Token using Go Pay")
     @Severity(SeverityLevel.CRITICAL)
     @Description("Verify that user can buy token using go pay.")
     @Story("Story Name : Check Purchase")
@@ -334,7 +335,7 @@ public class PurchaseITest extends TestSetup {
         purchasePages.testConfirmPaymentMethod("ShopeePay");
     }
 
-    @Test(priority = 133, description = "Switch_Purchase_031 - User can buy Token using OVO")
+    @Test(priority = 133, description = "Switch_Purchase_033 - User can buy Token using OVO")
     @Severity(SeverityLevel.CRITICAL)
     @Description("Verify that user can buy token using OVO.")
     @Story("Story Name : Check Purchase")
@@ -342,5 +343,178 @@ public class PurchaseITest extends TestSetup {
         login.checkValidLoginUsingSwitchNumber();
         purchasePages.testAddToCartCustomPlan();
         purchasePages.testSelectBalancePlan("Token10");
+    }
+
+    @Test(priority = 134, description = "Switch_Purchase_034 - User can buy Token using OVO")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that user can buy token using OVO.")
+    @Story("Story Name : Check Purchase")
+    public void checkServicePlanContent() throws InterruptedException {
+        login.checkValidLoginUsingSwitchNumber();
+        purchasePages.testGoToServicePlan("BalancePlan");
+        purchasePages.testGoToServicePlan("Roaming");
+        purchasePages.testGoToServicePlan("AddOn");
+    }
+
+    @Test(priority = 135, description = "Switch_Purchase_035 - Check change selected custom plan")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that user can change selected custom plan.")
+    @Story("Story Name : Check Purchase")
+    public void checkChangeSelectedCustomPlan() throws InterruptedException {
+        homepage.checkMixAndMax();
+        purchasePages.testSelectCustomPlan("Influencer");
+        purchasePages.testSelectCustomPlan("Movie Mania");
+        purchasePages.testSelectCustomPlan("Influencer");
+    }
+
+    @Test(priority = 136, description = "Switch_Purchase_036 - Go Back From Mix And Match")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that user can go back from mix and match.")
+    @Story("Story Name : Check Purchase")
+    public void checkGoBackFromMixAndMatch() throws InterruptedException {
+        homepage.checkMixAndMax();
+        purchasePages.testClickBackFromMixAndMatch();
+    }
+
+    @Test(priority = 137, description = "Switch_Purchase_037 - Check buy Influencer Custom Plan")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that user can buy Influencer Custom Plan.")
+    @Story("Story Name : Check Purchase")
+    public void checkBuyInfluencerCustomPlan() throws InterruptedException {
+        homepage.checkMixAndMax();
+        purchasePages.testSelectCustomPlan("Influencer");
+        purchasePages.testBuyCustomPlan();
+    }
+
+    @Test(priority = 138, description = "Switch_Purchase_038 - Check edit Influencer Custom Plan")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that user can edit Influencer Custom Plan.")
+    @Story("Story Name : Check Purchase")
+    public void checkEditInfluencerCustomPlan() throws InterruptedException {
+        homepage.checkMixAndMax();
+        purchasePages.testSelectCustomPlan("Influencer");
+        purchasePages.testEditCustomPlan();
+    }
+
+    @Test(priority = 139, description = "Switch_Purchase_039 - Check cancel Influencer Custom Plan")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that user can cancel Influencer Custom Plan.")
+    @Story("Story Name : Check Purchase")
+    public void checkCancelInfluencerCustomPlan() throws InterruptedException {
+        homepage.checkMixAndMax();
+        purchasePages.testSelectCustomPlan("Influencer");
+        purchasePages.testClickBackFromMixAndMatch();
+    }
+
+    @Test(priority = 140, description = "Switch_Purchase_040 - Check Slide Quota and Call Influencer Custom Plan")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that user can Slide Quota and Call Influencer Custom Plan.")
+    @Story("Story Name : Check Purchase")
+    public void checkSlideQuotaAndCallInfluencerCustomPlan() throws InterruptedException {
+        homepage.checkMixAndMax();
+        purchasePages.testSelectCustomPlan("Influencer");
+    }
+
+    @Test(priority = 141, description = "Switch_Purchase_041 - User able to Order SIM First Time")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that user can success Order SIM First Time.")
+    @Story("Story Name : Check Purchase")
+    public void checkPurchaseSIMFirstTime() throws InterruptedException {
+        login.checkValidLoginUsingEmail();
+        purchasePages.testOrderSIM("0889-07", "Andi", "088906011294",
+                "pringgodani", "JL. Pringgodani", "GoPay");
+    }
+
+    @Test(priority = 142, description = "Switch_Purchase_042 - User able to Fill Delivery Address Order SIM")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that user can success Fill Delivery Address Order SIM First Time.")
+    @Story("Story Name : Check Purchase")
+    public void checkDeliveryAddress() throws InterruptedException {
+        login.checkValidLoginUsingEmail();
+        purchasePages.testOrderSIM("0889-07", "Andi", "088906011294",
+                "pringgodani", "JL. Pringgodani", "GoPay");
+    }
+
+    @Test(priority = 143, description = "Switch_Purchase_043 - User able to Fill Address Without Drop PIN")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that user can success Fill Delivery Address Without Drop PIN.")
+    @Story("Story Name : Check Purchase")
+    public void checkInputAddressNotSelectDropPin() throws InterruptedException {
+        login.checkValidLoginUsingEmail();
+        purchasePages.testOrderSIM("0889-07", "Andi", "088906011294",
+                "pringgodani", "JL. Pringgodani", "GoPay");
+    }
+
+    @Test(priority = 144, description = "Switch_Purchase_044 - User able to Fill Address With Drop PIN")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that user can success Fill Delivery Address Drop PIN.")
+    @Story("Story Name : Check Purchase")
+    public void checkInputAddressSelectDropPin() throws InterruptedException {
+        login.checkValidLoginUsingEmail();
+        purchasePages.testOrderSIM("0889-07", "Andi", "088906011294",
+                "pringgodani", "JL. Pringgodani", "GoPay");
+    }
+
+    @Test(priority = 145, description = "Switch_Purchase_045 - User unable to Fill Invalid Address")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that user unable to Fill Invalid Delivery Address.")
+    @Story("Story Name : Check Purchase")
+    public void checkInputInvalidAddress() throws InterruptedException {
+        login.checkValidLoginUsingEmail();
+        purchasePages.testOrderSIM("0889-07", "Andi", "088906011294",
+                "pringgodani", "JL. Pringgodani", "GoPay");
+    }
+
+    @Test(priority = 146, description = "Switch_Purchase_046 - User able to Edit Address On Checkout Page")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that User able to Edit Address On Checkout Page.")
+    @Story("Story Name : Check Purchase")
+    public void checkEditAddressOnCheckoutPage() throws InterruptedException {
+        login.checkValidLoginUsingEmail();
+        purchasePages.testEditAddressCheckout("0889-07", "Andi", "088906011294",
+                "pringgodani", "JL. Pringgodani", "Yadi", "08881850440",
+                "pasirtangkil", "JL. PasirTangkil");
+    }
+
+    @Test(priority = 147, description = "Switch_Purchase_047 - User able to Edit MDN On Checkout Page")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that User able to Edit Address On Checkout Page.")
+    @Story("Story Name : Check Purchase")
+    public void checkEditMDNOnCheckoutPage() throws InterruptedException {
+        login.checkValidLoginUsingEmail();
+        purchasePages.testEditMDNCheckout("0889-07", "Andi", "088906011294",
+                "pringgodani", "JL. Pringgodani", "0889-08");
+    }
+
+    @Test(priority = 148, description = "Switch_Purchase_048 - User able to Check Terms and Condition Address Page")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that User able to Check Terms and Condition On Address Page.")
+    @Story("Story Name : Check Purchase")
+    public void checkTermsAndConditionAddressPage() throws InterruptedException {
+        login.checkValidLoginUsingEmail();
+        purchasePages.testGoToOrderSIM();
+        purchasePages.testChooseNumberByInput("0889-07");
+        purchasePages.testInputAddress("Andi", "088906011294",
+                "pringgodani", "JL. Pringgodani");
+    }
+
+    @Test(priority = 149, description = "Switch_Purchase_049 - User able to Pre Filled Cancelled Order SIM")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that User able to Pre Filled Re Order SIM.")
+    @Story("Story Name : Check Purchase")
+    public void checkPreFilledCancelledOrderSIM() throws InterruptedException {
+        login.checkValidLoginUsingEmail();
+        purchasePages.testGoToOrderSIM();
+        purchasePages.testChooseNumberByInput("0889-07");
+    }
+
+    @Test(priority = 150, description = "Switch_Purchase_050 - User able to Pre Filled Cancelled Order SIM Profile Address")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that User able to Pre Filled Re Order SIM Address Profile.")
+    @Story("Story Name : Check Purchase")
+    public void checkPreFilledCancelledOrderSIMAddressProfile() throws InterruptedException {
+        login.checkValidLoginUsingEmail();
+        purchasePages.testOrderSIM("0889-07", "Andi", "088906011294",
+                "pringgodani", "JL. Pringgodani", "GoPay");
     }
 }
