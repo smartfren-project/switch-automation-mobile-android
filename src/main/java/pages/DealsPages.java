@@ -47,6 +47,7 @@ public class DealsPages {
         baseDeals.checkAmountPointsAndRubyToBuyVoucher();
     }
 
+    @Step("User Do Buy Voucher Using Ruby or Point")
     public void testBuyVoucherUsingRubyOrPoint() {
         action.click(baseHomepage.btnDeals);
         baseDeals.checkAmountPointsOrRubiesToBuyVoucher();

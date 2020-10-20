@@ -135,6 +135,10 @@ public class BasePurchase extends BaseTest {
 
     public By btnBuy = By.id(ObjectElement.PaymentDetailObject.btnBuy);
 
+    public String btnContinueTrx = ObjectElement.PaymentDetailObject.btnContinue;
+
+    public String btnCancelTrx = ObjectElement.PaymentDetailObject.btnCancel;
+
     public void clickButtonLetsSwitch() {
         if (baseLanding.langCenter().equals("atau bisa pakai")) {
             action.click(btnOrderSIMHomeID);

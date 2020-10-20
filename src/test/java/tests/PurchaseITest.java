@@ -517,4 +517,36 @@ public class PurchaseITest extends TestSetup {
         purchasePages.testOrderSIM("0889-07", "Andi", "088906011294",
                 "pringgodani", "JL. Pringgodani", "GoPay");
     }
+
+    @Test(priority = 151, description = "Switch_Purchase_051 - User able to Pre Filled Cancelled Order SIM Profile Address")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that User able to Pre Filled Re Order SIM Address Profile.")
+    @Story("Story Name : Check Purchase")
+    public void checkCancelOrderSIMPayment() throws InterruptedException {
+        login.checkValidLoginUsingEmail();
+        purchasePages.testOrderSIM("0889-07", "Andi", "088906011294",
+                "pringgodani", "JL. Pringgodani", "GoPay");
+        purchasePages.testClickButtonCancel();
+    }
+
+    @Test(priority = 152, description = "Switch_Purchase_052 - User able click Continue ")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that User able to Pre Filled Re Order SIM Address Profile.")
+    @Story("Story Name : Check Purchase")
+    public void checkContinueOrderSIMPayment() throws InterruptedException {
+        login.checkValidLoginUsingEmail();
+        purchasePages.testOrderSIM("0889-07", "Andi", "088906011294",
+                "pringgodani", "JL. Pringgodani", "GoPay");
+        purchasePages.testClickButtonContinue();
+    }
+
+    @Test(priority = 153, description = "Switch_Purchase_053 - User able to Pay Choose Credit Card With Doku Payment Gateway")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that user can pay using CC with Doku Payment Gateway.")
+    @Story("Story Name : Check Purchase")
+    public void checkDokuPaymentGateway() throws InterruptedException {
+        login.checkValidLoginUsingSwitchNumber();
+        purchasePages.testAddToCartPromoLiteBundle("Lite Bar", 1);
+        purchasePages.testConfirmPaymentMethod("CC");
+    }
 }

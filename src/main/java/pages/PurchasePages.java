@@ -124,10 +124,11 @@ public class PurchasePages {
         action.click(basePurchase.btnSelectDeliveryJNEReg);
         action.click(basePurchase.btnNext);
         basePurchase.selectPayment(paymentType);
-//        action.click(basePurchase.btnPay);
+        action.click(basePurchase.btnNext);
 //        action.click(basePurchase.btnSeeTrxStats);
     }
 
+    @Step("Go To Checkout")
     public void testGoToCheckOut(String mainNumber, String recName, String recPhone, String city,
                                  String address) {
         testGoToOrderSIM();
@@ -135,33 +136,40 @@ public class PurchasePages {
         testInputAddress(recName, recPhone, city, address);
     }
 
+    @Step("Add Cart Custom Plan")
     public void testAddToCartCustomPlan() {
         action.click(baseHomepage.btnPlan);
         action.click(basePurchase.btnCustomPlan);
     }
 
+    @Step("Go To Service Plan")
     public void testGoToServicePlan(String service) {
         action.click(baseHomepage.btnPlan);
         basePurchase.selectService(service);
     }
 
+    @Step("Select Balance Plan")
     public void testSelectBalancePlan(String bPlan) {
         basePurchase.selectBalancePlan(bPlan);
     }
 
+    @Step("Select Custom Plan")
     public void testSelectCustomPlan(String cPlan) {
         basePurchase.selectCustomPlan(cPlan);
     }
 
+    @Step("Click Back")
     public void testClickBackFromMixAndMatch() {
         action.click(baseHomepage.btnBack);
     }
 
+    @Step("Click Order SIM")
     public void testGoToOrderSIM() {
         action.click(baseHomepage.btnLetsSwitch);
         action.click(baseHomepage.btnOrderSIM);
     }
 
+    @Step("Input Number")
     public void testChooseNumberByInput(String mainNumber) {
         action.click(basePurchase.btnMainNumber);
         basePurchase.clickChooseYourNumber(mainNumber);
@@ -176,6 +184,7 @@ public class PurchasePages {
         action.click(basePurchase.btnNext);
     }
 
+    @Step("Input Address")
     public void testInputAddress(String recName, String recPhone, String city, String address) {
         action.sendKeys(basePurchase.inputRecipientName, recName);
         action.sendKeys(basePurchase.inputRecipientPhoneNumber, recPhone);
@@ -190,6 +199,7 @@ public class PurchasePages {
         action.click(basePurchase.btnContinue);
     }
 
+    @Step("Edit Address From Checkout")
     public void testEditAddressCheckout(String mainNumber, String recName, String recPhone, String city,
                                         String address, String upRecName, String upRecPhone, String upCity,
                                         String upAddress) {
@@ -198,6 +208,7 @@ public class PurchasePages {
         testInputAddress(upRecName, upRecPhone, upCity, upAddress);
     }
 
+    @Step("Edit Number From Checkout")
     public void testEditMDNCheckout(String mainNumber, String recName, String recPhone, String city,
                                     String address, String upMainNumber) {
         testGoToCheckOut(mainNumber, recName, recPhone, city, address);
@@ -205,11 +216,31 @@ public class PurchasePages {
         testChooseNumberByInput(upMainNumber);
     }
 
+    @Step("Edit Custom Plan")
     public void testEditCustomPlan() {
         action.clickElementScroll(basePurchase.btnEditCustomPlan);
     }
 
+    @Step("Buy Custom Plan")
     public void testBuyCustomPlan() {
         action.click(basePurchase.btnBuy);
+    }
+
+    @Step("See Transaction Status")
+    public void testClickTrxStat() {
+        action.click(basePurchase.btnSeeTrxStats);
+    }
+
+    @Step("Click Button Continue")
+    public void testClickButtonContinue() {
+        testClickTrxStat();
+        action.clickElementScroll(basePurchase.btnContinueTrx);
+    }
+
+    @Step("Click Button Continue")
+    public void testClickButtonCancel() {
+        testClickTrxStat();
+        action.clickElementScroll(basePurchase.btnCancelTrx);
+        action.click(basePurchase.btnContinue);
     }
 }

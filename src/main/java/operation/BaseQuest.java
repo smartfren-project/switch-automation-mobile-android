@@ -24,4 +24,18 @@ public class BaseQuest {
     public By btnLetsStartQuestWorld = By.id(ObjectElement.QuestPagesObject.btnLetsStartQuestWorld);
 
     public By btnCancelStartQuestWorld = By.id(ObjectElement.QuestPagesObject.btnCancelQuestWorld);
+
+    public String btnCheckFinalGames = ObjectElement.GamesPageObject.txtFinalGamesTitle;
+
+    public By btnActionGames = By.xpath(ObjectElement.GamesPageObject.btnActionGames);
+
+    public String btnCheckFinalActionGames = ObjectElement.GamesPageObject.txtFinalActionGames;
+
+    public By btnClosePopup = By.id(ObjectElement.GamesPageObject.btnClosePopup);
+
+    public String btnCheckFirstGames = ObjectElement.GamesPageObject.txtFirstGamesTitle;
+
+    public By btnLetsPlay = By.id(ObjectElement.GamesPageObject.btnLetsPlay);
+
+    public By btnDoPageMission = By.id(ObjectElement.QuestPagesObject.btnPlayMission);
 }

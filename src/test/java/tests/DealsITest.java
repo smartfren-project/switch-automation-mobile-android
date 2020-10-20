@@ -14,7 +14,7 @@ public class DealsITest extends TestSetup {
     LoginITest login = new LoginITest();
     DealsPages dealsPages = new DealsPages();
 
-    @Test(priority = 151, description = "Switch_Deals_001 - User able to see all SPECIAL DEALS Menu Page")
+    @Test(priority = 171, description = "Switch_Deals_001 - User able to see all SPECIAL DEALS Menu Page")
     @Severity(SeverityLevel.NORMAL)
     @Description("Verify that User is able to see All SPECIAL DEALS by Clicking on See All DEALS Menu.")
     @Story("Story Name : Check On Deals Page")
@@ -23,7 +23,7 @@ public class DealsITest extends TestSetup {
         dealsPages.testCheckVoucherList();
     }
 
-    @Test(priority = 152, description = "Switch_Deals_002 - User able to see all POINTS on POINT Page")
+    @Test(priority = 172, description = "Switch_Deals_002 - User able to see all POINTS on POINT Page")
     @Severity(SeverityLevel.NORMAL)
     @Description("Verify that User is able to see All POINTS by Clicking on See POINT Menu.")
     @Story("Story Name : Check On Point Page")
@@ -32,7 +32,7 @@ public class DealsITest extends TestSetup {
         dealsPages.testCheckPointsValue();
     }
 
-    @Test(priority = 153, description = "Switch_Deals_003 - User able to see all RUBIES on RUBY Page")
+    @Test(priority = 173, description = "Switch_Deals_003 - User able to see all RUBIES on RUBY Page")
     @Severity(SeverityLevel.NORMAL)
     @Description("Verify that User is able to see All RUBIES by Clicking on See RUBY Menu.")
     @Story("Story Name : Check On Ruby Page")
@@ -41,7 +41,7 @@ public class DealsITest extends TestSetup {
         dealsPages.testCheckRubyValue();
     }
 
-    @Test(priority = 154, description = "Switch_Deals_004 - User able to buy Voucher using Points and Rubies")
+    @Test(priority = 174, description = "Switch_Deals_004 - User able to buy Voucher using Points and Rubies")
     @Severity(SeverityLevel.NORMAL)
     @Description("Verify that User is able to buy Voucher using RUBIES and POINTS by Clicking on Voucher Product.")
     @Story("Story Name : Check On Deals Page")
@@ -50,7 +50,7 @@ public class DealsITest extends TestSetup {
         dealsPages.testBuyVoucherUsingRubyAndPoint();
     }
 
-    @Test(priority = 155, description = "Switch_Deals_005 - User able to buy Voucher using Points")
+    @Test(priority = 175, description = "Switch_Deals_005 - User able to buy Voucher using Points")
     @Severity(SeverityLevel.NORMAL)
     @Description("Verify that User is able to buy Voucher using RUBIES or POINTS by Clicking on Voucher Product.")
     @Story("Story Name : Check On Deals Page")
@@ -59,7 +59,7 @@ public class DealsITest extends TestSetup {
         dealsPages.testBuyVoucherUsingRubyOrPoint();
     }
 
-    @Test(priority = 156, description = "Switch_Deals_006 - User able to buy Voucher using Rubies")
+    @Test(priority = 176, description = "Switch_Deals_006 - User able to buy Voucher using Rubies")
     @Severity(SeverityLevel.NORMAL)
     @Description("Verify that User is able to buy Voucher using RUBIES or POINTS by Clicking on Voucher Product.")
     @Story("Story Name : Check On Deals Page")
@@ -68,7 +68,7 @@ public class DealsITest extends TestSetup {
         dealsPages.testBuyVoucherUsingRubyOrPoint();
     }
 
-    @Test(priority = 157, description = "Switch_Deals_007 - User unable to buy Voucher using less Points")
+    @Test(priority = 177, description = "Switch_Deals_007 - User unable to buy Voucher using less Points")
     @Severity(SeverityLevel.NORMAL)
     @Description("Verify that User is unable to buy Voucher using less POINTS by Clicking on Voucher Product.")
     @Story("Story Name : Check On Deals Page")
@@ -77,7 +77,7 @@ public class DealsITest extends TestSetup {
         dealsPages.testBuyVoucherUsingRubyOrPoint();
     }
 
-    @Test(priority = 158, description = "Switch_Deals_008 - User unable to buy Voucher using less Rubies")
+    @Test(priority = 178, description = "Switch_Deals_008 - User unable to buy Voucher using less Rubies")
     @Severity(SeverityLevel.NORMAL)
     @Description("Verify that User is unable to buy Voucher using less RUBIES by Clicking on Voucher Product.")
     @Story("Story Name : Check On Deals Page")

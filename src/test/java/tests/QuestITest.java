@@ -1,5 +1,7 @@
 package tests;
 
+import io.appium.java_client.android.nativekey.AndroidKey;
+import io.appium.java_client.android.nativekey.KeyEvent;
 import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
@@ -94,5 +96,52 @@ public class QuestITest extends TestSetup {
     public void checkMainMission() throws InterruptedException {
         login.checkValidLoginUsingSwitchNumber();
         questPages.testCheckMission();
+    }
+
+    @Test(priority = 310, description = "Switch_Quest_010 - User able to Check All Games")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that user can check all games")
+    @Story("Story Name : Check Quest")
+    public void checkAllUIGames() throws InterruptedException {
+        login.checkValidLoginUsingSwitchNumber();
+        questPages.testCheckAllGames();
+    }
+
+    @Test(priority = 311, description = "Switch_Quest_011 - User able to See Popup after click on Any Games")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that user can see popup after click on any games")
+    @Story("Story Name : Check Quest")
+    public void checkPopupStartGames() throws InterruptedException {
+        login.checkValidLoginUsingSwitchNumber();
+        questPages.testCheckPopupGames();
+    }
+
+    @Test(priority = 312, description = "Switch_Quest_012 - User able to See Games when click selected games")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that user can see Selected Games")
+    @Story("Story Name : Check Quest")
+    public void checkGoStartGames() throws InterruptedException {
+        login.checkValidLoginUsingSwitchNumber();
+        questPages.testGoToSelectedGames();
+    }
+
+    @Test(priority = 313, description = "Switch_Quest_013 - User able to Go Back From Games")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that user can Go Back To Games Page")
+    @Story("Story Name : Check Quest")
+    public void checkGoBackFromGameplay() throws InterruptedException {
+        login.checkValidLoginUsingSwitchNumber();
+        questPages.testGoToSelectedGames();
+        driver.pressKey(new KeyEvent().withKey(AndroidKey.BACK));
+    }
+
+    @Test(priority = 314, description = "Switch_Quest_014 - User able to Do Active Mission")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that user can Do Active Mission")
+    @Story("Story Name : Check Quest")
+    public void checkDoActiveMission() throws InterruptedException {
+        login.checkValidLoginUsingSwitchNumber();
+        questPages.testCheckMission();
+        questPages.testClickPlayMission();
     }
 }

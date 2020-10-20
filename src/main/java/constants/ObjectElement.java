@@ -380,6 +380,12 @@ public class ObjectElement extends BaseTest {
         String txtDetailTitle = "com.smartfren.switchmobile:id/txt_payment_heading";
         String txtTotalAmount = "com.smartfren.switchmobile:id/total_amt_aft_discount";
         String btnCloseDetail = "com.smartfren.switchmobile:id/img_close";
+        String btnContinue = "new UiScrollable(new UiSelector()"
+                + ".resourceId(\"com.smartfren.switchmobile:id/slDetail\")).scrollIntoView("
+                + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/continue_payment_btn\"));";
+        String btnCancel = "new UiScrollable(new UiSelector()"
+                + ".resourceId(\"com.smartfren.switchmobile:id/slDetail\")).scrollIntoView("
+                + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/cancel_order_txt\"));";
 
         /* E-Money */
         String btnGopay = "new UiScrollable(new UiSelector()"
@@ -447,11 +453,27 @@ public class ObjectElement extends BaseTest {
         String btnSeeAllBigMission = "com.smartfren.switchmobile:id/txt_see_all";
         String btnLetsStartQuestWorld = "com.smartfren.switchmobile:id/btn_lets_start";
         String btnCancelQuestWorld = "com.smartfren.switchmobile:id/txt_later";
+        String btnPlayMission = "com.smartfren.switchmobile:id/btn_main";
     }
 
     public interface HomePopupObject {
         String txtServicePlanAd = "com.smartfren.switchmobile:id/tvMid";
         String txtServicePlanAdDesc = "com.smartfren.switchmobile:id/tvSubMid";
         String btnConfirmServicePlanAd = "com.smartfren.switchmobile:id/btnDone";
+    }
+
+    public interface GamesPageObject {
+        String txtFinalGamesTitle = "new UiScrollable(new UiSelector()"
+                + ".resourceId(\"com.smartfren.switchmobile:id/viewpager\")).scrollIntoView("
+                + "new UiSelector().text(\"Farty Dog\"));";
+        String btnActionGames = "//*[@text='Action']";
+        String txtFinalActionGames = "new UiScrollable(new UiSelector()"
+                + ".resourceId(\"com.smartfren.switchmobile:id/viewpager\")).scrollIntoView("
+                + "new UiSelector().text(\"Rock Paper Scissor Warrior\"));";
+        String btnClosePopup = "com.smartfren.switchmobile:id/img_close";
+        String txtFirstGamesTitle = "new UiScrollable(new UiSelector()"
+                + ".resourceId(\"com.smartfren.switchmobile:id/viewpager\")).scrollIntoView("
+                + "new UiSelector().text(\"Dream Cloud\"));";
+        String btnLetsPlay = "com.smartfren.switchmobile:id/btn_lets_start_playing";
     }
 }
