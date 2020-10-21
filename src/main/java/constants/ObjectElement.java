@@ -412,13 +412,13 @@ public class ObjectElement extends BaseTest {
         /*Virtual Account*/
         String btnVAPermata = "new UiScrollable(new UiSelector()"
                 + ".resourceId(\"com.smartfren.switchmobile:id/recycler_e_wallet\")).scrollIntoView("
-                + "new UiSelector().text(\"Permata VA\"));";
+                + "new UiSelector().text(\"Permata Virtual Account\"));";
         String btnVADanamon = "new UiScrollable(new UiSelector()"
                 + ".resourceId(\"com.smartfren.switchmobile:id/recycler_e_wallet\")).scrollIntoView("
-                + "new UiSelector().text(\"Danamon VA\"));";
+                + "new UiSelector().text(\"Danamon Virtual Account\"));";
         String btnVAMandiri = "new UiScrollable(new UiSelector()"
                 + ".resourceId(\"com.smartfren.switchmobile:id/recycler_e_wallet\")).scrollIntoView("
-                + "new UiSelector().text(\"Mandiri VA\"));";
+                + "new UiSelector().text(\"Mandiri Virtual Account\"));";
         String btnAlfamart = "new UiScrollable(new UiSelector()"
                 + ".resourceId(\"com.smartfren.switchmobile:id/recycler_e_wallet\")).scrollIntoView("
                 + "new UiSelector().text(\"Alfamart\"));";
