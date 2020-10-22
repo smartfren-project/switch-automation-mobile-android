@@ -56,7 +56,7 @@ public class LandingITest extends TestSetup {
     @Description("Verify that User is able to Capture Google account in Sign Up flow.")
     @Story("Story Name : Check On Landing Page")
     public void checkSignUpWithUnregisteredGoogleAccount() throws InterruptedException {
-        landingPages.testSignUpWithGoogle();
+        landingPages.testSignInWithGoogle();
     }
 
     @Test(priority = 6, description = "Switch_Land_006 - User able to SIGN UP using Unregistered Facebook Account")
@@ -64,7 +64,7 @@ public class LandingITest extends TestSetup {
     @Description("Verify that User is able to Capture Facebook account in Sign Up flow.")
     @Story("Story Name : Check On Landing Page")
     public void checkSignUpWithUnregisteredFacebookAccount() throws InterruptedException {
-        landingPages.testSignUpWithFacebook();
+        landingPages.testSignInWithFacebook();
     }
 
     @Test(priority = 7, description = "Switch_Land_007 - User able to go to Login/SignUp with Bahasa Language")
