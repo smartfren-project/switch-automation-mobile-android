@@ -164,7 +164,6 @@ public class ProfilePages {
     public void testCheckOnFAQ() {
         action.click(baseHomepage.btnProfile);
         action.clickElementScroll(baseProfile.btnHelp);
-        action.click(baseProfile.btnChatWithShelly);
         action.click(baseProfile.btnFAQ);
     }
 
