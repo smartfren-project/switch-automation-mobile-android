@@ -1,0 +1,1 @@
+{"uuid":"45ee6cc1-74af-4119-b212-eaf206344ce6","name":"Switch Android Regression Test","children":["3bf631ba-7309-415a-9db8-621d00dec7c6"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1604658117854,"stop":1604658126466}],"afters":[],"links":[],"start":1604658117819,"stop":1604661819079}

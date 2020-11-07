@@ -81,4 +81,31 @@ public class SignUpITest extends TestSetup {
         landing.checkGoToSignUpPage();
         signUp.testInvalidSignUpUsernameNormalValidation(BaseData.Login.LESS_EMAIL);
     }
+
+    @Test(priority = 32, description = "Switch_SignUp_008 - Check input personal info page")
+    @Severity(SeverityLevel.NORMAL)
+    @Description("Verify that User can check input personal info page.")
+    @Story("Story Name : Check On SignUp Page")
+    public void checkInputPersonalInfoPage() throws InterruptedException {
+        landing.checkGoToSignUpPage();
+        signUp.testInvalidSignUpUsernameNormalValidation(BaseData.Login.LESS_EMAIL);
+    }
+
+    @Test(priority = 33, description = "Switch_SignUp_009 - Check PIN creation")
+    @Severity(SeverityLevel.NORMAL)
+    @Description("Verify that User can create PIN.")
+    @Story("Story Name : Check On SignUp Page")
+    public void checkPINAfterCreate() throws InterruptedException {
+        landing.checkGoToSignUpPage();
+        signUp.testInvalidSignUpUsernameNormalValidation(BaseData.Login.LESS_EMAIL);
+    }
+
+    @Test(priority = 34, description = "Switch_SignUp_007 - User unable to sign up using less email")
+    @Severity(SeverityLevel.NORMAL)
+    @Description("Verify that User can't sign up using less email.")
+    @Story("Story Name : Check On SignUp Page")
+    public void checkTermsAndConditionRegister() throws InterruptedException {
+        landing.checkGoToSignUpPage();
+        signUp.testInvalidSignUpUsernameNormalValidation(BaseData.Login.LESS_EMAIL);
+    }
 }

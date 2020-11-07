@@ -549,4 +549,28 @@ public class PurchaseITest extends TestSetup {
         purchasePages.testAddToCartPromoLiteBundle("Lite Bar", 1);
         purchasePages.testConfirmPaymentMethod("CC");
     }
+
+    @Test(priority = 154, description = "Switch_Purchase_054 - Edit Address Back From Checkout Page")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that User able to Edit Address Back From Checkout Page.")
+    @Story("Story Name : Check Purchase")
+    public void checkEditAddressByClickBackFromCheckoutPage() throws InterruptedException {
+        login.checkValidLoginUsingEmail();
+        purchasePages.testGoToOrderSIM();
+        purchasePages.testChooseNumberByInput("0889-07");
+        purchasePages.testInputAddress("Andi", "088906011294",
+                "pringgodani", "JL. Pringgodani");
+    }
+
+    @Test(priority = 155, description = "Switch_Purchase_055 - User able to change Delivery Option From Checkout Page")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that User able to Change Delivery Option From Checkout Page.")
+    @Story("Story Name : Check Purchase")
+    public void checkChangeDeliveryOptionFromCheckoutPage() throws InterruptedException {
+        login.checkValidLoginUsingEmail();
+        purchasePages.testGoToOrderSIM();
+        purchasePages.testChooseNumberByInput("0889-07");
+        purchasePages.testInputAddress("Andi", "088906011294",
+                "pringgodani", "JL. Pringgodani");
+    }
 }
