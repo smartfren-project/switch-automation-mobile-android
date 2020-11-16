@@ -79,9 +79,9 @@ public class ObjectElement extends BaseTest {
         String txtSMSRemaining = "com.smartfren.switchmobile:id/txtSms";
         String txtCallRemaining = "com.smartfren.switchmobile:id/txtCall";
         String txtDataRemaining = "com.smartfren.switchmobile:id/pack_name";
-        String btnCustomNow = "//*[@text='Custom Now']";
-        String btnBigMission = "//*[@text='Get Now!']";
-        String btnECommerce = "//*[@text='Up To 35.000']";
+        String btnCustomNow = "//*[@text='Play Mission']";
+        String btnBigMission = "//*[@text='Special Deals']";
+        String btnECommerce = "//*[@text='Play Now']";
         String btnMixAndMax = "com.smartfren.switchmobile:id/img_mix_n_match";
         String btnSeeAllNews = "new UiScrollable(new UiSelector()"
                 + ".resourceId(\"com.smartfren.switchmobile:id/scrollView\")).scrollIntoView("

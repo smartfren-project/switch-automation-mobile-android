@@ -124,7 +124,6 @@ public class PurchasePages {
         action.click(basePurchase.btnSelectDeliveryJNEReg);
         action.click(basePurchase.btnNext);
         basePurchase.selectPayment(paymentType);
-        action.click(basePurchase.btnNext);
 //        action.click(basePurchase.btnSeeTrxStats);
     }
 

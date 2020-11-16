@@ -72,7 +72,7 @@ public class LandingITest extends TestSetup {
     @Description("Verify that User is navigating to Sign Up Page on Clicking on Sign Up Button in any storyboard.")
     @Story("Story Name : Check On Landing Page")
     public void checkGoToSignUpPageBahasa() throws InterruptedException {
-        profilePages.clickButtonBahasa();
+        profile.checkChangeLanguage();
         //profile.checkChangeLanguage();
         profilePages.testLogout();
         profilePages.testClickButtonLoginHere();

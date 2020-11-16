@@ -11,12 +11,12 @@ public class LoginPages {
     BaseLanding baseLanding = new BaseLanding();
     BaseLogin baseLogin = new BaseLogin();
     BaseHomepage baseHomepage = new BaseHomepage();
+    LandingPages landingPages = new LandingPages();
     ElementAction action = new ElementAction();
 
     @Step("User Do Valid Login Using Email or Switch Number")
     public void testValidLogin(String username, String pin) throws InterruptedException {
-        Thread.sleep(4000);
-        action.click(baseLanding.btnLogin);
+        landingPages.testGoToLoginPage();
         baseLanding.checkValidationWelcomeText();
         action.sendKeys(baseLogin.inputUsername, username);
         action.click(baseLogin.btnSubmitLogin);
@@ -26,8 +26,7 @@ public class LoginPages {
 
     @Step("User Do Invalid Login Input Username")
     public void testInvalidLogin(String username) throws InterruptedException {
-        Thread.sleep(4000);
-        action.click(baseLanding.btnLogin);
+        landingPages.testGoToLoginPage();
         baseLanding.checkValidationWelcomeText();
         action.sendKeys(baseLogin.inputUsername, username);
     }
@@ -61,8 +60,7 @@ public class LoginPages {
 
     @Step("User Do Sign Up With Registered Email")
     public void testInvalidSignUpWithRegisteredEmail(String username) throws InterruptedException {
-        Thread.sleep(4000);
-        action.click(baseLanding.btnSignUp);
+        landingPages.testGoToSignUpPage();
         action.sendKeys(baseLogin.inputUsername, username);
         action.click(baseLogin.btnSubmitLogin);
         baseLogin.checkValidationRegisteredEmail();
