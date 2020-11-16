@@ -39,7 +39,7 @@ public class ProfileITest extends TestSetup {
     @Story("Story Name : Check User Profile")
     public void checkChangeLanguage() throws InterruptedException {
         login.checkValidLoginUsingEmail();
-        profilePages.clickButtonBahasa();
+        profilePages.testChangeLanguage();
     }
 
     @Test(priority = 204, description = "Switch_Profile_004 - User unable to EMPTY FULLNAME")
