@@ -1,0 +1,189 @@
+{
+  "uid" : "3da299e32857c493",
+  "name" : "Switch_Logout_001 - User able to LOGOUT and go back to PIN Page",
+  "fullName" : "tests.LogoutITest.checkValidLogout",
+  "historyId" : "8e72424f30abb4877a702c9bfa361bcc",
+  "time" : {
+    "start" : 1604651226251,
+    "stop" : 1604651251792,
+    "duration" : 25541
+  },
+  "description" : "Verify that user can success logout from profile menu.",
+  "descriptionHtml" : "<p>Verify that user can success logout from profile menu.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1604650627305,
+      "stop" : 1604650635935,
+      "duration" : 8630
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify that user can success logout from profile menu.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "User Do Valid Login Using Email or Switch Number",
+      "time" : {
+        "start" : 1604651226251,
+        "stop" : 1604651240800,
+        "duration" : 14549
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click Button Login",
+        "time" : {
+          "start" : 1604651226252,
+          "stop" : 1604651234351,
+          "duration" : 8099
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "088906011294"
+      }, {
+        "name" : "pin",
+        "value" : "111111"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "User Do Check Valid Logout",
+      "time" : {
+        "start" : 1604651240800,
+        "stop" : 1604651250387,
+        "duration" : 9587
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "b33c97fe10c0d173",
+      "name" : "screenShot",
+      "source" : "b33c97fe10c0d173.png",
+      "type" : "image/png",
+      "size" : 86430
+    }, {
+      "uid" : "4abcfc74ef79f1af",
+      "name" : "Page Screenshot",
+      "source" : "4abcfc74ef79f1af.png",
+      "type" : "image/png",
+      "size" : 87949
+    }, {
+      "uid" : "39b5db2618df8808",
+      "name" : "screenShot",
+      "source" : "39b5db2618df8808.png",
+      "type" : "image/png",
+      "size" : 76801
+    }, {
+      "uid" : "962c1b1f5ae0f616",
+      "name" : "Page Screenshot",
+      "source" : "962c1b1f5ae0f616.png",
+      "type" : "image/png",
+      "size" : 63312
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeAppSwitch",
+    "time" : {
+      "start" : 1604651251792,
+      "stop" : 1604651255725,
+      "duration" : 3933
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.LogoutITest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.LogoutITest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkValidLogout"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Switch Android Regression Test"
+  }, {
+    "name" : "suite",
+    "value" : "Switch Android Regression Test (BAHASA VERSION)"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.LogoutITest"
+  }, {
+    "name" : "host",
+    "value" : "Faizals-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "10243@Faizals-MacBook-Pro.local.TestNG-test=Switch Android Regression Test (BAHASA VERSION)-12(33)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story Name : Check Logout"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "deviceName",
+    "value" : "Pixel"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3da299e32857c493.json",
+  "parameterValues" : [ "Pixel" ]
+}

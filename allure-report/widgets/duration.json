@@ -1,221 +1,1401 @@
 [ {
-  "uid" : "b63b665cee1b5b38",
-  "name" : "Switch_Home_001 - User able to go to All Menu Page",
+  "uid" : "c2dfef21eeea508",
+  "name" : "Switch_Quest_005 - User able to Check Progress",
   "time" : {
-    "start" : 1599815791977,
-    "stop" : 1599815814619,
-    "duration" : 22642
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "9b7a043fb3458241",
-  "name" : "Switch_Login_011 - User unable to login using INVALID SWITCH NUMBER",
-  "time" : {
-    "start" : 1599815683080,
-    "stop" : 1599815705631,
-    "duration" : 22551
+    "start" : 1607573149266,
+    "stop" : 1607573197048,
+    "duration" : 47782
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "8ae3bae01e1539ed",
-  "name" : "Switch_Land_007 - User able to go to Login/SignUp with Bahasa Language",
-  "time" : {
-    "start" : 1599815288917,
-    "stop" : 1599815339159,
-    "duration" : 50242
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "2b3604ede933296b",
-  "name" : "Switch_Land_004 - User able to go to any page",
-  "time" : {
-    "start" : 1599815180851,
-    "stop" : 1599815243808,
-    "duration" : 62957
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cf334ad4f7b64cfb",
-  "name" : "Switch_Land_002 - User able to go to LOGIN PAGE",
-  "time" : {
-    "start" : 1599815142942,
-    "stop" : 1599815154661,
-    "duration" : 11719
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6b1aef91e18ce988",
-  "name" : "Switch_Login_009 - User unable to login using INVALID PIN EMAIL",
-  "time" : {
-    "start" : 1599815615165,
-    "stop" : 1599815633046,
-    "duration" : 17881
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "88f59123b756a837",
-  "name" : "Switch_Login_001 - User able to pass HOMEPAGE from VALID LOGIN EMAIL",
-  "time" : {
-    "start" : 1599815346468,
-    "stop" : 1599815374716,
-    "duration" : 28248
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "d35682e29495c082",
-  "name" : "Switch_Login_003 - User unable to pass HOMEPAGE from INVALID LOGIN UNREGISTERED EMAIL",
-  "time" : {
-    "start" : 1599815420975,
-    "stop" : 1599815456468,
-    "duration" : 35493
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "f04a0d4dc4fb2305",
-  "name" : "Switch_Login_010 - User unable to login using INVALID PIN SWITCH NUMBER",
-  "time" : {
-    "start" : 1599815640141,
-    "stop" : 1599815675896,
-    "duration" : 35755
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "d12fa858a1c30785",
-  "name" : "Switch_Login_008 - User unable to click button SUBMIT LOGIN when input Email Less Than 8 Character",
-  "time" : {
-    "start" : 1599815592795,
-    "stop" : 1599815607926,
-    "duration" : 15131
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "883fa6cd55cc2eda",
-  "name" : "Switch_Purchase_001 - User able to Add Product Super Bundle To Cart",
-  "time" : {
-    "start" : 1599815860145,
-    "stop" : 1599815900149,
-    "duration" : 40004
-  },
-  "status" : "broken",
-  "severity" : "critical"
-}, {
-  "uid" : "23d29fbcbea1c5b8",
-  "name" : "Switch_Login_006 - User unable to click button SUBMIT LOGIN when input LESS THAN 8 NUMBER",
-  "time" : {
-    "start" : 1599815514857,
-    "stop" : 1599815562984,
-    "duration" : 48127
-  },
-  "status" : "broken",
-  "severity" : "critical"
-}, {
-  "uid" : "1ceac7b7e801c711",
-  "name" : "Switch_Home_001 - User able to go to All Menu Page",
-  "time" : {
-    "start" : 1599815821983,
-    "stop" : 1599815853101,
-    "duration" : 31118
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "848858f36b550a3f",
-  "name" : "Switch_Profile_001 - User able to LOGOUT and go back to PIN Page",
-  "time" : {
-    "start" : 1599815712934,
-    "stop" : 1599815784618,
-    "duration" : 71684
-  },
-  "status" : "broken",
-  "severity" : "critical"
-}, {
-  "uid" : "b1b2086680f3df74",
-  "name" : "Switch_Login_007 - User unable to click button SUBMIT LOGIN when input NUMBER with String",
-  "time" : {
-    "start" : 1599815570169,
-    "stop" : 1599815585664,
-    "duration" : 15495
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "43cdedc5d291979",
-  "name" : "Switch_Land_006 - User able to SIGN UP using Unregistered Facebook Account",
-  "time" : {
-    "start" : 1599815270851,
-    "stop" : 1599815281531,
-    "duration" : 10680
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f0f119b9a257a680",
-  "name" : "Switch_Land_001 - User able to go to Login/SignUp",
-  "time" : {
-    "start" : 1599815100755,
-    "stop" : 1599815135345,
-    "duration" : 34590
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7e88c1aedfebfb06",
+  "uid" : "66cc54a1f6d10c98",
   "name" : "Switch_Land_005 - User able to SIGN UP using Unregistered Google Account",
   "time" : {
-    "start" : 1599815250942,
-    "stop" : 1599815263440,
-    "duration" : 12498
+    "start" : 1607565195560,
+    "stop" : 1607565208779,
+    "duration" : 13219
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "fe5a4c1ceae06940",
-  "name" : "Switch_Land_003 - User able to login as GUEST",
+  "uid" : "6334abd057c20df2",
+  "name" : "Switch_Home_010 - User able to check data remaining",
   "time" : {
-    "start" : 1599815161938,
-    "stop" : 1599815173681,
-    "duration" : 11743
+    "start" : 1607566695340,
+    "stop" : 1607566737979,
+    "duration" : 42639
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "df63cc6e9f08a1bd",
-  "name" : "Switch_Login_002 - User able to pass HOMEPAGE from VALID LOGIN SWITCH NUMBER",
+  "uid" : "8abd50832dbf6e3",
+  "name" : "Switch_History_004 - User able to see Finished Transaction History",
   "time" : {
-    "start" : 1599815382072,
-    "stop" : 1599815413745,
-    "duration" : 31673
+    "start" : 1607572766021,
+    "stop" : 1607572847901,
+    "duration" : 81880
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "bbd2bd0bee23b87c",
+  "name" : "Switch_Quest_012 - User able to See Games when click selected games",
+  "time" : {
+    "start" : 1607573518537,
+    "stop" : 1607573571207,
+    "duration" : 52670
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "1a84057c500f1da6",
+  "name" : "Switch_Quest_002 - User able to Change Avatar",
+  "time" : {
+    "start" : 1607572953369,
+    "stop" : 1607573029757,
+    "duration" : 76388
   },
   "status" : "broken",
   "severity" : "critical"
 }, {
-  "uid" : "d9aec675b320b3b",
-  "name" : "Switch_Login_004 - User unable to SIGN UP using registered email",
+  "uid" : "fa42eba623abebf3",
+  "name" : "Switch_Quest_001 - User able to Cancel to Change Avatar",
   "time" : {
-    "start" : 1599815463640,
-    "stop" : 1599815478867,
-    "duration" : 15227
+    "start" : 1607572861792,
+    "stop" : 1607572940102,
+    "duration" : 78310
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "f8f7c874ce9e8dbb",
+  "name" : "Switch_Quest_007 - User able to Check Rank",
+  "time" : {
+    "start" : 1607573252410,
+    "stop" : 1607573296703,
+    "duration" : 44293
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6ce1078b495c78bd",
+  "name" : "Switch_Purchase_054 - Edit Address Back From Checkout Page",
+  "time" : {
+    "start" : 1607571027682,
+    "stop" : 1607571102626,
+    "duration" : 74944
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "4d050cb6aa70a172",
+  "name" : "Switch_Home_012 - User able to see all news",
+  "time" : {
+    "start" : 1607566792088,
+    "stop" : 1607566841212,
+    "duration" : 49124
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "afa6dce009410eb1",
+  "name" : "Switch_Purchase_017 - User able to Order SIM First Time CC",
+  "time" : {
+    "start" : 1607568114359,
+    "stop" : 1607568189035,
+    "duration" : 74676
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "e1c30f22d208002a",
+  "name" : "Switch_Purchase_004 - User able to Add Product Lite Bundle To Cart",
+  "time" : {
+    "start" : 1607567091276,
+    "stop" : 1607567149173,
+    "duration" : 57897
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7a1f27f3daaf741b",
+  "name" : "Switch_SignUp_007 - User unable to sign up using less email",
+  "time" : {
+    "start" : 1607565533586,
+    "stop" : 1607565547229,
+    "duration" : 13643
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "1ee3f35fc58e9f33",
-  "name" : "Switch_Login_005 - User unable to click button SUBMIT LOGIN when input False EMAIL Specification",
+  "uid" : "b73ac3076c406734",
+  "name" : "Switch_Purchase_053 - User able to Pay Choose Credit Card With Doku Payment Gateway",
   "time" : {
-    "start" : 1599815486152,
-    "stop" : 1599815507627,
-    "duration" : 21475
+    "start" : 1607570962039,
+    "stop" : 1607571021589,
+    "duration" : 59550
   },
   "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5def23a3393ede6",
+  "name" : "Switch_SignUp_006 - User unable to sign up using invalid switch number",
+  "time" : {
+    "start" : 1607565450198,
+    "stop" : 1607565467329,
+    "duration" : 17131
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3e8e91396eed3b7",
+  "name" : "Switch_Logout_001 - User able to LOGOUT and go back to PIN Page",
+  "time" : {
+    "start" : 1607565971749,
+    "stop" : 1607566028718,
+    "duration" : 56969
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c30dcc9e10fc622d",
+  "name" : "Switch_Purchase_007 - User able to Pay Choose OVO",
+  "time" : {
+    "start" : 1607567320174,
+    "stop" : 1607567379676,
+    "duration" : 59502
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b0ca1ef321a4d67a",
+  "name" : "Switch_Home_009 - User able to check e-commerce",
+  "time" : {
+    "start" : 1607566618936,
+    "stop" : 1607566690779,
+    "duration" : 71843
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c5c6f09faee939fd",
+  "name" : "Switch_Purchase_019 - User able to Cancel Order by Decrease Product Standard Bundle To Cart",
+  "time" : {
+    "start" : 1607568255469,
+    "stop" : 1607568316426,
+    "duration" : 60957
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "85a1c6ed93d0ecb7",
+  "name" : "Switch_Purchase_014 - User able to Order SIM First Time GoPay",
+  "time" : {
+    "start" : 1607567811875,
+    "stop" : 1607567928775,
+    "duration" : 116900
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "4b3b3b3f630b6ab7",
+  "name" : "Switch_Purchase_031 - User can buy Token using Go Pay",
+  "time" : {
+    "start" : 1607568965864,
+    "stop" : 1607569050476,
+    "duration" : 84612
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "897b06c75e7b63ca",
+  "name" : "Switch_SignUp_007 - User unable to sign up using less email",
+  "time" : {
+    "start" : 1607565472940,
+    "stop" : 1607565483967,
+    "duration" : 11027
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "63c34497c402a13e",
+  "name" : "Switch_Quest_011 - User able to See Popup after click on Any Games",
+  "time" : {
+    "start" : 1607573461824,
+    "stop" : 1607573512316,
+    "duration" : 50492
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "310a2b91807f7c9e",
+  "name" : "Switch_Profile_001 - User able to EDIT FULL NAME",
+  "time" : {
+    "start" : 1607571640453,
+    "stop" : 1607571685239,
+    "duration" : 44786
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "97c2a35023321d24",
+  "name" : "Switch_Login_007 - User unable to click button SUBMIT LOGIN when input NUMBER with String",
+  "time" : {
+    "start" : 1607565812291,
+    "stop" : 1607565836570,
+    "duration" : 24279
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b55c062c548b433c",
+  "name" : "Switch_Profile_011 - User able to see RUBY Value",
+  "time" : {
+    "start" : 1607572256899,
+    "stop" : 1607572313690,
+    "duration" : 56791
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "32fe4d2015af1095",
+  "name" : "Switch_Deals_006 - User able to buy Voucher using Rubies",
+  "time" : {
+    "start" : 1607571478744,
+    "stop" : 1607571529355,
+    "duration" : 50611
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c486561c711b2b3",
+  "name" : "Switch_Profile_010 - User able to see POINT Value",
+  "time" : {
+    "start" : 1607572202534,
+    "stop" : 1607572251339,
+    "duration" : 48805
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "1247531516806fac",
+  "name" : "Switch_Home_013 - User able to see first news",
+  "time" : {
+    "start" : 1607566846484,
+    "stop" : 1607566893251,
+    "duration" : 46767
+  },
+  "status" : "broken",
+  "severity" : "minor"
+}, {
+  "uid" : "8f56cacd60a48a43",
+  "name" : "Switch_Purchase_013 - User able to Pay Choose Alfamart",
+  "time" : {
+    "start" : 1607567739527,
+    "stop" : 1607567807435,
+    "duration" : 67908
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "4424e726db78a594",
+  "name" : "Switch_Purchase_040 - Check Slide Quota and Call Influencer Custom Plan",
+  "time" : {
+    "start" : 1607569590742,
+    "stop" : 1607569637927,
+    "duration" : 47185
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "303a8f5f10fde30c",
+  "name" : "Switch_Home_008 - User able to check big mission",
+  "time" : {
+    "start" : 1607566541791,
+    "stop" : 1607566614631,
+    "duration" : 72840
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "972a3c87bb402bb7",
+  "name" : "Switch_Purchase_036 - Go Back From Mix And Match",
+  "time" : {
+    "start" : 1607569380483,
+    "stop" : 1607569425409,
+    "duration" : 44926
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6132c5e689a7b56d",
+  "name" : "Switch_Profile_007 - User able to Copy Referral Code",
+  "time" : {
+    "start" : 1607572000332,
+    "stop" : 1607572050403,
+    "duration" : 50071
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "3e087556a6dc6651",
+  "name" : "Switch_Purchase_032 - User able to Pay Choose ShopeePay",
+  "time" : {
+    "start" : 1607569056505,
+    "stop" : 1607569152840,
+    "duration" : 96335
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "3409a6903321e0e6",
+  "name" : "Switch_Purchase_045 - User unable to Fill Invalid Address",
+  "time" : {
+    "start" : 1607570052294,
+    "stop" : 1607570177130,
+    "duration" : 124836
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "d5ce41d0aeccf881",
+  "name" : "Switch_Purchase_042 - User able to Fill Delivery Address Order SIM",
+  "time" : {
+    "start" : 1607569721020,
+    "stop" : 1607569795117,
+    "duration" : 74097
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "8a2659dcbed4a8d3",
+  "name" : "Switch_Purchase_052 - User able click Continue ",
+  "time" : {
+    "start" : 1607570832588,
+    "stop" : 1607570957180,
+    "duration" : 124592
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "71291e9d4e582c61",
+  "name" : "Switch_Land_006 - User able to SIGN UP using Unregistered Facebook Account",
+  "time" : {
+    "start" : 1607565216430,
+    "stop" : 1607565226215,
+    "duration" : 9785
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cc14afc3663b6b43",
+  "name" : "Switch_Purchase_029 - User can decrease cart amount",
+  "time" : {
+    "start" : 1607568813568,
+    "stop" : 1607568866425,
+    "duration" : 52857
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "88172efa3d37413b",
+  "name" : "Switch_Purchase_011 - User able to Pay Choose Danamon VA",
+  "time" : {
+    "start" : 1607567577478,
+    "stop" : 1607567660319,
+    "duration" : 82841
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "e509737606b40933",
+  "name" : "Switch_Purchase_016 - User able to Order SIM First Time OVO",
+  "time" : {
+    "start" : 1607568034064,
+    "stop" : 1607568107586,
+    "duration" : 73522
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "ba70fd900aac745e",
+  "name" : "Switch_Purchase_039 - Check cancel Influencer Custom Plan",
+  "time" : {
+    "start" : 1607569539198,
+    "stop" : 1607569585779,
+    "duration" : 46581
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "fc8fc1b2e0ad4fa9",
+  "name" : "Switch_Purchase_022 - User able go to Balance Plan",
+  "time" : {
+    "start" : 1607568428072,
+    "stop" : 1607568478724,
+    "duration" : 50652
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "93be092315294534",
+  "name" : "Switch_Purchase_002 - User able to Add Product Power Bundle To Cart",
+  "time" : {
+    "start" : 1607566959460,
+    "stop" : 1607567015170,
+    "duration" : 55710
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "abc4c7115ef9da0d",
+  "name" : "Switch_Quest_013 - User able to Go Back From Games",
+  "time" : {
+    "start" : 1607573575789,
+    "stop" : 1607573626457,
+    "duration" : 50668
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "4acff9bb00ddff15",
+  "name" : "Switch_Purchase_005 - User can Verify Payment Screen",
+  "time" : {
+    "start" : 1607567155036,
+    "stop" : 1607567211121,
+    "duration" : 56085
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "79a04bde4d3efeb5",
+  "name" : "Switch_History_002 - User able to see Waiting Transaction History",
+  "time" : {
+    "start" : 1607572593071,
+    "stop" : 1607572672303,
+    "duration" : 79232
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5edebc82114e3cf4",
+  "name" : "Switch_Purchase_049 - User able to Pre Filled Cancelled Order SIM",
+  "time" : {
+    "start" : 1607570508030,
+    "stop" : 1607570564010,
+    "duration" : 55980
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "54eea8e841008003",
+  "name" : "Switch_Deals_003 - User able to see all RUBIES on RUBY Page",
+  "time" : {
+    "start" : 1607571308975,
+    "stop" : 1607571356025,
+    "duration" : 47050
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "afe568c3e0dc1676",
+  "name" : "Switch_Purchase_034 - User can buy Token using OVO",
+  "time" : {
+    "start" : 1607569244468,
+    "stop" : 1607569322198,
+    "duration" : 77730
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "33939db9b88b93a1",
+  "name" : "Switch_Login_005 - User unable to click button SUBMIT LOGIN when input Alphabet Only",
+  "time" : {
+    "start" : 1607565721804,
+    "stop" : 1607565757668,
+    "duration" : 35864
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c5b5594085fbce0f",
+  "name" : "Switch_SignUp_001 - User able to sign up using valid unregistered email",
+  "time" : {
+    "start" : 1607565306096,
+    "stop" : 1607565325818,
+    "duration" : 19722
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "72e2e6e985efd4df",
+  "name" : "Switch_Quest_009 - User able to Check Mission",
+  "time" : {
+    "start" : 1607573352405,
+    "stop" : 1607573395949,
+    "duration" : 43544
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d1eae2d57ff66128",
+  "name" : "Switch_Purchase_048 - User able to Check Terms and Condition Address Page",
+  "time" : {
+    "start" : 1607570454962,
+    "stop" : 1607570500376,
+    "duration" : 45414
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "d03ad334849e3382",
+  "name" : "Switch_Login_002 - User able to pass HOMEPAGE from VALID LOGIN SWITCH NUMBER",
+  "time" : {
+    "start" : 1607565601668,
+    "stop" : 1607565649478,
+    "duration" : 47810
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "fad18023ac5a8b36",
+  "name" : "Switch_Purchase_055 - User able to change Delivery Option From Checkout Page",
+  "time" : {
+    "start" : 1607571110059,
+    "stop" : 1607571194839,
+    "duration" : 84780
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ee7282a85cda9b6a",
+  "name" : "Switch_Purchase_043 - User able to Fill Address Without Drop PIN",
+  "time" : {
+    "start" : 1607569799765,
+    "stop" : 1607569920677,
+    "duration" : 120912
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "4ef8ea2f65ec7d89",
+  "name" : "Switch_Deals_008 - User unable to buy Voucher using less Rubies",
+  "time" : {
+    "start" : 1607571586776,
+    "stop" : 1607571635538,
+    "duration" : 48762
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9129534521dfd65",
+  "name" : "Switch_Deals_004 - User able to buy Voucher using Points and Rubies",
+  "time" : {
+    "start" : 1607571365653,
+    "stop" : 1607571416431,
+    "duration" : 50778
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3ab2c0a7d6dfcb8e",
+  "name" : "Switch_Profile_014 - User able to check FAQ",
+  "time" : {
+    "start" : 1607572443822,
+    "stop" : 1607572496444,
+    "duration" : 52622
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "23787cfdb624852b",
+  "name" : "Switch_Home_001 - User able to go to All Menu Page",
+  "time" : {
+    "start" : 1607566174673,
+    "stop" : 1607566229819,
+    "duration" : 55146
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f7c27ecc3c0e919",
+  "name" : "Switch_Purchase_046 - User able to Edit Address On Checkout Page",
+  "time" : {
+    "start" : 1607570185827,
+    "stop" : 1607570345060,
+    "duration" : 159233
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f160383c3293c703",
+  "name" : "Switch_Purchase_015 - User able to Order SIM First Time DANA",
+  "time" : {
+    "start" : 1607567933324,
+    "stop" : 1607568027423,
+    "duration" : 94099
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "1e6c47177c9f0208",
+  "name" : "Switch_Purchase_020 - User able to do custom plan",
+  "time" : {
+    "start" : 1607568322292,
+    "stop" : 1607568368923,
+    "duration" : 46631
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "28c870cfb98eab3d",
+  "name" : "Switch_Purchase_008 - User able to Pay Choose Dana",
+  "time" : {
+    "start" : 1607567384463,
+    "stop" : 1607567441227,
+    "duration" : 56764
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f945ae3a2616605c",
+  "name" : "Switch_Purchase_038 - Check edit Influencer Custom Plan",
+  "time" : {
+    "start" : 1607569485147,
+    "stop" : 1607569534737,
+    "duration" : 49590
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "43c2aa5af0d7eec1",
+  "name" : "Switch_Quest_004 - User able to Check All Mission",
+  "time" : {
+    "start" : 1607573092293,
+    "stop" : 1607573144408,
+    "duration" : 52115
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "8de871dc302b22d5",
+  "name" : "Switch_Purchase_025 - User able to add Token 50 to cart",
+  "time" : {
+    "start" : 1607568591786,
+    "stop" : 1607568641879,
+    "duration" : 50093
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "231c7e9afd6957c0",
+  "name" : "Switch_Purchase_006 - User able to Pay Choose GoPay",
+  "time" : {
+    "start" : 1607567218164,
+    "stop" : 1607567307979,
+    "duration" : 89815
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "4fc64bf985834c3f",
+  "name" : "Switch_Purchase_018 - User able to Max Qty Product Power Bar To Cart",
+  "time" : {
+    "start" : 1607568193422,
+    "stop" : 1607568250872,
+    "duration" : 57450
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "cff052499fe65c93",
+  "name" : "Switch_Purchase_027 - User able to add Token 10 to cart",
+  "time" : {
+    "start" : 1607568701338,
+    "stop" : 1607568750790,
+    "duration" : 49452
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f4b8345fa3fa361e",
+  "name" : "Switch_Deals_001 - User able to see all SPECIAL DEALS Menu Page",
+  "time" : {
+    "start" : 1607571203019,
+    "stop" : 1607571251592,
+    "duration" : 48573
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a382d3e0e694c1f",
+  "name" : "Switch_Purchase_030 - User able to Pay Choose CC JCB",
+  "time" : {
+    "start" : 1607568871303,
+    "stop" : 1607568961332,
+    "duration" : 90029
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "78eb72dab88b703e",
+  "name" : "Switch_SignUp_004 - User unable to sign up using alphabet",
+  "time" : {
+    "start" : 1607565392122,
+    "stop" : 1607565402119,
+    "duration" : 9997
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "51854908f9245164",
+  "name" : "Switch_Home_011 - User able to check mix and max",
+  "time" : {
+    "start" : 1607566745292,
+    "stop" : 1607566787243,
+    "duration" : 41951
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "678c740da1856910",
+  "name" : "Switch_Login_009 - User unable to login using INVALID PIN EMAIL",
+  "time" : {
+    "start" : 1607565870279,
+    "stop" : 1607565889266,
+    "duration" : 18987
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7c66af4bb71d71ac",
+  "name" : "Switch_Deals_007 - User unable to buy Voucher using less Points",
+  "time" : {
+    "start" : 1607571534441,
+    "stop" : 1607571582632,
+    "duration" : 48191
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c58dcc4ad124165",
+  "name" : "Switch_History_001 - User able to see all Transaction History",
+  "time" : {
+    "start" : 1607572502289,
+    "stop" : 1607572584301,
+    "duration" : 82012
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2ffdfaec8ecd3bfa",
+  "name" : "Switch_SignUp_002 - User able to sign up using valid unregistered google account",
+  "time" : {
+    "start" : 1607565333895,
+    "stop" : 1607565347919,
+    "duration" : 14024
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "73621b4ee1809282",
+  "name" : "Switch_Purchase_012 - User able to Pay Choose Permata VA",
+  "time" : {
+    "start" : 1607567667912,
+    "stop" : 1607567733573,
+    "duration" : 65661
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "93bcac45f6ea4e15",
+  "name" : "Switch_Purchase_003 - User able to Add Product Standard Bundle To Cart",
+  "time" : {
+    "start" : 1607567023284,
+    "stop" : 1607567082871,
+    "duration" : 59587
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f360bd3de9082bfc",
+  "name" : "Switch_Profile_012 - User able to contact Shelly using Chat",
+  "time" : {
+    "start" : 1607572318845,
+    "stop" : 1607572375743,
+    "duration" : 56898
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "96ece0ebf63e768e",
+  "name" : "Switch_Purchase_023 - User able to go to Roaming Service",
+  "time" : {
+    "start" : 1607568483206,
+    "stop" : 1607568532619,
+    "duration" : 49413
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "17faed8fcfd0b435",
+  "name" : "Switch_Login_008 - User unable to click button SUBMIT LOGIN when input Email Less Than 8 Character",
+  "time" : {
+    "start" : 1607565842889,
+    "stop" : 1607565862119,
+    "duration" : 19230
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7f9e465fe0fb71a3",
+  "name" : "Switch_Quest_014 - User able to Do Active Mission",
+  "time" : {
+    "start" : 1607573631857,
+    "stop" : 1607573681868,
+    "duration" : 50011
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "cb1850066d7224b3",
+  "name" : "Switch_Home_007 - User able to check custom now",
+  "time" : {
+    "start" : 1607566461136,
+    "stop" : 1607566534983,
+    "duration" : 73847
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c5ed5d9737b65d1e",
+  "name" : "Switch_Purchase_009 - User able to Pay Choose Credit Card",
+  "time" : {
+    "start" : 1607567446599,
+    "stop" : 1607567504320,
+    "duration" : 57721
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "99f8dee75593327b",
+  "name" : "Switch_Logout_002 - User able to LOGOUT and go back to HomePage",
+  "time" : {
+    "start" : 1607566036311,
+    "stop" : 1607566111016,
+    "duration" : 74705
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "8a0fdea623384cf1",
+  "name" : "Switch_Login_011 - User unable to login using INVALID SWITCH NUMBER",
+  "time" : {
+    "start" : 1607565923654,
+    "stop" : 1607565943367,
+    "duration" : 19713
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6cfe834f77af65e9",
+  "name" : "Switch_Deals_002 - User able to see all POINTS on POINT Page",
+  "time" : {
+    "start" : 1607571256174,
+    "stop" : 1607571303325,
+    "duration" : 47151
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "937a074b5b69c3a9",
+  "name" : "Switch_Home_002 - User unable to go to All Menu Page",
+  "time" : {
+    "start" : 1607566236288,
+    "stop" : 1607566254491,
+    "duration" : 18203
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed8d1cf2f745980",
+  "name" : "Switch_Purchase_028 - User can increase cart amount",
+  "time" : {
+    "start" : 1607568756394,
+    "stop" : 1607568808277,
+    "duration" : 51883
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d0a7783b57f3f31c",
+  "name" : "Switch_Profile_002 - User able to EDIT ALT PHONE NUMBER",
+  "time" : {
+    "start" : 1607571692042,
+    "stop" : 1607571735887,
+    "duration" : 43845
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7303000bac5f2bf0",
+  "name" : "Switch_Land_004 - User able to go to any page",
+  "time" : {
+    "start" : 1607565163328,
+    "stop" : 1607565190017,
+    "duration" : 26689
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e6e17c9351cce3d",
+  "name" : "Switch_Login_006 - User unable to click button SUBMIT LOGIN when input LESS THAN 8 NUMBER",
+  "time" : {
+    "start" : 1607565761968,
+    "stop" : 1607565805669,
+    "duration" : 43701
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "8c63aafefc049f6e",
+  "name" : "Switch_Profile_009 - User unable to Change PIN with Incorrect Current PIN",
+  "time" : {
+    "start" : 1607572115750,
+    "stop" : 1607572197497,
+    "duration" : 81747
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "fc1c16ae4b2bdd48",
+  "name" : "Switch_Login_012 - User unable to login using INVALID DOMAIN",
+  "time" : {
+    "start" : 1607565948418,
+    "stop" : 1607565966917,
+    "duration" : 18499
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "254f184eba809edb",
+  "name" : "Switch_Land_003 - User able to login as GUEST",
+  "time" : {
+    "start" : 1607565151990,
+    "stop" : 1607565158268,
+    "duration" : 6278
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "41599dd845cb5c85",
+  "name" : "Switch_Quest_006 - User able to Check Games",
+  "time" : {
+    "start" : 1607573201793,
+    "stop" : 1607573246614,
+    "duration" : 44821
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "75caa91715602976",
+  "name" : "Switch_Login_010 - User unable to login using INVALID PIN SWITCH NUMBER",
+  "time" : {
+    "start" : 1607565898548,
+    "stop" : 1607565918173,
+    "duration" : 19625
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "4c3f0332f97aa183",
+  "name" : "Switch_Profile_013 - User able to contact Shelly using Email",
+  "time" : {
+    "start" : 1607572380789,
+    "stop" : 1607572436901,
+    "duration" : 56112
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "27d20c328a50a9ab",
+  "name" : "Switch_SignUp_009 - Check PIN creation",
+  "time" : {
+    "start" : 1607565508559,
+    "stop" : 1607565528677,
+    "duration" : 20118
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf23aff436683f85",
+  "name" : "Switch_Land_002 - User able to go to LOGIN PAGE",
+  "time" : {
+    "start" : 1607565137150,
+    "stop" : 1607565145367,
+    "duration" : 8217
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be741164da34b1fb",
+  "name" : "Switch_Home_004 - User able to check balance remaining",
+  "time" : {
+    "start" : 1607566308648,
+    "stop" : 1607566361329,
+    "duration" : 52681
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "79d9c92d2a87e188",
+  "name" : "Switch_Home_005 - User able to check sms remaining",
+  "time" : {
+    "start" : 1607566366883,
+    "stop" : 1607566409434,
+    "duration" : 42551
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "39f7a7c653605cf4",
+  "name" : "Switch_Logout_003 - User able to cancel LOGOUT",
+  "time" : {
+    "start" : 1607566115681,
+    "stop" : 1607566169520,
+    "duration" : 53839
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "2b465fd8c3822a5b",
+  "name" : "Switch_Purchase_050 - User able to Pre Filled Cancelled Order SIM Profile Address",
+  "time" : {
+    "start" : 1607570569579,
+    "stop" : 1607570694277,
+    "duration" : 124698
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "2a2711928cc47084",
+  "name" : "Switch_Quest_010 - User able to Check All Games",
+  "time" : {
+    "start" : 1607573401793,
+    "stop" : 1607573454881,
+    "duration" : 53088
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "378d0ff8fe89e39c",
+  "name" : "Switch_SignUp_005 - User unable to sign up using valid registered email",
+  "time" : {
+    "start" : 1607565407195,
+    "stop" : 1607565444770,
+    "duration" : 37575
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "785a7279a49b79a7",
+  "name" : "Switch_Purchase_001 - User able to Add Product Super Bundle To Cart",
+  "time" : {
+    "start" : 1607566899641,
+    "stop" : 1607566953923,
+    "duration" : 54282
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "324d1b7ee8a7e436",
+  "name" : "Switch_Profile_006 - User able to Fill Address",
+  "time" : {
+    "start" : 1607571932921,
+    "stop" : 1607571995236,
+    "duration" : 62315
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "9c0a3a736aae3db3",
+  "name" : "Switch_Home_003 - User able to check detail plan",
+  "time" : {
+    "start" : 1607566261784,
+    "stop" : 1607566303680,
+    "duration" : 41896
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ecb7c8bacc41bf1a",
+  "name" : "Switch_Profile_005 - User able to Fill Address",
+  "time" : {
+    "start" : 1607571851627,
+    "stop" : 1607571926541,
+    "duration" : 74914
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c62ff56914af5338",
+  "name" : "Switch_Login_004 - User unable to Login using wrong type of email",
+  "time" : {
+    "start" : 1607565705625,
+    "stop" : 1607565714020,
+    "duration" : 8395
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c4f7da5bc4cc2f6",
+  "name" : "Switch_Purchase_024 - User able to add Token 100 to cart",
+  "time" : {
+    "start" : 1607568537867,
+    "stop" : 1607568587439,
+    "duration" : 49572
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "28de72b94c841376",
+  "name" : "Switch_Land_007 - User able to go to Login/SignUp with Bahasa Language",
+  "time" : {
+    "start" : 1607565232074,
+    "stop" : 1607565298970,
+    "duration" : 66896
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "289589965f841e0b",
+  "name" : "Switch_SignUp_008 - Check input personal info page",
+  "time" : {
+    "start" : 1607565489855,
+    "stop" : 1607565500077,
+    "duration" : 10222
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2586d8b0c995e7c3",
+  "name" : "Switch_Login_001 - User able to pass HOMEPAGE from VALID LOGIN EMAIL",
+  "time" : {
+    "start" : 1607565552544,
+    "stop" : 1607565594834,
+    "duration" : 42290
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "84f1ee881a38aed1",
+  "name" : "Switch_Purchase_010 - User able to Pay Choose Mandiri VA",
+  "time" : {
+    "start" : 1607567510576,
+    "stop" : 1607567572120,
+    "duration" : 61544
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "282b1285363adb8f",
+  "name" : "Switch_Purchase_035 - Check change selected custom plan",
+  "time" : {
+    "start" : 1607569326728,
+    "stop" : 1607569375547,
+    "duration" : 48819
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "daf4b7198af4fe31",
+  "name" : "Switch_Purchase_047 - User able to Edit MDN On Checkout Page",
+  "time" : {
+    "start" : 1607570350998,
+    "stop" : 1607570448926,
+    "duration" : 97928
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d9373040d26ca731",
+  "name" : "Switch_Profile_008 - User able to Share Referral Code",
+  "time" : {
+    "start" : 1607572054846,
+    "stop" : 1607572103895,
+    "duration" : 49049
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "33e44f6dd55b9e05",
+  "name" : "Switch_Deals_005 - User able to buy Voucher using Points",
+  "time" : {
+    "start" : 1607571422226,
+    "stop" : 1607571473491,
+    "duration" : 51265
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "40f01c484e8bb179",
+  "name" : "Switch_Purchase_026 - User able to add Token 20 to cart",
+  "time" : {
+    "start" : 1607568648498,
+    "stop" : 1607568696637,
+    "duration" : 48139
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "9f7d89335317cfd",
+  "name" : "Switch_Home_006 - User able to check call remaining",
+  "time" : {
+    "start" : 1607566414309,
+    "stop" : 1607566456382,
+    "duration" : 42073
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9566d7c2fb6628c0",
+  "name" : "Switch_SignUp_003 - User able to sign up using valid unregistered facebook account",
+  "time" : {
+    "start" : 1607565357044,
+    "stop" : 1607565384669,
+    "duration" : 27625
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf0fda12a1a0b4e2",
+  "name" : "Switch_Purchase_051 - User able to Pre Filled Cancelled Order SIM Profile Address",
+  "time" : {
+    "start" : 1607570698606,
+    "stop" : 1607570827892,
+    "duration" : 129286
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "da43f298cac5045f",
+  "name" : "Switch_Purchase_041 - User able to Order SIM First Time",
+  "time" : {
+    "start" : 1607569645299,
+    "stop" : 1607569716342,
+    "duration" : 71043
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "7086e141c74549b1",
+  "name" : "Switch_Profile_003 - User able to CHANGE LANGUAGE",
+  "time" : {
+    "start" : 1607571742653,
+    "stop" : 1607571796437,
+    "duration" : 53784
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e6d918178eae9fbf",
+  "name" : "Switch_Land_001 - User able to go to SIGN UP PAGE",
+  "time" : {
+    "start" : 1607565122552,
+    "stop" : 1607565131289,
+    "duration" : 8737
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3805c1e9aa91e56",
+  "name" : "Switch_Purchase_044 - User able to Fill Address With Drop PIN",
+  "time" : {
+    "start" : 1607569925091,
+    "stop" : 1607570047177,
+    "duration" : 122086
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "3fd498e5a8c533c7",
+  "name" : "Switch_Purchase_037 - Check buy Influencer Custom Plan",
+  "time" : {
+    "start" : 1607569431359,
+    "stop" : 1607569479186,
+    "duration" : 47827
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "223733930da39146",
+  "name" : "Switch_History_003 - User able to see Processed Transaction History",
+  "time" : {
+    "start" : 1607572678123,
+    "stop" : 1607572758707,
+    "duration" : 80584
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b780538c7223bd3b",
+  "name" : "Switch_Quest_008 - User able to Check Daily Login Quest",
+  "time" : {
+    "start" : 1607573302679,
+    "stop" : 1607573347404,
+    "duration" : 44725
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3a54646a89a218b7",
+  "name" : "Switch_Login_003 - User unable to pass HOMEPAGE from INVALID LOGIN UNREGISTERED EMAIL",
+  "time" : {
+    "start" : 1607565654599,
+    "stop" : 1607565698878,
+    "duration" : 44279
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "16388dd64b3c9c9a",
+  "name" : "Switch_Purchase_021 - User able go to Add On Service",
+  "time" : {
+    "start" : 1607568375664,
+    "stop" : 1607568423524,
+    "duration" : 47860
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ce23c94a8c9f6db7",
+  "name" : "Switch_Profile_004 - User unable to EMPTY FULLNAME",
+  "time" : {
+    "start" : 1607571801152,
+    "stop" : 1607571846085,
+    "duration" : 44933
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ba57dda35e2a531d",
+  "name" : "Switch_Quest_003 - User able to Check All Big Mission",
+  "time" : {
+    "start" : 1607573036343,
+    "stop" : 1607573086346,
+    "duration" : 50003
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "fbc7435dcb988b5",
+  "name" : "Switch_Purchase_033 - User can buy Token using OVO",
+  "time" : {
+    "start" : 1607569157896,
+    "stop" : 1607569239338,
+    "duration" : 81442
+  },
+  "status" : "broken",
   "severity" : "critical"
 } ]

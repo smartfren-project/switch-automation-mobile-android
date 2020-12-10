@@ -1,0 +1,199 @@
+{
+  "uid" : "72e2e6e985efd4df",
+  "name" : "Switch_Quest_009 - User able to Check Mission",
+  "fullName" : "tests.QuestITest.checkMainMission",
+  "historyId" : "b1b571bb3958ab54439cdfdeeac5aff1",
+  "time" : {
+    "start" : 1607573352405,
+    "stop" : 1607573395949,
+    "duration" : 43544
+  },
+  "description" : "Verify that user can check all Mission",
+  "descriptionHtml" : "<p>Verify that user can check all Mission</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1607565106469,
+      "stop" : 1607565122439,
+      "duration" : 15970
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify that user can check all Mission",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "User Do Valid Login Using Email or Switch Number",
+      "time" : {
+        "start" : 1607573352405,
+        "stop" : 1607573392449,
+        "duration" : 40044
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click Button Login",
+        "time" : {
+          "start" : 1607573352405,
+          "stop" : 1607573360055,
+          "duration" : 7650
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "tan.rafel@gmail.com"
+      }, {
+        "name" : "pin",
+        "value" : "270413"
+      }, {
+        "name" : "otp1",
+        "value" : "1"
+      }, {
+        "name" : "otp2",
+        "value" : "2"
+      }, {
+        "name" : "otp3",
+        "value" : "3"
+      }, {
+        "name" : "otp4",
+        "value" : "4"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Do Click Mission",
+      "time" : {
+        "start" : 1607573392449,
+        "stop" : 1607573395219,
+        "duration" : 2770
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "609eb8b0e688495b",
+      "name" : "screenShot",
+      "source" : "609eb8b0e688495b.png",
+      "type" : "image/png",
+      "size" : 206307
+    }, {
+      "uid" : "c48e7c1b7fd6cf85",
+      "name" : "Page Screenshot",
+      "source" : "c48e7c1b7fd6cf85.png",
+      "type" : "image/png",
+      "size" : 36224
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeAppSwitch",
+    "time" : {
+      "start" : 1607573396500,
+      "stop" : 1607573401790,
+      "duration" : 5290
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.QuestITest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.QuestITest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkMainMission"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Switch Android Regression Test"
+  }, {
+    "name" : "suite",
+    "value" : "Switch Android Regression Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.QuestITest"
+  }, {
+    "name" : "host",
+    "value" : "Faizals-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "43788@Faizals-MacBook-Pro.local.TestNG-test=Switch Android Regression Test-9(28)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story Name : Check Quest"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "deviceName",
+    "value" : "Pixel"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "db3369d20b40037c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604655122936,
+        "stop" : 1604655143978,
+        "duration" : 21042
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "72e2e6e985efd4df.json",
+  "parameterValues" : [ "Pixel" ]
+}

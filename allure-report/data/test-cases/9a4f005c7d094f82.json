@@ -1,0 +1,168 @@
+{
+  "uid" : "9a4f005c7d094f82",
+  "name" : "Switch_Home_002 - User unable to go to All Menu Page",
+  "fullName" : "tests.HomepageITest.checkGoToSignUpPageUsingGuest",
+  "historyId" : "be699a216b30c531839aa292beedc412",
+  "time" : {
+    "start" : 1604651339716,
+    "stop" : 1604651355716,
+    "duration" : 16000
+  },
+  "description" : "Verify that User is can't navigating to All Menu Page by Clicking on Any Available Main Menu.",
+  "descriptionHtml" : "<p>Verify that User is can't navigating to All Menu Page by Clicking on Any Available Main Menu.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1604650627305,
+      "stop" : 1604650635935,
+      "duration" : 8630
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify that User is can't navigating to All Menu Page by Clicking on Any Available Main Menu.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click Button Skip",
+      "time" : {
+        "start" : 1604651339716,
+        "stop" : 1604651345596,
+        "duration" : 5880
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "User Can't Go To All Main Menu Page",
+      "time" : {
+        "start" : 1604651345597,
+        "stop" : 1604651354321,
+        "duration" : 8724
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "1cceb82e8e4d0f98",
+      "name" : "screenShot",
+      "source" : "1cceb82e8e4d0f98.png",
+      "type" : "image/png",
+      "size" : 387624
+    }, {
+      "uid" : "557940ff8ec92b87",
+      "name" : "Page Screenshot",
+      "source" : "557940ff8ec92b87.png",
+      "type" : "image/png",
+      "size" : 387624
+    }, {
+      "uid" : "3dd2c998019c0aca",
+      "name" : "screenShot",
+      "source" : "3dd2c998019c0aca.png",
+      "type" : "image/png",
+      "size" : 387624
+    }, {
+      "uid" : "a5ccdc88e2f38e9c",
+      "name" : "Page Screenshot",
+      "source" : "a5ccdc88e2f38e9c.png",
+      "type" : "image/png",
+      "size" : 387624
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeAppSwitch",
+    "time" : {
+      "start" : 1604651355717,
+      "stop" : 1604651359786,
+      "duration" : 4069
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.HomepageITest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.HomepageITest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkGoToSignUpPageUsingGuest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Switch Android Regression Test"
+  }, {
+    "name" : "suite",
+    "value" : "Switch Android Regression Test (BAHASA VERSION)"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.HomepageITest"
+  }, {
+    "name" : "host",
+    "value" : "Faizals-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "10243@Faizals-MacBook-Pro.local.TestNG-test=Switch Android Regression Test (BAHASA VERSION)-12(33)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story Name : Check On Home Page"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "deviceName",
+    "value" : "Pixel"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9a4f005c7d094f82.json",
+  "parameterValues" : [ "Pixel" ]
+}

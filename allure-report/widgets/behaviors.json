@@ -1,48 +1,114 @@
 {
-  "total" : 4,
+  "total" : 12,
   "items" : [ {
-    "uid" : "e63040ff878c73067d728b8b397012ad",
-    "name" : "Story Name : Check Credential",
+    "uid" : "c7fecb4b2988728145e5bba21b973e1f",
+    "name" : "Story Name : Check User Profile",
     "statistic" : {
-      "failed" : 0,
-      "broken" : 3,
-      "skipped" : 0,
-      "passed" : 9,
-      "unknown" : 0,
-      "total" : 12
-    }
-  }, {
-    "uid" : "9ed3ed3440f5ad31c05cdc650ec2edf1",
-    "name" : "Story Name : Check On Landing Page",
-    "statistic" : {
-      "failed" : 0,
+      "failed" : 2,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 7
-    }
-  }, {
-    "uid" : "72b657c77f61f1075af3cb2d99ebe4fa",
-    "name" : "Story Name : Check On Home Page",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 2
+      "total" : 14
     }
   }, {
     "uid" : "c9d1ff9ee6aeffd28af0d53d04d3835f",
     "name" : "Story Name : Check Purchase",
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 21,
+      "skipped" : 0,
+      "passed" : 34,
+      "unknown" : 0,
+      "total" : 55
+    }
+  }, {
+    "uid" : "72b657c77f61f1075af3cb2d99ebe4fa",
+    "name" : "Story Name : Check On Home Page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 4,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 13
+    }
+  }, {
+    "uid" : "12e4d3a7138ab3826d5aeeb14bfd6bcb",
+    "name" : "Story Name : Check On History Page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 4,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 4
+    }
+  }, {
+    "uid" : "3e950c034efbc113850ac34a2677fb70",
+    "name" : "Story Name : Check Quest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 12,
+      "unknown" : 0,
+      "total" : 14
+    }
+  }, {
+    "uid" : "36aaae3127a7de2e3b2cb00ccfec61d8",
+    "name" : "Story Name : Check Login",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 12
+    }
+  }, {
+    "uid" : "5c9901561e63b62d14cb9aa771f9a8f0",
+    "name" : "Story Name : Check On SignUp Page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 10
+    }
+  }, {
+    "uid" : "9ed3ed3440f5ad31c05cdc650ec2edf1",
+    "name" : "Story Name : Check On Landing Page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "316f098043c2d495d99841774d3777a0",
+    "name" : "Story Name : Check On Deals Page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "d638ff395a3c6dbb3bfc0520dceca5de",
+    "name" : "Story Name : Check Logout",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
     }
   } ]
 }

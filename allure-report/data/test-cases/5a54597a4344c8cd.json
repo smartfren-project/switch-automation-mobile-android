@@ -1,0 +1,192 @@
+{
+  "uid" : "5a54597a4344c8cd",
+  "name" : "Switch_Profile_008 - User able to Share Referral Code",
+  "fullName" : "tests.ProfileITest.checkShareReferralCode",
+  "historyId" : "8f52e5d01afb1eda095577f6d0d21181",
+  "time" : {
+    "start" : 1604654626387,
+    "stop" : 1604654646826,
+    "duration" : 20439
+  },
+  "description" : "Verify that user can SHARE REFERRAL CODE from Profile Menu.",
+  "descriptionHtml" : "<p>Verify that user can SHARE REFERRAL CODE from Profile Menu.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1604650627305,
+      "stop" : 1604650635935,
+      "duration" : 8630
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify that user can SHARE REFERRAL CODE from Profile Menu.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "User Do Valid Login Using Email or Switch Number",
+      "time" : {
+        "start" : 1604654626387,
+        "stop" : 1604654640079,
+        "duration" : 13692
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click Button Login",
+        "time" : {
+          "start" : 1604654626387,
+          "stop" : 1604654634427,
+          "duration" : 8040
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "088906011294"
+      }, {
+        "name" : "pin",
+        "value" : "111111"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "User Do Copy Referral Code",
+      "time" : {
+        "start" : 1604654640079,
+        "stop" : 1604654645350,
+        "duration" : 5271
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "refCode",
+        "value" : "fgyRpcHC"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "22ac186a93c2398f",
+      "name" : "screenShot",
+      "source" : "22ac186a93c2398f.png",
+      "type" : "image/png",
+      "size" : 148533
+    }, {
+      "uid" : "bceb740b73d68dd5",
+      "name" : "Page Screenshot",
+      "source" : "bceb740b73d68dd5.png",
+      "type" : "image/png",
+      "size" : 148533
+    }, {
+      "uid" : "3a21cd0f21c5e8d9",
+      "name" : "screenShot",
+      "source" : "3a21cd0f21c5e8d9.png",
+      "type" : "image/png",
+      "size" : 140297
+    }, {
+      "uid" : "de73dfe46f0ac9a7",
+      "name" : "Page Screenshot",
+      "source" : "de73dfe46f0ac9a7.png",
+      "type" : "image/png",
+      "size" : 122815
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeAppSwitch",
+    "time" : {
+      "start" : 1604654646827,
+      "stop" : 1604654651133,
+      "duration" : 4306
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.ProfileITest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.ProfileITest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkShareReferralCode"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Switch Android Regression Test"
+  }, {
+    "name" : "suite",
+    "value" : "Switch Android Regression Test (BAHASA VERSION)"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.ProfileITest"
+  }, {
+    "name" : "host",
+    "value" : "Faizals-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "10243@Faizals-MacBook-Pro.local.TestNG-test=Switch Android Regression Test (BAHASA VERSION)-5(25)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story Name : Check User Profile"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "deviceName",
+    "value" : "Pixel"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5a54597a4344c8cd.json",
+  "parameterValues" : [ "Pixel" ]
+}

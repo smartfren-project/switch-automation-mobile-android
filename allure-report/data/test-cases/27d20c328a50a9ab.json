@@ -1,0 +1,169 @@
+{
+  "uid" : "27d20c328a50a9ab",
+  "name" : "Switch_SignUp_009 - Check PIN creation",
+  "fullName" : "tests.SignUpITest.checkPINAfterCreate",
+  "historyId" : "5f2a99d6d0feae482098791e6471db18",
+  "time" : {
+    "start" : 1607565508559,
+    "stop" : 1607565528677,
+    "duration" : 20118
+  },
+  "description" : "Verify that User can create PIN.",
+  "descriptionHtml" : "<p>Verify that User can create PIN.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1607565106469,
+      "stop" : 1607565122439,
+      "duration" : 15970
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify that User can create PIN.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click Button Sign Up",
+      "time" : {
+        "start" : 1607565508560,
+        "stop" : 1607565527973,
+        "duration" : 19413
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "User Invalid SignUp Username Validation",
+      "time" : {
+        "start" : 1607565527973,
+        "stop" : 1607565528112,
+        "duration" : 139
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "a@a.c"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "160c1b5e4c67e51c",
+      "name" : "screenShot",
+      "source" : "160c1b5e4c67e51c.png",
+      "type" : "image/png",
+      "size" : 77171
+    }, {
+      "uid" : "23a0cfca0049c72",
+      "name" : "Page Screenshot",
+      "source" : "23a0cfca0049c72.png",
+      "type" : "image/png",
+      "size" : 76997
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeAppSwitch",
+    "time" : {
+      "start" : 1607565529172,
+      "stop" : 1607565533580,
+      "duration" : 4408
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.SignUpITest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.SignUpITest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkPINAfterCreate"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Switch Android Regression Test"
+  }, {
+    "name" : "suite",
+    "value" : "Switch Android Regression Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.SignUpITest"
+  }, {
+    "name" : "host",
+    "value" : "Faizals-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "43788@Faizals-MacBook-Pro.local.TestNG-test=Switch Android Regression Test-12(31)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story Name : Check On SignUp Page"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "deviceName",
+    "value" : "Pixel"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cbf941a5cd95e6ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604650917340,
+        "stop" : 1604650927592,
+        "duration" : 10252
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "27d20c328a50a9ab.json",
+  "parameterValues" : [ "Pixel" ]
+}

@@ -1,0 +1,199 @@
+{
+  "uid" : "4c486561c711b2b3",
+  "name" : "Switch_Profile_010 - User able to see POINT Value",
+  "fullName" : "tests.ProfileITest.checkPointOnProfilePage",
+  "historyId" : "93b21fa4ce425bfc9fa10658ccd4a642",
+  "time" : {
+    "start" : 1607572202534,
+    "stop" : 1607572251339,
+    "duration" : 48805
+  },
+  "description" : "Verify that user can see POINT in Profile Page",
+  "descriptionHtml" : "<p>Verify that user can see POINT in Profile Page</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1607565106469,
+      "stop" : 1607565122439,
+      "duration" : 15970
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify that user can see POINT in Profile Page",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "User Do Valid Login Using Email or Switch Number",
+      "time" : {
+        "start" : 1607572202535,
+        "stop" : 1607572242685,
+        "duration" : 40150
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click Button Login",
+        "time" : {
+          "start" : 1607572202535,
+          "stop" : 1607572210449,
+          "duration" : 7914
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "tan.rafel@gmail.com"
+      }, {
+        "name" : "pin",
+        "value" : "270413"
+      }, {
+        "name" : "otp1",
+        "value" : "1"
+      }, {
+        "name" : "otp2",
+        "value" : "2"
+      }, {
+        "name" : "otp3",
+        "value" : "3"
+      }, {
+        "name" : "otp4",
+        "value" : "4"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "User can see Points and Rubies Value on Page",
+      "time" : {
+        "start" : 1607572242685,
+        "stop" : 1607572250483,
+        "duration" : 7798
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "ba4e3b717788f2fa",
+      "name" : "screenShot",
+      "source" : "ba4e3b717788f2fa.png",
+      "type" : "image/png",
+      "size" : 49928
+    }, {
+      "uid" : "e3cafaeb8da2ad66",
+      "name" : "Page Screenshot",
+      "source" : "e3cafaeb8da2ad66.png",
+      "type" : "image/png",
+      "size" : 98162
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeAppSwitch",
+    "time" : {
+      "start" : 1607572252311,
+      "stop" : 1607572256889,
+      "duration" : 4578
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.ProfileITest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.ProfileITest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkPointOnProfilePage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Switch Android Regression Test"
+  }, {
+    "name" : "suite",
+    "value" : "Switch Android Regression Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.ProfileITest"
+  }, {
+    "name" : "host",
+    "value" : "Faizals-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "43788@Faizals-MacBook-Pro.local.TestNG-test=Switch Android Regression Test-7(25)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story Name : Check User Profile"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "deviceName",
+    "value" : "Pixel"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "e1e9214b5ff138a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604654681016,
+        "stop" : 1604654703323,
+        "duration" : 22307
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4c486561c711b2b3.json",
+  "parameterValues" : [ "Pixel" ]
+}

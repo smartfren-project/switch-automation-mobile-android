@@ -1,0 +1,169 @@
+{
+  "uid" : "289589965f841e0b",
+  "name" : "Switch_SignUp_008 - Check input personal info page",
+  "fullName" : "tests.SignUpITest.checkInputPersonalInfoPage",
+  "historyId" : "58e374690deb4c7bfa3e67286f1d600d",
+  "time" : {
+    "start" : 1607565489855,
+    "stop" : 1607565500077,
+    "duration" : 10222
+  },
+  "description" : "Verify that User can check input personal info page.",
+  "descriptionHtml" : "<p>Verify that User can check input personal info page.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1607565106469,
+      "stop" : 1607565122439,
+      "duration" : 15970
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify that User can check input personal info page.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click Button Sign Up",
+      "time" : {
+        "start" : 1607565489856,
+        "stop" : 1607565498579,
+        "duration" : 8723
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "User Invalid SignUp Username Validation",
+      "time" : {
+        "start" : 1607565498579,
+        "stop" : 1607565499255,
+        "duration" : 676
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "a@a.c"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "da9315320d01ef9e",
+      "name" : "screenShot",
+      "source" : "da9315320d01ef9e.png",
+      "type" : "image/png",
+      "size" : 77017
+    }, {
+      "uid" : "d0c724d29c0cfc44",
+      "name" : "Page Screenshot",
+      "source" : "d0c724d29c0cfc44.png",
+      "type" : "image/png",
+      "size" : 76997
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeAppSwitch",
+    "time" : {
+      "start" : 1607565500667,
+      "stop" : 1607565508554,
+      "duration" : 7887
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.SignUpITest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.SignUpITest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkInputPersonalInfoPage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Switch Android Regression Test"
+  }, {
+    "name" : "suite",
+    "value" : "Switch Android Regression Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.SignUpITest"
+  }, {
+    "name" : "host",
+    "value" : "Faizals-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "43788@Faizals-MacBook-Pro.local.TestNG-test=Switch Android Regression Test-12(31)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story Name : Check On SignUp Page"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "deviceName",
+    "value" : "Pixel"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cf755a340c6e2b88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604650904386,
+        "stop" : 1604650913315,
+        "duration" : 8929
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "289589965f841e0b.json",
+  "parameterValues" : [ "Pixel" ]
+}

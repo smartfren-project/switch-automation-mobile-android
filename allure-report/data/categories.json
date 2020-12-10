@@ -4,100 +4,578 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "androidx.test.uiautomator.StaleObjectException\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Faizals-MacBook-Pro.local', ip: 'fe80:0:0:0:14de:e496:6318:a6af%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_251'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /home/radmin/build/raid-dat..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 30092, databaseEnabled: false, desired: {app: /home/radmin/build/raid-dat..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 30092, deviceName: 442, launchTimeout: 90000, newCommandTimeout: 600, pCloudy_ApiKey: ybrf4d2k3jv496f5x53w93wc, pCloudy_ApplicationName: switch.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyS9_Android_10..., pCloudy_DurationInMinutes: 30, pCloudy_Username: pramoda.kumar@smartfren.com, pCloudy_WildNet: false, platformName: android, platformVersion: 10.0.0, systemPort: 30094, udid: 218b2700920d7ece}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-G960F, deviceName: 218b2700920d7ece, deviceScreenDensity: 640, deviceScreenSize: 1440x2960, deviceUDID: 218b2700920d7ece, javascriptEnabled: true, launchTimeout: 90000, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pCloudy_ApiKey: ybrf4d2k3jv496f5x53w93wc, pCloudy_ApplicationName: switch.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyS9_Android_10..., pCloudy_DurationInMinutes: 30, pCloudy_Username: pramoda.kumar@smartfren.com, pCloudy_WildNet: false, pixelRatio: 4, platform: LINUX, platformName: ANDROID, platformVersion: 10, statBarHeight: 96, systemPort: 30094, takesScreenshot: true, udid: 218b2700920d7ece, viewportRect: {height: 2672, left: 0, top: 96, width: 1440}, warnings: {}, webStorageEnabled: false}\nSession ID: 3e215947-6e0d-48aa-98ea-2820e2d2eafc",
+      "name" : "Expected condition failed: waiting for visibility of element located by By.id: com.smartfren.switchmobile:id/skip (tried for 20 second(s) with 500 milliseconds interval)",
       "children" : [ {
-        "name" : "Switch_Land_007 - User able to go to Login/SignUp with Bahasa Language",
-        "uid" : "8ae3bae01e1539ed",
-        "parentUid" : "057f241497545c7f4c24b7d24f64c880",
+        "name" : "Switch_Login_003 - User unable to pass HOMEPAGE from INVALID LOGIN UNREGISTERED EMAIL",
+        "uid" : "3a54646a89a218b7",
+        "parentUid" : "808db3aabe68b90618c96762e8f5ebf0",
         "status" : "broken",
         "time" : {
-          "start" : 1599815288917,
-          "stop" : 1599815339159,
-          "duration" : 50242
+          "start" : 1607565654599,
+          "stop" : 1607565698878,
+          "duration" : 44279
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "Samsung" ]
+        "parameters" : [ "Pixel" ]
       }, {
-        "name" : "Switch_Login_002 - User able to pass HOMEPAGE from VALID LOGIN SWITCH NUMBER",
-        "uid" : "df63cc6e9f08a1bd",
-        "parentUid" : "057f241497545c7f4c24b7d24f64c880",
-        "status" : "broken",
-        "time" : {
-          "start" : 1599815382072,
-          "stop" : 1599815413745,
-          "duration" : 31673
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Samsung" ]
-      } ],
-      "uid" : "057f241497545c7f4c24b7d24f64c880"
-    }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.id: com.smartfren.switchmobile:id/skip (tried for 10 second(s) with 500 milliseconds interval)",
-      "children" : [ {
         "name" : "Switch_Login_006 - User unable to click button SUBMIT LOGIN when input LESS THAN 8 NUMBER",
-        "uid" : "23d29fbcbea1c5b8",
-        "parentUid" : "f482c1c13c1cbcbac5b92d4496903061",
+        "uid" : "9e6e17c9351cce3d",
+        "parentUid" : "808db3aabe68b90618c96762e8f5ebf0",
         "status" : "broken",
         "time" : {
-          "start" : 1599815514857,
-          "stop" : 1599815562984,
-          "duration" : 48127
+          "start" : 1607565761968,
+          "stop" : 1607565805669,
+          "duration" : 43701
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "Samsung" ]
+        "parameters" : [ "Pixel" ]
       } ],
-      "uid" : "f482c1c13c1cbcbac5b92d4496903061"
+      "uid" : "808db3aabe68b90618c96762e8f5ebf0"
     }, {
-      "name" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Faizals-MacBook-Pro.local', ip: 'fe80:0:0:0:14de:e496:6318:a6af%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_251'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /home/radmin/build/raid-dat..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 30092, databaseEnabled: false, desired: {app: /home/radmin/build/raid-dat..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 30092, deviceName: 442, launchTimeout: 90000, newCommandTimeout: 600, pCloudy_ApiKey: ybrf4d2k3jv496f5x53w93wc, pCloudy_ApplicationName: switch.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyS9_Android_10..., pCloudy_DurationInMinutes: 30, pCloudy_Username: pramoda.kumar@smartfren.com, pCloudy_WildNet: false, platformName: android, platformVersion: 10.0.0, systemPort: 30094, udid: 218b2700920d7ece}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-G960F, deviceName: 218b2700920d7ece, deviceScreenDensity: 640, deviceScreenSize: 1440x2960, deviceUDID: 218b2700920d7ece, javascriptEnabled: true, launchTimeout: 90000, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pCloudy_ApiKey: ybrf4d2k3jv496f5x53w93wc, pCloudy_ApplicationName: switch.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyS9_Android_10..., pCloudy_DurationInMinutes: 30, pCloudy_Username: pramoda.kumar@smartfren.com, pCloudy_WildNet: false, pixelRatio: 4, platform: LINUX, platformName: ANDROID, platformVersion: 10, statBarHeight: 96, systemPort: 30094, takesScreenshot: true, udid: 218b2700920d7ece, viewportRect: {height: 2672, left: 0, top: 96, width: 1440}, warnings: {}, webStorageEnabled: false}\nSession ID: 3e215947-6e0d-48aa-98ea-2820e2d2eafc\n*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView(new UiSelector().resourceId(\"com.smartfren.switchmobile:id/logout\"));}",
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@text='Custom Now'] (tried for 20 second(s) with 500 milliseconds interval)",
       "children" : [ {
-        "name" : "Switch_Profile_001 - User able to LOGOUT and go back to PIN Page",
-        "uid" : "848858f36b550a3f",
-        "parentUid" : "9567269af3591fa07b69be79ad46e86a",
+        "name" : "Switch_Home_007 - User able to check custom now",
+        "uid" : "cb1850066d7224b3",
+        "parentUid" : "a53c30a7ec7cb58304d0cc67e036948a",
         "status" : "broken",
         "time" : {
-          "start" : 1599815712934,
-          "stop" : 1599815784618,
-          "duration" : 71684
+          "start" : 1607566461136,
+          "stop" : 1607566534983,
+          "duration" : 73847
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "Samsung" ]
+        "parameters" : [ "Pixel" ]
       } ],
-      "uid" : "9567269af3591fa07b69be79ad46e86a"
+      "uid" : "a53c30a7ec7cb58304d0cc67e036948a"
     }, {
-      "name" : "The element 'By.id: com.smartfren.switchmobile:id/username' does not exist in DOM anymore\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Faizals-MacBook-Pro.local', ip: 'fe80:0:0:0:14de:e496:6318:a6af%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_251'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /home/radmin/build/raid-dat..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 30092, databaseEnabled: false, desired: {app: /home/radmin/build/raid-dat..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 30092, deviceName: 442, launchTimeout: 90000, newCommandTimeout: 600, pCloudy_ApiKey: ybrf4d2k3jv496f5x53w93wc, pCloudy_ApplicationName: switch.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyS9_Android_10..., pCloudy_DurationInMinutes: 30, pCloudy_Username: pramoda.kumar@smartfren.com, pCloudy_WildNet: false, platformName: android, platformVersion: 10.0.0, systemPort: 30094, udid: 218b2700920d7ece}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-G960F, deviceName: 218b2700920d7ece, deviceScreenDensity: 640, deviceScreenSize: 1440x2960, deviceUDID: 218b2700920d7ece, javascriptEnabled: true, launchTimeout: 90000, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pCloudy_ApiKey: ybrf4d2k3jv496f5x53w93wc, pCloudy_ApplicationName: switch.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyS9_Android_10..., pCloudy_DurationInMinutes: 30, pCloudy_Username: pramoda.kumar@smartfren.com, pCloudy_WildNet: false, pixelRatio: 4, platform: LINUX, platformName: ANDROID, platformVersion: 10, statBarHeight: 96, systemPort: 30094, takesScreenshot: true, udid: 218b2700920d7ece, viewportRect: {height: 2672, left: 0, top: 96, width: 1440}, warnings: {}, webStorageEnabled: false}\nSession ID: 3e215947-6e0d-48aa-98ea-2820e2d2eafc",
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@text='Get Now!'] (tried for 20 second(s) with 500 milliseconds interval)",
       "children" : [ {
-        "name" : "Switch_Home_001 - User able to go to All Menu Page",
-        "uid" : "b63b665cee1b5b38",
-        "parentUid" : "3d6f7f8dca53bc3bb1f0bdc2e2e44177",
+        "name" : "Switch_Home_008 - User able to check big mission",
+        "uid" : "303a8f5f10fde30c",
+        "parentUid" : "7114945b9117f97485dd561f802bf668",
         "status" : "broken",
         "time" : {
-          "start" : 1599815791977,
-          "stop" : 1599815814619,
-          "duration" : 22642
+          "start" : 1607566541791,
+          "stop" : 1607566614631,
+          "duration" : 72840
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "Samsung" ]
+        "parameters" : [ "Pixel" ]
+      } ],
+      "uid" : "7114945b9117f97485dd561f802bf668"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@text='Up To 35.000'] (tried for 20 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Switch_Home_009 - User able to check e-commerce",
+        "uid" : "b0ca1ef321a4d67a",
+        "parentUid" : "05874d3f5b01344b55def482be46ffb2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607566618936,
+          "stop" : 1607566690779,
+          "duration" : 71843
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      } ],
+      "uid" : "05874d3f5b01344b55def482be46ffb2"
+    }, {
+      "name" : "Could not parse expression `new UiScrollable(new UiSelector().resourceId(\"com.smartfren.switchmobile:id/recycler_trending_news\")).scrollIntoView(new UiSelector().xpath(\"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup[2]/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/android.widget.TextView[1]\"))`: `UiScrollable` doesn't have suitable method `scrollIntoView` with arguments [new UiSelector().xpath(\"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup[2]/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/android.widget.TextView[1]\")]: Could not parse expression `new UiSelector().xpath(\"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup[2]/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/android.widget.TextView[1]\")`: UiSelector has no `xpath` method\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Faizals-MacBook-Pro.local', ip: 'fe80:0:0:0:c27:430f:e576:ebb3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_251'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, databaseEnabled: false, desired: {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, noReset: true, platformName: android, platformVersion: 8.1.0, udid: emulator-5554}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: ANDROID, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: dcc6f7e6-7ced-41be-8375-8bb0740d3cd5\n*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().resourceId(\"com.smartfren.switchmobile:id/recycler_trending_news\")).scrollIntoView(new UiSelector().xpath(\"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup[2]/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/android.widget.TextView[1]\"));}",
+      "children" : [ {
+        "name" : "Switch_Home_013 - User able to see first news",
+        "uid" : "1247531516806fac",
+        "parentUid" : "ba81fc0facc8e9e95bd92a417d12e171",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607566846484,
+          "stop" : 1607566893251,
+          "duration" : 46767
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      } ],
+      "uid" : "ba81fc0facc8e9e95bd92a417d12e171"
+    }, {
+      "name" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Faizals-MacBook-Pro.local', ip: 'fe80:0:0:0:c27:430f:e576:ebb3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_251'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, databaseEnabled: false, desired: {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, noReset: true, platformName: android, platformVersion: 8.1.0, udid: emulator-5554}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: ANDROID, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: dcc6f7e6-7ced-41be-8375-8bb0740d3cd5\n*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().resourceId(\"com.smartfren.switchmobile:id/recycler_e_wallet\")).scrollIntoView(new UiSelector().text(\"GoPay\"));}",
+      "children" : [ {
+        "name" : "Switch_Purchase_006 - User able to Pay Choose GoPay",
+        "uid" : "231c7e9afd6957c0",
+        "parentUid" : "1dc6fc689e2a4893006da005c19da255",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607567218164,
+          "stop" : 1607567307979,
+          "duration" : 89815
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      } ],
+      "uid" : "1dc6fc689e2a4893006da005c19da255"
+    }, {
+      "name" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Faizals-MacBook-Pro.local', ip: 'fe80:0:0:0:c27:430f:e576:ebb3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_251'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, databaseEnabled: false, desired: {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, noReset: true, platformName: android, platformVersion: 8.1.0, udid: emulator-5554}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: ANDROID, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: dcc6f7e6-7ced-41be-8375-8bb0740d3cd5\n*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().resourceId(\"com.smartfren.switchmobile:id/recycler_\")).scrollIntoView(new UiSelector().text(\"Lite Bar\"));}",
+      "children" : [ {
+        "name" : "Switch_Purchase_011 - User able to Pay Choose Danamon VA",
+        "uid" : "88172efa3d37413b",
+        "parentUid" : "3a03efc2c17342c6aabc3ac994036115",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607567577478,
+          "stop" : 1607567660319,
+          "duration" : 82841
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      } ],
+      "uid" : "3a03efc2c17342c6aabc3ac994036115"
+    }, {
+      "name" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Faizals-MacBook-Pro.local', ip: 'fe80:0:0:0:c27:430f:e576:ebb3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_251'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, databaseEnabled: false, desired: {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, noReset: true, platformName: android, platformVersion: 8.1.0, udid: emulator-5554}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: ANDROID, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: dcc6f7e6-7ced-41be-8375-8bb0740d3cd5\n*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().resourceId(\"com.smartfren.switchmobile:id/recycler_e_wallet\")).scrollIntoView(new UiSelector().text(\"Permata Virtual Account\"));}",
+      "children" : [ {
+        "name" : "Switch_Purchase_012 - User able to Pay Choose Permata VA",
+        "uid" : "73621b4ee1809282",
+        "parentUid" : "33b3c6906b2d47e8b6d4024dcec9a335",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607567667912,
+          "stop" : 1607567733573,
+          "duration" : 65661
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      } ],
+      "uid" : "33b3c6906b2d47e8b6d4024dcec9a335"
+    }, {
+      "name" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Faizals-MacBook-Pro.local', ip: 'fe80:0:0:0:c27:430f:e576:ebb3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_251'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, databaseEnabled: false, desired: {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, noReset: true, platformName: android, platformVersion: 8.1.0, udid: emulator-5554}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: ANDROID, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: dcc6f7e6-7ced-41be-8375-8bb0740d3cd5\n*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView(new UiSelector().resourceId(\"com.smartfren.switchmobile:id/checkBox\"));}",
+      "children" : [ {
+        "name" : "Switch_Purchase_014 - User able to Order SIM First Time GoPay",
+        "uid" : "85a1c6ed93d0ecb7",
+        "parentUid" : "8bc0c9402f03a39f0a7e531feb9aeb66",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607567811875,
+          "stop" : 1607567928775,
+          "duration" : 116900
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      } ],
+      "uid" : "8bc0c9402f03a39f0a7e531feb9aeb66"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.id: com.smartfren.switchmobile:id/button_activate (tried for 20 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Switch_Purchase_016 - User able to Order SIM First Time OVO",
+        "uid" : "e509737606b40933",
+        "parentUid" : "f48d4bdc98654f5a95e6ff9498b7631b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607568034064,
+          "stop" : 1607568107586,
+          "duration" : 73522
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
       }, {
-        "name" : "Switch_Purchase_001 - User able to Add Product Super Bundle To Cart",
-        "uid" : "883fa6cd55cc2eda",
-        "parentUid" : "3d6f7f8dca53bc3bb1f0bdc2e2e44177",
+        "name" : "Switch_Purchase_017 - User able to Order SIM First Time CC",
+        "uid" : "afa6dce009410eb1",
+        "parentUid" : "f48d4bdc98654f5a95e6ff9498b7631b",
         "status" : "broken",
         "time" : {
-          "start" : 1599815860145,
-          "stop" : 1599815900149,
-          "duration" : 40004
+          "start" : 1607568114359,
+          "stop" : 1607568189035,
+          "duration" : 74676
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "Samsung" ]
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "Switch_Purchase_041 - User able to Order SIM First Time",
+        "uid" : "da43f298cac5045f",
+        "parentUid" : "f48d4bdc98654f5a95e6ff9498b7631b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607569645299,
+          "stop" : 1607569716342,
+          "duration" : 71043
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "Switch_Purchase_042 - User able to Fill Delivery Address Order SIM",
+        "uid" : "d5ce41d0aeccf881",
+        "parentUid" : "f48d4bdc98654f5a95e6ff9498b7631b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607569721020,
+          "stop" : 1607569795117,
+          "duration" : 74097
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
       } ],
-      "uid" : "3d6f7f8dca53bc3bb1f0bdc2e2e44177"
+      "uid" : "f48d4bdc98654f5a95e6ff9498b7631b"
+    }, {
+      "name" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Faizals-MacBook-Pro.local', ip: 'fe80:0:0:0:c27:430f:e576:ebb3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_251'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, databaseEnabled: false, desired: {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, noReset: true, platformName: android, platformVersion: 8.1.0, udid: emulator-5554}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: ANDROID, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: dcc6f7e6-7ced-41be-8375-8bb0740d3cd5\n*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().resourceId(\"com.smartfren.switchmobile:id/recycler_e_wallet\")).scrollIntoView(new UiSelector().text(\"Visa/Master/JCB\"));}",
+      "children" : [ {
+        "name" : "Switch_Purchase_030 - User able to Pay Choose CC JCB",
+        "uid" : "2a382d3e0e694c1f",
+        "parentUid" : "912203f8c9b309e1484f154b3c09dc3b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607568871303,
+          "stop" : 1607568961332,
+          "duration" : 90029
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      } ],
+      "uid" : "912203f8c9b309e1484f154b3c09dc3b"
+    }, {
+      "name" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Faizals-MacBook-Pro.local', ip: 'fe80:0:0:0:c27:430f:e576:ebb3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_251'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, databaseEnabled: false, desired: {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, noReset: true, platformName: android, platformVersion: 8.1.0, udid: emulator-5554}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: ANDROID, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: dcc6f7e6-7ced-41be-8375-8bb0740d3cd5\n*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().resourceId(\"com.smartfren.switchmobile:id/recycler_\")).scrollIntoView(new UiSelector().text(\"Token 10\"));}",
+      "children" : [ {
+        "name" : "Switch_Purchase_031 - User can buy Token using Go Pay",
+        "uid" : "4b3b3b3f630b6ab7",
+        "parentUid" : "91cccac265a8566f6297e495a3570e3f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607568965864,
+          "stop" : 1607569050476,
+          "duration" : 84612
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "Switch_Purchase_033 - User can buy Token using OVO",
+        "uid" : "fbc7435dcb988b5",
+        "parentUid" : "91cccac265a8566f6297e495a3570e3f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607569157896,
+          "stop" : 1607569239338,
+          "duration" : 81442
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      } ],
+      "uid" : "91cccac265a8566f6297e495a3570e3f"
+    }, {
+      "name" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Faizals-MacBook-Pro.local', ip: 'fe80:0:0:0:c27:430f:e576:ebb3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_251'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, databaseEnabled: false, desired: {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, noReset: true, platformName: android, platformVersion: 8.1.0, udid: emulator-5554}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: ANDROID, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: dcc6f7e6-7ced-41be-8375-8bb0740d3cd5\n*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().resourceId(\"com.smartfren.switchmobile:id/recycler_e_wallet\")).scrollIntoView(new UiSelector().text(\"ShopePay\"));}",
+      "children" : [ {
+        "name" : "Switch_Purchase_032 - User able to Pay Choose ShopeePay",
+        "uid" : "3e087556a6dc6651",
+        "parentUid" : "6396ecb2d64aec1a86e31b2002636089",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607569056505,
+          "stop" : 1607569152840,
+          "duration" : 96335
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      } ],
+      "uid" : "6396ecb2d64aec1a86e31b2002636089"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.id: com.smartfren.switchmobile:id/btn_fab (tried for 20 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Switch_Purchase_034 - User can buy Token using OVO",
+        "uid" : "afe568c3e0dc1676",
+        "parentUid" : "ee0a9d8b31717d6239c5eb7b1a880ca9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607569244468,
+          "stop" : 1607569322198,
+          "duration" : 77730
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      } ],
+      "uid" : "ee0a9d8b31717d6239c5eb7b1a880ca9"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@text='GoPay'] (tried for 20 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Switch_Purchase_043 - User able to Fill Address Without Drop PIN",
+        "uid" : "ee7282a85cda9b6a",
+        "parentUid" : "b36daff2b15fa44db6c70c8bb5fa5376",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607569799765,
+          "stop" : 1607569920677,
+          "duration" : 120912
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "Switch_Purchase_044 - User able to Fill Address With Drop PIN",
+        "uid" : "a3805c1e9aa91e56",
+        "parentUid" : "b36daff2b15fa44db6c70c8bb5fa5376",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607569925091,
+          "stop" : 1607570047177,
+          "duration" : 122086
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "Switch_Purchase_045 - User unable to Fill Invalid Address",
+        "uid" : "3409a6903321e0e6",
+        "parentUid" : "b36daff2b15fa44db6c70c8bb5fa5376",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607570052294,
+          "stop" : 1607570177130,
+          "duration" : 124836
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "Switch_Purchase_050 - User able to Pre Filled Cancelled Order SIM Profile Address",
+        "uid" : "2b465fd8c3822a5b",
+        "parentUid" : "b36daff2b15fa44db6c70c8bb5fa5376",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607570569579,
+          "stop" : 1607570694277,
+          "duration" : 124698
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "Switch_Purchase_051 - User able to Pre Filled Cancelled Order SIM Profile Address",
+        "uid" : "bf0fda12a1a0b4e2",
+        "parentUid" : "b36daff2b15fa44db6c70c8bb5fa5376",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607570698606,
+          "stop" : 1607570827892,
+          "duration" : 129286
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "Switch_Purchase_052 - User able click Continue ",
+        "uid" : "8a2659dcbed4a8d3",
+        "parentUid" : "b36daff2b15fa44db6c70c8bb5fa5376",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607570832588,
+          "stop" : 1607570957180,
+          "duration" : 124592
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      } ],
+      "uid" : "b36daff2b15fa44db6c70c8bb5fa5376"
+    }, {
+      "name" : "An unknown server-side error occurred while processing the command. Original error: error while invoking method private android.view.accessibility.AccessibilityNodeInfo androidx.test.uiautomator.UiObject2.getAccessibilityNodeInfo() on object androidx.test.uiautomator.UiObject2@79fc6 with parameters []\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Faizals-MacBook-Pro.local', ip: 'fe80:0:0:0:c27:430f:e576:ebb3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_251'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, databaseEnabled: false, desired: {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, noReset: true, platformName: android, platformVersion: 8.1.0, udid: emulator-5554}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: ANDROID, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: dcc6f7e6-7ced-41be-8375-8bb0740d3cd5",
+      "children" : [ {
+        "name" : "Switch_Purchase_048 - User able to Check Terms and Condition Address Page",
+        "uid" : "d1eae2d57ff66128",
+        "parentUid" : "600d0eda2afca4cd7ecb987065a6c98d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607570454962,
+          "stop" : 1607570500376,
+          "duration" : 45414
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      } ],
+      "uid" : "600d0eda2afca4cd7ecb987065a6c98d"
+    }, {
+      "name" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Faizals-MacBook-Pro.local', ip: 'fe80:0:0:0:c27:430f:e576:ebb3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_251'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, databaseEnabled: false, desired: {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, noReset: true, platformName: android, platformVersion: 8.1.0, udid: emulator-5554}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: ANDROID, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: dcc6f7e6-7ced-41be-8375-8bb0740d3cd5\n*** Element info: {Using=xpath, value=//*[@text = '0889-07']}",
+      "children" : [ {
+        "name" : "Switch_Purchase_054 - Edit Address Back From Checkout Page",
+        "uid" : "6ce1078b495c78bd",
+        "parentUid" : "842935bbd34153b1bbb4a80c7363fcf8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607571027682,
+          "stop" : 1607571102626,
+          "duration" : 74944
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      } ],
+      "uid" : "842935bbd34153b1bbb4a80c7363fcf8"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.id: com.smartfren.switchmobile:id/change_pin (tried for 20 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Switch_Profile_009 - User unable to Change PIN with Incorrect Current PIN",
+        "uid" : "8c63aafefc049f6e",
+        "parentUid" : "255d67c449401fe07cbe18899a9665a5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607572115750,
+          "stop" : 1607572197497,
+          "duration" : 81747
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      } ],
+      "uid" : "255d67c449401fe07cbe18899a9665a5"
+    }, {
+      "name" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Faizals-MacBook-Pro.local', ip: 'fe80:0:0:0:c27:430f:e576:ebb3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_251'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, databaseEnabled: false, desired: {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, noReset: true, platformName: android, platformVersion: 8.1.0, udid: emulator-5554}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: ANDROID, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: dcc6f7e6-7ced-41be-8375-8bb0740d3cd5\n*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().resourceId(\"com.smartfren.switchmobile:id/tab_layout\")).scrollIntoView(new UiSelector().text(\"Semua\"));}",
+      "children" : [ {
+        "name" : "Switch_History_001 - User able to see all Transaction History",
+        "uid" : "1c58dcc4ad124165",
+        "parentUid" : "0b41ac83fdb742920ce4d88ba4449cb3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607572502289,
+          "stop" : 1607572584301,
+          "duration" : 82012
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      } ],
+      "uid" : "0b41ac83fdb742920ce4d88ba4449cb3"
+    }, {
+      "name" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Faizals-MacBook-Pro.local', ip: 'fe80:0:0:0:c27:430f:e576:ebb3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_251'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, databaseEnabled: false, desired: {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, noReset: true, platformName: android, platformVersion: 8.1.0, udid: emulator-5554}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: ANDROID, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: dcc6f7e6-7ced-41be-8375-8bb0740d3cd5\n*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().resourceId(\"com.smartfren.switchmobile:id/tab_layout\")).scrollIntoView(new UiSelector().text(\"Menunggu\"));}",
+      "children" : [ {
+        "name" : "Switch_History_002 - User able to see Waiting Transaction History",
+        "uid" : "79a04bde4d3efeb5",
+        "parentUid" : "92dce5c32ae31e058a60b341810c399f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607572593071,
+          "stop" : 1607572672303,
+          "duration" : 79232
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      } ],
+      "uid" : "92dce5c32ae31e058a60b341810c399f"
+    }, {
+      "name" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Faizals-MacBook-Pro.local', ip: 'fe80:0:0:0:c27:430f:e576:ebb3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_251'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, databaseEnabled: false, desired: {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, noReset: true, platformName: android, platformVersion: 8.1.0, udid: emulator-5554}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: ANDROID, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: dcc6f7e6-7ced-41be-8375-8bb0740d3cd5\n*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().resourceId(\"com.smartfren.switchmobile:id/tab_layout\")).scrollIntoView(new UiSelector().text(\"Pesanan Diproses\"));}",
+      "children" : [ {
+        "name" : "Switch_History_003 - User able to see Processed Transaction History",
+        "uid" : "223733930da39146",
+        "parentUid" : "afc88918a81c0bd74cfcf2b6adfd81ce",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607572678123,
+          "stop" : 1607572758707,
+          "duration" : 80584
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      } ],
+      "uid" : "afc88918a81c0bd74cfcf2b6adfd81ce"
+    }, {
+      "name" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Faizals-MacBook-Pro.local', ip: 'fe80:0:0:0:c27:430f:e576:ebb3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_251'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, databaseEnabled: false, desired: {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, noReset: true, platformName: android, platformVersion: 8.1.0, udid: emulator-5554}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: ANDROID, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: dcc6f7e6-7ced-41be-8375-8bb0740d3cd5\n*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().resourceId(\"com.smartfren.switchmobile:id/tab_layout\")).scrollIntoView(new UiSelector().text(\"Pesanan Selesai\"));}",
+      "children" : [ {
+        "name" : "Switch_History_004 - User able to see Finished Transaction History",
+        "uid" : "8abd50832dbf6e3",
+        "parentUid" : "dff673005be99ce7867e4931ef651274",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607572766021,
+          "stop" : 1607572847901,
+          "duration" : 81880
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      } ],
+      "uid" : "dff673005be99ce7867e4931ef651274"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.id: com.smartfren.switchmobile:id/txt_later (tried for 20 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Switch_Quest_001 - User able to Cancel to Change Avatar",
+        "uid" : "fa42eba623abebf3",
+        "parentUid" : "c003f71fdb69db738f43698c3a615472",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607572861792,
+          "stop" : 1607572940102,
+          "duration" : 78310
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      } ],
+      "uid" : "c003f71fdb69db738f43698c3a615472"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.id: com.smartfren.switchmobile:id/btn_lets_start (tried for 20 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Switch_Quest_002 - User able to Change Avatar",
+        "uid" : "1a84057c500f1da6",
+        "parentUid" : "f4b424821571fd35ba698fcff818bf1e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607572953369,
+          "stop" : 1607573029757,
+          "duration" : 76388
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      } ],
+      "uid" : "f4b424821571fd35ba698fcff818bf1e"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected [fgyRpcHC] but found []",
+      "children" : [ {
+        "name" : "Switch_Profile_007 - User able to Copy Referral Code",
+        "uid" : "6132c5e689a7b56d",
+        "parentUid" : "16cb2cc956aedf65ba872569ff5f7bf7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1607572000332,
+          "stop" : 1607572050403,
+          "duration" : 50071
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "Switch_Profile_008 - User able to Share Referral Code",
+        "uid" : "d9373040d26ca731",
+        "parentUid" : "16cb2cc956aedf65ba872569ff5f7bf7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1607572054846,
+          "stop" : 1607572103895,
+          "duration" : 49049
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      } ],
+      "uid" : "16cb2cc956aedf65ba872569ff5f7bf7"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
 }

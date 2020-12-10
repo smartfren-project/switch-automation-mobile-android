@@ -1,0 +1,189 @@
+{
+  "uid" : "8a0ce501c49aec5f",
+  "name" : "Switch_Home_011 - User able to check mix and max",
+  "fullName" : "tests.HomepageITest.checkMixAndMax",
+  "historyId" : "b1212ccc0ef7bb164b2ee608d6692799",
+  "time" : {
+    "start" : 1604651605590,
+    "stop" : 1604651621132,
+    "duration" : 15542
+  },
+  "description" : "Verify that User is can check mix and max.",
+  "descriptionHtml" : "<p>Verify that User is can check mix and max.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1604650627305,
+      "stop" : 1604650635935,
+      "duration" : 8630
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify that User is can check mix and max.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "User Do Valid Login Using Email or Switch Number",
+      "time" : {
+        "start" : 1604651605591,
+        "stop" : 1604651619496,
+        "duration" : 13905
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click Button Login",
+        "time" : {
+          "start" : 1604651605591,
+          "stop" : 1604651613511,
+          "duration" : 7920
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "088906011294"
+      }, {
+        "name" : "pin",
+        "value" : "111111"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "User Can Click Mix and Max",
+      "time" : {
+        "start" : 1604651619496,
+        "stop" : 1604651619652,
+        "duration" : 156
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "364c3692bfacad1e",
+      "name" : "screenShot",
+      "source" : "364c3692bfacad1e.png",
+      "type" : "image/png",
+      "size" : 268727
+    }, {
+      "uid" : "c90f3e94ee1766e5",
+      "name" : "Page Screenshot",
+      "source" : "c90f3e94ee1766e5.png",
+      "type" : "image/png",
+      "size" : 268727
+    }, {
+      "uid" : "35599228948624ac",
+      "name" : "screenShot",
+      "source" : "35599228948624ac.png",
+      "type" : "image/png",
+      "size" : 197214
+    }, {
+      "uid" : "1322bb7d82f43e9e",
+      "name" : "Page Screenshot",
+      "source" : "1322bb7d82f43e9e.png",
+      "type" : "image/png",
+      "size" : 157136
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeAppSwitch",
+    "time" : {
+      "start" : 1604651621132,
+      "stop" : 1604651625224,
+      "duration" : 4092
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.HomepageITest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.HomepageITest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkMixAndMax"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Switch Android Regression Test"
+  }, {
+    "name" : "suite",
+    "value" : "Switch Android Regression Test (BAHASA VERSION)"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.HomepageITest"
+  }, {
+    "name" : "host",
+    "value" : "Faizals-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "10243@Faizals-MacBook-Pro.local.TestNG-test=Switch Android Regression Test (BAHASA VERSION)-9(30)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story Name : Check On Home Page"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "deviceName",
+    "value" : "Pixel"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8a0ce501c49aec5f.json",
+  "parameterValues" : [ "Pixel" ]
+}

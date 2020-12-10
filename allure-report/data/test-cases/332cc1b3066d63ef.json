@@ -1,0 +1,192 @@
+{
+  "uid" : "332cc1b3066d63ef",
+  "name" : "Switch_Purchase_023 - User able to go to Roaming Service",
+  "fullName" : "tests.PurchaseITest.checkOrderRoamingService",
+  "historyId" : "3b8e60805800c1108c7dda92fdf24e73",
+  "time" : {
+    "start" : 1604652640828,
+    "stop" : 1604652663450,
+    "duration" : 22622
+  },
+  "description" : "Verify that user can go to Roaming Service.",
+  "descriptionHtml" : "<p>Verify that user can go to Roaming Service.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1604650627305,
+      "stop" : 1604650635935,
+      "duration" : 8630
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify that user can go to Roaming Service.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "User Do Valid Login Using Email or Switch Number",
+      "time" : {
+        "start" : 1604652640828,
+        "stop" : 1604652655461,
+        "duration" : 14633
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click Button Login",
+        "time" : {
+          "start" : 1604652640828,
+          "stop" : 1604652648846,
+          "duration" : 8018
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "088906011294"
+      }, {
+        "name" : "pin",
+        "value" : "111111"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Go To Service Plan",
+      "time" : {
+        "start" : 1604652655461,
+        "stop" : 1604652662460,
+        "duration" : 6999
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "service",
+        "value" : "Roaming"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "bc5dca3aa99580",
+      "name" : "screenShot",
+      "source" : "bc5dca3aa99580.png",
+      "type" : "image/png",
+      "size" : 37325
+    }, {
+      "uid" : "3c56ecba5c9f426d",
+      "name" : "Page Screenshot",
+      "source" : "3c56ecba5c9f426d.png",
+      "type" : "image/png",
+      "size" : 37325
+    }, {
+      "uid" : "cf899dfca37f3b1a",
+      "name" : "screenShot",
+      "source" : "cf899dfca37f3b1a.png",
+      "type" : "image/png",
+      "size" : 37325
+    }, {
+      "uid" : "f86a146eaf9645eb",
+      "name" : "Page Screenshot",
+      "source" : "f86a146eaf9645eb.png",
+      "type" : "image/png",
+      "size" : 37325
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeAppSwitch",
+    "time" : {
+      "start" : 1604652663451,
+      "stop" : 1604652667361,
+      "duration" : 3910
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.PurchaseITest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.PurchaseITest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkOrderRoamingService"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Switch Android Regression Test"
+  }, {
+    "name" : "suite",
+    "value" : "Switch Android Regression Test (BAHASA VERSION)"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.PurchaseITest"
+  }, {
+    "name" : "host",
+    "value" : "Faizals-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "10243@Faizals-MacBook-Pro.local.TestNG-test=Switch Android Regression Test (BAHASA VERSION)-12(33)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story Name : Check Purchase"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "deviceName",
+    "value" : "Pixel"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "332cc1b3066d63ef.json",
+  "parameterValues" : [ "Pixel" ]
+}

@@ -1,0 +1,253 @@
+{
+  "uid" : "282b1285363adb8f",
+  "name" : "Switch_Purchase_035 - Check change selected custom plan",
+  "fullName" : "tests.PurchaseITest.checkChangeSelectedCustomPlan",
+  "historyId" : "da52a9ff8bef43cdf302c9f927aabf9b",
+  "time" : {
+    "start" : 1607569326728,
+    "stop" : 1607569375547,
+    "duration" : 48819
+  },
+  "description" : "Verify that user can change selected custom plan.",
+  "descriptionHtml" : "<p>Verify that user can change selected custom plan.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1607565106469,
+      "stop" : 1607565122439,
+      "duration" : 15970
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify that user can change selected custom plan.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "User Do Valid Login Using Email or Switch Number",
+      "time" : {
+        "start" : 1607569326729,
+        "stop" : 1607569368571,
+        "duration" : 41842
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click Button Login",
+        "time" : {
+          "start" : 1607569326729,
+          "stop" : 1607569335529,
+          "duration" : 8800
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "tan.rafel@gmail.com"
+      }, {
+        "name" : "pin",
+        "value" : "270413"
+      }, {
+        "name" : "otp1",
+        "value" : "1"
+      }, {
+        "name" : "otp2",
+        "value" : "2"
+      }, {
+        "name" : "otp3",
+        "value" : "3"
+      }, {
+        "name" : "otp4",
+        "value" : "4"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "User Can Click Mix and Max",
+      "time" : {
+        "start" : 1607569368574,
+        "stop" : 1607569368711,
+        "duration" : 137
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Select Custom Plan",
+      "time" : {
+        "start" : 1607569368712,
+        "stop" : 1607569373365,
+        "duration" : 4653
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "cPlan",
+        "value" : "Influencer"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Select Custom Plan",
+      "time" : {
+        "start" : 1607569373365,
+        "stop" : 1607569374176,
+        "duration" : 811
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "cPlan",
+        "value" : "Movie Mania"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Select Custom Plan",
+      "time" : {
+        "start" : 1607569374176,
+        "stop" : 1607569374987,
+        "duration" : 811
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "cPlan",
+        "value" : "Influencer"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "7ded56eb65c27494",
+      "name" : "screenShot",
+      "source" : "7ded56eb65c27494.png",
+      "type" : "image/png",
+      "size" : 113106
+    }, {
+      "uid" : "24282266bec139ec",
+      "name" : "Page Screenshot",
+      "source" : "24282266bec139ec.png",
+      "type" : "image/png",
+      "size" : 113106
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeAppSwitch",
+    "time" : {
+      "start" : 1607569376126,
+      "stop" : 1607569380341,
+      "duration" : 4215
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.PurchaseITest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.PurchaseITest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkChangeSelectedCustomPlan"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Switch Android Regression Test"
+  }, {
+    "name" : "suite",
+    "value" : "Switch Android Regression Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.PurchaseITest"
+  }, {
+    "name" : "host",
+    "value" : "Faizals-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "43788@Faizals-MacBook-Pro.local.TestNG-test=Switch Android Regression Test-7(25)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story Name : Check Purchase"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "deviceName",
+    "value" : "Pixel"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "809d37deadf528bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604653109999,
+        "stop" : 1604653138791,
+        "duration" : 28792
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "282b1285363adb8f.json",
+  "parameterValues" : [ "Pixel" ]
+}

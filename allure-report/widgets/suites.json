@@ -1,15 +1,15 @@
 {
   "total" : 1,
   "items" : [ {
-    "uid" : "92556929380ddd425a3ae598558c420a",
-    "name" : "pCloud-Switch-Regression",
+    "uid" : "e012471d3c6f328202b179d13796913e",
+    "name" : "Switch Android Regression Test",
     "statistic" : {
-      "failed" : 0,
-      "broken" : 6,
+      "failed" : 2,
+      "broken" : 34,
       "skipped" : 0,
-      "passed" : 16,
+      "passed" : 104,
       "unknown" : 0,
-      "total" : 22
+      "total" : 140
     }
   } ]
 }

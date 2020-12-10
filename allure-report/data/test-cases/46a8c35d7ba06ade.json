@@ -1,0 +1,198 @@
+{
+  "uid" : "46a8c35d7ba06ade",
+  "name" : "Switch_Purchase_003 - User able to Add Product Standard Bundle To Cart",
+  "fullName" : "tests.PurchaseITest.checkAddStandardBundleToCart",
+  "historyId" : "7128e321b2b6e9ba1f0d00869a71e83b",
+  "time" : {
+    "start" : 1604651749003,
+    "stop" : 1604651780231,
+    "duration" : 31228
+  },
+  "description" : "Verify that user can success Add Product To Cart.",
+  "descriptionHtml" : "<p>Verify that user can success Add Product To Cart.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1604650627305,
+      "stop" : 1604650635935,
+      "duration" : 8630
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify that user can success Add Product To Cart.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "User Do Valid Login Using Email or Switch Number",
+      "time" : {
+        "start" : 1604651749003,
+        "stop" : 1604651763036,
+        "duration" : 14033
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click Button Login",
+        "time" : {
+          "start" : 1604651749003,
+          "stop" : 1604651756834,
+          "duration" : 7831
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "088906011294"
+      }, {
+        "name" : "pin",
+        "value" : "111111"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "User Do Add Promo Standard Bundle To Cart",
+      "time" : {
+        "start" : 1604651763036,
+        "stop" : 1604651779216,
+        "duration" : 16180
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "productTitle",
+        "value" : "Standard Bar"
+      }, {
+        "name" : "increase",
+        "value" : "4"
+      }, {
+        "name" : "decrease",
+        "value" : "2"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "59c2f90b87a73319",
+      "name" : "screenShot",
+      "source" : "59c2f90b87a73319.png",
+      "type" : "image/png",
+      "size" : 119780
+    }, {
+      "uid" : "195eee1f07739d85",
+      "name" : "Page Screenshot",
+      "source" : "195eee1f07739d85.png",
+      "type" : "image/png",
+      "size" : 101253
+    }, {
+      "uid" : "b6a84334cc6c5511",
+      "name" : "screenShot",
+      "source" : "b6a84334cc6c5511.png",
+      "type" : "image/png",
+      "size" : 101253
+    }, {
+      "uid" : "d8b3e8e84c08ebaf",
+      "name" : "Page Screenshot",
+      "source" : "d8b3e8e84c08ebaf.png",
+      "type" : "image/png",
+      "size" : 101253
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeAppSwitch",
+    "time" : {
+      "start" : 1604651780232,
+      "stop" : 1604651784458,
+      "duration" : 4226
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.PurchaseITest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.PurchaseITest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkAddStandardBundleToCart"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Switch Android Regression Test"
+  }, {
+    "name" : "suite",
+    "value" : "Switch Android Regression Test (BAHASA VERSION)"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.PurchaseITest"
+  }, {
+    "name" : "host",
+    "value" : "Faizals-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "10243@Faizals-MacBook-Pro.local.TestNG-test=Switch Android Regression Test (BAHASA VERSION)-1(21)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story Name : Check Purchase"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "deviceName",
+    "value" : "Pixel"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "46a8c35d7ba06ade.json",
+  "parameterValues" : [ "Pixel" ]
+}

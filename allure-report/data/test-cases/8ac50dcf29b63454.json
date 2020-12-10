@@ -1,0 +1,213 @@
+{
+  "uid" : "8ac50dcf29b63454",
+  "name" : "Switch_Purchase_053 - User able to Pay Choose Credit Card With Doku Payment Gateway",
+  "fullName" : "tests.PurchaseITest.checkDokuPaymentGateway",
+  "historyId" : "549d262226cc3e5ba16df622a6d1db82",
+  "time" : {
+    "start" : 1604653906959,
+    "stop" : 1604653943347,
+    "duration" : 36388
+  },
+  "description" : "Verify that user can pay using CC with Doku Payment Gateway.",
+  "descriptionHtml" : "<p>Verify that user can pay using CC with Doku Payment Gateway.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1604650627305,
+      "stop" : 1604650635935,
+      "duration" : 8630
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify that user can pay using CC with Doku Payment Gateway.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "User Do Valid Login Using Email or Switch Number",
+      "time" : {
+        "start" : 1604653906959,
+        "stop" : 1604653921433,
+        "duration" : 14474
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click Button Login",
+        "time" : {
+          "start" : 1604653906959,
+          "stop" : 1604653915110,
+          "duration" : 8151
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "088906011294"
+      }, {
+        "name" : "pin",
+        "value" : "111111"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "User Do Add Promo Lite Bundle To Cart",
+      "time" : {
+        "start" : 1604653921433,
+        "stop" : 1604653940868,
+        "duration" : 19435
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "productTitle",
+        "value" : "Lite Bar"
+      }, {
+        "name" : "increase",
+        "value" : "1"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "User Do Checkout Payment With",
+      "time" : {
+        "start" : 1604653940869,
+        "stop" : 1604653942367,
+        "duration" : 1498
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "paymentMethod",
+        "value" : "CC"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "5e16dd51b50f62c9",
+      "name" : "screenShot",
+      "source" : "5e16dd51b50f62c9.png",
+      "type" : "image/png",
+      "size" : 85875
+    }, {
+      "uid" : "707ca9348ef557c0",
+      "name" : "Page Screenshot",
+      "source" : "707ca9348ef557c0.png",
+      "type" : "image/png",
+      "size" : 85875
+    }, {
+      "uid" : "2903dcc00e271b24",
+      "name" : "screenShot",
+      "source" : "2903dcc00e271b24.png",
+      "type" : "image/png",
+      "size" : 85875
+    }, {
+      "uid" : "e0ea3906c9b6f899",
+      "name" : "Page Screenshot",
+      "source" : "e0ea3906c9b6f899.png",
+      "type" : "image/png",
+      "size" : 85875
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeAppSwitch",
+    "time" : {
+      "start" : 1604653943348,
+      "stop" : 1604653947358,
+      "duration" : 4010
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.PurchaseITest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.PurchaseITest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkDokuPaymentGateway"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Switch Android Regression Test"
+  }, {
+    "name" : "suite",
+    "value" : "Switch Android Regression Test (BAHASA VERSION)"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.PurchaseITest"
+  }, {
+    "name" : "host",
+    "value" : "Faizals-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "10243@Faizals-MacBook-Pro.local.TestNG-test=Switch Android Regression Test (BAHASA VERSION)-5(25)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story Name : Check Purchase"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "deviceName",
+    "value" : "Pixel"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8ac50dcf29b63454.json",
+  "parameterValues" : [ "Pixel" ]
+}

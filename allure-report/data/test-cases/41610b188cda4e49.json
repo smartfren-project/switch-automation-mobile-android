@@ -1,0 +1,189 @@
+{
+  "uid" : "41610b188cda4e49",
+  "name" : "Switch_History_003 - User able to see Processed Transaction History",
+  "fullName" : "tests.HistoryITest.checkProcessedHistoryTransaction",
+  "historyId" : "3a5f7483e5515fd08e85122aec97df67",
+  "time" : {
+    "start" : 1604654879507,
+    "stop" : 1604654900176,
+    "duration" : 20669
+  },
+  "description" : "Verify that User is able to see Processed Transaction by Clicking Processed on History Menu.",
+  "descriptionHtml" : "<p>Verify that User is able to see Processed Transaction by Clicking Processed on History Menu.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1604650627305,
+      "stop" : 1604650635935,
+      "duration" : 8630
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify that User is able to see Processed Transaction by Clicking Processed on History Menu.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "User Do Valid Login Using Email or Switch Number",
+      "time" : {
+        "start" : 1604654879507,
+        "stop" : 1604654893982,
+        "duration" : 14475
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click Button Login",
+        "time" : {
+          "start" : 1604654879507,
+          "stop" : 1604654887579,
+          "duration" : 8072
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "088906011294"
+      }, {
+        "name" : "pin",
+        "value" : "111111"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "User Do Check Processed History Transaction",
+      "time" : {
+        "start" : 1604654893982,
+        "stop" : 1604654899158,
+        "duration" : 5176
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "62748953694d3b7c",
+      "name" : "screenShot",
+      "source" : "62748953694d3b7c.png",
+      "type" : "image/png",
+      "size" : 132100
+    }, {
+      "uid" : "ee65ffab9030752f",
+      "name" : "Page Screenshot",
+      "source" : "ee65ffab9030752f.png",
+      "type" : "image/png",
+      "size" : 132100
+    }, {
+      "uid" : "9fdb32c593999bf",
+      "name" : "screenShot",
+      "source" : "9fdb32c593999bf.png",
+      "type" : "image/png",
+      "size" : 132100
+    }, {
+      "uid" : "c7342458b93e7031",
+      "name" : "Page Screenshot",
+      "source" : "c7342458b93e7031.png",
+      "type" : "image/png",
+      "size" : 132100
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeAppSwitch",
+    "time" : {
+      "start" : 1604654900177,
+      "stop" : 1604654904361,
+      "duration" : 4184
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.HistoryITest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.HistoryITest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkProcessedHistoryTransaction"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Switch Android Regression Test"
+  }, {
+    "name" : "suite",
+    "value" : "Switch Android Regression Test (BAHASA VERSION)"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.HistoryITest"
+  }, {
+    "name" : "host",
+    "value" : "Faizals-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "10243@Faizals-MacBook-Pro.local.TestNG-test=Switch Android Regression Test (BAHASA VERSION)-5(25)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story Name : Check On History Page"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "deviceName",
+    "value" : "Pixel"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "41610b188cda4e49.json",
+  "parameterValues" : [ "Pixel" ]
+}

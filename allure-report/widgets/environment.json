@@ -29,7 +29,7 @@
   "values" : [ "com.smartfren.switchmobile" ],
   "name" : "androidAppPackage"
 }, {
-  "values" : [ "/src/test/resources/app/switch_112_release.apk" ],
+  "values" : [ "/src/test/resources/app/app-production-release.apk" ],
   "name" : "androidAppLocation"
 }, {
   "values" : [ "com.smartfren.switchmobile.views.activities.SplashScreenActivity" ],

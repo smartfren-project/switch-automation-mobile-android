@@ -1,0 +1,198 @@
+{
+  "uid" : "fad59b4405d08701",
+  "name" : "Switch_Profile_006 - User able to Fill Address",
+  "fullName" : "tests.ProfileITest.checkInvalidSaveDeliveryAddressAllEmpty",
+  "historyId" : "e389ac1cbf2cd5a7e28a553b89383175",
+  "time" : {
+    "start" : 1604654569293,
+    "stop" : 1604654596972,
+    "duration" : 27679
+  },
+  "description" : "Verify that user can't ADD EMPTY ALL ADDRESS FORM from Profile Menu.",
+  "descriptionHtml" : "<p>Verify that user can't ADD EMPTY ALL ADDRESS FORM from Profile Menu.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1604650627305,
+      "stop" : 1604650635935,
+      "duration" : 8630
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify that user can't ADD EMPTY ALL ADDRESS FORM from Profile Menu.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "User Do Valid Login Using Email or Switch Number",
+      "time" : {
+        "start" : 1604654569293,
+        "stop" : 1604654582379,
+        "duration" : 13086
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click Button Login",
+        "time" : {
+          "start" : 1604654569293,
+          "stop" : 1604654577326,
+          "duration" : 8033
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "088906011294"
+      }, {
+        "name" : "pin",
+        "value" : "111111"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "User Do Fill Mandatory Field Delivery Address",
+      "time" : {
+        "start" : 1604654582379,
+        "stop" : 1604654595958,
+        "duration" : 13579
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "homeOfficeName",
+        "value" : ""
+      }, {
+        "name" : "recipientName",
+        "value" : ""
+      }, {
+        "name" : "recipientNumber",
+        "value" : ""
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "a49b1c194dad83bb",
+      "name" : "screenShot",
+      "source" : "a49b1c194dad83bb.png",
+      "type" : "image/png",
+      "size" : 81923
+    }, {
+      "uid" : "a0eb074ce0f70daa",
+      "name" : "Page Screenshot",
+      "source" : "a0eb074ce0f70daa.png",
+      "type" : "image/png",
+      "size" : 81912
+    }, {
+      "uid" : "11f8e69c0368d02",
+      "name" : "screenShot",
+      "source" : "11f8e69c0368d02.png",
+      "type" : "image/png",
+      "size" : 81912
+    }, {
+      "uid" : "debe050b9609078d",
+      "name" : "Page Screenshot",
+      "source" : "debe050b9609078d.png",
+      "type" : "image/png",
+      "size" : 81923
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeAppSwitch",
+    "time" : {
+      "start" : 1604654596972,
+      "stop" : 1604654601177,
+      "duration" : 4205
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.ProfileITest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.ProfileITest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkInvalidSaveDeliveryAddressAllEmpty"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Switch Android Regression Test"
+  }, {
+    "name" : "suite",
+    "value" : "Switch Android Regression Test (BAHASA VERSION)"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.ProfileITest"
+  }, {
+    "name" : "host",
+    "value" : "Faizals-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "10243@Faizals-MacBook-Pro.local.TestNG-test=Switch Android Regression Test (BAHASA VERSION)-5(25)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story Name : Check User Profile"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "deviceName",
+    "value" : "Pixel"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fad59b4405d08701.json",
+  "parameterValues" : [ "Pixel" ]
+}

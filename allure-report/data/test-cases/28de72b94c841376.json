@@ -1,0 +1,245 @@
+{
+  "uid" : "28de72b94c841376",
+  "name" : "Switch_Land_007 - User able to go to Login/SignUp with Bahasa Language",
+  "fullName" : "tests.LandingITest.checkGoToSignUpPageBahasa",
+  "historyId" : "a7eddf65f220e6f78bec1523aac04ac9",
+  "time" : {
+    "start" : 1607565232074,
+    "stop" : 1607565298970,
+    "duration" : 66896
+  },
+  "description" : "Verify that User is navigating to Sign Up Page on Clicking on Sign Up Button in any storyboard.",
+  "descriptionHtml" : "<p>Verify that User is navigating to Sign Up Page on Clicking on Sign Up Button in any storyboard.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1607565106469,
+      "stop" : 1607565122439,
+      "duration" : 15970
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify that User is navigating to Sign Up Page on Clicking on Sign Up Button in any storyboard.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "User Do Valid Login Using Email or Switch Number",
+      "time" : {
+        "start" : 1607565232075,
+        "stop" : 1607565273834,
+        "duration" : 41759
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click Button Login",
+        "time" : {
+          "start" : 1607565232075,
+          "stop" : 1607565240079,
+          "duration" : 8004
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "satriopanjiprakoso@gmail.com"
+      }, {
+        "name" : "pin",
+        "value" : "545454"
+      }, {
+        "name" : "otp1",
+        "value" : "1"
+      }, {
+        "name" : "otp2",
+        "value" : "2"
+      }, {
+        "name" : "otp3",
+        "value" : "3"
+      }, {
+        "name" : "otp4",
+        "value" : "4"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "User Do  Click Button Bahasa",
+      "time" : {
+        "start" : 1607565273834,
+        "stop" : 1607565286371,
+        "duration" : 12537
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "User Do Click Logout",
+      "time" : {
+        "start" : 1607565286372,
+        "stop" : 1607565294232,
+        "duration" : 7860
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "User Do Click Button Login Here",
+      "time" : {
+        "start" : 1607565294232,
+        "stop" : 1607565297884,
+        "duration" : 3652
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check Validation Welcome Text",
+      "time" : {
+        "start" : 1607565297884,
+        "stop" : 1607565298376,
+        "duration" : 492
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "dc3b71594c2df66a",
+      "name" : "screenShot",
+      "source" : "dc3b71594c2df66a.png",
+      "type" : "image/png",
+      "size" : 79667
+    }, {
+      "uid" : "2058697d7aa65e3b",
+      "name" : "Page Screenshot",
+      "source" : "2058697d7aa65e3b.png",
+      "type" : "image/png",
+      "size" : 79667
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeAppSwitch",
+    "time" : {
+      "start" : 1607565299618,
+      "stop" : 1607565306090,
+      "duration" : 6472
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.LandingITest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.LandingITest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkGoToSignUpPageBahasa"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Switch Android Regression Test"
+  }, {
+    "name" : "suite",
+    "value" : "Switch Android Regression Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.LandingITest"
+  }, {
+    "name" : "host",
+    "value" : "Faizals-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "43788@Faizals-MacBook-Pro.local.TestNG-test=Switch Android Regression Test-7(25)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story Name : Check On Landing Page"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "deviceName",
+    "value" : "Pixel"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bc9b2e8e003d02a1",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: com.smartfren.switchmobile:id/profile (tried for 20 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1604650724909,
+        "stop" : 1604650756641,
+        "duration" : 31732
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "28de72b94c841376.json",
+  "parameterValues" : [ "Pixel" ]
+}

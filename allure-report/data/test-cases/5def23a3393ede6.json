@@ -1,0 +1,169 @@
+{
+  "uid" : "5def23a3393ede6",
+  "name" : "Switch_SignUp_006 - User unable to sign up using invalid switch number",
+  "fullName" : "tests.SignUpITest.checkInvalidSignUpUsingSwitchNumber",
+  "historyId" : "99d811dabfca78c221e3e585d1d5bb87",
+  "time" : {
+    "start" : 1607565450198,
+    "stop" : 1607565467329,
+    "duration" : 17131
+  },
+  "description" : "Verify that User can't sign up using wrong number",
+  "descriptionHtml" : "<p>Verify that User can't sign up using wrong number</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1607565106469,
+      "stop" : 1607565122439,
+      "duration" : 15970
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify that User can't sign up using wrong number",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click Button Sign Up",
+      "time" : {
+        "start" : 1607565450199,
+        "stop" : 1607565465779,
+        "duration" : 15580
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "User Invalid SignUp Username Disable Button",
+      "time" : {
+        "start" : 1607565465779,
+        "stop" : 1607565466691,
+        "duration" : 912
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "088906011294"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "b7e022d2ab858b78",
+      "name" : "screenShot",
+      "source" : "b7e022d2ab858b78.png",
+      "type" : "image/png",
+      "size" : 82510
+    }, {
+      "uid" : "5059ee229840d813",
+      "name" : "Page Screenshot",
+      "source" : "5059ee229840d813.png",
+      "type" : "image/png",
+      "size" : 82510
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeAppSwitch",
+    "time" : {
+      "start" : 1607565467868,
+      "stop" : 1607565472936,
+      "duration" : 5068
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.SignUpITest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.SignUpITest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkInvalidSignUpUsingSwitchNumber"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Switch Android Regression Test"
+  }, {
+    "name" : "suite",
+    "value" : "Switch Android Regression Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.SignUpITest"
+  }, {
+    "name" : "host",
+    "value" : "Faizals-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "43788@Faizals-MacBook-Pro.local.TestNG-test=Switch Android Regression Test-12(31)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story Name : Check On SignUp Page"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "deviceName",
+    "value" : "Pixel"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b0dd1f8a7d425018",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604650849925,
+        "stop" : 1604650860892,
+        "duration" : 10967
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5def23a3393ede6.json",
+  "parameterValues" : [ "Pixel" ]
+}

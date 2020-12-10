@@ -1,0 +1,326 @@
+{
+  "uid" : "daf4b7198af4fe31",
+  "name" : "Switch_Purchase_047 - User able to Edit MDN On Checkout Page",
+  "fullName" : "tests.PurchaseITest.checkEditMDNOnCheckoutPage",
+  "historyId" : "7fa2ba10cf977148e779990af208bc0f",
+  "time" : {
+    "start" : 1607570350998,
+    "stop" : 1607570448926,
+    "duration" : 97928
+  },
+  "description" : "Verify that User able to Edit Address On Checkout Page.",
+  "descriptionHtml" : "<p>Verify that User able to Edit Address On Checkout Page.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1607565106469,
+      "stop" : 1607565122439,
+      "duration" : 15970
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify that User able to Edit Address On Checkout Page.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "User Do Valid Login Using Email or Switch Number",
+      "time" : {
+        "start" : 1607570350999,
+        "stop" : 1607570392222,
+        "duration" : 41223
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click Button Login",
+        "time" : {
+          "start" : 1607570350999,
+          "stop" : 1607570359147,
+          "duration" : 8148
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "satriopanjiprakoso@gmail.com"
+      }, {
+        "name" : "pin",
+        "value" : "545454"
+      }, {
+        "name" : "otp1",
+        "value" : "1"
+      }, {
+        "name" : "otp2",
+        "value" : "2"
+      }, {
+        "name" : "otp3",
+        "value" : "3"
+      }, {
+        "name" : "otp4",
+        "value" : "4"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Edit Number From Checkout",
+      "time" : {
+        "start" : 1607570392222,
+        "stop" : 1607570448265,
+        "duration" : 56043
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Go To Checkout",
+        "time" : {
+          "start" : 1607570392222,
+          "stop" : 1607570432072,
+          "duration" : 39850
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Click Order SIM",
+          "time" : {
+            "start" : 1607570392222,
+            "stop" : 1607570393386,
+            "duration" : 1164
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "Input Number",
+          "time" : {
+            "start" : 1607570393386,
+            "stop" : 1607570403052,
+            "duration" : 9666
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "mainNumber",
+            "value" : "0889-07"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Input Address",
+          "time" : {
+            "start" : 1607570403052,
+            "stop" : 1607570432072,
+            "duration" : 29020
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "recName",
+            "value" : "Andi"
+          }, {
+            "name" : "recPhone",
+            "value" : "088906011294"
+          }, {
+            "name" : "city",
+            "value" : "pringgodani"
+          }, {
+            "name" : "address",
+            "value" : "JL. Pringgodani"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "mainNumber",
+          "value" : "0889-07"
+        }, {
+          "name" : "recName",
+          "value" : "Andi"
+        }, {
+          "name" : "recPhone",
+          "value" : "088906011294"
+        }, {
+          "name" : "city",
+          "value" : "pringgodani"
+        }, {
+          "name" : "address",
+          "value" : "JL. Pringgodani"
+        } ],
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Input Number",
+        "time" : {
+          "start" : 1607570438323,
+          "stop" : 1607570448265,
+          "duration" : 9942
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "mainNumber",
+          "value" : "0889-08"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "mainNumber",
+        "value" : "0889-07"
+      }, {
+        "name" : "recName",
+        "value" : "Andi"
+      }, {
+        "name" : "recPhone",
+        "value" : "088906011294"
+      }, {
+        "name" : "city",
+        "value" : "pringgodani"
+      }, {
+        "name" : "address",
+        "value" : "JL. Pringgodani"
+      }, {
+        "name" : "upMainNumber",
+        "value" : "0889-08"
+      } ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "c76a2c62a7233c7e",
+      "name" : "screenShot",
+      "source" : "c76a2c62a7233c7e.png",
+      "type" : "image/png",
+      "size" : 75713
+    }, {
+      "uid" : "ad464d856d913efa",
+      "name" : "Page Screenshot",
+      "source" : "ad464d856d913efa.png",
+      "type" : "image/png",
+      "size" : 75864
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeAppSwitch",
+    "time" : {
+      "start" : 1607570449630,
+      "stop" : 1607570454760,
+      "duration" : 5130
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.PurchaseITest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.PurchaseITest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkEditMDNOnCheckoutPage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Switch Android Regression Test"
+  }, {
+    "name" : "suite",
+    "value" : "Switch Android Regression Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.PurchaseITest"
+  }, {
+    "name" : "host",
+    "value" : "Faizals-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "43788@Faizals-MacBook-Pro.local.TestNG-test=Switch Android Regression Test-7(25)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story Name : Check Purchase"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "deviceName",
+    "value" : "Pixel"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "8e4a2190fe4bc5b1",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: com.smartfren.switchmobile:id/button_activate (tried for 20 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1604653605520,
+        "stop" : 1604653651703,
+        "duration" : 46183
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "daf4b7198af4fe31.json",
+  "parameterValues" : [ "Pixel" ]
+}

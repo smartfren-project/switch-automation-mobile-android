@@ -1,0 +1,153 @@
+{
+  "uid" : "3b253bedb1990eb2",
+  "name" : "Switch_Land_003 - User able to login as GUEST",
+  "fullName" : "tests.LandingITest.checkLoginAsGuest",
+  "historyId" : "8ea65ebad8cd7fd05c06ce54f28fb672",
+  "time" : {
+    "start" : 1604650662082,
+    "stop" : 1604650672416,
+    "duration" : 10334
+  },
+  "description" : "Verify that User is navigating to GuestPage on Clicking on Skip Button in any storyboard.",
+  "descriptionHtml" : "<p>Verify that User is navigating to GuestPage on Clicking on Skip Button in any storyboard.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1604650627305,
+      "stop" : 1604650635935,
+      "duration" : 8630
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify that User is navigating to GuestPage on Clicking on Skip Button in any storyboard.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click Button Skip",
+      "time" : {
+        "start" : 1604650662082,
+        "stop" : 1604650670997,
+        "duration" : 8915
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "d5e628beee639683",
+      "name" : "screenShot",
+      "source" : "d5e628beee639683.png",
+      "type" : "image/png",
+      "size" : 386998
+    }, {
+      "uid" : "4dad62574e661167",
+      "name" : "Page Screenshot",
+      "source" : "4dad62574e661167.png",
+      "type" : "image/png",
+      "size" : 386998
+    }, {
+      "uid" : "6b67246e05862675",
+      "name" : "screenShot",
+      "source" : "6b67246e05862675.png",
+      "type" : "image/png",
+      "size" : 386998
+    }, {
+      "uid" : "373afa791ae7a818",
+      "name" : "Page Screenshot",
+      "source" : "373afa791ae7a818.png",
+      "type" : "image/png",
+      "size" : 386998
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeAppSwitch",
+    "time" : {
+      "start" : 1604650672418,
+      "stop" : 1604650676035,
+      "duration" : 3617
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.LandingITest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.LandingITest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkLoginAsGuest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Switch Android Regression Test"
+  }, {
+    "name" : "suite",
+    "value" : "Switch Android Regression Test (BAHASA VERSION)"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.LandingITest"
+  }, {
+    "name" : "host",
+    "value" : "Faizals-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "10243@Faizals-MacBook-Pro.local.TestNG-test=Switch Android Regression Test (BAHASA VERSION)-3(23)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story Name : Check On Landing Page"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "deviceName",
+    "value" : "Pixel"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3b253bedb1990eb2.json",
+  "parameterValues" : [ "Pixel" ]
+}

@@ -1,0 +1,210 @@
+{
+  "uid" : "d136e74100f8d460",
+  "name" : "Switch_Purchase_024 - User able to add Token 100 to cart",
+  "fullName" : "tests.PurchaseITest.checkAddToken100ToCart",
+  "historyId" : "435c663ddcf143f379a217a75d860e4f",
+  "time" : {
+    "start" : 1604652667365,
+    "stop" : 1604652690454,
+    "duration" : 23089
+  },
+  "description" : "Verify that user can add token 100 to cart.",
+  "descriptionHtml" : "<p>Verify that user can add token 100 to cart.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1604650627305,
+      "stop" : 1604650635935,
+      "duration" : 8630
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify that user can add token 100 to cart.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "User Do Valid Login Using Email or Switch Number",
+      "time" : {
+        "start" : 1604652667365,
+        "stop" : 1604652681707,
+        "duration" : 14342
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click Button Login",
+        "time" : {
+          "start" : 1604652667365,
+          "stop" : 1604652675454,
+          "duration" : 8089
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "088906011294"
+      }, {
+        "name" : "pin",
+        "value" : "111111"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Go To Service Plan",
+      "time" : {
+        "start" : 1604652681707,
+        "stop" : 1604652688537,
+        "duration" : 6830
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "service",
+        "value" : "BalancePlan"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Select Balance Plan",
+      "time" : {
+        "start" : 1604652688537,
+        "stop" : 1604652689449,
+        "duration" : 912
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "bPlan",
+        "value" : "Token100"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "7b695bab1627dcb3",
+      "name" : "screenShot",
+      "source" : "7b695bab1627dcb3.png",
+      "type" : "image/png",
+      "size" : 115624
+    }, {
+      "uid" : "689cf7dd89c4536d",
+      "name" : "Page Screenshot",
+      "source" : "689cf7dd89c4536d.png",
+      "type" : "image/png",
+      "size" : 115624
+    }, {
+      "uid" : "831dd5fb1d8f2e8d",
+      "name" : "screenShot",
+      "source" : "831dd5fb1d8f2e8d.png",
+      "type" : "image/png",
+      "size" : 115624
+    }, {
+      "uid" : "e43043be9ab7d153",
+      "name" : "Page Screenshot",
+      "source" : "e43043be9ab7d153.png",
+      "type" : "image/png",
+      "size" : 115624
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeAppSwitch",
+    "time" : {
+      "start" : 1604652690455,
+      "stop" : 1604652694522,
+      "duration" : 4067
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.PurchaseITest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.PurchaseITest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkAddToken100ToCart"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Switch Android Regression Test"
+  }, {
+    "name" : "suite",
+    "value" : "Switch Android Regression Test (BAHASA VERSION)"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.PurchaseITest"
+  }, {
+    "name" : "host",
+    "value" : "Faizals-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "10243@Faizals-MacBook-Pro.local.TestNG-test=Switch Android Regression Test (BAHASA VERSION)-12(33)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story Name : Check Purchase"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "deviceName",
+    "value" : "Pixel"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d136e74100f8d460.json",
+  "parameterValues" : [ "Pixel" ]
+}

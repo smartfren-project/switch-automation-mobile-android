@@ -1,0 +1,205 @@
+{
+  "uid" : "678c740da1856910",
+  "name" : "Switch_Login_009 - User unable to login using INVALID PIN EMAIL",
+  "fullName" : "tests.LoginITest.checkInvalidCredentialEmailPin",
+  "historyId" : "8ed6f9ba57efdc37f28e01fa32d008a4",
+  "time" : {
+    "start" : 1607565870279,
+    "stop" : 1607565889266,
+    "duration" : 18987
+  },
+  "description" : "User Unable to Login Using WRONG PIN From Email",
+  "descriptionHtml" : "<p>User Unable to Login Using WRONG PIN From Email</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1607565106469,
+      "stop" : 1607565122439,
+      "duration" : 15970
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "User Unable to Login Using WRONG PIN From Email",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "User Do Invalid Login Input PIN",
+      "time" : {
+        "start" : 1607565870280,
+        "stop" : 1607565888571,
+        "duration" : 18291
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click Button Login",
+        "time" : {
+          "start" : 1607565870280,
+          "stop" : 1607565878474,
+          "duration" : 8194
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "User Do Invalid Login Input Username",
+        "time" : {
+          "start" : 1607565878474,
+          "stop" : 1607565886795,
+          "duration" : 8321
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Click Button Login",
+          "time" : {
+            "start" : 1607565878474,
+            "stop" : 1607565886071,
+            "duration" : 7597
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "username",
+          "value" : "satriopanjiprakoso@gmail.com"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "satriopanjiprakoso@gmail.com"
+      }, {
+        "name" : "pin",
+        "value" : "111111"
+      } ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "f32b9a753ee57e9f",
+      "name" : "screenShot",
+      "source" : "f32b9a753ee57e9f.png",
+      "type" : "image/png",
+      "size" : 58260
+    }, {
+      "uid" : "69275dfaf2995215",
+      "name" : "Page Screenshot",
+      "source" : "69275dfaf2995215.png",
+      "type" : "image/png",
+      "size" : 63293
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeAppSwitch",
+    "time" : {
+      "start" : 1607565889818,
+      "stop" : 1607565898537,
+      "duration" : 8719
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.LoginITest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.LoginITest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkInvalidCredentialEmailPin"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Switch Android Regression Test"
+  }, {
+    "name" : "suite",
+    "value" : "Switch Android Regression Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.LoginITest"
+  }, {
+    "name" : "host",
+    "value" : "Faizals-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "43788@Faizals-MacBook-Pro.local.TestNG-test=Switch Android Regression Test-12(31)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story Name : Check Login"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "deviceName",
+    "value" : "Pixel"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "3b555d50750eec5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604651135343,
+        "stop" : 1604651156142,
+        "duration" : 20799
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "678c740da1856910.json",
+  "parameterValues" : [ "Pixel" ]
+}

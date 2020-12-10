@@ -1,5 +1,5 @@
 {
-  "cb39b021d1d123068afb902868a8798e" : {
+  "101ebb40f2e7e3006f3c5c217b10d28a" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -9,130 +9,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f0f119b9a257a680",
+      "uid" : "785a7279a49b79a7",
       "status" : "passed",
       "time" : {
-        "start" : 1599815100755,
-        "stop" : 1599815135345,
-        "duration" : 34590
+        "start" : 1607566899641,
+        "stop" : 1607566953923,
+        "duration" : 54282
       }
     } ]
   },
-  "ddfaf391d90db9dff1b6d835fba02ccb" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "fe5a4c1ceae06940",
-      "status" : "passed",
-      "time" : {
-        "start" : 1599815161938,
-        "stop" : 1599815173681,
-        "duration" : 11743
-      }
-    } ]
-  },
-  "a4c84adbe262152b151f372f4c971873" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "88f59123b756a837",
-      "status" : "passed",
-      "time" : {
-        "start" : 1599815346468,
-        "stop" : 1599815374716,
-        "duration" : 28248
-      }
-    } ]
-  },
-  "a1460d5951cd66d791282a8e2989c05c" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "1ee3f35fc58e9f33",
-      "status" : "passed",
-      "time" : {
-        "start" : 1599815486152,
-        "stop" : 1599815507627,
-        "duration" : 21475
-      }
-    } ]
-  },
-  "e154492dfc0b68d1b93feb04d638cc07" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "b1b2086680f3df74",
-      "status" : "passed",
-      "time" : {
-        "start" : 1599815570169,
-        "stop" : 1599815585664,
-        "duration" : 15495
-      }
-    } ]
-  },
-  "d59ae09e0a1ac8824226f60a8888c9a0" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "cf334ad4f7b64cfb",
-      "status" : "passed",
-      "time" : {
-        "start" : 1599815142942,
-        "stop" : 1599815154661,
-        "duration" : 11719
-      }
-    } ]
-  },
-  "750187a7a8a74fe6f1c3dbdf8e68c895" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "7e88c1aedfebfb06",
-      "status" : "passed",
-      "time" : {
-        "start" : 1599815250942,
-        "stop" : 1599815263440,
-        "duration" : 12498
-      }
-    } ]
-  },
-  "859895797aea75f4f11067d4e8f05563" : {
+  "5b02f9e8959e11a86bf69d17da14ae25" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 1,
@@ -142,55 +28,17 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "23d29fbcbea1c5b8",
+      "uid" : "afe568c3e0dc1676",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: com.smartfren.switchmobile:id/skip (tried for 10 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: com.smartfren.switchmobile:id/btn_fab (tried for 20 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1599815514857,
-        "stop" : 1599815562984,
-        "duration" : 48127
+        "start" : 1607569244468,
+        "stop" : 1607569322198,
+        "duration" : 77730
       }
     } ]
   },
-  "6e4f7d91f12a7e2ba92c6f88c003907b" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "d9aec675b320b3b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1599815463640,
-        "stop" : 1599815478867,
-        "duration" : 15227
-      }
-    } ]
-  },
-  "5e1457dca8668fbe73df9c185f2c06c0" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "6b1aef91e18ce988",
-      "status" : "passed",
-      "time" : {
-        "start" : 1599815615165,
-        "stop" : 1599815633046,
-        "duration" : 17881
-      }
-    } ]
-  },
-  "ab9efb194edefddf2f88b9b58aa6506b" : {
+  "e1e4b63ac3192d1d59cc29da6b83bcae" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 1,
@@ -200,17 +48,112 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "df63cc6e9f08a1bd",
+      "uid" : "bf0fda12a1a0b4e2",
       "status" : "broken",
-      "statusDetails" : "androidx.test.uiautomator.StaleObjectException\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Faizals-MacBook-Pro.local', ip: 'fe80:0:0:0:14de:e496:6318:a6af%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_251'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /home/radmin/build/raid-dat..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 30092, databaseEnabled: false, desired: {app: /home/radmin/build/raid-dat..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 30092, deviceName: 442, launchTimeout: 90000, newCommandTimeout: 600, pCloudy_ApiKey: ybrf4d2k3jv496f5x53w93wc, pCloudy_ApplicationName: switch.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyS9_Android_10..., pCloudy_DurationInMinutes: 30, pCloudy_Username: pramoda.kumar@smartfren.com, pCloudy_WildNet: false, platformName: android, platformVersion: 10.0.0, systemPort: 30094, udid: 218b2700920d7ece}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-G960F, deviceName: 218b2700920d7ece, deviceScreenDensity: 640, deviceScreenSize: 1440x2960, deviceUDID: 218b2700920d7ece, javascriptEnabled: true, launchTimeout: 90000, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pCloudy_ApiKey: ybrf4d2k3jv496f5x53w93wc, pCloudy_ApplicationName: switch.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyS9_Android_10..., pCloudy_DurationInMinutes: 30, pCloudy_Username: pramoda.kumar@smartfren.com, pCloudy_WildNet: false, pixelRatio: 4, platform: LINUX, platformName: ANDROID, platformVersion: 10, statBarHeight: 96, systemPort: 30094, takesScreenshot: true, udid: 218b2700920d7ece, viewportRect: {height: 2672, left: 0, top: 96, width: 1440}, warnings: {}, webStorageEnabled: false}\nSession ID: 3e215947-6e0d-48aa-98ea-2820e2d2eafc",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@text='GoPay'] (tried for 20 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1599815382072,
-        "stop" : 1599815413745,
-        "duration" : 31673
+        "start" : 1607570698606,
+        "stop" : 1607570827892,
+        "duration" : 129286
       }
     } ]
   },
-  "dd30c09869a7355d6fb2918de91291f4" : {
+  "58e374690deb4c7bfa3e67286f1d600d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "289589965f841e0b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607565489855,
+        "stop" : 1607565500077,
+        "duration" : 10222
+      }
+    } ]
+  },
+  "af5fa5f5db9974ec4b49b28257228cf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "972a3c87bb402bb7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607569380483,
+        "stop" : 1607569425409,
+        "duration" : 44926
+      }
+    } ]
+  },
+  "13dad7b5b10ad3f6867eb5013b7309f3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9129534521dfd65",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607571365653,
+        "stop" : 1607571416431,
+        "duration" : 50778
+      }
+    } ]
+  },
+  "8ea65ebad8cd7fd05c06ce54f28fb672" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "254f184eba809edb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607565151990,
+        "stop" : 1607565158268,
+        "duration" : 6278
+      }
+    } ]
+  },
+  "d5fa2fb76a083eb12bed189318291531" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bbd2bd0bee23b87c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607573518537,
+        "stop" : 1607573571207,
+        "duration" : 52670
+      }
+    } ]
+  },
+  "3cc46511159e6d23e76287c4595da72f" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 1,
@@ -220,17 +163,74 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "883fa6cd55cc2eda",
+      "uid" : "fa42eba623abebf3",
       "status" : "broken",
-      "statusDetails" : "The element 'By.id: com.smartfren.switchmobile:id/username' does not exist in DOM anymore\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Faizals-MacBook-Pro.local', ip: 'fe80:0:0:0:14de:e496:6318:a6af%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_251'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /home/radmin/build/raid-dat..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 30092, databaseEnabled: false, desired: {app: /home/radmin/build/raid-dat..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 30092, deviceName: 442, launchTimeout: 90000, newCommandTimeout: 600, pCloudy_ApiKey: ybrf4d2k3jv496f5x53w93wc, pCloudy_ApplicationName: switch.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyS9_Android_10..., pCloudy_DurationInMinutes: 30, pCloudy_Username: pramoda.kumar@smartfren.com, pCloudy_WildNet: false, platformName: android, platformVersion: 10.0.0, systemPort: 30094, udid: 218b2700920d7ece}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-G960F, deviceName: 218b2700920d7ece, deviceScreenDensity: 640, deviceScreenSize: 1440x2960, deviceUDID: 218b2700920d7ece, javascriptEnabled: true, launchTimeout: 90000, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pCloudy_ApiKey: ybrf4d2k3jv496f5x53w93wc, pCloudy_ApplicationName: switch.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyS9_Android_10..., pCloudy_DurationInMinutes: 30, pCloudy_Username: pramoda.kumar@smartfren.com, pCloudy_WildNet: false, pixelRatio: 4, platform: LINUX, platformName: ANDROID, platformVersion: 10, statBarHeight: 96, systemPort: 30094, takesScreenshot: true, udid: 218b2700920d7ece, viewportRect: {height: 2672, left: 0, top: 96, width: 1440}, warnings: {}, webStorageEnabled: false}\nSession ID: 3e215947-6e0d-48aa-98ea-2820e2d2eafc",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: com.smartfren.switchmobile:id/txt_later (tried for 20 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1599815860145,
-        "stop" : 1599815900149,
-        "duration" : 40004
+        "start" : 1607572861792,
+        "stop" : 1607572940102,
+        "duration" : 78310
       }
     } ]
   },
-  "6ea7d3c496e2072ff40d8a147402d639" : {
+  "9fabbaaf2309743244fbb1552044226d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8f56cacd60a48a43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607567739527,
+        "stop" : 1607567807435,
+        "duration" : 67908
+      }
+    } ]
+  },
+  "bd99283ce3f4646ccaae24a4475225d4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cc14afc3663b6b43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607568813568,
+        "stop" : 1607568866425,
+        "duration" : 52857
+      }
+    } ]
+  },
+  "e21e9ae97202c958ad74110669dfb3b4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "be741164da34b1fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607566308648,
+        "stop" : 1607566361329,
+        "duration" : 52681
+      }
+    } ]
+  },
+  "336158719b1da295d9405ded84c933ba" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 1,
@@ -240,17 +240,17 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b63b665cee1b5b38",
+      "uid" : "fbc7435dcb988b5",
       "status" : "broken",
-      "statusDetails" : "The element 'By.id: com.smartfren.switchmobile:id/username' does not exist in DOM anymore\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Faizals-MacBook-Pro.local', ip: 'fe80:0:0:0:14de:e496:6318:a6af%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_251'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /home/radmin/build/raid-dat..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 30092, databaseEnabled: false, desired: {app: /home/radmin/build/raid-dat..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 30092, deviceName: 442, launchTimeout: 90000, newCommandTimeout: 600, pCloudy_ApiKey: ybrf4d2k3jv496f5x53w93wc, pCloudy_ApplicationName: switch.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyS9_Android_10..., pCloudy_DurationInMinutes: 30, pCloudy_Username: pramoda.kumar@smartfren.com, pCloudy_WildNet: false, platformName: android, platformVersion: 10.0.0, systemPort: 30094, udid: 218b2700920d7ece}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-G960F, deviceName: 218b2700920d7ece, deviceScreenDensity: 640, deviceScreenSize: 1440x2960, deviceUDID: 218b2700920d7ece, javascriptEnabled: true, launchTimeout: 90000, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pCloudy_ApiKey: ybrf4d2k3jv496f5x53w93wc, pCloudy_ApplicationName: switch.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyS9_Android_10..., pCloudy_DurationInMinutes: 30, pCloudy_Username: pramoda.kumar@smartfren.com, pCloudy_WildNet: false, pixelRatio: 4, platform: LINUX, platformName: ANDROID, platformVersion: 10, statBarHeight: 96, systemPort: 30094, takesScreenshot: true, udid: 218b2700920d7ece, viewportRect: {height: 2672, left: 0, top: 96, width: 1440}, warnings: {}, webStorageEnabled: false}\nSession ID: 3e215947-6e0d-48aa-98ea-2820e2d2eafc",
+      "statusDetails" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Faizals-MacBook-Pro.local', ip: 'fe80:0:0:0:c27:430f:e576:ebb3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_251'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, databaseEnabled: false, desired: {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, noReset: true, platformName: android, platformVersion: 8.1.0, udid: emulator-5554}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: ANDROID, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: dcc6f7e6-7ced-41be-8375-8bb0740d3cd5\n*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().resourceId(\"com.smartfren.switchmobile:id/recycler_\")).scrollIntoView(new UiSelector().text(\"Token 10\"));}",
       "time" : {
-        "start" : 1599815791977,
-        "stop" : 1599815814619,
-        "duration" : 22642
+        "start" : 1607569157896,
+        "stop" : 1607569239338,
+        "duration" : 81442
       }
     } ]
   },
-  "97dac1bcbc9a2299c376af2a3fcbb3a4" : {
+  "732b6e08bf2cf3d38fb7394081fcec1a" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -260,16 +260,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d35682e29495c082",
+      "uid" : "75caa91715602976",
       "status" : "passed",
       "time" : {
-        "start" : 1599815420975,
-        "stop" : 1599815456468,
-        "duration" : 35493
+        "start" : 1607565898548,
+        "stop" : 1607565918173,
+        "duration" : 19625
       }
     } ]
   },
-  "39e093befceb8765eacd644875f12ef6" : {
+  "433bc7ee0c602d1b5d9161713c975d11" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -279,16 +279,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d12fa858a1c30785",
+      "uid" : "16388dd64b3c9c9a",
       "status" : "passed",
       "time" : {
-        "start" : 1599815592795,
-        "stop" : 1599815607926,
-        "duration" : 15131
+        "start" : 1607568375664,
+        "stop" : 1607568423524,
+        "duration" : 47860
       }
     } ]
   },
-  "a6609ea51de3448e2a283c1a566a8bf6" : {
+  "885508a39e3991b8518669953651bc00" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -298,16 +298,54 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2b3604ede933296b",
+      "uid" : "4fc64bf985834c3f",
       "status" : "passed",
       "time" : {
-        "start" : 1599815180851,
-        "stop" : 1599815243808,
-        "duration" : 62957
+        "start" : 1607568193422,
+        "stop" : 1607568250872,
+        "duration" : 57450
       }
     } ]
   },
-  "34480c9b72a9ea629dcddfa1212d2daf" : {
+  "4f8d106d12862a2b46a664647817a2e5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4c3f0332f97aa183",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607572380789,
+        "stop" : 1607572436901,
+        "duration" : 56112
+      }
+    } ]
+  },
+  "cecdd55b8b5d27e4a53219f11d198bfa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3f7c27ecc3c0e919",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607570185827,
+        "stop" : 1607570345060,
+        "duration" : 159233
+      }
+    } ]
+  },
+  "8829f98fab8d938f78c5131e556aad1f" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 1,
@@ -317,17 +355,17 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "848858f36b550a3f",
+      "uid" : "9e6e17c9351cce3d",
       "status" : "broken",
-      "statusDetails" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Faizals-MacBook-Pro.local', ip: 'fe80:0:0:0:14de:e496:6318:a6af%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_251'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /home/radmin/build/raid-dat..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 30092, databaseEnabled: false, desired: {app: /home/radmin/build/raid-dat..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 30092, deviceName: 442, launchTimeout: 90000, newCommandTimeout: 600, pCloudy_ApiKey: ybrf4d2k3jv496f5x53w93wc, pCloudy_ApplicationName: switch.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyS9_Android_10..., pCloudy_DurationInMinutes: 30, pCloudy_Username: pramoda.kumar@smartfren.com, pCloudy_WildNet: false, platformName: android, platformVersion: 10.0.0, systemPort: 30094, udid: 218b2700920d7ece}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-G960F, deviceName: 218b2700920d7ece, deviceScreenDensity: 640, deviceScreenSize: 1440x2960, deviceUDID: 218b2700920d7ece, javascriptEnabled: true, launchTimeout: 90000, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pCloudy_ApiKey: ybrf4d2k3jv496f5x53w93wc, pCloudy_ApplicationName: switch.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyS9_Android_10..., pCloudy_DurationInMinutes: 30, pCloudy_Username: pramoda.kumar@smartfren.com, pCloudy_WildNet: false, pixelRatio: 4, platform: LINUX, platformName: ANDROID, platformVersion: 10, statBarHeight: 96, systemPort: 30094, takesScreenshot: true, udid: 218b2700920d7ece, viewportRect: {height: 2672, left: 0, top: 96, width: 1440}, warnings: {}, webStorageEnabled: false}\nSession ID: 3e215947-6e0d-48aa-98ea-2820e2d2eafc\n*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView(new UiSelector().resourceId(\"com.smartfren.switchmobile:id/logout\"));}",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: com.smartfren.switchmobile:id/skip (tried for 20 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1599815712934,
-        "stop" : 1599815784618,
-        "duration" : 71684
+        "start" : 1607565761968,
+        "stop" : 1607565805669,
+        "duration" : 43701
       }
     } ]
   },
-  "1f7c44b6c1eeaf9b067106701636c036" : {
+  "c0c7570688a3fb28f14aaa39386dd6d0" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -337,16 +375,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1ceac7b7e801c711",
+      "uid" : "f8f7c874ce9e8dbb",
       "status" : "passed",
       "time" : {
-        "start" : 1599815821983,
-        "stop" : 1599815853101,
-        "duration" : 31118
+        "start" : 1607573252410,
+        "stop" : 1607573296703,
+        "duration" : 44293
       }
     } ]
   },
-  "a6fa99adb5255df066cffa0a357b0268" : {
+  "50105550276b9bd445bbcde7bce61936" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -356,16 +394,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f04a0d4dc4fb2305",
+      "uid" : "71291e9d4e582c61",
       "status" : "passed",
       "time" : {
-        "start" : 1599815640141,
-        "stop" : 1599815675896,
-        "duration" : 35755
+        "start" : 1607565216430,
+        "stop" : 1607565226215,
+        "duration" : 9785
       }
     } ]
   },
-  "236bb6c485f75514e6b8da8873c74ec7" : {
+  "4cd84111647d86cc3622cdb2962604f9" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -375,16 +413,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "43cdedc5d291979",
+      "uid" : "3ab2c0a7d6dfcb8e",
       "status" : "passed",
       "time" : {
-        "start" : 1599815270851,
-        "stop" : 1599815281531,
-        "duration" : 10680
+        "start" : 1607572443822,
+        "stop" : 1607572496444,
+        "duration" : 52622
       }
     } ]
   },
-  "782005a0e4575c464fd493dfcdb4f948" : {
+  "f8b9638e5a097777761b5b3c4a22ce92" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -394,16 +432,112 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9b7a043fb3458241",
+      "uid" : "23787cfdb624852b",
       "status" : "passed",
       "time" : {
-        "start" : 1599815683080,
-        "stop" : 1599815705631,
-        "duration" : 22551
+        "start" : 1607566174673,
+        "stop" : 1607566229819,
+        "duration" : 55146
       }
     } ]
   },
-  "c2362e0b779e329b78a928a745349de3" : {
+  "28e2179bb7f0c5f697176361c70b3a9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f360bd3de9082bfc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607572318845,
+        "stop" : 1607572375743,
+        "duration" : 56898
+      }
+    } ]
+  },
+  "5dede023410953faa178bb3dcccd730c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "897b06c75e7b63ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607565472940,
+        "stop" : 1607565483967,
+        "duration" : 11027
+      }
+    } ]
+  },
+  "af69a9c97e6c3db5152212c1807fcb15" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "39f7a7c653605cf4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607566115681,
+        "stop" : 1607566169520,
+        "duration" : 53839
+      }
+    } ]
+  },
+  "5a923e1e72ee3dbaa47a607072e086eb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2ffdfaec8ecd3bfa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607565333895,
+        "stop" : 1607565347919,
+        "duration" : 14024
+      }
+    } ]
+  },
+  "8f52e5d01afb1eda095577f6d0d21181" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d9373040d26ca731",
+      "status" : "failed",
+      "statusDetails" : "expected [fgyRpcHC] but found []",
+      "time" : {
+        "start" : 1607572054846,
+        "stop" : 1607572103895,
+        "duration" : 49049
+      }
+    } ]
+  },
+  "8f3a32a4a7d882d5ee5e2e49e4d3cd02" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 1,
@@ -413,13 +547,2151 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8ae3bae01e1539ed",
+      "uid" : "ee7282a85cda9b6a",
       "status" : "broken",
-      "statusDetails" : "androidx.test.uiautomator.StaleObjectException\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Faizals-MacBook-Pro.local', ip: 'fe80:0:0:0:14de:e496:6318:a6af%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_251'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /home/radmin/build/raid-dat..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 30092, databaseEnabled: false, desired: {app: /home/radmin/build/raid-dat..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 30092, deviceName: 442, launchTimeout: 90000, newCommandTimeout: 600, pCloudy_ApiKey: ybrf4d2k3jv496f5x53w93wc, pCloudy_ApplicationName: switch.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyS9_Android_10..., pCloudy_DurationInMinutes: 30, pCloudy_Username: pramoda.kumar@smartfren.com, pCloudy_WildNet: false, platformName: android, platformVersion: 10.0.0, systemPort: 30094, udid: 218b2700920d7ece}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-G960F, deviceName: 218b2700920d7ece, deviceScreenDensity: 640, deviceScreenSize: 1440x2960, deviceUDID: 218b2700920d7ece, javascriptEnabled: true, launchTimeout: 90000, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pCloudy_ApiKey: ybrf4d2k3jv496f5x53w93wc, pCloudy_ApplicationName: switch.apk, pCloudy_DeviceFullName: SAMSUNG_GalaxyS9_Android_10..., pCloudy_DurationInMinutes: 30, pCloudy_Username: pramoda.kumar@smartfren.com, pCloudy_WildNet: false, pixelRatio: 4, platform: LINUX, platformName: ANDROID, platformVersion: 10, statBarHeight: 96, systemPort: 30094, takesScreenshot: true, udid: 218b2700920d7ece, viewportRect: {height: 2672, left: 0, top: 96, width: 1440}, warnings: {}, webStorageEnabled: false}\nSession ID: 3e215947-6e0d-48aa-98ea-2820e2d2eafc",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@text='GoPay'] (tried for 20 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1599815288917,
-        "stop" : 1599815339159,
-        "duration" : 50242
+        "start" : 1607569799765,
+        "stop" : 1607569920677,
+        "duration" : 120912
+      }
+    } ]
+  },
+  "6e0ac62fd1ecd1e2a0cc54351eb94861" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4d050cb6aa70a172",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607566792088,
+        "stop" : 1607566841212,
+        "duration" : 49124
+      }
+    } ]
+  },
+  "c034b3a605b08de46fb58473b49d7ed7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d1eae2d57ff66128",
+      "status" : "broken",
+      "statusDetails" : "An unknown server-side error occurred while processing the command. Original error: error while invoking method private android.view.accessibility.AccessibilityNodeInfo androidx.test.uiautomator.UiObject2.getAccessibilityNodeInfo() on object androidx.test.uiautomator.UiObject2@79fc6 with parameters []\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Faizals-MacBook-Pro.local', ip: 'fe80:0:0:0:c27:430f:e576:ebb3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_251'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, databaseEnabled: false, desired: {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, noReset: true, platformName: android, platformVersion: 8.1.0, udid: emulator-5554}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: ANDROID, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: dcc6f7e6-7ced-41be-8375-8bb0740d3cd5",
+      "time" : {
+        "start" : 1607570454962,
+        "stop" : 1607570500376,
+        "duration" : 45414
+      }
+    } ]
+  },
+  "cfff6da3d8b4a73c6ce03ea3ac6de031" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "33e44f6dd55b9e05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607571422226,
+        "stop" : 1607571473491,
+        "duration" : 51265
+      }
+    } ]
+  },
+  "ca014604cf9d12252da7388c9af3d9ca" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ce23c94a8c9f6db7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607571801152,
+        "stop" : 1607571846085,
+        "duration" : 44933
+      }
+    } ]
+  },
+  "f7aecc0f5d88193c9615150ce7ccd1e9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e509737606b40933",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: com.smartfren.switchmobile:id/button_activate (tried for 20 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1607568034064,
+        "stop" : 1607568107586,
+        "duration" : 73522
+      }
+    } ]
+  },
+  "936897c58959476f484d5a4570c1d0ff" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a3805c1e9aa91e56",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@text='GoPay'] (tried for 20 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1607569925091,
+        "stop" : 1607570047177,
+        "duration" : 122086
+      }
+    } ]
+  },
+  "1e00d2eb2f3284f6ed52431bc6120c7d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4424e726db78a594",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607569590742,
+        "stop" : 1607569637927,
+        "duration" : 47185
+      }
+    } ]
+  },
+  "7331f9e58dd03a3cab7c92d4983d24ec" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7c66af4bb71d71ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607571534441,
+        "stop" : 1607571582632,
+        "duration" : 48191
+      }
+    } ]
+  },
+  "772817b63fb4a19961dade0472829bf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8abd50832dbf6e3",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Faizals-MacBook-Pro.local', ip: 'fe80:0:0:0:c27:430f:e576:ebb3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_251'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, databaseEnabled: false, desired: {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, noReset: true, platformName: android, platformVersion: 8.1.0, udid: emulator-5554}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: ANDROID, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: dcc6f7e6-7ced-41be-8375-8bb0740d3cd5\n*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().resourceId(\"com.smartfren.switchmobile:id/tab_layout\")).scrollIntoView(new UiSelector().text(\"Pesanan Selesai\"));}",
+      "time" : {
+        "start" : 1607572766021,
+        "stop" : 1607572847901,
+        "duration" : 81880
+      }
+    } ]
+  },
+  "37efff383afdf7cbb897af1ebabf96f0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "231c7e9afd6957c0",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Faizals-MacBook-Pro.local', ip: 'fe80:0:0:0:c27:430f:e576:ebb3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_251'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, databaseEnabled: false, desired: {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, noReset: true, platformName: android, platformVersion: 8.1.0, udid: emulator-5554}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: ANDROID, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: dcc6f7e6-7ced-41be-8375-8bb0740d3cd5\n*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().resourceId(\"com.smartfren.switchmobile:id/recycler_e_wallet\")).scrollIntoView(new UiSelector().text(\"GoPay\"));}",
+      "time" : {
+        "start" : 1607567218164,
+        "stop" : 1607567307979,
+        "duration" : 89815
+      }
+    } ]
+  },
+  "7e070b6d473e43ed4f1c34c4ce56d3b3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b0ca1ef321a4d67a",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@text='Up To 35.000'] (tried for 20 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1607566618936,
+        "stop" : 1607566690779,
+        "duration" : 71843
+      }
+    } ]
+  },
+  "81800cb6321302cc2bf20757a604e4fb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2a2711928cc47084",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607573401793,
+        "stop" : 1607573454881,
+        "duration" : 53088
+      }
+    } ]
+  },
+  "be699a216b30c531839aa292beedc412" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "937a074b5b69c3a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607566236288,
+        "stop" : 1607566254491,
+        "duration" : 18203
+      }
+    } ]
+  },
+  "52323f8275184e603edf5db535bf87e2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b55c062c548b433c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607572256899,
+        "stop" : 1607572313690,
+        "duration" : 56791
+      }
+    } ]
+  },
+  "c669ede0930f8e023ceaa71ee7521047" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7303000bac5f2bf0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607565163328,
+        "stop" : 1607565190017,
+        "duration" : 26689
+      }
+    } ]
+  },
+  "70da2cb5a819e9841c5d1046498c3caa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6cfe834f77af65e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607571256174,
+        "stop" : 1607571303325,
+        "duration" : 47151
+      }
+    } ]
+  },
+  "1b90fff5d32aa278afe2209b1c999de7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "33939db9b88b93a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607565721804,
+        "stop" : 1607565757668,
+        "duration" : 35864
+      }
+    } ]
+  },
+  "823cb8da712603f7179192b80a0f44fc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1e6c47177c9f0208",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607568322292,
+        "stop" : 1607568368923,
+        "duration" : 46631
+      }
+    } ]
+  },
+  "a7eddf65f220e6f78bec1523aac04ac9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "28de72b94c841376",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607565232074,
+        "stop" : 1607565298970,
+        "duration" : 66896
+      }
+    } ]
+  },
+  "ff73b47965c8ebf2081346399c537487" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1247531516806fac",
+      "status" : "broken",
+      "statusDetails" : "Could not parse expression `new UiScrollable(new UiSelector().resourceId(\"com.smartfren.switchmobile:id/recycler_trending_news\")).scrollIntoView(new UiSelector().xpath(\"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup[2]/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/android.widget.TextView[1]\"))`: `UiScrollable` doesn't have suitable method `scrollIntoView` with arguments [new UiSelector().xpath(\"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup[2]/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/android.widget.TextView[1]\")]: Could not parse expression `new UiSelector().xpath(\"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup[2]/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/android.widget.TextView[1]\")`: UiSelector has no `xpath` method\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Faizals-MacBook-Pro.local', ip: 'fe80:0:0:0:c27:430f:e576:ebb3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_251'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, databaseEnabled: false, desired: {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, noReset: true, platformName: android, platformVersion: 8.1.0, udid: emulator-5554}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: ANDROID, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: dcc6f7e6-7ced-41be-8375-8bb0740d3cd5\n*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().resourceId(\"com.smartfren.switchmobile:id/recycler_trending_news\")).scrollIntoView(new UiSelector().xpath(\"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup[2]/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/android.widget.TextView[1]\"));}",
+      "time" : {
+        "start" : 1607566846484,
+        "stop" : 1607566893251,
+        "duration" : 46767
+      }
+    } ]
+  },
+  "5f93a10455ca5e1799790b6a139ef2c3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "93be092315294534",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607566959460,
+        "stop" : 1607567015170,
+        "duration" : 55710
+      }
+    } ]
+  },
+  "435c663ddcf143f379a217a75d860e4f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8c4f7da5bc4cc2f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607568537867,
+        "stop" : 1607568587439,
+        "duration" : 49572
+      }
+    } ]
+  },
+  "93b21fa4ce425bfc9fa10658ccd4a642" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4c486561c711b2b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607572202534,
+        "stop" : 1607572251339,
+        "duration" : 48805
+      }
+    } ]
+  },
+  "8e72424f30abb4877a702c9bfa361bcc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3e8e91396eed3b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607565971749,
+        "stop" : 1607566028718,
+        "duration" : 56969
+      }
+    } ]
+  },
+  "3a5f7483e5515fd08e85122aec97df67" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "223733930da39146",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Faizals-MacBook-Pro.local', ip: 'fe80:0:0:0:c27:430f:e576:ebb3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_251'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, databaseEnabled: false, desired: {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, noReset: true, platformName: android, platformVersion: 8.1.0, udid: emulator-5554}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: ANDROID, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: dcc6f7e6-7ced-41be-8375-8bb0740d3cd5\n*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().resourceId(\"com.smartfren.switchmobile:id/tab_layout\")).scrollIntoView(new UiSelector().text(\"Pesanan Diproses\"));}",
+      "time" : {
+        "start" : 1607572678123,
+        "stop" : 1607572758707,
+        "duration" : 80584
+      }
+    } ]
+  },
+  "52273d6487f9affcba60ae7d849f4be8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "73621b4ee1809282",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Faizals-MacBook-Pro.local', ip: 'fe80:0:0:0:c27:430f:e576:ebb3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_251'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, databaseEnabled: false, desired: {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, noReset: true, platformName: android, platformVersion: 8.1.0, udid: emulator-5554}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: ANDROID, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: dcc6f7e6-7ced-41be-8375-8bb0740d3cd5\n*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().resourceId(\"com.smartfren.switchmobile:id/recycler_e_wallet\")).scrollIntoView(new UiSelector().text(\"Permata Virtual Account\"));}",
+      "time" : {
+        "start" : 1607567667912,
+        "stop" : 1607567733573,
+        "duration" : 65661
+      }
+    } ]
+  },
+  "40c826b8385c62bae0ae774560a9600d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3fd498e5a8c533c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607569431359,
+        "stop" : 1607569479186,
+        "duration" : 47827
+      }
+    } ]
+  },
+  "f79300485ee9221c5912a44de299f792" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ba57dda35e2a531d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607573036343,
+        "stop" : 1607573086346,
+        "duration" : 50003
+      }
+    } ]
+  },
+  "ed778f5dec889a6e9637b82144b0eae" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f945ae3a2616605c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607569485147,
+        "stop" : 1607569534737,
+        "duration" : 49590
+      }
+    } ]
+  },
+  "786a7c15761a6afee2ac262c1b6a056c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "79d9c92d2a87e188",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607566366883,
+        "stop" : 1607566409434,
+        "duration" : 42551
+      }
+    } ]
+  },
+  "da57f822d79b3944aadbdc59073aed7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "54eea8e841008003",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607571308975,
+        "stop" : 1607571356025,
+        "duration" : 47050
+      }
+    } ]
+  },
+  "912398c2ea3293d0ea482343fa189cf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cb1850066d7224b3",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@text='Custom Now'] (tried for 20 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1607566461136,
+        "stop" : 1607566534983,
+        "duration" : 73847
+      }
+    } ]
+  },
+  "7dab5ca0a63fc4c3d5e6c9fffd73edcb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4b3b3b3f630b6ab7",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Faizals-MacBook-Pro.local', ip: 'fe80:0:0:0:c27:430f:e576:ebb3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_251'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, databaseEnabled: false, desired: {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, noReset: true, platformName: android, platformVersion: 8.1.0, udid: emulator-5554}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: ANDROID, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: dcc6f7e6-7ced-41be-8375-8bb0740d3cd5\n*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().resourceId(\"com.smartfren.switchmobile:id/recycler_\")).scrollIntoView(new UiSelector().text(\"Token 10\"));}",
+      "time" : {
+        "start" : 1607568965864,
+        "stop" : 1607569050476,
+        "duration" : 84612
+      }
+    } ]
+  },
+  "f46bf077db28b3779c34c844d29e63e0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9c0a3a736aae3db3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607566261784,
+        "stop" : 1607566303680,
+        "duration" : 41896
+      }
+    } ]
+  },
+  "918778ffbe9aac099342e1d64fa6c0c4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bf23aff436683f85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607565137150,
+        "stop" : 1607565145367,
+        "duration" : 8217
+      }
+    } ]
+  },
+  "da52a9ff8bef43cdf302c9f927aabf9b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "282b1285363adb8f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607569326728,
+        "stop" : 1607569375547,
+        "duration" : 48819
+      }
+    } ]
+  },
+  "f6e90e66f44b8c429dfa84e672c0a5c9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "28c870cfb98eab3d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607567384463,
+        "stop" : 1607567441227,
+        "duration" : 56764
+      }
+    } ]
+  },
+  "6e98ff42ae984e20f85edd2d4bc13136" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ba70fd900aac745e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607569539198,
+        "stop" : 1607569585779,
+        "duration" : 46581
+      }
+    } ]
+  },
+  "936fa11b807fcee3ccb667b331ca04fc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1a84057c500f1da6",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: com.smartfren.switchmobile:id/btn_lets_start (tried for 20 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1607572953369,
+        "stop" : 1607573029757,
+        "duration" : 76388
+      }
+    } ]
+  },
+  "2c1dc17e8ea24e8280d6ebc26278f620" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "303a8f5f10fde30c",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@text='Get Now!'] (tried for 20 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1607566541791,
+        "stop" : 1607566614631,
+        "duration" : 72840
+      }
+    } ]
+  },
+  "351264d689da8a3a2af6ce353d4943bf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "378d0ff8fe89e39c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607565407195,
+        "stop" : 1607565444770,
+        "duration" : 37575
+      }
+    } ]
+  },
+  "e90766b10457364a2ea8a0a856ea001b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5edebc82114e3cf4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607570508030,
+        "stop" : 1607570564010,
+        "duration" : 55980
+      }
+    } ]
+  },
+  "55182814e7f2f941f49797f1de372fde" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4ef8ea2f65ec7d89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607571586776,
+        "stop" : 1607571635538,
+        "duration" : 48762
+      }
+    } ]
+  },
+  "4878fb4b6db7f0ec99aef9ca735822dd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c30dcc9e10fc622d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607567320174,
+        "stop" : 1607567379676,
+        "duration" : 59502
+      }
+    } ]
+  },
+  "b290b8dadd5efc8d3d414a49c33602ba" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "85a1c6ed93d0ecb7",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Faizals-MacBook-Pro.local', ip: 'fe80:0:0:0:c27:430f:e576:ebb3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_251'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, databaseEnabled: false, desired: {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, noReset: true, platformName: android, platformVersion: 8.1.0, udid: emulator-5554}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: ANDROID, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: dcc6f7e6-7ced-41be-8375-8bb0740d3cd5\n*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().resourceId(\"com.smartfren.switchmobile:id/scrollView2\")).scrollIntoView(new UiSelector().resourceId(\"com.smartfren.switchmobile:id/checkBox\"));}",
+      "time" : {
+        "start" : 1607567811875,
+        "stop" : 1607567928775,
+        "duration" : 116900
+      }
+    } ]
+  },
+  "4a5a9a6c1aef7fb56936d52bb50ba5ad" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2586d8b0c995e7c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607565552544,
+        "stop" : 1607565594834,
+        "duration" : 42290
+      }
+    } ]
+  },
+  "67b839e41cb65b85ab6979d1f44102f2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "63c34497c402a13e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607573461824,
+        "stop" : 1607573512316,
+        "duration" : 50492
+      }
+    } ]
+  },
+  "72b2b4cd7100b311e5db3ba1fdf8ba83" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ed8d1cf2f745980",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607568756394,
+        "stop" : 1607568808277,
+        "duration" : 51883
+      }
+    } ]
+  },
+  "99d811dabfca78c221e3e585d1d5bb87" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5def23a3393ede6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607565450198,
+        "stop" : 1607565467329,
+        "duration" : 17131
+      }
+    } ]
+  },
+  "9ce0930a03a34af4b5828862e44c24f5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2a382d3e0e694c1f",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Faizals-MacBook-Pro.local', ip: 'fe80:0:0:0:c27:430f:e576:ebb3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_251'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, databaseEnabled: false, desired: {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, noReset: true, platformName: android, platformVersion: 8.1.0, udid: emulator-5554}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: ANDROID, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: dcc6f7e6-7ced-41be-8375-8bb0740d3cd5\n*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().resourceId(\"com.smartfren.switchmobile:id/recycler_e_wallet\")).scrollIntoView(new UiSelector().text(\"Visa/Master/JCB\"));}",
+      "time" : {
+        "start" : 1607568871303,
+        "stop" : 1607568961332,
+        "duration" : 90029
+      }
+    } ]
+  },
+  "41b5abf50a89ba5796afd37dbce76bfe" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1c58dcc4ad124165",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Faizals-MacBook-Pro.local', ip: 'fe80:0:0:0:c27:430f:e576:ebb3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_251'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, databaseEnabled: false, desired: {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, noReset: true, platformName: android, platformVersion: 8.1.0, udid: emulator-5554}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: ANDROID, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: dcc6f7e6-7ced-41be-8375-8bb0740d3cd5\n*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().resourceId(\"com.smartfren.switchmobile:id/tab_layout\")).scrollIntoView(new UiSelector().text(\"Semua\"));}",
+      "time" : {
+        "start" : 1607572502289,
+        "stop" : 1607572584301,
+        "duration" : 82012
+      }
+    } ]
+  },
+  "76feaa82e5a0562759111b601a0740cb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8de871dc302b22d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607568591786,
+        "stop" : 1607568641879,
+        "duration" : 50093
+      }
+    } ]
+  },
+  "f08b287ca4df72cd3480a3cd1185fe7a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "79a04bde4d3efeb5",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Faizals-MacBook-Pro.local', ip: 'fe80:0:0:0:c27:430f:e576:ebb3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_251'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, databaseEnabled: false, desired: {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, noReset: true, platformName: android, platformVersion: 8.1.0, udid: emulator-5554}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: ANDROID, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: dcc6f7e6-7ced-41be-8375-8bb0740d3cd5\n*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().resourceId(\"com.smartfren.switchmobile:id/tab_layout\")).scrollIntoView(new UiSelector().text(\"Menunggu\"));}",
+      "time" : {
+        "start" : 1607572593071,
+        "stop" : 1607572672303,
+        "duration" : 79232
+      }
+    } ]
+  },
+  "ee9a5fe1efc3ad3f4bf2ef418b11bf87" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f160383c3293c703",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607567933324,
+        "stop" : 1607568027423,
+        "duration" : 94099
+      }
+    } ]
+  },
+  "91e5da654973cde45ae73350eba59c6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f4b8345fa3fa361e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607571203019,
+        "stop" : 1607571251592,
+        "duration" : 48573
+      }
+    } ]
+  },
+  "951b51d4fc82d1e91e407f247762967b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ecb7c8bacc41bf1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607571851627,
+        "stop" : 1607571926541,
+        "duration" : 74914
+      }
+    } ]
+  },
+  "cdfbae114ec8de76b2b0749a98929a51" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e6d918178eae9fbf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607565122552,
+        "stop" : 1607565131289,
+        "duration" : 8737
+      }
+    } ]
+  },
+  "30d46ac17f68a9d9df76a88c6421f725" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8a2659dcbed4a8d3",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@text='GoPay'] (tried for 20 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1607570832588,
+        "stop" : 1607570957180,
+        "duration" : 124592
+      }
+    } ]
+  },
+  "d87c4799665e50b3b5324a453aa747ed" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6334abd057c20df2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607566695340,
+        "stop" : 1607566737979,
+        "duration" : 42639
+      }
+    } ]
+  },
+  "33e479e0ee941a65200db7166474dee" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "32fe4d2015af1095",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607571478744,
+        "stop" : 1607571529355,
+        "duration" : 50611
+      }
+    } ]
+  },
+  "7fd0204401a8169da17e2998e322a57a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c5ed5d9737b65d1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607567446599,
+        "stop" : 1607567504320,
+        "duration" : 57721
+      }
+    } ]
+  },
+  "ba919158788d9371930934bf31074726" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "17faed8fcfd0b435",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607565842889,
+        "stop" : 1607565862119,
+        "duration" : 19230
+      }
+    } ]
+  },
+  "d901b5272217352a9b9d23250d094aae" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9f7d89335317cfd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607566414309,
+        "stop" : 1607566456382,
+        "duration" : 42073
+      }
+    } ]
+  },
+  "7fa2ba10cf977148e779990af208bc0f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "daf4b7198af4fe31",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607570350998,
+        "stop" : 1607570448926,
+        "duration" : 97928
+      }
+    } ]
+  },
+  "7a35f80ca6ebb7b396faccd643942eeb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d5ce41d0aeccf881",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: com.smartfren.switchmobile:id/button_activate (tried for 20 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1607569721020,
+        "stop" : 1607569795117,
+        "duration" : 74097
+      }
+    } ]
+  },
+  "2a3015a7dcf04ec9fd86dc779810948e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fc1c16ae4b2bdd48",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607565948418,
+        "stop" : 1607565966917,
+        "duration" : 18499
+      }
+    } ]
+  },
+  "c3c91fb440224a77f7806500c738ca45" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d03ad334849e3382",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607565601668,
+        "stop" : 1607565649478,
+        "duration" : 47810
+      }
+    } ]
+  },
+  "549d262226cc3e5ba16df622a6d1db82" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b73ac3076c406734",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607570962039,
+        "stop" : 1607571021589,
+        "duration" : 59550
+      }
+    } ]
+  },
+  "e30850969998c04900f5f7c0aa45023e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "afa6dce009410eb1",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: com.smartfren.switchmobile:id/button_activate (tried for 20 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1607568114359,
+        "stop" : 1607568189035,
+        "duration" : 74676
+      }
+    } ]
+  },
+  "c6d10cbf838c85d141c78ce93ce2d063" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2b465fd8c3822a5b",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@text='GoPay'] (tried for 20 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1607570569579,
+        "stop" : 1607570694277,
+        "duration" : 124698
+      }
+    } ]
+  },
+  "ff06b7e2edb0f07e5c6f343ed92d93da" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e1c30f22d208002a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607567091276,
+        "stop" : 1607567149173,
+        "duration" : 57897
+      }
+    } ]
+  },
+  "a513b7305c23f9b137dc6e661178f4ab" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "99f8dee75593327b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607566036311,
+        "stop" : 1607566111016,
+        "duration" : 74705
+      }
+    } ]
+  },
+  "a946c3b58e4c8dd2882f98aa2f96f97c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9566d7c2fb6628c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607565357044,
+        "stop" : 1607565384669,
+        "duration" : 27625
+      }
+    } ]
+  },
+  "4d8af2140e835431a791ad8711652337" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3409a6903321e0e6",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@text='GoPay'] (tried for 20 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1607570052294,
+        "stop" : 1607570177130,
+        "duration" : 124836
+      }
+    } ]
+  },
+  "6f33994f2ca96fce299595a1a02dfae8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fc8fc1b2e0ad4fa9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607568428072,
+        "stop" : 1607568478724,
+        "duration" : 50652
+      }
+    } ]
+  },
+  "164654746ba44fad387120d9333e1939" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "310a2b91807f7c9e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607571640453,
+        "stop" : 1607571685239,
+        "duration" : 44786
+      }
+    } ]
+  },
+  "ee5cc9828f7af4802da50268ff2ecb22" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "78eb72dab88b703e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607565392122,
+        "stop" : 1607565402119,
+        "duration" : 9997
+      }
+    } ]
+  },
+  "87d70029da76e023feb43edfca6ab873" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cff052499fe65c93",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607568701338,
+        "stop" : 1607568750790,
+        "duration" : 49452
+      }
+    } ]
+  },
+  "93c3f10541c8dccff608013a0fa3dc98" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4acff9bb00ddff15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607567155036,
+        "stop" : 1607567211121,
+        "duration" : 56085
+      }
+    } ]
+  },
+  "8ed6f9ba57efdc37f28e01fa32d008a4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "678c740da1856910",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607565870279,
+        "stop" : 1607565889266,
+        "duration" : 18987
+      }
+    } ]
+  },
+  "309c52f8883cc60cdd4a895bb9e8e806" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3a54646a89a218b7",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: com.smartfren.switchmobile:id/skip (tried for 20 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1607565654599,
+        "stop" : 1607565698878,
+        "duration" : 44279
+      }
+    } ]
+  },
+  "c6b0f631b9db3dace010f8242c9d37f2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "66cc54a1f6d10c98",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607565195560,
+        "stop" : 1607565208779,
+        "duration" : 13219
+      }
+    } ]
+  },
+  "7128e321b2b6e9ba1f0d00869a71e83b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "93bcac45f6ea4e15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607567023284,
+        "stop" : 1607567082871,
+        "duration" : 59587
+      }
+    } ]
+  },
+  "e4ee5b4dedda47f7a426b71db981d4e7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c5b5594085fbce0f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607565306096,
+        "stop" : 1607565325818,
+        "duration" : 19722
+      }
+    } ]
+  },
+  "70559fd133816734726413dc8863a9bc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3e087556a6dc6651",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Faizals-MacBook-Pro.local', ip: 'fe80:0:0:0:c27:430f:e576:ebb3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_251'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, databaseEnabled: false, desired: {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, noReset: true, platformName: android, platformVersion: 8.1.0, udid: emulator-5554}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: ANDROID, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: dcc6f7e6-7ced-41be-8375-8bb0740d3cd5\n*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().resourceId(\"com.smartfren.switchmobile:id/recycler_e_wallet\")).scrollIntoView(new UiSelector().text(\"ShopePay\"));}",
+      "time" : {
+        "start" : 1607569056505,
+        "stop" : 1607569152840,
+        "duration" : 96335
+      }
+    } ]
+  },
+  "d224e41fe7514855f80476818cb00ac3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "40f01c484e8bb179",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607568648498,
+        "stop" : 1607568696637,
+        "duration" : 48139
+      }
+    } ]
+  },
+  "8fe9058457bce35b337973caec5bbcaf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7086e141c74549b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607571742653,
+        "stop" : 1607571796437,
+        "duration" : 53784
+      }
+    } ]
+  },
+  "1fde0d905892f0b4426ea6a076dfa5e0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "abc4c7115ef9da0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607573575789,
+        "stop" : 1607573626457,
+        "duration" : 50668
+      }
+    } ]
+  },
+  "100ff4a402e460a69049a6b9c13c9219" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b780538c7223bd3b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607573302679,
+        "stop" : 1607573347404,
+        "duration" : 44725
+      }
+    } ]
+  },
+  "b1212ccc0ef7bb164b2ee608d6692799" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "51854908f9245164",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607566745292,
+        "stop" : 1607566787243,
+        "duration" : 41951
+      }
+    } ]
+  },
+  "9eb001bb5fdd40f54a70d539b026c3f8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "84f1ee881a38aed1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607567510576,
+        "stop" : 1607567572120,
+        "duration" : 61544
+      }
+    } ]
+  },
+  "fcdbf06bdd2c006d4076b66015918f40" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d0a7783b57f3f31c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607571692042,
+        "stop" : 1607571735887,
+        "duration" : 43845
+      }
+    } ]
+  },
+  "39035ca278c7b21174b65846ce0079d5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c62ff56914af5338",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607565705625,
+        "stop" : 1607565714020,
+        "duration" : 8395
+      }
+    } ]
+  },
+  "f5fc8b5e03b6182ca0ff87972d3fe0a6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8a0fdea623384cf1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607565923654,
+        "stop" : 1607565943367,
+        "duration" : 19713
+      }
+    } ]
+  },
+  "cc7c068391e783faf358576e149ed4b0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fad18023ac5a8b36",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607571110059,
+        "stop" : 1607571194839,
+        "duration" : 84780
+      }
+    } ]
+  },
+  "bdc05d2a288fc85c4ccb3ba7690986b4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c5c6f09faee939fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607568255469,
+        "stop" : 1607568316426,
+        "duration" : 60957
+      }
+    } ]
+  },
+  "e389ac1cbf2cd5a7e28a553b89383175" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "324d1b7ee8a7e436",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607571932921,
+        "stop" : 1607571995236,
+        "duration" : 62315
+      }
+    } ]
+  },
+  "4720efde92c543150fe0b8fcd615b5de" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "43c2aa5af0d7eec1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607573092293,
+        "stop" : 1607573144408,
+        "duration" : 52115
+      }
+    } ]
+  },
+  "628ba4210e472ae720262679bc32151d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c2dfef21eeea508",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607573149266,
+        "stop" : 1607573197048,
+        "duration" : 47782
+      }
+    } ]
+  },
+  "5f2a99d6d0feae482098791e6471db18" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "27d20c328a50a9ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607565508559,
+        "stop" : 1607565528677,
+        "duration" : 20118
+      }
+    } ]
+  },
+  "605d15c1fb1fc8447eaa3ad71a10fe33" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "41599dd845cb5c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607573201793,
+        "stop" : 1607573246614,
+        "duration" : 44821
+      }
+    } ]
+  },
+  "e5624e189cff0270429aa6f08b1f0807" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "da43f298cac5045f",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: com.smartfren.switchmobile:id/button_activate (tried for 20 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1607569645299,
+        "stop" : 1607569716342,
+        "duration" : 71043
+      }
+    } ]
+  },
+  "490f0d1c1b8b086aea3a8aa9b7d315e0" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6132c5e689a7b56d",
+      "status" : "failed",
+      "statusDetails" : "expected [fgyRpcHC] but found []",
+      "time" : {
+        "start" : 1607572000332,
+        "stop" : 1607572050403,
+        "duration" : 50071
+      }
+    } ]
+  },
+  "b1b571bb3958ab54439cdfdeeac5aff1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "72e2e6e985efd4df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607573352405,
+        "stop" : 1607573395949,
+        "duration" : 43544
+      }
+    } ]
+  },
+  "3b8e60805800c1108c7dda92fdf24e73" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "96ece0ebf63e768e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607568483206,
+        "stop" : 1607568532619,
+        "duration" : 49413
+      }
+    } ]
+  },
+  "8eb563013b2d75565f615435444a2807" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "88172efa3d37413b",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Faizals-MacBook-Pro.local', ip: 'fe80:0:0:0:c27:430f:e576:ebb3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_251'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, databaseEnabled: false, desired: {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, noReset: true, platformName: android, platformVersion: 8.1.0, udid: emulator-5554}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: ANDROID, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: dcc6f7e6-7ced-41be-8375-8bb0740d3cd5\n*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().resourceId(\"com.smartfren.switchmobile:id/recycler_\")).scrollIntoView(new UiSelector().text(\"Lite Bar\"));}",
+      "time" : {
+        "start" : 1607567577478,
+        "stop" : 1607567660319,
+        "duration" : 82841
+      }
+    } ]
+  },
+  "fd607429885bdff0ea49dcad61f82c5e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6ce1078b495c78bd",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Faizals-MacBook-Pro.local', ip: 'fe80:0:0:0:c27:430f:e576:ebb3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_251'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, databaseEnabled: false, desired: {app: /Users/faizalprakoso/Docume..., appActivity: com.smartfren.switchmobile...., appPackage: com.smartfren.switchmobile, autoGrantPermissions: true, noReset: true, platformName: android, platformVersion: 8.1.0, udid: emulator-5554}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: ANDROID, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: dcc6f7e6-7ced-41be-8375-8bb0740d3cd5\n*** Element info: {Using=xpath, value=//*[@text = '0889-07']}",
+      "time" : {
+        "start" : 1607571027682,
+        "stop" : 1607571102626,
+        "duration" : 74944
+      }
+    } ]
+  },
+  "15ab8e8b6bed1e627d8274b71a14f3b9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7a1f27f3daaf741b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607565533586,
+        "stop" : 1607565547229,
+        "duration" : 13643
+      }
+    } ]
+  },
+  "6d3fe746cca69446ed633c17ffd66959" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7f9e465fe0fb71a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607573631857,
+        "stop" : 1607573681868,
+        "duration" : 50011
+      }
+    } ]
+  },
+  "ae2bb4c031936145a729a0d1625ce143" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8c63aafefc049f6e",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: com.smartfren.switchmobile:id/change_pin (tried for 20 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1607572115750,
+        "stop" : 1607572197497,
+        "duration" : 81747
+      }
+    } ]
+  },
+  "382251aee9a6e9643435ff5310bf04" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "97c2a35023321d24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607565812291,
+        "stop" : 1607565836570,
+        "duration" : 24279
       }
     } ]
   }

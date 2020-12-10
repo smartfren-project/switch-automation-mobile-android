@@ -7,308 +7,1862 @@
       "name" : "LandingITest",
       "children" : [ {
         "name" : "checkGoToSignUpPage",
-        "uid" : "f0f119b9a257a680",
+        "uid" : "e6d918178eae9fbf",
         "parentUid" : "320085db1b4b8ba6143982bc8853af1f",
         "status" : "passed",
         "time" : {
-          "start" : 1599815100755,
-          "stop" : 1599815135345,
-          "duration" : 34590
+          "start" : 1607565122552,
+          "stop" : 1607565131289,
+          "duration" : 8737
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "Samsung" ]
+        "parameters" : [ "Pixel" ]
       }, {
         "name" : "checkGoToLoginPage",
-        "uid" : "cf334ad4f7b64cfb",
+        "uid" : "bf23aff436683f85",
         "parentUid" : "320085db1b4b8ba6143982bc8853af1f",
         "status" : "passed",
         "time" : {
-          "start" : 1599815142942,
-          "stop" : 1599815154661,
-          "duration" : 11719
+          "start" : 1607565137150,
+          "stop" : 1607565145367,
+          "duration" : 8217
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "Samsung" ]
+        "parameters" : [ "Pixel" ]
       }, {
         "name" : "checkLoginAsGuest",
-        "uid" : "fe5a4c1ceae06940",
+        "uid" : "254f184eba809edb",
         "parentUid" : "320085db1b4b8ba6143982bc8853af1f",
         "status" : "passed",
         "time" : {
-          "start" : 1599815161938,
-          "stop" : 1599815173681,
-          "duration" : 11743
+          "start" : 1607565151990,
+          "stop" : 1607565158268,
+          "duration" : 6278
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "Samsung" ]
+        "parameters" : [ "Pixel" ]
       }, {
         "name" : "checkMoveToPageFrequently",
-        "uid" : "2b3604ede933296b",
+        "uid" : "7303000bac5f2bf0",
         "parentUid" : "320085db1b4b8ba6143982bc8853af1f",
         "status" : "passed",
         "time" : {
-          "start" : 1599815180851,
-          "stop" : 1599815243808,
-          "duration" : 62957
+          "start" : 1607565163328,
+          "stop" : 1607565190017,
+          "duration" : 26689
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "Samsung" ]
+        "parameters" : [ "Pixel" ]
       }, {
         "name" : "checkSignUpWithUnregisteredGoogleAccount",
-        "uid" : "7e88c1aedfebfb06",
+        "uid" : "66cc54a1f6d10c98",
         "parentUid" : "320085db1b4b8ba6143982bc8853af1f",
         "status" : "passed",
         "time" : {
-          "start" : 1599815250942,
-          "stop" : 1599815263440,
-          "duration" : 12498
+          "start" : 1607565195560,
+          "stop" : 1607565208779,
+          "duration" : 13219
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "Samsung" ]
+        "parameters" : [ "Pixel" ]
       }, {
         "name" : "checkSignUpWithUnregisteredFacebookAccount",
-        "uid" : "43cdedc5d291979",
+        "uid" : "71291e9d4e582c61",
         "parentUid" : "320085db1b4b8ba6143982bc8853af1f",
         "status" : "passed",
         "time" : {
-          "start" : 1599815270851,
-          "stop" : 1599815281531,
-          "duration" : 10680
+          "start" : 1607565216430,
+          "stop" : 1607565226215,
+          "duration" : 9785
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "Samsung" ]
+        "parameters" : [ "Pixel" ]
       }, {
         "name" : "checkGoToSignUpPageBahasa",
-        "uid" : "8ae3bae01e1539ed",
+        "uid" : "28de72b94c841376",
         "parentUid" : "320085db1b4b8ba6143982bc8853af1f",
-        "status" : "broken",
+        "status" : "passed",
         "time" : {
-          "start" : 1599815288917,
-          "stop" : 1599815339159,
-          "duration" : 50242
+          "start" : 1607565232074,
+          "stop" : 1607565298970,
+          "duration" : 66896
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "Samsung" ]
+        "parameters" : [ "Pixel" ]
       } ],
       "uid" : "320085db1b4b8ba6143982bc8853af1f"
+    }, {
+      "name" : "SignUpITest",
+      "children" : [ {
+        "name" : "checkValidSignUpUsingEmail",
+        "uid" : "c5b5594085fbce0f",
+        "parentUid" : "c23ae6574cd487e83be3ebfafcff5340",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607565306096,
+          "stop" : 1607565325818,
+          "duration" : 19722
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkValidSignUpUsingGoogle",
+        "uid" : "2ffdfaec8ecd3bfa",
+        "parentUid" : "c23ae6574cd487e83be3ebfafcff5340",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607565333895,
+          "stop" : 1607565347919,
+          "duration" : 14024
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkValidSignUpUsingFacebook",
+        "uid" : "9566d7c2fb6628c0",
+        "parentUid" : "c23ae6574cd487e83be3ebfafcff5340",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607565357044,
+          "stop" : 1607565384669,
+          "duration" : 27625
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkInvalidSignUpUsingAlphabet",
+        "uid" : "78eb72dab88b703e",
+        "parentUid" : "c23ae6574cd487e83be3ebfafcff5340",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607565392122,
+          "stop" : 1607565402119,
+          "duration" : 9997
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkInvalidSignUpUsingRegisteredEmail",
+        "uid" : "378d0ff8fe89e39c",
+        "parentUid" : "c23ae6574cd487e83be3ebfafcff5340",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607565407195,
+          "stop" : 1607565444770,
+          "duration" : 37575
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkInvalidSignUpUsingSwitchNumber",
+        "uid" : "5def23a3393ede6",
+        "parentUid" : "c23ae6574cd487e83be3ebfafcff5340",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607565450198,
+          "stop" : 1607565467329,
+          "duration" : 17131
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkInvalidSignUpUsingLessChar",
+        "uid" : "897b06c75e7b63ca",
+        "parentUid" : "c23ae6574cd487e83be3ebfafcff5340",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607565472940,
+          "stop" : 1607565483967,
+          "duration" : 11027
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkInputPersonalInfoPage",
+        "uid" : "289589965f841e0b",
+        "parentUid" : "c23ae6574cd487e83be3ebfafcff5340",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607565489855,
+          "stop" : 1607565500077,
+          "duration" : 10222
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkPINAfterCreate",
+        "uid" : "27d20c328a50a9ab",
+        "parentUid" : "c23ae6574cd487e83be3ebfafcff5340",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607565508559,
+          "stop" : 1607565528677,
+          "duration" : 20118
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkTermsAndConditionRegister",
+        "uid" : "7a1f27f3daaf741b",
+        "parentUid" : "c23ae6574cd487e83be3ebfafcff5340",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607565533586,
+          "stop" : 1607565547229,
+          "duration" : 13643
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      } ],
+      "uid" : "c23ae6574cd487e83be3ebfafcff5340"
     }, {
       "name" : "LoginITest",
       "children" : [ {
         "name" : "checkValidLoginUsingEmail",
-        "uid" : "88f59123b756a837",
+        "uid" : "2586d8b0c995e7c3",
         "parentUid" : "56d6aae9cd3d32c6b070a0e72a253965",
         "status" : "passed",
         "time" : {
-          "start" : 1599815346468,
-          "stop" : 1599815374716,
-          "duration" : 28248
+          "start" : 1607565552544,
+          "stop" : 1607565594834,
+          "duration" : 42290
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "Samsung" ]
+        "parameters" : [ "Pixel" ]
       }, {
         "name" : "checkValidLoginUsingSwitchNumber",
-        "uid" : "df63cc6e9f08a1bd",
+        "uid" : "d03ad334849e3382",
+        "parentUid" : "56d6aae9cd3d32c6b070a0e72a253965",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607565601668,
+          "stop" : 1607565649478,
+          "duration" : 47810
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkInvalidUnregisteredEmail",
+        "uid" : "3a54646a89a218b7",
         "parentUid" : "56d6aae9cd3d32c6b070a0e72a253965",
         "status" : "broken",
         "time" : {
-          "start" : 1599815382072,
-          "stop" : 1599815413745,
-          "duration" : 31673
+          "start" : 1607565654599,
+          "stop" : 1607565698878,
+          "duration" : 44279
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "Samsung" ]
+        "parameters" : [ "Pixel" ]
       }, {
-        "name" : "checkInvalidEmail",
-        "uid" : "d35682e29495c082",
+        "name" : "checkInvalidSignInUsingInvalidEmail",
+        "uid" : "c62ff56914af5338",
         "parentUid" : "56d6aae9cd3d32c6b070a0e72a253965",
         "status" : "passed",
         "time" : {
-          "start" : 1599815420975,
-          "stop" : 1599815456468,
-          "duration" : 35493
+          "start" : 1607565705625,
+          "stop" : 1607565714020,
+          "duration" : 8395
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "Samsung" ]
-      }, {
-        "name" : "checkSignUpUsingRegisteredEmail",
-        "uid" : "d9aec675b320b3b",
-        "parentUid" : "56d6aae9cd3d32c6b070a0e72a253965",
-        "status" : "passed",
-        "time" : {
-          "start" : 1599815463640,
-          "stop" : 1599815478867,
-          "duration" : 15227
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Samsung" ]
+        "parameters" : [ "Pixel" ]
       }, {
         "name" : "checkInvalidAlphabetOnly",
-        "uid" : "1ee3f35fc58e9f33",
+        "uid" : "33939db9b88b93a1",
         "parentUid" : "56d6aae9cd3d32c6b070a0e72a253965",
         "status" : "passed",
         "time" : {
-          "start" : 1599815486152,
-          "stop" : 1599815507627,
-          "duration" : 21475
+          "start" : 1607565721804,
+          "stop" : 1607565757668,
+          "duration" : 35864
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "Samsung" ]
+        "parameters" : [ "Pixel" ]
       }, {
         "name" : "checkInvalidSwitchNumberLessThanEqual",
-        "uid" : "23d29fbcbea1c5b8",
+        "uid" : "9e6e17c9351cce3d",
         "parentUid" : "56d6aae9cd3d32c6b070a0e72a253965",
         "status" : "broken",
         "time" : {
-          "start" : 1599815514857,
-          "stop" : 1599815562984,
-          "duration" : 48127
+          "start" : 1607565761968,
+          "stop" : 1607565805669,
+          "duration" : 43701
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "Samsung" ]
+        "parameters" : [ "Pixel" ]
       }, {
         "name" : "checkInvalidSwitchNumberWithString",
-        "uid" : "b1b2086680f3df74",
+        "uid" : "97c2a35023321d24",
         "parentUid" : "56d6aae9cd3d32c6b070a0e72a253965",
         "status" : "passed",
         "time" : {
-          "start" : 1599815570169,
-          "stop" : 1599815585664,
-          "duration" : 15495
+          "start" : 1607565812291,
+          "stop" : 1607565836570,
+          "duration" : 24279
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "Samsung" ]
+        "parameters" : [ "Pixel" ]
       }, {
         "name" : "checkInvalidLessCharacterEmail",
-        "uid" : "d12fa858a1c30785",
+        "uid" : "17faed8fcfd0b435",
         "parentUid" : "56d6aae9cd3d32c6b070a0e72a253965",
         "status" : "passed",
         "time" : {
-          "start" : 1599815592795,
-          "stop" : 1599815607926,
-          "duration" : 15131
+          "start" : 1607565842889,
+          "stop" : 1607565862119,
+          "duration" : 19230
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "Samsung" ]
+        "parameters" : [ "Pixel" ]
       }, {
         "name" : "checkInvalidCredentialEmailPin",
-        "uid" : "6b1aef91e18ce988",
+        "uid" : "678c740da1856910",
         "parentUid" : "56d6aae9cd3d32c6b070a0e72a253965",
         "status" : "passed",
         "time" : {
-          "start" : 1599815615165,
-          "stop" : 1599815633046,
-          "duration" : 17881
+          "start" : 1607565870279,
+          "stop" : 1607565889266,
+          "duration" : 18987
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "Samsung" ]
+        "parameters" : [ "Pixel" ]
       }, {
         "name" : "checkInvalidCredentialSwitchNumberPin",
-        "uid" : "f04a0d4dc4fb2305",
+        "uid" : "75caa91715602976",
         "parentUid" : "56d6aae9cd3d32c6b070a0e72a253965",
         "status" : "passed",
         "time" : {
-          "start" : 1599815640141,
-          "stop" : 1599815675896,
-          "duration" : 35755
+          "start" : 1607565898548,
+          "stop" : 1607565918173,
+          "duration" : 19625
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "Samsung" ]
+        "parameters" : [ "Pixel" ]
       }, {
         "name" : "checkInvalidCredentialSwitchNumber",
-        "uid" : "9b7a043fb3458241",
+        "uid" : "8a0fdea623384cf1",
         "parentUid" : "56d6aae9cd3d32c6b070a0e72a253965",
         "status" : "passed",
         "time" : {
-          "start" : 1599815683080,
-          "stop" : 1599815705631,
-          "duration" : 22551
+          "start" : 1607565923654,
+          "stop" : 1607565943367,
+          "duration" : 19713
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "Samsung" ]
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkInvalidDomainEmail",
+        "uid" : "fc1c16ae4b2bdd48",
+        "parentUid" : "56d6aae9cd3d32c6b070a0e72a253965",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607565948418,
+          "stop" : 1607565966917,
+          "duration" : 18499
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
       } ],
       "uid" : "56d6aae9cd3d32c6b070a0e72a253965"
     }, {
       "name" : "LogoutITest",
       "children" : [ {
         "name" : "checkValidLogout",
-        "uid" : "848858f36b550a3f",
+        "uid" : "3e8e91396eed3b7",
         "parentUid" : "6e7b6a5513f6172c048a08b24cf7e7e8",
-        "status" : "broken",
+        "status" : "passed",
         "time" : {
-          "start" : 1599815712934,
-          "stop" : 1599815784618,
-          "duration" : 71684
+          "start" : 1607565971749,
+          "stop" : 1607566028718,
+          "duration" : 56969
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "Samsung" ]
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkValidLogoutEnterPin",
+        "uid" : "99f8dee75593327b",
+        "parentUid" : "6e7b6a5513f6172c048a08b24cf7e7e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607566036311,
+          "stop" : 1607566111016,
+          "duration" : 74705
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkCancelLogout",
+        "uid" : "39f7a7c653605cf4",
+        "parentUid" : "6e7b6a5513f6172c048a08b24cf7e7e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607566115681,
+          "stop" : 1607566169520,
+          "duration" : 53839
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
       } ],
       "uid" : "6e7b6a5513f6172c048a08b24cf7e7e8"
     }, {
       "name" : "HomepageITest",
       "children" : [ {
         "name" : "checkGoToSignUpPage",
-        "uid" : "b63b665cee1b5b38",
-        "parentUid" : "b79d9b1a9e83dc750a4613d794bde4d0",
-        "status" : "broken",
-        "time" : {
-          "start" : 1599815791977,
-          "stop" : 1599815814619,
-          "duration" : 22642
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Samsung" ]
-      }, {
-        "name" : "checkGoToSignUpPageUsingGuest",
-        "uid" : "1ceac7b7e801c711",
+        "uid" : "23787cfdb624852b",
         "parentUid" : "b79d9b1a9e83dc750a4613d794bde4d0",
         "status" : "passed",
         "time" : {
-          "start" : 1599815821983,
-          "stop" : 1599815853101,
-          "duration" : 31118
+          "start" : 1607566174673,
+          "stop" : 1607566229819,
+          "duration" : 55146
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "Samsung" ]
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkGoToSignUpPageUsingGuest",
+        "uid" : "937a074b5b69c3a9",
+        "parentUid" : "b79d9b1a9e83dc750a4613d794bde4d0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607566236288,
+          "stop" : 1607566254491,
+          "duration" : 18203
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkDetailPlan",
+        "uid" : "9c0a3a736aae3db3",
+        "parentUid" : "b79d9b1a9e83dc750a4613d794bde4d0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607566261784,
+          "stop" : 1607566303680,
+          "duration" : 41896
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkBalanceRemaining",
+        "uid" : "be741164da34b1fb",
+        "parentUid" : "b79d9b1a9e83dc750a4613d794bde4d0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607566308648,
+          "stop" : 1607566361329,
+          "duration" : 52681
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkSMSRemaining",
+        "uid" : "79d9c92d2a87e188",
+        "parentUid" : "b79d9b1a9e83dc750a4613d794bde4d0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607566366883,
+          "stop" : 1607566409434,
+          "duration" : 42551
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkCallRemaining",
+        "uid" : "9f7d89335317cfd",
+        "parentUid" : "b79d9b1a9e83dc750a4613d794bde4d0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607566414309,
+          "stop" : 1607566456382,
+          "duration" : 42073
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkCustomNow",
+        "uid" : "cb1850066d7224b3",
+        "parentUid" : "b79d9b1a9e83dc750a4613d794bde4d0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607566461136,
+          "stop" : 1607566534983,
+          "duration" : 73847
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkBigMission",
+        "uid" : "303a8f5f10fde30c",
+        "parentUid" : "b79d9b1a9e83dc750a4613d794bde4d0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607566541791,
+          "stop" : 1607566614631,
+          "duration" : 72840
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkECommerce",
+        "uid" : "b0ca1ef321a4d67a",
+        "parentUid" : "b79d9b1a9e83dc750a4613d794bde4d0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607566618936,
+          "stop" : 1607566690779,
+          "duration" : 71843
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkDataRemaining",
+        "uid" : "6334abd057c20df2",
+        "parentUid" : "b79d9b1a9e83dc750a4613d794bde4d0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607566695340,
+          "stop" : 1607566737979,
+          "duration" : 42639
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkMixAndMax",
+        "uid" : "51854908f9245164",
+        "parentUid" : "b79d9b1a9e83dc750a4613d794bde4d0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607566745292,
+          "stop" : 1607566787243,
+          "duration" : 41951
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkSeeAllNews",
+        "uid" : "4d050cb6aa70a172",
+        "parentUid" : "b79d9b1a9e83dc750a4613d794bde4d0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607566792088,
+          "stop" : 1607566841212,
+          "duration" : 49124
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkSeeFirstNews",
+        "uid" : "1247531516806fac",
+        "parentUid" : "b79d9b1a9e83dc750a4613d794bde4d0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607566846484,
+          "stop" : 1607566893251,
+          "duration" : 46767
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
       } ],
       "uid" : "b79d9b1a9e83dc750a4613d794bde4d0"
     }, {
       "name" : "PurchaseITest",
       "children" : [ {
         "name" : "checkAddSuperBundleToCart",
-        "uid" : "883fa6cd55cc2eda",
+        "uid" : "785a7279a49b79a7",
         "parentUid" : "f36f2911914dbc42df4d983b896140bc",
-        "status" : "broken",
+        "status" : "passed",
         "time" : {
-          "start" : 1599815860145,
-          "stop" : 1599815900149,
-          "duration" : 40004
+          "start" : 1607566899641,
+          "stop" : 1607566953923,
+          "duration" : 54282
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "Samsung" ]
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkAddPowerBundleToCart",
+        "uid" : "93be092315294534",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607566959460,
+          "stop" : 1607567015170,
+          "duration" : 55710
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkAddStandardBundleToCart",
+        "uid" : "93bcac45f6ea4e15",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607567023284,
+          "stop" : 1607567082871,
+          "duration" : 59587
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkAddLiteBundleToCart",
+        "uid" : "e1c30f22d208002a",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607567091276,
+          "stop" : 1607567149173,
+          "duration" : 57897
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkSeePaymentScreen",
+        "uid" : "4acff9bb00ddff15",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607567155036,
+          "stop" : 1607567211121,
+          "duration" : 56085
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkPurchasePowerBundleUseGoPay",
+        "uid" : "231c7e9afd6957c0",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607567218164,
+          "stop" : 1607567307979,
+          "duration" : 89815
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkPurchasePowerBundleUseOvo",
+        "uid" : "c30dcc9e10fc622d",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607567320174,
+          "stop" : 1607567379676,
+          "duration" : 59502
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkPurchasePowerBundleUseDana",
+        "uid" : "28c870cfb98eab3d",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607567384463,
+          "stop" : 1607567441227,
+          "duration" : 56764
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkPurchasePowerBundleUseCreditCard",
+        "uid" : "c5ed5d9737b65d1e",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607567446599,
+          "stop" : 1607567504320,
+          "duration" : 57721
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkPurchasePowerBundleUseMandiriVA",
+        "uid" : "84f1ee881a38aed1",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607567510576,
+          "stop" : 1607567572120,
+          "duration" : 61544
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkPurchasePowerBundleUseDanamonVA",
+        "uid" : "88172efa3d37413b",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607567577478,
+          "stop" : 1607567660319,
+          "duration" : 82841
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkPurchasePowerBundleUsePermataVA",
+        "uid" : "73621b4ee1809282",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607567667912,
+          "stop" : 1607567733573,
+          "duration" : 65661
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkPurchasePowerBundleUseAlfamart",
+        "uid" : "8f56cacd60a48a43",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607567739527,
+          "stop" : 1607567807435,
+          "duration" : 67908
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkPurchaseSIMFirstTimeGoPay",
+        "uid" : "85a1c6ed93d0ecb7",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607567811875,
+          "stop" : 1607567928775,
+          "duration" : 116900
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkPurchaseSIMFirstTimeDANA",
+        "uid" : "f160383c3293c703",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607567933324,
+          "stop" : 1607568027423,
+          "duration" : 94099
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkPurchaseSIMFirstTimeOVO",
+        "uid" : "e509737606b40933",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607568034064,
+          "stop" : 1607568107586,
+          "duration" : 73522
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkPurchaseSIMFirstTimeCC",
+        "uid" : "afa6dce009410eb1",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607568114359,
+          "stop" : 1607568189035,
+          "duration" : 74676
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkAddMaxPowerBundleToCart",
+        "uid" : "4fc64bf985834c3f",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607568193422,
+          "stop" : 1607568250872,
+          "duration" : 57450
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkCancelOrderStandardBundleToCart",
+        "uid" : "c5c6f09faee939fd",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607568255469,
+          "stop" : 1607568316426,
+          "duration" : 60957
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkOrderCustomPlan",
+        "uid" : "1e6c47177c9f0208",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607568322292,
+          "stop" : 1607568368923,
+          "duration" : 46631
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkOrderAddOnService",
+        "uid" : "16388dd64b3c9c9a",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607568375664,
+          "stop" : 1607568423524,
+          "duration" : 47860
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkOrderBalancePlanService",
+        "uid" : "fc8fc1b2e0ad4fa9",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607568428072,
+          "stop" : 1607568478724,
+          "duration" : 50652
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkOrderRoamingService",
+        "uid" : "96ece0ebf63e768e",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607568483206,
+          "stop" : 1607568532619,
+          "duration" : 49413
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkAddToken100ToCart",
+        "uid" : "8c4f7da5bc4cc2f6",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607568537867,
+          "stop" : 1607568587439,
+          "duration" : 49572
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkAddToken50ToCart",
+        "uid" : "8de871dc302b22d5",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607568591786,
+          "stop" : 1607568641879,
+          "duration" : 50093
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkAddToken20ToCart",
+        "uid" : "40f01c484e8bb179",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607568648498,
+          "stop" : 1607568696637,
+          "duration" : 48139
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkAddToken10ToCart",
+        "uid" : "cff052499fe65c93",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607568701338,
+          "stop" : 1607568750790,
+          "duration" : 49452
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkIncreaseAddToken10ToCart",
+        "uid" : "ed8d1cf2f745980",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607568756394,
+          "stop" : 1607568808277,
+          "duration" : 51883
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkDecreaseAddToken10ToCart",
+        "uid" : "cc14afc3663b6b43",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607568813568,
+          "stop" : 1607568866425,
+          "duration" : 52857
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkPurchasePlanWithCCJCB",
+        "uid" : "2a382d3e0e694c1f",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607568871303,
+          "stop" : 1607568961332,
+          "duration" : 90029
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkBuyTokenUsingGoPay",
+        "uid" : "4b3b3b3f630b6ab7",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607568965864,
+          "stop" : 1607569050476,
+          "duration" : 84612
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkPurchasePowerBundleUseShopeePay",
+        "uid" : "3e087556a6dc6651",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607569056505,
+          "stop" : 1607569152840,
+          "duration" : 96335
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkBuyTokenUsingOVO",
+        "uid" : "fbc7435dcb988b5",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607569157896,
+          "stop" : 1607569239338,
+          "duration" : 81442
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkServicePlanContent",
+        "uid" : "afe568c3e0dc1676",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607569244468,
+          "stop" : 1607569322198,
+          "duration" : 77730
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkChangeSelectedCustomPlan",
+        "uid" : "282b1285363adb8f",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607569326728,
+          "stop" : 1607569375547,
+          "duration" : 48819
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkGoBackFromMixAndMatch",
+        "uid" : "972a3c87bb402bb7",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607569380483,
+          "stop" : 1607569425409,
+          "duration" : 44926
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkBuyInfluencerCustomPlan",
+        "uid" : "3fd498e5a8c533c7",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607569431359,
+          "stop" : 1607569479186,
+          "duration" : 47827
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkEditInfluencerCustomPlan",
+        "uid" : "f945ae3a2616605c",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607569485147,
+          "stop" : 1607569534737,
+          "duration" : 49590
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkCancelInfluencerCustomPlan",
+        "uid" : "ba70fd900aac745e",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607569539198,
+          "stop" : 1607569585779,
+          "duration" : 46581
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkSlideQuotaAndCallInfluencerCustomPlan",
+        "uid" : "4424e726db78a594",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607569590742,
+          "stop" : 1607569637927,
+          "duration" : 47185
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkPurchaseSIMFirstTime",
+        "uid" : "da43f298cac5045f",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607569645299,
+          "stop" : 1607569716342,
+          "duration" : 71043
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkDeliveryAddress",
+        "uid" : "d5ce41d0aeccf881",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607569721020,
+          "stop" : 1607569795117,
+          "duration" : 74097
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkInputAddressNotSelectDropPin",
+        "uid" : "ee7282a85cda9b6a",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607569799765,
+          "stop" : 1607569920677,
+          "duration" : 120912
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkInputAddressSelectDropPin",
+        "uid" : "a3805c1e9aa91e56",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607569925091,
+          "stop" : 1607570047177,
+          "duration" : 122086
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkInputInvalidAddress",
+        "uid" : "3409a6903321e0e6",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607570052294,
+          "stop" : 1607570177130,
+          "duration" : 124836
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkEditAddressOnCheckoutPage",
+        "uid" : "3f7c27ecc3c0e919",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607570185827,
+          "stop" : 1607570345060,
+          "duration" : 159233
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkEditMDNOnCheckoutPage",
+        "uid" : "daf4b7198af4fe31",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607570350998,
+          "stop" : 1607570448926,
+          "duration" : 97928
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkTermsAndConditionAddressPage",
+        "uid" : "d1eae2d57ff66128",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607570454962,
+          "stop" : 1607570500376,
+          "duration" : 45414
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkPreFilledCancelledOrderSIM",
+        "uid" : "5edebc82114e3cf4",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607570508030,
+          "stop" : 1607570564010,
+          "duration" : 55980
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkPreFilledCancelledOrderSIMAddressProfile",
+        "uid" : "2b465fd8c3822a5b",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607570569579,
+          "stop" : 1607570694277,
+          "duration" : 124698
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkCancelOrderSIMPayment",
+        "uid" : "bf0fda12a1a0b4e2",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607570698606,
+          "stop" : 1607570827892,
+          "duration" : 129286
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkContinueOrderSIMPayment",
+        "uid" : "8a2659dcbed4a8d3",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607570832588,
+          "stop" : 1607570957180,
+          "duration" : 124592
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkDokuPaymentGateway",
+        "uid" : "b73ac3076c406734",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607570962039,
+          "stop" : 1607571021589,
+          "duration" : 59550
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkEditAddressByClickBackFromCheckoutPage",
+        "uid" : "6ce1078b495c78bd",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607571027682,
+          "stop" : 1607571102626,
+          "duration" : 74944
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkChangeDeliveryOptionFromCheckoutPage",
+        "uid" : "fad18023ac5a8b36",
+        "parentUid" : "f36f2911914dbc42df4d983b896140bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607571110059,
+          "stop" : 1607571194839,
+          "duration" : 84780
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
       } ],
       "uid" : "f36f2911914dbc42df4d983b896140bc"
+    }, {
+      "name" : "DealsITest",
+      "children" : [ {
+        "name" : "checkSeeAllSpecialDeals",
+        "uid" : "f4b8345fa3fa361e",
+        "parentUid" : "4966e71d2e44b6e7138b03f4a3941430",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607571203019,
+          "stop" : 1607571251592,
+          "duration" : 48573
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkSeePointsValue",
+        "uid" : "6cfe834f77af65e9",
+        "parentUid" : "4966e71d2e44b6e7138b03f4a3941430",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607571256174,
+          "stop" : 1607571303325,
+          "duration" : 47151
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkSeeRubiesValue",
+        "uid" : "54eea8e841008003",
+        "parentUid" : "4966e71d2e44b6e7138b03f4a3941430",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607571308975,
+          "stop" : 1607571356025,
+          "duration" : 47050
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkBuyVoucherUsingRubyAndPoints",
+        "uid" : "9129534521dfd65",
+        "parentUid" : "4966e71d2e44b6e7138b03f4a3941430",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607571365653,
+          "stop" : 1607571416431,
+          "duration" : 50778
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkBuyVoucherUsingPoints",
+        "uid" : "33e44f6dd55b9e05",
+        "parentUid" : "4966e71d2e44b6e7138b03f4a3941430",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607571422226,
+          "stop" : 1607571473491,
+          "duration" : 51265
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkBuyVoucherUsingRubies",
+        "uid" : "32fe4d2015af1095",
+        "parentUid" : "4966e71d2e44b6e7138b03f4a3941430",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607571478744,
+          "stop" : 1607571529355,
+          "duration" : 50611
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkBuyVoucherUsingPointsWithInsufficientBalance",
+        "uid" : "7c66af4bb71d71ac",
+        "parentUid" : "4966e71d2e44b6e7138b03f4a3941430",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607571534441,
+          "stop" : 1607571582632,
+          "duration" : 48191
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkBuyVoucherUsingRubiesWithInsufficientBalance",
+        "uid" : "4ef8ea2f65ec7d89",
+        "parentUid" : "4966e71d2e44b6e7138b03f4a3941430",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607571586776,
+          "stop" : 1607571635538,
+          "duration" : 48762
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      } ],
+      "uid" : "4966e71d2e44b6e7138b03f4a3941430"
+    }, {
+      "name" : "ProfileITest",
+      "children" : [ {
+        "name" : "checkChangeFullName",
+        "uid" : "310a2b91807f7c9e",
+        "parentUid" : "5479ce9df481486771284b5c3b2a9005",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607571640453,
+          "stop" : 1607571685239,
+          "duration" : 44786
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkChangeAlternatePhoneNumber",
+        "uid" : "d0a7783b57f3f31c",
+        "parentUid" : "5479ce9df481486771284b5c3b2a9005",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607571692042,
+          "stop" : 1607571735887,
+          "duration" : 43845
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkChangeLanguage",
+        "uid" : "7086e141c74549b1",
+        "parentUid" : "5479ce9df481486771284b5c3b2a9005",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607571742653,
+          "stop" : 1607571796437,
+          "duration" : 53784
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkEmptyFullName",
+        "uid" : "ce23c94a8c9f6db7",
+        "parentUid" : "5479ce9df481486771284b5c3b2a9005",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607571801152,
+          "stop" : 1607571846085,
+          "duration" : 44933
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkValidSaveDeliveryAddress",
+        "uid" : "ecb7c8bacc41bf1a",
+        "parentUid" : "5479ce9df481486771284b5c3b2a9005",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607571851627,
+          "stop" : 1607571926541,
+          "duration" : 74914
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkInvalidSaveDeliveryAddressAllEmpty",
+        "uid" : "324d1b7ee8a7e436",
+        "parentUid" : "5479ce9df481486771284b5c3b2a9005",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607571932921,
+          "stop" : 1607571995236,
+          "duration" : 62315
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkCopyReferralCode",
+        "uid" : "6132c5e689a7b56d",
+        "parentUid" : "5479ce9df481486771284b5c3b2a9005",
+        "status" : "failed",
+        "time" : {
+          "start" : 1607572000332,
+          "stop" : 1607572050403,
+          "duration" : 50071
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkShareReferralCode",
+        "uid" : "d9373040d26ca731",
+        "parentUid" : "5479ce9df481486771284b5c3b2a9005",
+        "status" : "failed",
+        "time" : {
+          "start" : 1607572054846,
+          "stop" : 1607572103895,
+          "duration" : 49049
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkInvalidChangePIN",
+        "uid" : "8c63aafefc049f6e",
+        "parentUid" : "5479ce9df481486771284b5c3b2a9005",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607572115750,
+          "stop" : 1607572197497,
+          "duration" : 81747
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkPointOnProfilePage",
+        "uid" : "4c486561c711b2b3",
+        "parentUid" : "5479ce9df481486771284b5c3b2a9005",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607572202534,
+          "stop" : 1607572251339,
+          "duration" : 48805
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkRubyOnProfilePage",
+        "uid" : "b55c062c548b433c",
+        "parentUid" : "5479ce9df481486771284b5c3b2a9005",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607572256899,
+          "stop" : 1607572313690,
+          "duration" : 56791
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkChatWithShellyUsingChat",
+        "uid" : "f360bd3de9082bfc",
+        "parentUid" : "5479ce9df481486771284b5c3b2a9005",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607572318845,
+          "stop" : 1607572375743,
+          "duration" : 56898
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkChatWithShellyUsingEmail",
+        "uid" : "4c3f0332f97aa183",
+        "parentUid" : "5479ce9df481486771284b5c3b2a9005",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607572380789,
+          "stop" : 1607572436901,
+          "duration" : 56112
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkFAQ",
+        "uid" : "3ab2c0a7d6dfcb8e",
+        "parentUid" : "5479ce9df481486771284b5c3b2a9005",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607572443822,
+          "stop" : 1607572496444,
+          "duration" : 52622
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      } ],
+      "uid" : "5479ce9df481486771284b5c3b2a9005"
+    }, {
+      "name" : "HistoryITest",
+      "children" : [ {
+        "name" : "checkAllHistoryTransaction",
+        "uid" : "1c58dcc4ad124165",
+        "parentUid" : "2f18cc3c9c0b4eb9671349a0bd95ca62",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607572502289,
+          "stop" : 1607572584301,
+          "duration" : 82012
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkWaitingHistoryTransaction",
+        "uid" : "79a04bde4d3efeb5",
+        "parentUid" : "2f18cc3c9c0b4eb9671349a0bd95ca62",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607572593071,
+          "stop" : 1607572672303,
+          "duration" : 79232
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkProcessedHistoryTransaction",
+        "uid" : "223733930da39146",
+        "parentUid" : "2f18cc3c9c0b4eb9671349a0bd95ca62",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607572678123,
+          "stop" : 1607572758707,
+          "duration" : 80584
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkFinishedHistoryTransaction",
+        "uid" : "8abd50832dbf6e3",
+        "parentUid" : "2f18cc3c9c0b4eb9671349a0bd95ca62",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607572766021,
+          "stop" : 1607572847901,
+          "duration" : 81880
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      } ],
+      "uid" : "2f18cc3c9c0b4eb9671349a0bd95ca62"
+    }, {
+      "name" : "QuestITest",
+      "children" : [ {
+        "name" : "checkCancelChangeAvatar",
+        "uid" : "fa42eba623abebf3",
+        "parentUid" : "8ea9267402cd744e2226f51160621145",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607572861792,
+          "stop" : 1607572940102,
+          "duration" : 78310
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkDoChangeAvatar",
+        "uid" : "1a84057c500f1da6",
+        "parentUid" : "8ea9267402cd744e2226f51160621145",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607572953369,
+          "stop" : 1607573029757,
+          "duration" : 76388
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkBigMission",
+        "uid" : "ba57dda35e2a531d",
+        "parentUid" : "8ea9267402cd744e2226f51160621145",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607573036343,
+          "stop" : 1607573086346,
+          "duration" : 50003
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkMission",
+        "uid" : "43c2aa5af0d7eec1",
+        "parentUid" : "8ea9267402cd744e2226f51160621145",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607573092293,
+          "stop" : 1607573144408,
+          "duration" : 52115
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkProgress",
+        "uid" : "c2dfef21eeea508",
+        "parentUid" : "8ea9267402cd744e2226f51160621145",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607573149266,
+          "stop" : 1607573197048,
+          "duration" : 47782
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkGames",
+        "uid" : "41599dd845cb5c85",
+        "parentUid" : "8ea9267402cd744e2226f51160621145",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607573201793,
+          "stop" : 1607573246614,
+          "duration" : 44821
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkRank",
+        "uid" : "f8f7c874ce9e8dbb",
+        "parentUid" : "8ea9267402cd744e2226f51160621145",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607573252410,
+          "stop" : 1607573296703,
+          "duration" : 44293
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkDailyLoginQuest",
+        "uid" : "b780538c7223bd3b",
+        "parentUid" : "8ea9267402cd744e2226f51160621145",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607573302679,
+          "stop" : 1607573347404,
+          "duration" : 44725
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkMainMission",
+        "uid" : "72e2e6e985efd4df",
+        "parentUid" : "8ea9267402cd744e2226f51160621145",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607573352405,
+          "stop" : 1607573395949,
+          "duration" : 43544
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkAllUIGames",
+        "uid" : "2a2711928cc47084",
+        "parentUid" : "8ea9267402cd744e2226f51160621145",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607573401793,
+          "stop" : 1607573454881,
+          "duration" : 53088
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkPopupStartGames",
+        "uid" : "63c34497c402a13e",
+        "parentUid" : "8ea9267402cd744e2226f51160621145",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607573461824,
+          "stop" : 1607573512316,
+          "duration" : 50492
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkGoStartGames",
+        "uid" : "bbd2bd0bee23b87c",
+        "parentUid" : "8ea9267402cd744e2226f51160621145",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607573518537,
+          "stop" : 1607573571207,
+          "duration" : 52670
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkGoBackFromGameplay",
+        "uid" : "abc4c7115ef9da0d",
+        "parentUid" : "8ea9267402cd744e2226f51160621145",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607573575789,
+          "stop" : 1607573626457,
+          "duration" : 50668
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      }, {
+        "name" : "checkDoActiveMission",
+        "uid" : "7f9e465fe0fb71a3",
+        "parentUid" : "8ea9267402cd744e2226f51160621145",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607573631857,
+          "stop" : 1607573681868,
+          "duration" : 50011
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Pixel" ]
+      } ],
+      "uid" : "8ea9267402cd744e2226f51160621145"
     } ],
     "uid" : "bf49149a3821e34f7608bb6885d52868"
   } ]

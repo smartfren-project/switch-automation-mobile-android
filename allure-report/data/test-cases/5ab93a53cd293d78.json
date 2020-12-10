@@ -1,0 +1,189 @@
+{
+  "uid" : "5ab93a53cd293d78",
+  "name" : "Switch_Quest_002 - User able to Change Avatar",
+  "fullName" : "tests.QuestITest.checkDoChangeAvatar",
+  "historyId" : "936fa11b807fcee3ccb667b331ca04fc",
+  "time" : {
+    "start" : 1604654956455,
+    "stop" : 1604654976334,
+    "duration" : 19879
+  },
+  "description" : "Verify that user can do change avatar",
+  "descriptionHtml" : "<p>Verify that user can do change avatar</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1604650627305,
+      "stop" : 1604650635935,
+      "duration" : 8630
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify that user can do change avatar",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "User Do Valid Login Using Email or Switch Number",
+      "time" : {
+        "start" : 1604654956455,
+        "stop" : 1604654970442,
+        "duration" : 13987
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click Button Login",
+        "time" : {
+          "start" : 1604654956456,
+          "stop" : 1604654964432,
+          "duration" : 7976
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "088906011294"
+      }, {
+        "name" : "pin",
+        "value" : "111111"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Do Change Avatar",
+      "time" : {
+        "start" : 1604654970443,
+        "stop" : 1604654975024,
+        "duration" : 4581
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "dac89119e75e052c",
+      "name" : "screenShot",
+      "source" : "dac89119e75e052c.png",
+      "type" : "image/png",
+      "size" : 269112
+    }, {
+      "uid" : "80b3ef1ce4447c15",
+      "name" : "Page Screenshot",
+      "source" : "80b3ef1ce4447c15.png",
+      "type" : "image/png",
+      "size" : 179836
+    }, {
+      "uid" : "4076187f8898a49d",
+      "name" : "screenShot",
+      "source" : "4076187f8898a49d.png",
+      "type" : "image/png",
+      "size" : 166963
+    }, {
+      "uid" : "83d9cd3fdab73501",
+      "name" : "Page Screenshot",
+      "source" : "83d9cd3fdab73501.png",
+      "type" : "image/png",
+      "size" : 166963
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeAppSwitch",
+    "time" : {
+      "start" : 1604654976335,
+      "stop" : 1604654980463,
+      "duration" : 4128
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.QuestITest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.QuestITest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkDoChangeAvatar"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Switch Android Regression Test"
+  }, {
+    "name" : "suite",
+    "value" : "Switch Android Regression Test (BAHASA VERSION)"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.QuestITest"
+  }, {
+    "name" : "host",
+    "value" : "Faizals-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "10243@Faizals-MacBook-Pro.local.TestNG-test=Switch Android Regression Test (BAHASA VERSION)-5(25)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story Name : Check Quest"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "deviceName",
+    "value" : "Pixel"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5ab93a53cd293d78.json",
+  "parameterValues" : [ "Pixel" ]
+}

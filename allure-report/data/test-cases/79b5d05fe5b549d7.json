@@ -1,0 +1,204 @@
+{
+  "uid" : "79b5d05fe5b549d7",
+  "name" : "Switch_Login_005 - User unable to click button SUBMIT LOGIN when input Alphabet Only",
+  "fullName" : "tests.LoginITest.checkInvalidAlphabetOnly",
+  "historyId" : "1b90fff5d32aa278afe2209b1c999de7",
+  "time" : {
+    "start" : 1604651037946,
+    "stop" : 1604651054688,
+    "duration" : 16742
+  },
+  "description" : "Button Submit Login Is Disabled When Input Wrong Email Criteria",
+  "descriptionHtml" : "<p>Button Submit Login Is Disabled When Input Wrong Email Criteria</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1604650627305,
+      "stop" : 1604650635935,
+      "duration" : 8630
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Button Submit Login Is Disabled When Input Wrong Email Criteria",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "User Do Invalid Login Button Disabled",
+      "time" : {
+        "start" : 1604651037947,
+        "stop" : 1604651053548,
+        "duration" : 15601
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click Button Login",
+        "time" : {
+          "start" : 1604651037947,
+          "stop" : 1604651045289,
+          "duration" : 7342
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "User Do Invalid Login Input Username",
+        "time" : {
+          "start" : 1604651045289,
+          "stop" : 1604651053018,
+          "duration" : 7729
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Click Button Login",
+          "time" : {
+            "start" : 1604651045289,
+            "stop" : 1604651052299,
+            "duration" : 7010
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "username",
+          "value" : "abcde"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "abcde"
+      } ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "8d36e5b0bcb6d777",
+      "name" : "screenShot",
+      "source" : "8d36e5b0bcb6d777.png",
+      "type" : "image/png",
+      "size" : 81042
+    }, {
+      "uid" : "578bc6b598e93ea9",
+      "name" : "Page Screenshot",
+      "source" : "578bc6b598e93ea9.png",
+      "type" : "image/png",
+      "size" : 81042
+    }, {
+      "uid" : "2a01caab3a663be7",
+      "name" : "screenShot",
+      "source" : "2a01caab3a663be7.png",
+      "type" : "image/png",
+      "size" : 81042
+    }, {
+      "uid" : "1e27fa214c7a1efe",
+      "name" : "Page Screenshot",
+      "source" : "1e27fa214c7a1efe.png",
+      "type" : "image/png",
+      "size" : 81042
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeAppSwitch",
+    "time" : {
+      "start" : 1604651054689,
+      "stop" : 1604651058623,
+      "duration" : 3934
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.LoginITest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.LoginITest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkInvalidAlphabetOnly"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Switch Android Regression Test"
+  }, {
+    "name" : "suite",
+    "value" : "Switch Android Regression Test (BAHASA VERSION)"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.LoginITest"
+  }, {
+    "name" : "host",
+    "value" : "Faizals-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "10243@Faizals-MacBook-Pro.local.TestNG-test=Switch Android Regression Test (BAHASA VERSION)-12(33)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story Name : Check Login"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "deviceName",
+    "value" : "Pixel"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "79b5d05fe5b549d7.json",
+  "parameterValues" : [ "Pixel" ]
+}

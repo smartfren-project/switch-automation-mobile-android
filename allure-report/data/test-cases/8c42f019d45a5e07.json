@@ -1,0 +1,189 @@
+{
+  "uid" : "8c42f019d45a5e07",
+  "name" : "Switch_Home_003 - User able to check detail plan",
+  "fullName" : "tests.HomepageITest.checkDetailPlan",
+  "historyId" : "f46bf077db28b3779c34c844d29e63e0",
+  "time" : {
+    "start" : 1604651359789,
+    "stop" : 1604651375892,
+    "duration" : 16103
+  },
+  "description" : "Verify that User is can check detail plan.",
+  "descriptionHtml" : "<p>Verify that User is can check detail plan.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1604650627305,
+      "stop" : 1604650635935,
+      "duration" : 8630
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify that User is can check detail plan.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "User Do Valid Login Using Email or Switch Number",
+      "time" : {
+        "start" : 1604651359789,
+        "stop" : 1604651374509,
+        "duration" : 14720
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click Button Login",
+        "time" : {
+          "start" : 1604651359789,
+          "stop" : 1604651367936,
+          "duration" : 8147
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "088906011294"
+      }, {
+        "name" : "pin",
+        "value" : "111111"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "User Click Detail Plan",
+      "time" : {
+        "start" : 1604651374510,
+        "stop" : 1604651374703,
+        "duration" : 193
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "fd0352f73941ec21",
+      "name" : "screenShot",
+      "source" : "fd0352f73941ec21.png",
+      "type" : "image/png",
+      "size" : 269944
+    }, {
+      "uid" : "d4f693b5f957f6d5",
+      "name" : "Page Screenshot",
+      "source" : "d4f693b5f957f6d5.png",
+      "type" : "image/png",
+      "size" : 62728
+    }, {
+      "uid" : "87965e359a3bd462",
+      "name" : "screenShot",
+      "source" : "87965e359a3bd462.png",
+      "type" : "image/png",
+      "size" : 62669
+    }, {
+      "uid" : "73a93609186842e",
+      "name" : "Page Screenshot",
+      "source" : "73a93609186842e.png",
+      "type" : "image/png",
+      "size" : 62669
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeAppSwitch",
+    "time" : {
+      "start" : 1604651375893,
+      "stop" : 1604651379806,
+      "duration" : 3913
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.HomepageITest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.HomepageITest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkDetailPlan"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Switch Android Regression Test"
+  }, {
+    "name" : "suite",
+    "value" : "Switch Android Regression Test (BAHASA VERSION)"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.HomepageITest"
+  }, {
+    "name" : "host",
+    "value" : "Faizals-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "10243@Faizals-MacBook-Pro.local.TestNG-test=Switch Android Regression Test (BAHASA VERSION)-12(33)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story Name : Check On Home Page"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "deviceName",
+    "value" : "Pixel"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8c42f019d45a5e07.json",
+  "parameterValues" : [ "Pixel" ]
+}

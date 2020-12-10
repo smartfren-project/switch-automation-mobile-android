@@ -1,0 +1,278 @@
+{
+  "uid" : "f160383c3293c703",
+  "name" : "Switch_Purchase_015 - User able to Order SIM First Time DANA",
+  "fullName" : "tests.PurchaseITest.checkPurchaseSIMFirstTimeDANA",
+  "historyId" : "ee9a5fe1efc3ad3f4bf2ef418b11bf87",
+  "time" : {
+    "start" : 1607567933324,
+    "stop" : 1607568027423,
+    "duration" : 94099
+  },
+  "description" : "Verify that user can success Order SIM First Time.",
+  "descriptionHtml" : "<p>Verify that user can success Order SIM First Time.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1607565106469,
+      "stop" : 1607565122439,
+      "duration" : 15970
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify that user can success Order SIM First Time.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "User Do Valid Login Using Email or Switch Number",
+      "time" : {
+        "start" : 1607567933325,
+        "stop" : 1607567974517,
+        "duration" : 41192
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click Button Login",
+        "time" : {
+          "start" : 1607567933325,
+          "stop" : 1607567942065,
+          "duration" : 8740
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "satriopanjiprakoso@gmail.com"
+      }, {
+        "name" : "pin",
+        "value" : "545454"
+      }, {
+        "name" : "otp1",
+        "value" : "1"
+      }, {
+        "name" : "otp2",
+        "value" : "2"
+      }, {
+        "name" : "otp3",
+        "value" : "3"
+      }, {
+        "name" : "otp4",
+        "value" : "4"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "User Do Order SIM First Time Using Input Number",
+      "time" : {
+        "start" : 1607567974517,
+        "stop" : 1607568026384,
+        "duration" : 51867
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click Order SIM",
+        "time" : {
+          "start" : 1607567974517,
+          "stop" : 1607567975518,
+          "duration" : 1001
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Input Number",
+        "time" : {
+          "start" : 1607567975518,
+          "stop" : 1607567985005,
+          "duration" : 9487
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "mainNumber",
+          "value" : "0889-07"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Input Address",
+        "time" : {
+          "start" : 1607567985005,
+          "stop" : 1607568015724,
+          "duration" : 30719
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "recName",
+          "value" : "Andi"
+        }, {
+          "name" : "recPhone",
+          "value" : "088906011294"
+        }, {
+          "name" : "city",
+          "value" : "pringgodani"
+        }, {
+          "name" : "address",
+          "value" : "JL. Pringgodani"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "mainNumber",
+        "value" : "0889-07"
+      }, {
+        "name" : "recName",
+        "value" : "Andi"
+      }, {
+        "name" : "recPhone",
+        "value" : "088906011294"
+      }, {
+        "name" : "city",
+        "value" : "pringgodani"
+      }, {
+        "name" : "address",
+        "value" : "JL. Pringgodani"
+      }, {
+        "name" : "paymentType",
+        "value" : "DANA"
+      } ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "cb0869ac057253af",
+      "name" : "screenShot",
+      "source" : "cb0869ac057253af.png",
+      "type" : "image/png",
+      "size" : 108351
+    }, {
+      "uid" : "aad311a398cefe1",
+      "name" : "Page Screenshot",
+      "source" : "aad311a398cefe1.png",
+      "type" : "image/png",
+      "size" : 100338
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeAppSwitch",
+    "time" : {
+      "start" : 1607568028068,
+      "stop" : 1607568034060,
+      "duration" : 5992
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.PurchaseITest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.PurchaseITest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkPurchaseSIMFirstTimeDANA"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Switch Android Regression Test"
+  }, {
+    "name" : "suite",
+    "value" : "Switch Android Regression Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.PurchaseITest"
+  }, {
+    "name" : "host",
+    "value" : "Faizals-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "43788@Faizals-MacBook-Pro.local.TestNG-test=Switch Android Regression Test-8(27)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story Name : Check Purchase"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "deviceName",
+    "value" : "Pixel"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "f70997a0fdd122d2",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: com.smartfren.switchmobile:id/next (tried for 20 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1604652251743,
+        "stop" : 1604652341424,
+        "duration" : 89681
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f160383c3293c703.json",
+  "parameterValues" : [ "Pixel" ]
+}

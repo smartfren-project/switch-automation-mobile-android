@@ -1,0 +1,199 @@
+{
+  "uid" : "51854908f9245164",
+  "name" : "Switch_Home_011 - User able to check mix and max",
+  "fullName" : "tests.HomepageITest.checkMixAndMax",
+  "historyId" : "b1212ccc0ef7bb164b2ee608d6692799",
+  "time" : {
+    "start" : 1607566745292,
+    "stop" : 1607566787243,
+    "duration" : 41951
+  },
+  "description" : "Verify that User is can check mix and max.",
+  "descriptionHtml" : "<p>Verify that User is can check mix and max.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1607565106469,
+      "stop" : 1607565122439,
+      "duration" : 15970
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify that User is can check mix and max.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "User Do Valid Login Using Email or Switch Number",
+      "time" : {
+        "start" : 1607566745293,
+        "stop" : 1607566786015,
+        "duration" : 40722
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click Button Login",
+        "time" : {
+          "start" : 1607566745293,
+          "stop" : 1607566753075,
+          "duration" : 7782
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "tan.rafel@gmail.com"
+      }, {
+        "name" : "pin",
+        "value" : "270413"
+      }, {
+        "name" : "otp1",
+        "value" : "1"
+      }, {
+        "name" : "otp2",
+        "value" : "2"
+      }, {
+        "name" : "otp3",
+        "value" : "3"
+      }, {
+        "name" : "otp4",
+        "value" : "4"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "User Can Click Mix and Max",
+      "time" : {
+        "start" : 1607566786015,
+        "stop" : 1607566786164,
+        "duration" : 149
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "bf43226d7c0ce31",
+      "name" : "screenShot",
+      "source" : "bf43226d7c0ce31.png",
+      "type" : "image/png",
+      "size" : 254528
+    }, {
+      "uid" : "754a5b7155ea0960",
+      "name" : "Page Screenshot",
+      "source" : "754a5b7155ea0960.png",
+      "type" : "image/png",
+      "size" : 254174
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeAppSwitch",
+    "time" : {
+      "start" : 1607566787870,
+      "stop" : 1607566792086,
+      "duration" : 4216
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.HomepageITest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.HomepageITest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkMixAndMax"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Switch Android Regression Test"
+  }, {
+    "name" : "suite",
+    "value" : "Switch Android Regression Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.HomepageITest"
+  }, {
+    "name" : "host",
+    "value" : "Faizals-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "43788@Faizals-MacBook-Pro.local.TestNG-test=Switch Android Regression Test-8(27)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story Name : Check On Home Page"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "deviceName",
+    "value" : "Pixel"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8a0ce501c49aec5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604651605590,
+        "stop" : 1604651621132,
+        "duration" : 15542
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "51854908f9245164.json",
+  "parameterValues" : [ "Pixel" ]
+}

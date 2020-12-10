@@ -1,0 +1,189 @@
+{
+  "uid" : "aec8db22cb596d78",
+  "name" : "Switch_Quest_003 - User able to Check All Big Mission",
+  "fullName" : "tests.QuestITest.checkBigMission",
+  "historyId" : "f79300485ee9221c5912a44de299f792",
+  "time" : {
+    "start" : 1604654980467,
+    "stop" : 1604655000938,
+    "duration" : 20471
+  },
+  "description" : "Verify that user can check all Big Mission",
+  "descriptionHtml" : "<p>Verify that user can check all Big Mission</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1604650627305,
+      "stop" : 1604650635935,
+      "duration" : 8630
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify that user can check all Big Mission",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "User Do Valid Login Using Email or Switch Number",
+      "time" : {
+        "start" : 1604654980467,
+        "stop" : 1604654996732,
+        "duration" : 16265
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click Button Login",
+        "time" : {
+          "start" : 1604654980467,
+          "stop" : 1604654988482,
+          "duration" : 8015
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "088906011294"
+      }, {
+        "name" : "pin",
+        "value" : "111111"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Do Click All Big Mission",
+      "time" : {
+        "start" : 1604654996732,
+        "stop" : 1604654999420,
+        "duration" : 2688
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "22b63ca8d98ee16f",
+      "name" : "screenShot",
+      "source" : "22b63ca8d98ee16f.png",
+      "type" : "image/png",
+      "size" : 199065
+    }, {
+      "uid" : "4b6654d00a632a77",
+      "name" : "Page Screenshot",
+      "source" : "4b6654d00a632a77.png",
+      "type" : "image/png",
+      "size" : 25166
+    }, {
+      "uid" : "b9aa23f118f8a69e",
+      "name" : "screenShot",
+      "source" : "b9aa23f118f8a69e.png",
+      "type" : "image/png",
+      "size" : 25221
+    }, {
+      "uid" : "ea888a4e1a25b8",
+      "name" : "Page Screenshot",
+      "source" : "ea888a4e1a25b8.png",
+      "type" : "image/png",
+      "size" : 297405
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeAppSwitch",
+    "time" : {
+      "start" : 1604655000939,
+      "stop" : 1604655007579,
+      "duration" : 6640
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.QuestITest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.QuestITest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkBigMission"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Switch Android Regression Test"
+  }, {
+    "name" : "suite",
+    "value" : "Switch Android Regression Test (BAHASA VERSION)"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.QuestITest"
+  }, {
+    "name" : "host",
+    "value" : "Faizals-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "10243@Faizals-MacBook-Pro.local.TestNG-test=Switch Android Regression Test (BAHASA VERSION)-5(25)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story Name : Check Quest"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "deviceName",
+    "value" : "Pixel"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aec8db22cb596d78.json",
+  "parameterValues" : [ "Pixel" ]
+}

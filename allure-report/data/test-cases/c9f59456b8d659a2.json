@@ -1,0 +1,168 @@
+{
+  "uid" : "c9f59456b8d659a2",
+  "name" : "Switch_Land_005 - User able to SIGN UP using Unregistered Google Account",
+  "fullName" : "tests.LandingITest.checkSignUpWithUnregisteredGoogleAccount",
+  "historyId" : "c6b0f631b9db3dace010f8242c9d37f2",
+  "time" : {
+    "start" : 1604650695196,
+    "stop" : 1604650706348,
+    "duration" : 11152
+  },
+  "description" : "Verify that User is able to Capture Google account in Sign Up flow.",
+  "descriptionHtml" : "<p>Verify that User is able to Capture Google account in Sign Up flow.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1604650627305,
+      "stop" : 1604650635935,
+      "duration" : 8630
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify that User is able to Capture Google account in Sign Up flow.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Sign Up With Google",
+      "time" : {
+        "start" : 1604650695196,
+        "stop" : 1604650705095,
+        "duration" : 9899
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click Button Login",
+        "time" : {
+          "start" : 1604650695196,
+          "stop" : 1604650702653,
+          "duration" : 7457
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "7d521129a961082e",
+      "name" : "screenShot",
+      "source" : "7d521129a961082e.png",
+      "type" : "image/png",
+      "size" : 72176
+    }, {
+      "uid" : "69f3b0eed10bb4dc",
+      "name" : "Page Screenshot",
+      "source" : "69f3b0eed10bb4dc.png",
+      "type" : "image/png",
+      "size" : 72176
+    }, {
+      "uid" : "f179e6807b0a1173",
+      "name" : "screenShot",
+      "source" : "f179e6807b0a1173.png",
+      "type" : "image/png",
+      "size" : 80321
+    }, {
+      "uid" : "62a61b180638316b",
+      "name" : "Page Screenshot",
+      "source" : "62a61b180638316b.png",
+      "type" : "image/png",
+      "size" : 80310
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeAppSwitch",
+    "time" : {
+      "start" : 1604650706352,
+      "stop" : 1604650710412,
+      "duration" : 4060
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.LandingITest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.LandingITest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkSignUpWithUnregisteredGoogleAccount"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Switch Android Regression Test"
+  }, {
+    "name" : "suite",
+    "value" : "Switch Android Regression Test (BAHASA VERSION)"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.LandingITest"
+  }, {
+    "name" : "host",
+    "value" : "Faizals-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "10243@Faizals-MacBook-Pro.local.TestNG-test=Switch Android Regression Test (BAHASA VERSION)-5(25)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story Name : Check On Landing Page"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "deviceName",
+    "value" : "Pixel"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c9f59456b8d659a2.json",
+  "parameterValues" : [ "Pixel" ]
+}
