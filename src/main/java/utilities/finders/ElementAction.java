@@ -48,6 +48,10 @@ public class ElementAction extends BaseTest {
         Assert.assertTrue(driver.findElement(element).isEnabled());
     }
 
+    public void checkerElementDisplayed(By element) {
+        driver.findElement(element).isDisplayed();
+    }
+
     public void checkerElementExist(By element) {
         Assert.assertNotNull(driver.findElement(element));
     }

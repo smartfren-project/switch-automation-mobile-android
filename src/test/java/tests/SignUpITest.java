@@ -23,7 +23,8 @@ public class SignUpITest extends TestSetup {
     @Story("Story Name : Check On SignUp Page")
     public void checkValidSignUpUsingEmail() throws InterruptedException {
         landing.checkGoToSignUpPage();
-        signUp.testValidSignUpUsingEmail(randomAlphabet(6) + "@mailinator.com");
+        signUp.testValidSignUpUsingEmail(randomAlphabet(6) + "@mailinator.com",
+                "1", "2", "3", "4");
     }
 
     @Test(priority = 26, description = "Switch_SignUp_002 - User able to sign up using valid unregistered google account")

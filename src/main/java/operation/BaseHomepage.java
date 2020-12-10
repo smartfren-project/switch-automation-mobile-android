@@ -15,7 +15,7 @@ public class BaseHomepage extends BaseTest {
 
     public By btnHistory = By.id(ObjectElement.MenuPageObject.btnHistory);
 
-    public By btnProfile = By.id(ObjectElement.MenuPageObject.btnProfile);
+    public By btnProfile = By.xpath(ObjectElement.MenuPageObject.btnProfile);
 
     public By txtUserProfile = By.id(ObjectElement.MenuPageObject.txtUserProfile);
 

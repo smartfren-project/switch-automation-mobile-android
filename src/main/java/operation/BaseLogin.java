@@ -4,16 +4,31 @@ import constants.BaseData;
 import constants.ObjectElement;
 import io.qameta.allure.*;
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.testng.Assert;
+import utilities.finders.ElementAction;
+
 import java.net.MalformedURLException;
 
 public class BaseLogin extends BaseTest {
+
+    ElementAction action = new ElementAction();
 
     public By btnSubmitLogin = By.id(ObjectElement.LoginPageObject.btnSubmitLogin);
 
     public By inputUsername = By.id(ObjectElement.LoginPageObject.inputUserName);
 
     public By inputPIN = By.id(ObjectElement.PINPageObject.inputPIN);
+
+    public By inputOTP = By.id(ObjectElement.LoginPageObject.inputOTP);
+
+    public By inputOTP1 = By.id(ObjectElement.LoginPageObject.inputOTP1);
+
+    public By inputOTP2 = By.id(ObjectElement.LoginPageObject.inputOTP2);
+
+    public By inputOTP3 = By.id(ObjectElement.LoginPageObject.inputOTP3);
+
+    public By inputOTP4 = By.id(ObjectElement.LoginPageObject.inputOTP4);
 
     public By btnProfile = By.id(ObjectElement.MenuPageObject.btnProfile);
 
@@ -50,6 +65,26 @@ public class BaseLogin extends BaseTest {
     public void checkInvalidSwitchNumber() {
         String validationTxt = driver.findElement(By.id(ObjectElement.LoginPageObject.txtErrorInputDesc)).getText();
         Assert.assertEquals(validationTxt, BaseData.Validation.VALIDATION_WRONG_SWITCH_NUMBER);
+    }
+
+    public void inputOTP(String otp1, String otp2, String otp3, String otp4) {
+        if (driver.findElement(By.id(ObjectElement.LoginPageObject.inputOTP)).isDisplayed()) {
+            action.sendKeys(inputOTP1, otp1);
+            action.sendKeys(inputOTP2, otp2);
+            action.sendKeys(inputOTP3, otp3);
+            action.sendKeys(inputOTP4, otp4);
+        } else {
+            return;
+        }
+    }
+
+    public boolean passOTPSection(String otp1, String otp2, String otp3, String otp4) {
+        try {
+            inputOTP(otp1, otp2, otp3, otp4);
+            return true;
+        } catch (NoSuchElementException e) {
+            return false;
+        }
     }
 
     public void clickButtonSignUp() {

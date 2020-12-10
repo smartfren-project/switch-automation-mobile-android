@@ -20,7 +20,7 @@ public class LoginITest extends TestSetup {
     @Description("Go To Homepage Successfully Using Valid Email and Password.")
     @Story("Story Name : Check Login")
     public void checkValidLoginUsingEmail() throws InterruptedException {
-        loginPages.testValidLogin(BaseData.Login.EMAIL_ID, BaseData.Login.PIN);
+        loginPages.testValidLogin(BaseData.Login.EMAIL_ID, BaseData.Login.PIN, "1", "2", "3", "4");
     }
 
     @Test(priority = 52, description = "Switch_Login_002 - User able to pass HOMEPAGE from VALID LOGIN SWITCH NUMBER")
@@ -28,7 +28,7 @@ public class LoginITest extends TestSetup {
     @Description("Go To Homepage Successfully Using Valid Switch Number and Password.")
     @Story("Story Name : Check Login")
     public void checkValidLoginUsingSwitchNumber() throws InterruptedException {
-        loginPages.testValidLogin(BaseData.Login.SWITCH_NUMBER, BaseData.Login.PIN2);
+        loginPages.testValidLogin("tan.rafel@gmail.com", "270413", "1", "2", "3", "4");
     }
 
     @Test(priority = 53, description = "Switch_Login_003 - User unable to pass HOMEPAGE from INVALID LOGIN UNREGISTERED EMAIL")

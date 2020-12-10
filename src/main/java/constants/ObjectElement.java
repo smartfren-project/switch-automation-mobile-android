@@ -36,6 +36,11 @@ public class ObjectElement extends BaseTest {
         String txtLoginTitle = "com.smartfren.switchmobile:id/signup";
         String txtErrorInputDesc = "com.smartfren.switchmobile:id/validation_txt";
         String btnGoogleAccount = "com.google.android.gms:id/container";
+        String inputOTP = "com.smartfren.switchmobile:id/linearLayout";
+        String inputOTP1 = "com.smartfren.switchmobile:id/otp1";
+        String inputOTP2 = "com.smartfren.switchmobile:id/otp2";
+        String inputOTP3 = "com.smartfren.switchmobile:id/otp3";
+        String inputOTP4 = "com.smartfren.switchmobile:id/otp4";
     }
 
     public interface SignUpPageObject {
@@ -59,7 +64,7 @@ public class ObjectElement extends BaseTest {
         String btnDeals = "com.smartfren.switchmobile:id/reward";
         String btnQuest = "com.smartfren.switchmobile:id/tasks";
         String btnHistory = "com.smartfren.switchmobile:id/history";
-        String btnProfile = "com.smartfren.switchmobile:id/profile";
+        String btnProfile = "//android.widget.FrameLayout[@content-desc=\"Profile\"]";
         String txtUserProfile = "com.smartfren.switchmobile:id/username";
         String btnNotification = "com.smartfren.switchmobile:id/im_notification";
         String addPopUp = "com.smartfren.switchmobile:id/com_appboy_inappmessage_modal_imageview";

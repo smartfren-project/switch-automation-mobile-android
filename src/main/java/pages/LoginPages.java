@@ -15,12 +15,14 @@ public class LoginPages {
     LandingPages landingPages = new LandingPages();
 
     @Step("User Do Valid Login Using Email or Switch Number")
-    public void testValidLogin(String username, String pin) throws InterruptedException {
+    public void testValidLogin(String username, String pin, String otp1, String otp2,
+                               String otp3, String otp4) throws InterruptedException {
         landingPages.testGoToLoginPage();
         action.sendKeys(baseLogin.inputUsername, username);
         action.click(baseLogin.btnSubmitLogin);
         action.sendKeys(baseLogin.inputPIN, pin);
-        action.checkerEnabled(baseHomepage.icUserProfile);
+        baseLogin.passOTPSection(otp1, otp2, otp3, otp4);
+//        action.checkerEnabled(baseHomepage.icUserProfile);
     }
 
     @Step("User Do Invalid Login Input Username")

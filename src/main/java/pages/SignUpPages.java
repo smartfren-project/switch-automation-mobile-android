@@ -14,9 +14,10 @@ public class SignUpPages {
     LandingPages landingPages = new LandingPages();
 
     @Step("User can sign up using email")
-    public void testValidSignUpUsingEmail(String email) {
+    public void testValidSignUpUsingEmail(String email, String otp1, String otp2, String otp3, String otp4) {
         action.sendKeys(baseLogin.inputUsername, email);
         action.click(baseLogin.btnSubmitLogin);
+        baseLogin.passOTPSection(otp1, otp2, otp3, otp4);
     }
 
     @Step("User can sign up using other method")
