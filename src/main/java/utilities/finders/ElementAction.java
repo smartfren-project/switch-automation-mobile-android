@@ -1,11 +1,8 @@
 package utilities.finders;
 
 import io.appium.java_client.MobileElement;
-import io.appium.java_client.TouchAction;
 import operation.BaseTest;
 import org.openqa.selenium.By;
-
-import org.openqa.selenium.interactions.touch.TouchActions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;

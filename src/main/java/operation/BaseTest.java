@@ -8,7 +8,9 @@ import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
+import org.openqa.selenium.By;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
@@ -51,7 +53,7 @@ public class BaseTest {
                     break;
 
                 /* Use Cloud Server */
-                case "cloudURL":
+                case "pCloudy":
                     capabilities.setCapability("pCloudy_Username", "pramoda.kumar@smartfren.com");
                     capabilities.setCapability("pCloudy_ApiKey", "ybrf4d2k3jv496f5x53w93wc");
                     capabilities.setCapability("pCloudy_DurationInMinutes", 50);
@@ -66,6 +68,16 @@ public class BaseTest {
                     capabilities.setCapability("appActivity", "com.smartfren.switchmobile.views.activities.SplashScreenActivity");
                     capabilities.setCapability("pCloudy_WildNet", "true");
                     break;
+
+                case "browserStack":
+                    capabilities.setCapability("browserstack.user", configFile.getProperty("bsUsername"));
+                    capabilities.setCapability("browserstack.key", configFile.getProperty("bsKey"));
+                    capabilities.setCapability("device", "Samsung Galaxy S10e");
+                    capabilities.setCapability("os_version", "9.0");
+                    capabilities.setCapability("project", "Switch Android Automation Test");
+                    capabilities.setCapability("build", "Release 1.1.4");
+                    capabilities.setCapability("name", "Regression Test Android Release 1.1.4");
+                    capabilities.setCapability("app", configFile.getProperty("bsAppLink"));
             }
         } catch (IOException e) {
             e.printStackTrace();

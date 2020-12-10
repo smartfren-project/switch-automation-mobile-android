@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Switch Android Regression Test" verbose="1" parallel="methods" thread-count="12">
+    <listeners>
+        <listener class-name="com.epam.reportportal.testng.ReportPortalTestNGListener" />
+    </listeners>
+    <parameter name="deviceName" value="Pixel" />
+    <test name="Switch Android Regression Test (BAHASA VERSION)" parallel="methods">
+        <classes>
+            <class name="tests.TestSetup" />
+            <class name="tests.LoginITest" />
+        </classes>
+    </test>
+</suite>
