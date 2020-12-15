@@ -101,6 +101,8 @@ public class ObjectElement extends BaseTest {
                 "androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/" +
                 "android.widget.TextView[1]\"));";
         String btnBack = "com.smartfren.switchmobile:id/back_button";
+        String txtAlertLocTitle = "com.smartfren.switchmobile:id/alertTitle";
+        String btnAllowLoc = "android:id/button1";
     }
 
     public interface DealsPageObject {
@@ -214,6 +216,8 @@ public class ObjectElement extends BaseTest {
         String btnEditCustomPlan = "new UiScrollable(new UiSelector()"
                 + ".resourceId(\"com.smartfren.switchmobile:id/nestedScroll\")).scrollIntoView("
                 + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/txt_change\"));";;
+        String txtAmountProduct = "com.smartfren.switchmobile:id/textView105";
+        String txtAmountRewardPoint = "com.smartfren.switchmobile:id/textView101";
     }
 
     public interface ProfilePageObject {
@@ -429,7 +433,7 @@ public class ObjectElement extends BaseTest {
                 + "new UiSelector().text(\"Alfamart\"));";
         String btnDelivery = "com.smartfren.switchmobile:id/cardViewDelivery";
         String btnSelecrJNEReg = "//*[@text='JNE regular (2 - 7 days)']";
-        String btnSimGoPay = "//*[@text='GoPay']";
+        String btnSimGoPay = "//*[@text='Go Pay']";
         String btnSimDana = "//*[@text='DANA']";
         String btnSimOVO = "//*[@text='OVO']";
         String btnSimCC = "//*[@text='Visa/Master']";

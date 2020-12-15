@@ -2,8 +2,12 @@ package operation;
 
 import constants.ObjectElement;
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
+import utilities.finders.ElementAction;
 
 public class BaseHomepage extends BaseTest {
+
+    ElementAction action = new ElementAction();
 
     public By icUserProfile = By.id(ObjectElement.MenuPageObject.txtUserProfile);
 
@@ -72,4 +76,25 @@ public class BaseHomepage extends BaseTest {
     public String btnFirstNews = ObjectElement.MenuPageObject.btnFirstNews;
 
     public By btnBack = By.id(ObjectElement.MenuPageObject.btnBack);
+
+    public By txtAlertPermissionLocation =  By.id(ObjectElement.MenuPageObject.txtAlertLocTitle);
+
+    public By btnAllowPermissionLoc = By.id(ObjectElement.MenuPageObject.btnAllowLoc);
+
+    public void checkAlertLocationPopup() {
+        if (driver.findElement(By.id(ObjectElement.MenuPageObject.txtAlertLocTitle)).isDisplayed()) {
+            action.click(btnAllowPermissionLoc);
+        } else {
+            return;
+        }
+    }
+
+    public boolean passAlertLocation() {
+        try {
+            checkAlertLocationPopup();
+            return true;
+        } catch (NoSuchElementException e) {
+            return false;
+        }
+    }
 }

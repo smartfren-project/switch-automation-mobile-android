@@ -139,6 +139,10 @@ public class BasePurchase extends BaseTest {
 
     public String btnCancelTrx = ObjectElement.PaymentDetailObject.btnCancel;
 
+    public By txtAmountProduct = By.id(ObjectElement.ProductPageObject.txtAmountProduct);
+
+    public By txtAmountRewardPoint = By.id(ObjectElement.ProductPageObject.txtAmountRewardPoint);
+
     public void clickButtonLetsSwitch() {
         if (baseLanding.langCenter().equals("atau bisa pakai")) {
             action.click(btnOrderSIMHomeID);
@@ -156,6 +160,30 @@ public class BasePurchase extends BaseTest {
         DecimalFormat currencyIDR = (DecimalFormat) DecimalFormat.getCurrencyInstance();
         try {
             String amount = delAmount.replace("Rp ", "");
+            String newAmount = amount.replace(".", "");
+            return newAmount;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+
+    public String getValueProduct() {
+        String amountProduct = action.getText(txtAmountProduct);
+        try {
+            String amount = amountProduct.replace("Rp", "");
+            String newAmount = amount.replace(".", "");
+            return newAmount;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+
+    public String getRewardPoint() {
+        String amountPoint = action.getText(txtAmountRewardPoint);
+        try {
+            String amount = amountPoint.replace("+", "");
             return amount;
         } catch (Exception e) {
             e.printStackTrace();

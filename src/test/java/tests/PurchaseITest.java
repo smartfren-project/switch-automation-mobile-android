@@ -573,4 +573,28 @@ public class PurchaseITest extends TestSetup {
         purchasePages.testInputAddress("Andi", "088906011294",
                 "pringgodani", "JL. Pringgodani");
     }
+
+    @Test(priority = 156, description = "Switch_Purchase_056 - Check If user press back from checkout page and change their address")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that User able to press back from checkout page and change their address.")
+    @Story("Story Name : Check Purchase")
+    public void checkPressBackFromCheckoutPageAndChangeTheirAddress() throws InterruptedException {
+        login.checkValidLoginUsingEmail();
+        purchasePages.testGoToOrderSIM();
+        purchasePages.testChooseNumberByInput("0889-07");
+        purchasePages.testInputAddress("Andi", "088906011294",
+                "pringgodani", "JL. Pringgodani");
+    }
+
+    @Test(priority = 157, description = "Switch_Purchase_057 - Check If user change their delivery option, the final amount show correctly")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that User able to change their delivery option, the final amount show correctly")
+    @Story("Story Name : Check Purchase")
+    public void checkFinalAmountAfterChangeDeliveryOption() throws InterruptedException {
+        login.checkValidLoginUsingEmail();
+        purchasePages.testGoToOrderSIM();
+        purchasePages.testChooseNumberByInput("0889-07");
+        purchasePages.testInputAddress("Andi", "088906011294",
+                "pringgodani", "JL. Pringgodani");
+    }
 }
