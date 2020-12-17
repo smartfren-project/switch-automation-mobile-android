@@ -143,6 +143,18 @@ public class BasePurchase extends BaseTest {
 
     public By txtAmountRewardPoint = By.id(ObjectElement.ProductPageObject.txtAmountRewardPoint);
 
+    public By txtAmountRewardRuby = By.id(ObjectElement.ProductPageObject.txtAmountRewardRuby);
+
+    public By txtAmountProductTotal = By.id(ObjectElement.ProductPageObject.txtAmountProductTotal);
+
+    public By btnChangeAmountTotal = By.id(ObjectElement.ProductPageObject.btnChangeAmountTotal);
+
+    public By txtServicePlanPrice = By.id(ObjectElement.ProductPageObject.txtServicePlanPrice);
+
+    public By txtCartPrice = By.id(ObjectElement.ProductPageObject.txtCartPrice);
+
+    public By txtConfirmCartPrice = By.id(ObjectElement.ProductPageObject.txtConfirmCartPrice);
+
     public void clickButtonLetsSwitch() {
         if (baseLanding.langCenter().equals("atau bisa pakai")) {
             action.click(btnOrderSIMHomeID);
@@ -180,10 +192,31 @@ public class BasePurchase extends BaseTest {
         }
     }
 
+    public String amountProductTotal() {
+        String amountTotal = action.getText(txtAmountProductTotal);
+        try {
+            return String.valueOf(amountTotal);
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+
     public String getRewardPoint() {
         String amountPoint = action.getText(txtAmountRewardPoint);
         try {
             String amount = amountPoint.replace("+", "");
+            return amount;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+
+    public String getRewardRuby() {
+        String amountRuby = action.getText(txtAmountRewardRuby);
+        try {
+            String amount = amountRuby.replace("+", "");
             return amount;
         } catch (Exception e) {
             e.printStackTrace();

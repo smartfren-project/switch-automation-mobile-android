@@ -47,6 +47,35 @@ public class BaseDeals extends BaseTest {
         }
     }
 
+    public Integer getPointOrRubiesPrice() {
+        String rubiesPrice = action.getText(txtRubyPrice);
+        String pointPrice = action.getText(txtPointPrice);
+
+        if (driver.findElement(By.id(ObjectElement.DealsPageObject.txtPointPrice)).isDisplayed()
+                && driver.findElement(By.id(ObjectElement.DealsPageObject.txtRubyPrice)).isDisplayed()) {
+            try {
+                return Integer.parseInt(rubiesPrice);
+                return Integer.parseInt(pointPrice);
+            } catch (Exception e) {
+                return null;
+            }
+        } else if (driver.findElement(By.id(ObjectElement.DealsPageObject.txtPointPrice)).isDisplayed()){
+            try {
+                return Integer.parseInt(rubiesPrice);
+            } catch (Exception e) {
+                return null;
+            }
+        } else if (driver.findElement(By.id(ObjectElement.DealsPageObject.txtRubyPrice)).isDisplayed()){
+            try {
+                return Integer.parseInt(pointPrice);
+            } catch (Exception e) {
+                return null;
+            }
+        } else {
+            return null;
+        }
+    }
+
     public Integer getPointPrice() {
         String pointPrice = action.getText(txtPointPrice);
         try {

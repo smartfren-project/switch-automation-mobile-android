@@ -218,6 +218,12 @@ public class ObjectElement extends BaseTest {
                 + "new UiSelector().resourceId(\"com.smartfren.switchmobile:id/txt_change\"));";;
         String txtAmountProduct = "com.smartfren.switchmobile:id/textView105";
         String txtAmountRewardPoint = "com.smartfren.switchmobile:id/textView101";
+        String txtAmountRewardRuby = "com.smartfren.switchmobile:id/textView102";
+        String txtAmountProductTotal = "com.smartfren.switchmobile:id/integer_number";
+        String btnChangeAmountTotal = "com.smartfren.switchmobile:id/textView114";
+        String txtServicePlanPrice = "com.smartfren.switchmobile:id/textView92";
+        String txtCartPrice = "com.smartfren.switchmobile:id/textView106";
+        String txtConfirmCartPrice = "com.smartfren.switchmobile:id/textView111";
     }
 
     public interface ProfilePageObject {
