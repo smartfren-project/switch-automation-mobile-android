@@ -4,12 +4,14 @@ import io.qameta.allure.Step;
 import operation.BaseDeals;
 import operation.BaseHomepage;
 import utilities.finders.ElementAction;
+import validation.DealsPage;
 
 public class DealsPages {
 
     ElementAction action = new ElementAction();
     BaseHomepage baseHomepage = new BaseHomepage();
     BaseDeals baseDeals = new BaseDeals();
+    DealsPage dealsPage = new DealsPage();
 
     @Step("")
     public void testCheckValuePoints() {
@@ -44,12 +46,12 @@ public class DealsPages {
     @Step("User Do Buy Voucher Using Ruby and Point")
     public void testBuyVoucherUsingRubyAndPoint() {
         action.click(baseHomepage.btnDeals);
-        baseDeals.checkAmountPointsAndRubyToBuyVoucher();
+        dealsPage.checkAmountPointsAndRubyToBuyVoucher();
     }
 
     @Step("User Do Buy Voucher Using Ruby or Point")
     public void testBuyVoucherUsingRubyOrPoint() {
         action.click(baseHomepage.btnDeals);
-        baseDeals.checkAmountPointsOrRubiesToBuyVoucher();
+        dealsPage.checkAmountPointsOrRubiesToBuyVoucher();
     }
 }
